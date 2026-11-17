@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Scraped data
+data/
+*.parquet
+checkpoint_crawl_*.csv
+auth.json
