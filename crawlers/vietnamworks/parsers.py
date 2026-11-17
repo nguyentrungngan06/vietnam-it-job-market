@@ -27,11 +27,8 @@ _KEYS = {
 
 
 def clean_html(text: str | None) -> str:
-    """Xóa bỏ các thẻ HTML và khoảng trắng thừa."""
-    if not text:
-        return ""
-    cleaned = re.sub(r"<[^>]+>", " ", text)
-    return " ".join(cleaned.split())
+    """Xóa bỏ các thẻ HTML giống hệt parse.py để giữ nguyên định dạng dữ liệu."""
+    return re.sub(r"<[^>]+>", " ", text or "")
 
 
 def _first_or_none(lst: Any) -> Any:
