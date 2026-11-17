@@ -8,8 +8,9 @@ from datetime import date
 import pandas as pd
 from playwright.sync_api import BrowserContext
 
-from .config import AUTH_FILE, CHECKPOINT_FILE, SALARY_COLS
+from .config import AUTH_FILE, CHECKPOINT_FILE, SALARY_COLS, KNOWN_CITIES
 from .parsers import (
+    ascii_lower,
     make_job_key,
     generate_numeric_job_id,
     is_category_url,
@@ -135,8 +136,9 @@ def crawl_job_cards(page, max_pages=40):
             work_mode = infer_work_mode(title, raw_work_mode=raw_wm)
 
             city = "N/A"
-            for c_name in ("Ho Chi Minh", "Ha Noi", "Da Nang"):
-                if c_name.lower() in ctext.lower():
+            low_ctext = ascii_lower(ctext)
+            for k_city, c_name in KNOWN_CITIES:
+                if k_city in low_ctext:
                     city = c_name
                     break
 
