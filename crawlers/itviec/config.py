@@ -133,11 +133,6 @@ KNOWN_CITIES = [
     ("lai chau", "Lai Chau"),
     ("phu yen", "Phu Yen"),
     ("quang ngai", "Quang Ngai"),
-    # Quốc tế / Khác
-    ("singapore", "Singapore"),
-    ("japan", "Japan"),
-    ("tokyo", "Japan"),
-    ("remote", "Remote"),
 ]
 
 VALID_COMPANY_TYPES = {
