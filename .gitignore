@@ -225,5 +225,11 @@ __marimo__/
 # Scraped data
 data/
 *.parquet
+*.csv
+*.jsonl
 checkpoint_crawl_*.csv
 auth.json
+.github_token.json
+.env
+.env.*
+

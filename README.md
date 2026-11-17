@@ -1,6 +1,6 @@
 # Vietnam IT Job Market
 
-Hệ thống thu thập, theo dõi vòng đời và phân tích dữ liệu thị trường việc làm ngành Công nghệ Thông tin tại Việt Nam (VietnamWorks, ITviec).
+Hệ thống thu thập, theo dõi vòng đời và phân tích dữ liệu thị trường việc làm cùng độ phủ kỹ năng lập trình viên IT tại Việt Nam (VietnamWorks, ITviec, GitHub).
 
 ---
 
@@ -12,14 +12,18 @@ vietnam-it-job-market/
 │   ├── vietnamworks/        # Module crawl & tracking VietnamWorks
 │   │   ├── config.py        # Cấu hình API, headers, tỷ giá, đường dẫn
 │   │   ├── spider.py        # Thu thập Search API & chi tiết tin
-│   │   ├── parsers.py       # Bóc tách metadata, quy đổi lương VND, flight Next.js
+│   │   ├── parsers.py       # Bóc tách metadata, quy đổi lương VND
 │   │   ├── tracker.py       # Theo dõi vòng đời tin (active/gone, days_alive)
 │   │   └── pipeline.py      # Quy trình crawl hoàn chỉnh
-│   └── itviec/              # Module crawl ITviec (Playwright)
+│   ├── itviec/              # Module crawl ITviec (Playwright)
+│   └── github/              # Module crawl kỹ năng lập trình viên GitHub theo 63 tỉnh/thành
+│       ├── config.py        # Cấu hình GitHub API & danh mục địa phương
+│       ├── spider.py        # Tìm kiếm users & bóc tách skills qua repos
+│       └── pipeline.py      # Tổng hợp & thống kê độ phủ kỹ năng
 ├── data/                    # Thư mục dữ liệu (tự động tạo khi chạy)
 │   ├── daily/               # Snapshot dữ liệu theo từng ngày crawl
 │   └── master/              # File tổng hợp toàn bộ lịch sử tin tuyển dụng
-├── daily_crawl.py           # Script chạy crawl hàng ngày qua dòng lệnh
+├── daily_crawl.py           # Script điều phối chạy crawl hàng ngày qua dòng lệnh
 └── README.md
 ```
 
@@ -39,46 +43,42 @@ pip install httpx pandas
 
 ## ⚡ Hướng dẫn chạy Crawler
 
-### 1. Chạy crawl hàng ngày (VietnamWorks)
-Chỉ cần chạy lệnh sau từ thư mục gốc dự án:
-
+### 1. Chạy crawl VietnamWorks hàng ngày
 ```bash
-python daily_crawl.py
+python daily_crawl.py --site vietnamworks
 ```
-Hoặc gọi trực tiếp module:
+*Tùy chọn hữu ích: `--pages 30` (số trang), `--enrich-views` (lượt xem/ứng tuyển).*
+
+### 2. Chạy crawl kỹ năng lập trình viên GitHub
+Khuyến khích thiết lập biến môi trường `GITHUB_TOKEN` (tăng hạn mức API lên 5.000 req/giờ):
+
 ```bash
-python -m crawlers.vietnamworks.pipeline
+# Thiết lập token (Linux/macOS: export GITHUB_TOKEN="...", PowerShell: $env:GITHUB_TOKEN="...")
+python daily_crawl.py --site github
 ```
-
-### 2. Các tùy chọn hữu ích
-
-| Tham số | Ý nghĩa | Mặc định |
-| :--- | :--- | :--- |
-| `--pages N` | Giới hạn số trang cần cào | `30` (~1.500 tin) |
-| `--enrich-views` | Cào thêm lượt xem/hồ sơ ứng tuyển từ trang chi tiết | Tắt |
-| `--date YYYY-MM-DD` | Chỉ định ngày crawl cụ thể | Hôm nay |
-| `--save-raw` | Lưu thêm bản sao JSON thô vào `data/raw/` | Tắt |
-| `--partial` | Chế độ crawl dở dang (không đánh dấu `gone` cho tin cũ) | Tắt |
-
-**Ví dụ:**
+Hoặc gọi trực tiếp:
 ```bash
-# Cào nhanh 10 trang đầu
-python daily_crawl.py --pages 10
+python -m crawlers.github.pipeline
+```
+*Tùy chọn hữu ích:*
+- `--github-token <token>`: Truyền token trực tiếp nếu chưa set env.
+- `--users-per-city <N>`: Số hồ sơ tối đa quét mỗi tỉnh (mặc định: `100`).
+- `--min-users <N>`: Ngưỡng tối thiểu hồ sơ để xử lý tỉnh (mặc định: `5`).
 
-# Cào đầy đủ kèm lượt xem và ứng tuyển
-python daily_crawl.py --enrich-views
+### 3. Chạy toàn bộ các nguồn
+```bash
+python daily_crawl.py --site all
 ```
 
 ---
 
 ## 📊 Dữ liệu đầu ra
 
-Sau mỗi lần chạy, dữ liệu được chuẩn hóa và lưu tại:
+Sau mỗi lần chạy, dữ liệu được chuẩn hóa và lưu tại `data/daily/` và `data/master/`:
 
-- **`data/daily/vietnamworks_YYYY-MM-DD.csv`**: Danh sách toàn bộ tin tuyển dụng quan sát được trong ngày, kèm cờ `is_new` (1 nếu là tin mới phát hiện).
-- **`data/master/vietnamworks_jobs.csv`**: File Master duy nhất lưu lịch sử tất cả các tin:
-  - `status`: Trạng thái tin (`active` = đang mở, `gone` = đã gỡ/hết hạn).
-  - `days_alive`, `observed_days_alive`: Số ngày tin tồn tại thực tế trên thị trường.
-  - `days_to_expire`: Số ngày còn lại trước hạn nộp hồ sơ.
-  - `end_reason`: `expired` (hết hạn tự nhiên) hoặc `removed_early` (nhà tuyển dụng đóng sớm).
-  - `salary_min_mvnd_month`, `salary_max_mvnd_month`: Mức lương chuẩn hóa về triệu VND/tháng.
+- **Tuyển dụng (VietnamWorks):**
+  - `data/daily/vietnamworks_YYYY-MM-DD.csv`: Snapshot tin tuyển dụng trong ngày.
+  - `data/master/vietnamworks_jobs.csv`: Lịch sử toàn bộ tin tuyển dụng (trạng thái `active`/`gone`, số ngày sống, mức lương VND quy đổi).
+- **Kỹ năng nhà phát triển (GitHub):**
+  - `data/daily/github_user_profiles_YYYY-MM-DD.csv`: Danh sách lập trình viên theo tỉnh thành kèm các kỹ năng phát hiện được.
+  - `data/daily/github_skill_coverage_YYYY-MM-DD.csv`: Tỷ lệ % độ phủ của từng kỹ năng trên tổng số hồ sơ quét được tại từng địa phương.
