@@ -13,9 +13,9 @@ from .config import (
     DEFAULT_SAMPLE_USERS_PER_CITY,
     DEFAULT_MIN_USERS_THRESHOLD,
     LOCATION_QUERIES,
-    resolve_github_token,
 )
 from .spider import (
+    get_valid_token,
     get_headers,
     search_users_in_location,
     extract_user_skills,
@@ -23,7 +23,7 @@ from .spider import (
 
 
 def run_github_crawl(
-    token: str | None = None,
+    client_id: str | None = None,
     sample_users_per_city: int = DEFAULT_SAMPLE_USERS_PER_CITY,
     min_users_threshold: int = DEFAULT_MIN_USERS_THRESHOLD,
     target_date: str | None = None,
@@ -34,7 +34,7 @@ def run_github_crawl(
     out_dir = Path(output_dir) if output_dir else DAILY_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    auth_token = resolve_github_token(token)
+    auth_token = get_valid_token(client_id=client_id)
     headers = get_headers(auth_token)
 
     if auth_token:

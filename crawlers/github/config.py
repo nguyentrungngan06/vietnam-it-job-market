@@ -3,11 +3,16 @@ Cấu hình tập trung cho crawler kỹ năng GitHub tại Việt Nam.
 """
 from pathlib import Path
 import os
+import json
+import httpx
 
 # Thư mục dự án
 ROOT_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT_DIR / "data"
 DAILY_DIR = DATA_DIR / "daily"
+TOKEN_FILE = ROOT_DIR / ".github_token.json"
+
+CLIENT_ID = os.getenv("GITHUB_CLIENT_ID", "")
 
 GITHUB_API_BASE = "https://api.github.com"
 DEFAULT_SAMPLE_USERS_PER_CITY = 100
@@ -93,28 +98,3 @@ LOCATION_QUERIES = {
     "Bình Phước": ["Binh Phuoc", "Bình Phước"],
     "Tây Ninh": ["Tay Ninh", "Tây Ninh"],
 }
-
-
-def resolve_github_token(explicit_token: str | None = None) -> str | None:
-    """Xác định GitHub token từ tham số, biến môi trường GITHUB_TOKEN, hoặc file cấu hình bí mật cục bộ."""
-    if explicit_token:
-        return explicit_token.strip()
-
-    env_token = os.getenv("GITHUB_TOKEN")
-    if env_token:
-        return env_token.strip()
-
-    # Kiểm tra file token cục bộ nếu có (file này được gitignore)
-    token_file = ROOT_DIR / ".github_token.json"
-    if token_file.exists():
-        try:
-            import json
-            with open(token_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                token = data.get("access_token") or data.get("token")
-                if token:
-                    return token.strip()
-        except Exception:
-            pass
-
-    return None

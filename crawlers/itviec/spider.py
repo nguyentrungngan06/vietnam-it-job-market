@@ -33,6 +33,10 @@ def create_browser_context(playwright_instance, headless=True, auth_file=AUTH_FI
     """Khởi tạo Browser và Context tối ưu tốc độ, áp dụng auth.json nếu có."""
     browser = playwright_instance.chromium.launch(headless=headless)
     storage_state = auth_file if (auth_file and os.path.exists(auth_file)) else None
+    if storage_state:
+        print(f"  -> Đã nạp phiên đăng nhập từ: {storage_state}")
+    else:
+        print("  -> [CẢNH BÁO] Không tìm thấy auth.json, chạy ở chế độ khách (không xem được mức lương)")
 
     context = browser.new_context(
         storage_state=storage_state,

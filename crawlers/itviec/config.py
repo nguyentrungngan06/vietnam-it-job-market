@@ -3,13 +3,17 @@ Cấu hình tập trung cho hệ thống Crawler ITviec.
 """
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+BASE_DIR = PROJECT_ROOT
 
 # File paths
-AUTH_FILE = os.path.join(BASE_DIR, "auth.json")
-MASTER_FILE = os.path.join(BASE_DIR, "itviec_master.csv")
-SNAPSHOT_DIR = os.path.join(BASE_DIR, "snapshots")
-CRAWL_LOG_FILE = os.path.join(BASE_DIR, "crawl_log.csv")
+AUTH_FILE = os.path.join(PROJECT_ROOT, "auth.json")
+if not os.path.exists(AUTH_FILE) and os.path.exists(r"C:\thu\auth.json"):
+    AUTH_FILE = r"C:\thu\auth.json"
+
+MASTER_FILE = r"C:\thu\itviec_master_new.csv" if os.path.exists(r"C:\thu\itviec_master_new.csv") else os.path.join(BASE_DIR, "itviec_master.csv")
+SNAPSHOT_DIR = r"C:\thu\snapshots_fixx" if os.path.exists(r"C:\thu\snapshots_fixx") else os.path.join(BASE_DIR, "snapshots")
+CRAWL_LOG_FILE = r"C:\thu\crawl_log_fixx.csv" if os.path.exists(r"C:\thu\crawl_log_fixx.csv") else os.path.join(BASE_DIR, "crawl_log.csv")
 DEDUP_MAP_FILE = os.path.join(BASE_DIR, "job_dedup_mapping.csv")
 CHECKPOINT_FILE = os.path.join(BASE_DIR, "checkpoint_crawl_today.csv")
 
