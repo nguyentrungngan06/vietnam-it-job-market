@@ -20,7 +20,8 @@ vietnam-it-job-market/
 │   │   ├── spider.py        # Thu thập Search API & chi tiết tin
 │   │   ├── parsers.py       # Bóc tách metadata, quy đổi lương VND
 │   │   ├── tracker.py       # Theo dõi vòng đời tin (active/gone, days_alive)
-│   │   └── pipeline.py      # Quy trình crawl hoàn chỉnh
+│   │   ├── pipeline.py      # Quy trình crawl hoàn chỉnh
+│   │   └── run.py           # Script thực thi cào VietnamWorks
 │   └── github/              # Module crawl kỹ năng lập trình viên GitHub theo 63 tỉnh/thành
 │       ├── config.py        # Cấu hình GitHub API & danh mục địa phương
 │       ├── spider.py        # Tìm kiếm users & bóc tách skills qua repos
@@ -62,10 +63,34 @@ python crawlers/itviec/run.py
 ---
 
 ### 2. Chạy crawl VietnamWorks hàng ngày
+
+Có thể chạy trực tiếp crawler VietnamWorks hoặc thông qua script điều phối:
 ```bash
+# Cách 1: Chạy trực tiếp module VietnamWorks
+python crawlers/vietnamworks/run.py
+
+# Cách 2: Chạy qua script điều phối chung
 python daily_crawl.py --site vietnamworks
 ```
-*Tùy chọn hữu ích:* `--pages 30` (số trang), `--enrich-views` (lượt xem/ứng tuyển).
+
+#### Hai chế độ crawl:
+- **Chế độ Crawl Nhanh (Mặc định - mất ~1 phút):**
+  Quét toàn bộ Search API (nhóm CNTT/VT), chuẩn hóa bảng dữ liệu, quy đổi lương VND, lưu `data/out/vietnamworks.csv`, cập nhật vòng đời tin vào Master và tạo snapshot Daily:
+  ```bash
+  python crawlers/vietnamworks/run.py
+  ```
+- **Chế độ Crawl Đầy đủ (`--enrich-views` - mất ~25–30 phút):**
+  Bao gồm toàn bộ bước Crawl Nhanh + duyệt qua từng link chi tiết của ~700 tin tuyển dụng để bóc tách số lượt xem (`views`), số hồ sơ ứng tuyển (`applications`), lấy full text mô tả và lưu lịch sử vào `data/views/views_YYYY-MM-DD.csv`:
+  ```bash
+  python crawlers/vietnamworks/run.py --enrich-views
+  ```
+
+*Bảng tùy chọn hữu ích:*
+- `--pages <N>`: Giới hạn số trang cần cào (mặc định: `30`, khoảng 1.500 tin).
+- `--enrich-views`: Bật chế độ cào sâu lượt xem, ứng tuyển và full text chi tiết.
+- `--date YYYY-MM-DD`: Chỉ định ngày crawl cụ thể (mặc định: hôm nay).
+- `--save-raw`: Lưu bản sao JSON thô từng trang vào `data/raw/vietnamworks/`.
+- `--partial`: Chế độ crawl dở dang (không đánh dấu `gone` cho các tin cũ chưa quét tới).
 
 ---
 

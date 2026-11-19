@@ -75,41 +75,41 @@ def run_daily_crawl(
         df = add_salary_vnd(df)
         jobs_data = df.to_dict("records")
 
-    # Ghi file trung gian data/out/vietnamworks.csv để tương thích hoàn toàn với các script phân tích
-    out_dir = Path("data/out")
-    out_dir.mkdir(parents=True, exist_ok=True)
-    df.to_csv(out_dir / "vietnamworks.csv", index=False, encoding="utf-8-sig")
+        # Ghi file trung gian data/out/vietnamworks.csv để tương thích hoàn toàn với các script phân tích
+        out_dir = Path("data/out")
+        out_dir.mkdir(parents=True, exist_ok=True)
+        df.to_csv(out_dir / "vietnamworks.csv", index=False, encoding="utf-8-sig")
 
-    # Bước 3 (Tùy chọn): Thu thập số lượt xem / ứng tuyển chi tiết
-    if enrich_views:
-        print("\n-> Đang lấy bổ sung lượt xem & hồ sơ ứng tuyển từ trang chi tiết...")
-        views_rows = []
-        for idx, job in enumerate(jobs_data, 1):
-            url = job.get("url")
-            if not url:
-                continue
-            html = fetch_detail_html(client, url)
-            v_val, a_val = "", ""
-            if html:
-                details = parse_detail_page(html)
-                v_val = details.get("views", "")
-                a_val = details.get("applications", "")
-                job["views"] = v_val
-                job["applications"] = a_val
-                # Cập nhật thêm nếu mô tả bị cắt ngắn
-                if details.get("description") and len(details["description"]) > len(job.get("description", "")):
-                    job["description"] = details["description"]
-                if details.get("requirement") and len(details["requirement"]) > len(job.get("requirement", "")):
-                    job["requirement"] = details["requirement"]
-            views_rows.append({"job_id": job.get("job_id"), "views": v_val, "applications": a_val})
-            if idx % 50 == 0 or idx == len(jobs_data):
-                print(f"    Đã xử lý {idx}/{len(jobs_data)} tin chi tiết")
+        # Bước 3 (Tùy chọn): Thu thập số lượt xem / ứng tuyển chi tiết
+        if enrich_views:
+            print("\n-> Đang lấy bổ sung lượt xem & hồ sơ ứng tuyển từ trang chi tiết...")
+            views_rows = []
+            for idx, job in enumerate(jobs_data, 1):
+                url = job.get("url")
+                if not url:
+                    continue
+                html = fetch_detail_html(client, url)
+                v_val, a_val = "", ""
+                if html:
+                    details = parse_detail_page(html)
+                    v_val = details.get("views", "")
+                    a_val = details.get("applications", "")
+                    job["views"] = v_val
+                    job["applications"] = a_val
+                    # Cập nhật thêm nếu mô tả bị cắt ngắn
+                    if details.get("description") and len(details["description"]) > len(job.get("description", "")):
+                        job["description"] = details["description"]
+                    if details.get("requirement") and len(details["requirement"]) > len(job.get("requirement", "")):
+                        job["requirement"] = details["requirement"]
+                views_rows.append({"job_id": job.get("job_id"), "views": v_val, "applications": a_val})
+                if idx % 50 == 0 or idx == len(jobs_data):
+                    print(f"    Đã xử lý {idx}/{len(jobs_data)} tin chi tiết")
 
-        # Lưu file views theo ngày để lưu trữ lịch sử
-        views_file = Path("data/views") / f"views_{today_str}.csv"
-        views_file.parent.mkdir(parents=True, exist_ok=True)
-        pd.DataFrame(views_rows).to_csv(views_file, index=False, encoding="utf-8-sig")
-        print(f"-> Đã lưu lịch sử lượt xem vào {views_file}")
+            # Lưu file views theo ngày để lưu trữ lịch sử
+            views_file = Path("data/views") / f"views_{today_str}.csv"
+            views_file.parent.mkdir(parents=True, exist_ok=True)
+            pd.DataFrame(views_rows).to_csv(views_file, index=False, encoding="utf-8-sig")
+            print(f"-> Đã lưu lịch sử lượt xem vào {views_file}")
 
     # Bước 4: Cập nhật Master dataset và tạo Daily snapshot
     is_complete = (pages_crawled >= total_pages_seen) and not is_partial
