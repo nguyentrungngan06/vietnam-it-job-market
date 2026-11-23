@@ -2,6 +2,7 @@
 Cấu hình tập trung cho crawler VietnamWorks.
 """
 from pathlib import Path
+import os
 
 # Thư mục gốc dự án
 ROOT_DIR = Path(__file__).resolve().parents[2]
@@ -33,7 +34,10 @@ RETRIEVE_FIELDS = [
 USD_VND_RATE = 25_000
 
 # User-Agent & Headers
-USER_AGENT = "Mozilla/5.0 (compatible; StudentResearchBot/0.1; contact: ngaodaha0014@gmail.com)"
+USER_AGENT = os.getenv(
+    "CRAWLER_USER_AGENT",
+    "Mozilla/5.0 (compatible; VietnamITJobMarketResearchBot/1.0; +https://github.com/nguyentrungngan06/vietnam-it-job-market)"
+)
 
 SEARCH_HEADERS = {
     "User-Agent": USER_AGENT,

@@ -1,0 +1,1697 @@
+﻿alias_pattern,canonical_skills,match_type,confidence,needs_human_check
+English,English,exact,high,False
+Python,Python,exact,high,False
+SQL,SQL,exact,high,False
+Java,Java,exact,high,False
+CI/CD,CI/CD,exact,high,False
+PYTHON,Python,exact,high,False
+Linux,Linux,exact,high,False
+LLM,Artificial Intelligence (AI),alias,high,False
+Spring Boot,Spring / Java frameworks,alias,high,False
+Golang,Go,alias,high,False
+PostgreSql,PostgreSQL,exact,high,False
+MySQL,MySQL,exact,high,False
+Jira,Agile & Scrum,alias,high,False
+ERP,ERP / CRM / Enterprise Apps,alias,high,False
+Sql,SQL,exact,high,False
+Product Management,Product Management,exact,high,False
+Kafka,Data Warehouse / Big Data,alias,high,False
+Embedded,Embedded & Firmware,alias,high,False
+Stakeholder management,Digital Transformation / IT Consulting,alias,high,False
+Cloud Security,Cloud Computing,alias,high,False
+Data Engineer,Data Engineering,alias,high,False
+PHP,PHP,exact,high,False
+MongoDB,MongoDB / NoSQL,alias,high,False
+SAP,ERP / CRM / Enterprise Apps,alias,high,False
+Terraform,Infrastructure as Code,alias,high,False
+Fullstack,Full Stack Development,alias,high,False
+Networking,.NET / C#,alias,high,False
+Phân Tích Dữ Liệu,Data Analysis,alias,high,False
+Spring,Spring / Java frameworks,alias,high,False
+Business Intelligence,Data Visualization / BI,alias,high,False
+IT Support,IT Support / Helpdesk,alias,high,False
+Công Nghệ Thông Tin,Software Engineering (general),alias,high,False
+System Architecture,Software Architecture & Design,alias,high,False
+Angular,JavaScript / TypeScript,alias,high,False
+Design Systems,UI/UX Design,alias,high,False
+Risk Management,Project Management,alias,high,False
+Solution Architecture,Software Architecture & Design,alias,high,False
+Computer Vision,Artificial Intelligence (AI),alias,high,False
+HTML,HTML / CSS,alias,high,False
+Figma,UI/UX Design,alias,high,False
+Big Data,Data Warehouse / Big Data,alias,high,False
+UI-UX,UI/UX Design,alias,high,False
+Git,Version Control (Git),alias,high,False
+Playwright,Test Automation,alias,high,False
+Android,Android,exact,high,False
+Data Science,Machine Learning (ML),alias,high,False
+Data Modeling,Database Design,alias,high,False
+Data Management,Data Governance & Management,alias,high,False
+NLP,Artificial Intelligence (AI),alias,high,False
+Deep Learning,Artificial Intelligence (AI),alias,high,False
+ETL,Data Warehouse / Big Data,alias,high,False
+Selenium,Test Automation,alias,high,False
+DevSecOps,DevOps,alias,high,False
+CRM,ERP / CRM / Enterprise Apps,alias,high,False
+OOP,Software Architecture & Design,alias,high,False
+Kotlin,Kotlin,exact,high,False
+Penetration Testing,Cybersecurity,alias,high,False
+Japanese,Japanese,exact,high,False
+Redis,Redis,exact,high,False
+NextJS,JavaScript / TypeScript,alias,high,False
+Communication skills,Communication & Teamwork,alias,high,False
+Games,Mobile Development,alias,high,False
+PostgreSQL,PostgreSQL,exact,high,False
+LINUX,Linux,exact,high,False
+An Toàn Thông Tin,Cybersecurity,alias,high,False
+Data Analytics,Data Analysis,alias,high,False
+Computer Science,Software Engineering (general),alias,high,False
+HTML5,HTML / CSS,alias,high,False
+Agentic AI,Artificial Intelligence (AI),alias,high,False
+Mobile Apps,Mobile Development,alias,high,False
+Information Security,Cybersecurity,alias,high,False
+IT Governance,Digital Transformation / IT Consulting,alias,high,False
+Enterprise Architecture,Software Architecture & Design,alias,high,False
+Firewall,Cybersecurity,alias,high,False
+Phát Triển Phần Mềm,Software Engineering (general),alias,high,False
+FastAPI,Python frameworks,alias,high,False
+Data Warehousing,Data Warehouse / Big Data,alias,high,False
+NestJS,JavaScript / TypeScript,alias,high,False
+Stakeholder Management,Digital Transformation / IT Consulting,alias,high,False
+problem-solving,Problem Solving & Analytical Thinking,alias,high,False
+CSS,HTML / CSS,alias,high,False
+Japanese IT Communication,Japanese,alias,high,False
+IT Helpdesk,IT Support / Helpdesk,alias,high,False
+Quản Trị Dữ Liệu,Data Governance & Management,alias,high,False
+Automation Testing,Test Automation,alias,high,False
+Technical Support,IT Support / Helpdesk,alias,high,False
+Quản Trị Hệ Thống,IT Infrastructure & System Administration,alias,high,False
+Core Banking,ERP / CRM / Enterprise Apps,alias,high,False
+C/C++,C/C++,exact,high,False
+Công nghệ thông tin,Software Engineering (general),alias,high,False
+Ci/Cd Methodologies,CI/CD,compound,medium,False
+Power Automate,ERP / CRM / Enterprise Apps,alias,high,False
+AUTOSAR,Embedded & Firmware,alias,high,False
+Postman,Test Automation,alias,high,False
+VMware,Virtualization,alias,high,False
+MLOps,Machine Learning (ML),alias,high,False
+User story,Business Analysis (BA),alias,high,False
+System Administration,IT Infrastructure & System Administration,alias,high,False
+Data Governance,Data Governance & Management,alias,high,False
+Software Engineering,Software Engineering (general),alias,high,False
+"Governance, Risk & Compliance",Digital Transformation / IT Consulting,compound,medium,False
+ISO 27001,Cybersecurity,alias,high,False
+Ruby on Rails,Ruby,alias,high,False
+Data Quality Tools,Data Governance & Management,alias,high,False
+React Native,Flutter / React Native,alias,high,False
+Design,UI/UX Design,alias,high,False
+Windows Server,Windows / Windows Server,alias,high,False
+Python programming,Python,alias,high,False
+Phát Triển Sản Phẩm,Product Management,alias,high,False
+Giao tiếp,Communication & Teamwork,alias,high,False
+IT Infrastructure,IT Infrastructure & System Administration,alias,high,False
+Java Spring Boot,Spring / Java frameworks,alias,high,False
+Information Technology,Software Engineering (general),alias,high,False
+IT Phần Mềm,Software Engineering (general),alias,high,False
+Tableau,Data Visualization / BI,alias,high,False
+Unity,Mobile Development,alias,high,False
+OWASP,Cybersecurity,alias,high,False
+Jenkins,CI/CD,alias,high,False
+Laravel,PHP,alias,high,False
+Microservices Architecture,Microservices,alias,high,False
+iOS,Swift / iOS,alias,high,False
+.Net Core,.NET / C#,alias,high,False
+Firmware,Embedded & Firmware,alias,high,False
+DBA,Database Design,alias,high,False
+Embedded C,C/C++,alias,high,False
+Data Warehouse,Data Warehouse / Big Data,alias,high,False
+PMP,Project Management,alias,high,False
+Oracle Database,Oracle Database,exact,high,False
+It Support,IT Support / Helpdesk,alias,high,False
+Agile Methodologies,Agile & Scrum,alias,high,False
+Vận Hành Hệ Thống,IT Infrastructure & System Administration,alias,high,False
+ASP.NET,.NET / C#,alias,high,False
+Microsoft SQL Server,Microsoft SQL Server,exact,high,False
+Swift,Swift / iOS,alias,high,False
+Databricks,Data Warehouse / Big Data,alias,high,False
+Data-driven,Data Analysis,alias,high,False
+Chinese,Chinese,exact,high,False
+BRD,Business Analysis (BA),alias,high,False
+Clean Architecture,Software Architecture & Design,alias,high,False
+PyTorch,Machine Learning (ML),alias,high,False
+NoSQL,MongoDB / NoSQL,alias,high,False
+Collaboration,Communication & Teamwork,alias,high,False
+English Communication,English,alias,high,False
+Phân Tích Kinh Doanh,Business Analysis (BA),alias,high,False
+Customer Journey Map,Business Analysis (BA),alias,high,False
+Quản Trị Mạng,Networking,alias,high,False
+IT Operations,IT Infrastructure & System Administration,alias,high,False
+IT Project Management,Project Management,alias,high,False
+Fintech,Blockchain / Fintech,alias,high,False
+analytical skills,Problem Solving & Analytical Thinking,alias,high,False
+Software Development,Software Engineering (general),alias,high,False
+Spring Core,Spring / Java frameworks,alias,high,False
+IT System Administration,IT Infrastructure & System Administration,alias,high,False
+Tensorflow,Machine Learning (ML),alias,high,False
+Django,Python frameworks,alias,high,False
+Windows,Windows / Windows Server,alias,high,False
+RAG,Artificial Intelligence (AI),alias,high,False
+Pentest,Cybersecurity,alias,high,False
+PowerShell,Shell / Scripting,alias,high,False
+Kỹ năng giao tiếp,Communication & Teamwork,alias,high,False
+Khoa Học Máy Tính,Software Engineering (general),alias,high,False
+Data Engineering,Data Engineering,exact,high,False
+Electrical Engineering,Embedded & Firmware,alias,high,False
+Network,.NET / C#,alias,high,False
+Microservice,Microservices,alias,high,False
+Network Infrastructure,.NET / C#,alias,high,False
+Manual Testing,Software Testing,alias,high,False
+communication,Communication & Teamwork,alias,high,False
+Systems Engineering,IT Infrastructure & System Administration,alias,high,False
+Portfolio Management,Project Management,alias,high,False
+Scrum Master,Agile & Scrum,alias,high,False
+Problem Solving,Problem Solving & Analytical Thinking,alias,high,False
+SRS,Business Analysis (BA),alias,high,False
+JSON,API Development,alias,high,False
+Data modeling,Database Design,alias,high,False
+Product roadmap,Product Management,alias,high,False
+Presale,Digital Transformation / IT Consulting,alias,high,False
+Application Security,Cybersecurity,alias,high,False
+SOLID Principles,Software Architecture & Design,alias,high,False
+Cypress,Test Automation,alias,high,False
+Blockchain,Blockchain / Fintech,alias,high,False
+MVC,Software Architecture & Design,alias,high,False
+Ruby,Ruby,exact,high,False
+SIEM,Cybersecurity,alias,high,False
+Incident Response,Cybersecurity,alias,high,False
+Unit test,Software Testing,alias,high,False
+MVVM,Software Architecture & Design,alias,high,False
+TensorFlow,Machine Learning (ML),alias,high,False
+Odoo,ERP / CRM / Enterprise Apps,alias,high,False
+Grafana,Monitoring & Observability,alias,high,False
+Quản Lý Sản Phẩm,Product Management,alias,high,False
+Mlops,Machine Learning (ML),alias,high,False
+IT Security,Cybersecurity,alias,high,False
+Telecommunications Technology,Telecommunications,alias,high,False
+Embedded Systems,Embedded & Firmware,alias,high,False
+Kỹ năng giao tiêp,Communication & Teamwork,alias,high,False
+Usability Testing,Software Testing,alias,high,False
+English fluency,English,alias,high,False
+System Integration,IT Infrastructure & System Administration,alias,high,False
+Triển Khai Dự Án,Project Management,alias,high,False
+Communication Skills,Communication & Teamwork,alias,high,False
+Teamwork,Communication & Teamwork,alias,high,False
+Manage ERP Software,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Cloud Platform,Cloud Computing,alias,high,False
+Điện Tử Viễn Thông,Telecommunications,alias,high,False
+Troubleshooting,IT Support / Helpdesk,alias,high,False
+Api Testing,API Development,alias,high,False
+Excel,Microsoft Office / Excel,alias,high,False
+TCP/IP,Networking,alias,high,False
+Linux System Administration,Linux,alias,high,False
+Apache Spark,Data Warehouse / Big Data,alias,high,False
+Wordpress,PHP,alias,high,False
+Flutter,Flutter / React Native,alias,high,False
+Algorithms,Software Architecture & Design,alias,high,False
+Vulnerability Assessment,Cybersecurity,alias,high,False
+Bash Shell,Shell / Scripting,alias,high,False
+Ansible,Infrastructure as Code,alias,high,False
+Cisco,Networking,alias,high,False
+PL/SQL,SQL,alias,high,False
+Hardware Design,IT Support / Helpdesk,alias,high,False
+Cloud-native Architecture,Cloud Computing,alias,high,False
+PCI DSS,Cybersecurity,alias,high,False
+Integration test,Software Testing,alias,high,False
+GitHub,CI/CD,alias,high,False
+Spark,Data Warehouse / Big Data,alias,high,False
+Waterfall Methodology,Agile & Scrum,alias,high,False
+Adobe Photoshop,UI/UX Design,alias,high,False
+AngularJS,JavaScript / TypeScript,alias,high,False
+EDR,Cybersecurity,alias,high,False
+SAP FICO,ERP / CRM / Enterprise Apps,alias,high,False
+Sap,ERP / CRM / Enterprise Apps,alias,high,False
+Quản Lý Dự Án Công Nghệ,Project Management,alias,high,False
+Bảo Mật Thông Tin,Cybersecurity,alias,high,False
+Telecommunications,Telecommunications,exact,high,False
+Phân tích dữ liệu,Data Analysis,alias,high,False
+CCNA,Networking,alias,high,False
+Database Development,Database Design,alias,high,False
+Hybrid Cloud,Cloud Computing,alias,high,False
+Network Automation,.NET / C#,alias,high,False
+Viễn Thông,Telecommunications,alias,high,False
+Infrastructure As Code,Infrastructure as Code,exact,high,False
+Business Process Design,Business Analysis (BA),alias,high,False
+Information Systems,Software Engineering (general),alias,high,False
+Solution Architect,Software Architecture & Design,alias,high,False
+IT System,IT Infrastructure & System Administration,alias,high,False
+FastApi,Python frameworks,alias,high,False
+Cơ Sở Dữ Liệu,Database Design,alias,high,False
+IT Phần Cứng,IT Support / Helpdesk,alias,needs_review,True
+Ai/Ml,Artificial Intelligence (AI),compound,medium,False
+Project Planning,Project Management,alias,high,False
+It Infrastructure Management,IT Infrastructure & System Administration,alias,high,False
+Stakeholder Mangement,Digital Transformation / IT Consulting,alias,high,False
+Quality Assurance,Quality Management (QA/QC),alias,high,False
+Node.Js,JavaScript / TypeScript,alias,high,False
+Consulting,Digital Transformation / IT Consulting,alias,high,False
+Telecommunication Protocols,Telecommunications,alias,high,False
+Telecommunication Systems,Telecommunications,alias,high,False
+Digitalization,Digital Transformation / IT Consulting,alias,high,False
+SAP Integration Suite,ERP / CRM / Enterprise Apps,alias,high,False
+PMO,Project Management,alias,high,False
+C/C++ Programming,C/C++,compound,medium,False
+Data Integration,Data Warehouse / Big Data,alias,high,False
+Quản Trị Cơ Sở Dữ Liệu,Database Design,alias,high,False
+Infrastructure,IT Infrastructure & System Administration,alias,high,False
+Spring Boots,Spring / Java frameworks,alias,high,False
+Nlp,Artificial Intelligence (AI),alias,high,False
+Gitlab Ci,CI/CD,alias,high,False
+An Ninh Thông Tin,Cybersecurity,alias,high,False
+IT Management,Digital Transformation / IT Consulting,alias,high,False
+Thiết Kế Giải Pháp,UI/UX Design,alias,high,False
+Quality Control,Quality Management (QA/QC),alias,high,False
+Lập Trình Nhúng,Embedded & Firmware,alias,high,False
+Bảo Mật Hệ Thống,Cybersecurity,alias,high,False
+Lập Trình,Software Engineering (general),alias,high,False
+Security Infrastructure,Cybersecurity,alias,high,False
+Backlog Management,Agile & Scrum,alias,high,False
+Quản Lý Rủi Ro,Project Management,alias,high,False
+Quản Lý Incident/Request,IT Support / Helpdesk,compound,medium,False
+Phối Hợp Xử Lý,Communication & Teamwork,alias,high,False
+Software,Software Engineering (general),alias,high,False
+Microsoft Power Platform,ERP / CRM / Enterprise Apps,alias,high,False
+Technical Writing,Software Engineering (general),alias,high,False
+J2EE,Java,alias,high,False
+Rust,Rust,exact,high,False
+Appium,Test Automation,alias,high,False
+Microsoft Azure SQL Database,Microsoft Azure,alias,high,False
+User flows,Business Analysis (BA),alias,high,False
+Juniper,Networking,alias,high,False
+Flask,Python frameworks,alias,high,False
+AWS Lambda,AWS,alias,high,False
+Hardware Troubleshooting,IT Support / Helpdesk,alias,high,False
+Apache Airflow,Data Warehouse / Big Data,alias,high,False
+IoT,Embedded & Firmware,alias,high,False
+Security Hardening,Cybersecurity,alias,high,False
+Prompt Engineering,Artificial Intelligence (AI),alias,high,False
+IT Audit,Digital Transformation / IT Consulting,alias,high,False
+Web API,API Development,alias,high,False
+PQA,Quality Management (QA/QC),alias,high,False
+BPMN,Business Analysis (BA),alias,high,False
+Data Privacy / Compliance,Data Governance & Management,compound,medium,False
+Snowflake,Data Warehouse / Big Data,alias,high,False
+Market research,Product Management,alias,high,False
+GitLab,CI/CD,alias,high,False
+System Engineer,IT Infrastructure & System Administration,alias,high,False
+Tư duy logic,Problem Solving & Analytical Thinking,alias,high,False
+Software Implementation,Software Engineering (general),alias,high,False
+Bảo Mật Server,Cybersecurity,alias,high,False
+AI Agent,Artificial Intelligence (AI),alias,high,False
+MSSQL,Microsoft SQL Server,alias,high,False
+An Ninh Mạng,Cybersecurity,alias,high,False
+Unit Testing,Software Testing,alias,high,False
+Agile Project Management,Agile & Scrum,alias,high,False
+Data Visualization,Data Visualization / BI,alias,high,False
+Tài Chính Ngân Hàng,Blockchain / Fintech,alias,high,False
+Salesforce Development,ERP / CRM / Enterprise Apps,alias,high,False
+Cloud Solution,Cloud Computing,alias,high,False
+MS SQL Server,Microsoft SQL Server,alias,high,False
+API Gateway,API Development,alias,high,False
+AI Engineer,Artificial Intelligence (AI),alias,high,False
+Full Stack Development,Full Stack Development,exact,high,False
+Java programming,Java,alias,high,False
+Điện tử viễn thông,Telecommunications,alias,high,False
+C Programming Language,C/C++,alias,high,False
+Effective Communication,Communication & Teamwork,alias,high,False
+Workflow Automation,ERP / CRM / Enterprise Apps,alias,high,False
+Artificial Intelligence (AI),Artificial Intelligence (AI),exact,high,False
+Khoa Học Dữ Liệu,Machine Learning (ML),alias,high,False
+Backend,Backend Development,alias,high,False
+Giao Tiếp Đàm Phán,Communication & Teamwork,alias,high,False
+MYSQL,MySQL,exact,high,False
+Test Planning,Software Testing,alias,high,False
+RESTful,API Development,alias,high,False
+Postgresql,PostgreSQL,exact,high,False
+IT Business Analyst,Business Analysis (BA),alias,high,False
+Test Case,Software Testing,alias,high,False
+Product Development,Product Management,alias,high,False
+Communication,Communication & Teamwork,alias,high,False
+Test Case Writing,Software Testing,alias,high,False
+Master Data Management,Data Governance & Management,alias,high,False
+Tư Vấn Giải Pháp,Digital Transformation / IT Consulting,alias,high,False
+Testing,Software Testing,alias,high,False
+Làm việc nhóm,Communication & Teamwork,alias,high,False
+Chuyển đổi số,Digital Transformation / IT Consulting,alias,high,False
+Lập Kế Hoạch Dự Án,Project Management,alias,high,False
+Giải Pháp Công Nghệ,Digital Transformation / IT Consulting,alias,needs_review,True
+Powershell,Shell / Scripting,alias,high,False
+API Testing,API Development,alias,high,False
+Agile Development,Agile & Scrum,alias,high,False
+Analytical Skills,Problem Solving & Analytical Thinking,alias,high,False
+WAN,Networking,alias,high,False
+Technical Lead,Software Engineering (general),alias,high,False
+Windows Operating Systems,Windows / Windows Server,alias,high,False
+LLMs,Artificial Intelligence (AI),alias,high,False
+Endpoint Security,Cybersecurity,alias,high,False
+Project Manager Qualification,Project Management,alias,high,False
+Security System Management,Cybersecurity,alias,high,False
+Azure Devops,Microsoft Azure,alias,high,False
+Digital Transformation,Digital Transformation / IT Consulting,alias,high,False
+Data Architecture,Data Governance & Management,alias,high,False
+Strategic Thinking,Problem Solving & Analytical Thinking,alias,high,False
+Pandas,Python frameworks,alias,high,False
+DBT,Data Warehouse / Big Data,alias,high,False
+Hibernate,Spring / Java frameworks,alias,high,False
+Product strategy,Product Management,alias,high,False
+Zephyr,Software Testing,alias,high,False
+AWS CloudFormation,AWS,alias,high,False
+Change Management,Digital Transformation / IT Consulting,alias,high,False
+A/B testing,Data Analysis,compound,medium,False
+GraphQL,API Development,alias,high,False
+Redhat,Linux,alias,high,False
+Google BigQuery,Data Warehouse / Big Data,alias,high,False
+SOAR,Cybersecurity,alias,high,False
+Jmeter,Test Automation,alias,high,False
+Wireframing,UI/UX Design,alias,high,False
+Statistical Analysis,Data Analysis,alias,high,False
+Middleware,Backend Development,alias,high,False
+GitLab CI,CI/CD,alias,high,False
+RTOS,Embedded & Firmware,alias,high,False
+Identity & Access Management,Cybersecurity,compound,medium,False
+Scala,Scala,exact,high,False
+ITIL Foundation,Digital Transformation / IT Consulting,alias,high,False
+Prototyping,UI/UX Design,alias,high,False
+R,R,exact,high,False
+Microsoft Dynamics 365,ERP / CRM / Enterprise Apps,alias,needs_review,True
+IDS/IPS,Cybersecurity,compound,medium,False
+Technology Roadmapping,Digital Transformation / IT Consulting,alias,high,False
+Shopify,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Automation Tester,Test Automation,alias,high,False
+Sharepoint,ERP / CRM / Enterprise Apps,alias,high,False
+Salesforce,ERP / CRM / Enterprise Apps,alias,high,False
+MIS,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Giao Tiếp,Communication & Teamwork,alias,high,False
+Quản Lý Lãnh Đạo,Leadership & People Management,alias,high,False
+Quản Trị Hạ Tầng Ảo Hóa,Virtualization,alias,high,False
+QUẢN TRỊ RỦI RO,Project Management,alias,high,False
+Airflow,Data Warehouse / Big Data,alias,high,False
+Active Directory,Windows / Windows Server,alias,high,False
+Automation,Automation & RPA,alias,high,False
+Analytical Thinking,Problem Solving & Analytical Thinking,alias,high,False
+CCNP,Networking,alias,high,False
+NMS,Telecommunications,alias,needs_review,True
+Network Performance Optimization,.NET / C#,alias,high,False
+Quản Trị Mạng Lan,Networking,alias,high,False
+Security Information,Cybersecurity,alias,high,False
+IOT,Embedded & Firmware,alias,high,False
+Operating System,Linux,alias,needs_review,True
+Phân Tích Chiến Lược,Data Analysis,alias,needs_review,True
+Thiết Kế Hệ Thống,UI/UX Design,alias,high,False
+SQLServer,Microsoft SQL Server,alias,needs_review,True
+Information security,Cybersecurity,alias,high,False
+Thử Nghiệm Hệ Thống,Software Testing,alias,needs_review,True
+IT Hardware,IT Support / Helpdesk,alias,needs_review,True
+T24,ERP / CRM / Enterprise Apps,alias,high,False
+Sap Erp,ERP / CRM / Enterprise Apps,alias,high,False
+API Integration,API Development,alias,high,False
+Data Structure,Software Architecture & Design,alias,high,False
+Software Prototyping,UI/UX Design,alias,needs_review,True
+MES,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Critical Thinking,Problem Solving & Analytical Thinking,alias,high,False
+API Management,API Development,alias,high,False
+Triển Khai Phần Mềm,Software Engineering (general),alias,needs_review,True
+Quản Trị Máy Chủ,IT Infrastructure & System Administration,alias,needs_review,True
+My SQL,MySQL,alias,needs_review,True
+IT Administration,IT Infrastructure & System Administration,alias,high,False
+It Operations,IT Infrastructure & System Administration,alias,high,False
+Communication Protocols,Communication & Teamwork,alias,high,False
+People Leadership,Leadership & People Management,alias,needs_review,True
+excel,Microsoft Office / Excel,alias,high,False
+Test Design,Software Testing,alias,high,False
+SAP Consulting,ERP / CRM / Enterprise Apps,alias,high,False
+Routing,Networking,alias,high,False
+Switching System,Networking,alias,high,False
+Security Firewall,Cybersecurity,alias,high,False
+Mis,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Điện Tử,Embedded & Firmware,alias,high,False
+Kiểm Thử Tính Năng,Software Testing,alias,high,False
+Digital Product Management,Digital Transformation / IT Consulting,alias,high,False
+English Comunication,English,alias,high,False
+Microsoft Office,Microsoft Office / Excel,alias,high,False
+Quản Lý Dữ Liệu,Data Governance & Management,alias,needs_review,True
+Functional Testing,Software Testing,alias,high,False
+Regression Testing,Software Testing,alias,high,False
+Hopsworks,Machine Learning (ML),alias,needs_review,True
+Banking,Blockchain / Fintech,alias,high,False
+Sdlc,Software Engineering (general),alias,needs_review,True
+Data processing,Data Warehouse / Big Data,alias,needs_review,True
+Data Quality,Data Governance & Management,alias,high,False
+ISTQB,Software Testing,alias,needs_review,True
+Postgre SQL,PostgreSQL,alias,needs_review,True
+GIT,Version Control (Git),alias,high,False
+Oracle SQL,Oracle Database,alias,high,False
+ERP Migration,ERP / CRM / Enterprise Apps,alias,high,False
+Data Quality Assurance,Data Governance & Management,alias,high,False
+Software Architecture Design,Software Architecture & Design,alias,high,False
+English communication,English,alias,high,False
+Technology Management,Digital Transformation / IT Consulting,alias,needs_review,True
+Public Cloud,Cloud Computing,alias,needs_review,True
+Quản Trị Hệ Thống CNTT,IT Infrastructure & System Administration,alias,high,False
+Technical Documentation,Software Engineering (general),alias,high,False
+VBA,Microsoft Office / Excel,alias,high,False
+Api Integration,API Development,alias,high,False
+ICT,Digital Transformation / IT Consulting,alias,needs_review,True
+Server System Management,IT Infrastructure & System Administration,alias,high,False
+DWH,Data Warehouse / Big Data,alias,needs_review,True
+ODS,Data Warehouse / Big Data,alias,needs_review,True
+Pyspark,Data Warehouse / Big Data,alias,needs_review,True
+Giải Quyết Vấn Đề,Problem Solving & Analytical Thinking,alias,high,False
+.NET Core,.NET / C#,alias,high,False
+Quản Trị Dự Án,Project Management,alias,needs_review,True
+Quản Trị Hạ Tầng CNTT,IT Infrastructure & System Administration,alias,needs_review,True
+Erp,ERP / CRM / Enterprise Apps,alias,high,False
+Cloud Infrastructure,Cloud Computing,alias,high,False
+Oop,Software Architecture & Design,alias,high,False
+Pytorch,Machine Learning (ML),alias,high,False
+Embedded Linux,Embedded & Firmware,alias,high,False
+Cloud Computing,Cloud Computing,exact,high,False
+English Proficiency,English,alias,high,False
+Project Coordination,Project Management,alias,high,False
+BI Tools,Data Visualization / BI,alias,needs_review,True
+MS SQL DBA,Microsoft SQL Server,alias,high,False
+IT Service,Digital Transformation / IT Consulting,alias,needs_review,True
+Xử Lý Sự Cố,IT Support / Helpdesk,alias,needs_review,True
+ERP Systems,ERP / CRM / Enterprise Apps,alias,high,False
+Siem,Cybersecurity,alias,high,False
+UAT,Software Testing,alias,high,False
+Bảo Mật Dữ Liệu,Cybersecurity,alias,high,False
+Ecommerce Technology,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Kỹ Năng Nắm Bắt và Giải Quyết Vấn Đề,Problem Solving & Analytical Thinking,alias,needs_review,True
+Qc,Software Testing,alias,high,False
+Network Routing,.NET / C#,alias,high,False
+Network Technology,.NET / C#,alias,high,False
+Phân Tích Tư Duy,Data Analysis,alias,needs_review,True
+Network Protocols,.NET / C#,alias,high,False
+Bpmn/Uml,Business Analysis (BA),compound,needs_review,True
+User Story Mapping,Business Analysis (BA),alias,high,False
+Phân Tích Use Case Ai,Artificial Intelligence (AI),alias,needs_review,True
+Disaster Recovery,IT Infrastructure & System Administration,alias,needs_review,True
+VBA Excel,Microsoft Office / Excel,alias,high,False
+Phân Tích Hệ Thống,Business Analysis (BA),alias,needs_review,True
+Software Technology,Software Engineering (general),alias,needs_review,True
+Digital Banking,Digital Transformation / IT Consulting,alias,high,False
+Card Payment Technology,Digital Transformation / IT Consulting,alias,needs_review,True
+Hỗ Trợ Kỹ Thuật,IT Support / Helpdesk,alias,needs_review,True
+Business Data Analysis & Reporting,Data Analysis,compound,needs_review,True
+ELK,MongoDB / NoSQL,alias,high,False
+macOS,Windows / Windows Server,alias,needs_review,True
+ASPICE,Embedded & Firmware,alias,needs_review,True
+IoT Platforms,Embedded & Firmware,alias,needs_review,True
+TestRail,Software Testing,alias,high,False
+OpenStack,Cloud Computing,alias,needs_review,True
+REST Assured,Test Automation,alias,high,False
+ELT,Data Warehouse / Big Data,alias,needs_review,True
+Symfony,PHP,alias,high,False
+Objective C,Swift / iOS,alias,needs_review,True
+ServiceNow,ERP / CRM / Enterprise Apps,alias,high,False
+Embedded Android,Embedded & Firmware,alias,high,False
+OpenCV,Artificial Intelligence (AI),alias,needs_review,True
+CSS 3,HTML / CSS,alias,needs_review,True
+Prometheus,Monitoring & Observability,alias,high,False
+UML,Business Analysis (BA),alias,high,False
+Kanban,Agile & Scrum,alias,high,False
+COBOL,Other programming languages,alias,needs_review,True
+Dart,Flutter / React Native,alias,high,False
+Domain-Driven Design,Software Architecture & Design,alias,high,False
+OCR,Artificial Intelligence (AI),alias,needs_review,True
+SPI,Embedded & Firmware,alias,needs_review,True
+BLE,Embedded & Firmware,alias,needs_review,True
+TOGAF,Software Architecture & Design,alias,needs_review,True
+Robotic Process Automation (RPA),Automation & RPA,alias,needs_review,True
+Cocos,Mobile Development,alias,high,False
+Firebase,Backend Development,alias,needs_review,True
+Trello,Agile & Scrum,alias,high,False
+Helm,Containers & Orchestration,alias,high,False
+SSO,Cybersecurity,alias,needs_review,True
+XML,API Development,alias,needs_review,True
+Robot Framework,Test Automation,alias,high,False
+Cocos Creator,Mobile Development,alias,high,False
+Elasticsearch,MongoDB / NoSQL,alias,high,False
+Cassandra,MongoDB / NoSQL,alias,high,False
+Functional specifications,Business Analysis (BA),alias,needs_review,True
+Process Automation,Automation & RPA,alias,high,False
+Data Analys,Data Analysis,alias,high,False
+Mô Hình Dữ Liệu,Data Governance & Management,alias,needs_review,True
+Data Privacy,Data Governance & Management,alias,high,False
+Quản Lý Nhóm,Leadership & People Management,alias,high,False
+Python Programming,Python,alias,high,False
+Giao tiếp Tiếng Anh,Communication & Teamwork,alias,high,False
+Security Solutions,Cybersecurity,alias,high,False
+Web Service,API Development,alias,needs_review,True
+Qa,Software Testing,alias,high,False
+Phần mềm nhúng,Embedded & Firmware,alias,needs_review,True
+Kỹ năng làm việc nhóm,Communication & Teamwork,alias,needs_review,True
+IAM,Cybersecurity,alias,high,False
+Protocols,Networking,alias,needs_review,True
+Mobile Network,Mobile Development,alias,high,False
+Autocad,Embedded & Firmware,alias,needs_review,True
+Linux Security Configuration,Linux,alias,high,False
+Windows Security Management,Windows / Windows Server,alias,high,False
+CCNA Security,Cybersecurity,alias,high,False
+Cyber Risk Management,Cybersecurity,alias,high,False
+ETL Database,Data Warehouse / Big Data,alias,high,False
+Microsoft SQL,Microsoft SQL Server,alias,high,False
+Risk Analysis,Data Analysis,alias,needs_review,True
+API RESTful,API Development,alias,high,False
+Trí Tuệ Nhân Tạo,Artificial Intelligence (AI),alias,needs_review,True
+DWDM,Telecommunications,alias,high,False
+Transmission,Telecommunications,alias,needs_review,True
+Wireless Networks,Networking,alias,needs_review,True
+Ran Architecture,Software Architecture & Design,alias,high,False
+Digital Marketing,Digital Transformation / IT Consulting,alias,high,False
+Thiết Kế UI-UX,UI/UX Design,alias,high,False
+User Flows,Business Analysis (BA),alias,high,False
+Thiết Kế Trải Nghiệm Người Dùng,UI/UX Design,alias,high,False
+Prototype,UI/UX Design,alias,high,False
+Software Development Tools,Software Engineering (general),alias,needs_review,True
+Cloud AWS,Cloud Computing,alias,high,False
+Data Mining,Data Analysis,alias,high,False
+Server Management,IT Infrastructure & System Administration,alias,high,False
+Unix,Linux,alias,high,False
+Research,Problem Solving & Analytical Thinking,alias,high,False
+Spring Framework,Spring / Java frameworks,alias,high,False
+Analytics Tool,Problem Solving & Analytical Thinking,alias,high,False
+Application Development,Software Engineering (general),alias,needs_review,True
+Network- Server And Virtualisation,.NET / C#,alias,high,False
+VMware vSphere,Virtualization,alias,high,False
+Linux Server,Linux,alias,high,False
+AI Tools,Artificial Intelligence (AI),alias,high,False
+Rest Apis,API Development,alias,high,False
+Network Installation,.NET / C#,alias,high,False
+Internal Audit,Digital Transformation / IT Consulting,alias,needs_review,True
+Ci/Cd,CI/CD,compound,medium,False
+CI/CD tools,CI/CD,compound,medium,False
+Thiết Kế Mạch Điện,UI/UX Design,alias,high,False
+Integration Platforms,System Integration,alias,needs_review,True
+Tư Duy Chiến Lược,Problem Solving & Analytical Thinking,alias,high,False
+"Figma, Illustrator, Photoshop",UI/UX Design,alias,needs_review,True
+Kubeflow,Machine Learning (ML),alias,needs_review,True
+Tự Động Hóa,Automation & RPA,alias,needs_review,True
+Analytical thinking,Problem Solving & Analytical Thinking,alias,high,False
+Automated Software Testing,Software Engineering (general),alias,needs_review,True
+Database Tuning And Capacity Planning,Database Design,alias,high,False
+Tài Chính Kế Toán,Blockchain / Fintech,alias,high,False
+Kiểm Tra Phần Mềm,Software Testing,alias,needs_review,True
+Server Administration,IT Infrastructure & System Administration,alias,high,False
+UI/UX,UI/UX Design,compound,medium,False
+SQL Database,SQL,alias,needs_review,True
+Hệ Thống Ảo Hóa,Virtualization,alias,needs_review,True
+NIST,Cybersecurity,alias,needs_review,True
+Software Management,Software Engineering (general),alias,needs_review,True
+Logical Thinking,Problem Solving & Analytical Thinking,alias,high,False
+Test Automation,Test Automation,exact,high,False
+AI Software,Artificial Intelligence (AI),alias,high,False
+Ai Development,Artificial Intelligence (AI),alias,high,False
+Phối hợp giữa các bộ phận,Communication & Teamwork,alias,high,False
+Embedded Software,Embedded & Firmware,alias,high,False
+Embedded System,Embedded & Firmware,alias,high,False
+Access SQL,SQL,alias,needs_review,True
+Data Warehouse Systems,Data Warehouse / Big Data,alias,high,False
+Hạ Tầng Công Nghệ,IT Infrastructure & System Administration,alias,high,False
+It Administration,IT Infrastructure & System Administration,alias,high,False
+Data Quality Assessment,Data Governance & Management,alias,high,False
+Root Cause Analysis,Data Analysis,alias,needs_review,True
+SAP FI,ERP / CRM / Enterprise Apps,alias,high,False
+Troubleshooting Analysis,IT Support / Helpdesk,alias,high,False
+It Security,Cybersecurity,alias,high,False
+Business Process Management,Business Analysis (BA),alias,high,False
+Ngân Hàng,Blockchain / Fintech,alias,high,False
+ITSM,IT Infrastructure & System Administration,alias,needs_review,True
+Debugging,Software Engineering (general),alias,high,False
+Objective-C,Swift / iOS,alias,high,False
+Mobile App,Mobile Development,alias,high,False
+Network Solutions,.NET / C#,alias,high,False
+Vận Hành Hệ Thống Mạng,IT Infrastructure & System Administration,alias,high,False
+Requirement Analysis,Business Analysis (BA),alias,high,False
+Big Data Analytics,Data Warehouse / Big Data,alias,needs_review,True
+Waterfall Project Management,Agile & Scrum,alias,high,False
+Quản Trị Hệ Thống Máy Chủ,IT Infrastructure & System Administration,alias,high,False
+Bảo Trì,IT Support / Helpdesk,alias,needs_review,True
+Kiểm Soát Tuân Thủ,Digital Transformation / IT Consulting,alias,needs_review,True
+Scripting,Shell / Scripting,alias,needs_review,True
+RESTful API development,API Development,alias,high,False
+Confluence,Agile & Scrum,alias,high,False
+Vmware,Virtualization,alias,high,False
+Mongodb,MongoDB / NoSQL,alias,high,False
+AI Agents,Artificial Intelligence (AI),alias,high,False
+Basel II,Blockchain / Fintech,alias,needs_review,True
+Triton Inference Server,Machine Learning (ML),alias,needs_review,True
+Helpdesk Support,IT Support / Helpdesk,alias,high,False
+English Conversation,English,alias,high,False
+Kiến trúc hệ thống,Software Architecture & Design,alias,high,False
+iOS App Testing,Swift / iOS,alias,high,False
+Giao tiếp tiếng Hàn,Communication & Teamwork,alias,high,False
+IP Routing,Networking,alias,needs_review,True
+Data Loss Prevention,Cybersecurity,alias,needs_review,True
+Prepare Test Data,Software Testing,alias,needs_review,True
+Banking Operations,Blockchain / Fintech,alias,high,False
+Distributed Systems,Software Architecture & Design,alias,needs_review,True
+Database Software,Database Design,alias,high,False
+Apache Maven,CI/CD,alias,needs_review,True
+Attention to Detail,Problem Solving & Analytical Thinking,alias,high,False
+Quality Management,Quality Management (QA/QC),alias,high,False
+Scope Management,Project Management,alias,needs_review,True
+Software Design,Software Engineering (general),alias,high,False
+Test Automation Tools,Test Automation,alias,high,False
+Tư Duy Research-Oriented,Problem Solving & Analytical Thinking,alias,high,False
+Core Network Solution,Telecommunications,alias,high,False
+Bảo Mật Web,Cybersecurity,alias,high,False
+Quản Trị Rủi Ro Thông Tin,Project Management,alias,high,False
+Audio Visual Support,IT Support / Helpdesk,alias,needs_review,True
+Tư Duy Hệ Thống,Problem Solving & Analytical Thinking,alias,high,False
+Interpersonal Skills,Communication & Teamwork,alias,high,False
+Sql- Python Or R,SQL | Python,alias,needs_review,True
+Financial Risk Analysis,Data Analysis,alias,needs_review,True
+SAP-ERP,ERP / CRM / Enterprise Apps,alias,high,False
+Tiếng Nhật N2,Japanese,alias,high,False
+Quản Lý Dự Án Số Hóa,Project Management,alias,high,False
+Quản Lý Điều Phối Dự Án,Project Management,alias,needs_review,True
+Backend developer,Backend Development,alias,high,False
+Validation,Quality Management (QA/QC),alias,needs_review,True
+Network Administration,.NET / C#,alias,high,False
+Sap S/4Hana,ERP / CRM / Enterprise Apps,compound,medium,False
+Budgeting,Project Management,alias,high,False
+Virtualization,Virtualization,exact,high,False
+Lập Trình Backend,Software Engineering (general),alias,needs_review,True
+Soạn Thảo Urd/Srs/User Stories,Business Analysis (BA),compound,needs_review,True
+WMS,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Node.js,JavaScript / TypeScript,alias,high,False
+Back-end Programming,Backend Development,alias,high,False
+It Management,Digital Transformation / IT Consulting,alias,high,False
+Lãnh đạo,Leadership & People Management,alias,high,False
+Network Management,.NET / C#,alias,high,False
+Infrastructure Support,IT Infrastructure & System Administration,alias,high,False
+Loan Origination System,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Software Programming,Software Engineering (general),alias,needs_review,True
+Program Management,Project Management,alias,high,False
+Html,HTML / CSS,alias,high,False
+System Modeling,Software Architecture & Design,alias,needs_review,True
+Financial Products,Blockchain / Fintech,alias,needs_review,True
+Kiểm Soát Chất Lượng,Quality Management (QA/QC),alias,needs_review,True
+Systems Integration,System Integration,alias,needs_review,True
+Java System,Java,alias,needs_review,True
+System Support,IT Support / Helpdesk,alias,needs_review,True
+Hạ Tầng Mạng,IT Infrastructure & System Administration,alias,high,False
+GRC,Digital Transformation / IT Consulting,alias,high,False
+Helpdesk,IT Support / Helpdesk,alias,high,False
+Tích Hợp Dữ Liệu,Data Governance & Management,alias,needs_review,True
+AI Adoption,Artificial Intelligence (AI),alias,high,False
+CBAP,Business Analysis (BA),alias,needs_review,True
+CCBA,Business Analysis (BA),alias,needs_review,True
+Thiết Kế Flowchart,UI/UX Design,alias,high,False
+Tích hợp API,API Development,alias,needs_review,True
+Infrastructure-As-Code,IT Infrastructure & System Administration,alias,high,False
+Kiểm thử ứng dụng,Software Testing,alias,high,False
+Digital Strategy,Digital Transformation / IT Consulting,alias,high,False
+genAI,Artificial Intelligence (AI),alias,high,False
+IT support,IT Support / Helpdesk,alias,high,False
+People Management,Leadership & People Management,alias,high,False
+AI Development,Artificial Intelligence (AI),alias,high,False
+ITIL,Digital Transformation / IT Consulting,alias,high,False
+WebSocket,Backend Development,alias,high,False
+Iso 9001,Quality Management (QA/QC),alias,high,False
+CAPA,Quality Management (QA/QC),alias,needs_review,True
+Tin Học Văn Phòng,Software Engineering (general),alias,high,False
+SQL programming,SQL,alias,needs_review,True
+Burp Suite,Cybersecurity,alias,needs_review,True
+Data AI,Artificial Intelligence (AI),alias,needs_review,True
+Communication and negotiation skills,Communication & Teamwork,alias,high,False
+End-User Support,IT Support / Helpdesk,alias,needs_review,True
+Resource Coordination,Project Management,alias,needs_review,True
+CEH,Cybersecurity,alias,needs_review,True
+SOC,Cybersecurity,alias,high,False
+Cơ Sở Dữ Liệu SQL Server,Microsoft SQL Server,alias,needs_review,True
+Data Security,Cybersecurity,alias,high,False
+Ecommerce Solution,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Kiểm Thử,Software Testing,alias,high,False
+Lập Trình Python,Python,alias,needs_review,True
+Tư duy hệ thống,Problem Solving & Analytical Thinking,alias,high,False
+Risk Control Analysis,Data Analysis,alias,needs_review,True
+Product Security,Cybersecurity,alias,high,False
+Microsoft Office 365,Microsoft Office / Excel,alias,high,False
+Spring Data JPA,Spring / Java frameworks,alias,high,False
+Pre-sales,Digital Transformation / IT Consulting,alias,high,False
+User Research,UI/UX Design,alias,high,False
+Chứng khoán,Blockchain / Fintech,alias,needs_review,True
+QA,Software Testing,alias,high,False
+Test Cases,Software Testing,alias,high,False
+Kernel,Embedded & Firmware,alias,high,False
+I2C,Embedded & Firmware,alias,needs_review,True
+Spi,Embedded & Firmware,alias,needs_review,True
+Posix Operating Systems,Linux,alias,needs_review,True
+Linux Kernel,Linux,alias,high,False
+Linux Device Driver,Linux,alias,high,False
+ARM Cortex-M,Embedded & Firmware,alias,needs_review,True
+Device Drivers,Embedded & Firmware,alias,high,False
+Security Incident Response,Cybersecurity,alias,high,False
+Access Control Management,Cybersecurity,alias,needs_review,True
+Kiểm Thử Bảo Mật,Cybersecurity,alias,high,False
+Presales Technical,Digital Transformation / IT Consulting,alias,high,False
+ABAP,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Technical Communications,Software Engineering (general),alias,high,False
+SQL Tunning,SQL,alias,needs_review,True
+Problem-solving,Problem Solving & Analytical Thinking,alias,high,False
+Network Troubleshooting,.NET / C#,alias,high,False
+Customer Service,Communication & Teamwork,alias,high,False
+Infrastructure Security,Cybersecurity,alias,high,False
+System Analysis,Business Analysis (BA),alias,needs_review,True
+Gap Analysis,Business Analysis (BA),alias,high,False
+Automotive Engineering,Embedded & Firmware,alias,high,False
+Thiết Kế FPGA,UI/UX Design,alias,high,False
+Ui/Ux,UI/UX Design,compound,medium,False
+English Language Proficiency,English,alias,high,False
+Quality Tools,Quality Management (QA/QC),alias,high,False
+Communication and Facilitation,Communication & Teamwork,alias,high,False
+CFA,Blockchain / Fintech,alias,needs_review,True
+Mortgage Loan,Blockchain / Fintech,alias,needs_review,True
+SwiftUI,Swift / iOS,alias,high,False
+Fullstack Development,Full Stack Development,alias,high,False
+Microsoft 365,Windows / Windows Server,alias,high,False
+AI/ML & Data Engineering,Artificial Intelligence (AI),compound,medium,False
+Software engineer,Software Engineering (general),alias,needs_review,True
+Automation Solutions,Automation & RPA,alias,needs_review,True
+Core ERP,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Software Quality Assurance,Quality Management (QA/QC),alias,needs_review,True
+Điều Phối,Project Management,alias,needs_review,True
+ODOO,ERP / CRM / Enterprise Apps,alias,high,False
+Vue.js,JavaScript / TypeScript,alias,high,False
+End User Support,IT Support / Helpdesk,alias,needs_review,True
+Project Finance Management,Blockchain / Fintech,alias,needs_review,True
+Quản Trị Mạng Hạ Tầng,Networking,alias,high,False
+Microsoft Azure,Microsoft Azure,exact,high,False
+Effective Teamwork,Communication & Teamwork,alias,needs_review,True
+CSS3,HTML / CSS,alias,high,False
+Pyspark And Python,Data Warehouse / Big Data | Python,alias,needs_review,True
+Microcontroller Programming,Software Engineering (general),alias,needs_review,True
+SQL & Power BI,SQL | Data Visualization / BI,compound,needs_review,True
+UAT Test,Software Testing,alias,needs_review,True
+PCB Application,Embedded & Firmware,alias,high,False
+Thiết Kế Phần Cứng,UI/UX Design,alias,high,False
+English Fluency,English,alias,high,False
+Data-Driven,Data Analysis,alias,high,False
+Database Administration,Database Design,alias,high,False
+Bi Tools,Data Visualization / BI,alias,needs_review,True
+Operational Excellence,Quality Management (QA/QC),alias,needs_review,True
+Continuous Improvement,Quality Management (QA/QC),alias,needs_review,True
+Debug,Software Engineering (general),alias,high,False
+Data Management Tools,Data Governance & Management,alias,high,False
+SAP ABAP,ERP / CRM / Enterprise Apps,alias,high,False
+Software Process Development,Software Engineering (general),alias,needs_review,True
+ENGLISH COMUNICATION,English,alias,high,False
+WPF,.NET / C#,alias,needs_review,True
+JUnit,Test Automation,alias,high,False
+CloudFormation,Cloud Computing,alias,high,False
+Data mining,Data Analysis,alias,high,False
+Decorator pattern,Software Architecture & Design,alias,needs_review,True
+Repository pattern,Software Architecture & Design,alias,needs_review,True
+PHPUnit,PHP,alias,needs_review,True
+Data Lineage,Data Governance & Management,alias,needs_review,True
+Yii,PHP,alias,needs_review,True
+ARM Cortex,Embedded & Firmware,alias,needs_review,True
+Amazon Aurora,AWS,alias,high,False
+Cucumber,Test Automation,alias,high,False
+ServiceNow App Engine,ERP / CRM / Enterprise Apps,alias,high,False
+Web Application Firewall,Cybersecurity,alias,high,False
+Event-Driven Architecture,Software Architecture & Design,alias,high,False
+JQuery,Frontend Development,alias,high,False
+Sass,HTML / CSS,alias,high,False
+Elixir,Other programming languages,alias,needs_review,True
+k6,Test Automation,alias,high,False
+French,French,exact,needs_review,True
+Blazor,.NET / C#,alias,high,False
+Hadoop,Data Warehouse / Big Data,alias,high,False
+DynamoDB,MongoDB / NoSQL,alias,high,False
+SOAP,API Development,alias,high,False
+ExpressJS,JavaScript / TypeScript,alias,high,False
+Unreal Engine,Mobile Development,alias,high,False
+TestComplete,Software Testing,alias,high,False
+scikit-learn,Machine Learning (ML),alias,high,False
+Bootstrap,HTML / CSS,alias,high,False
+Splunk,Monitoring & Observability,alias,high,False
+NetSuite,.NET / C#,alias,high,False
+Chef,Infrastructure as Code,alias,high,False
+IBM DB2,Database Design,alias,needs_review,True
+Data Catalog,Data Governance & Management,alias,high,False
+Nuxt.js,JavaScript / TypeScript,alias,high,False
+T-SQL,SQL,alias,high,False
+pytest,Test Automation,alias,high,False
+Android studio,Android,alias,high,False
+Manager,Leadership & People Management,alias,high,False
+Team Leader,Leadership & People Management,alias,high,False
+Project Manager,Project Management,alias,high,False
+Backend Developer,Backend Development,alias,high,False
+Fullstack Developer,Full Stack Development,alias,high,False
+Software/Technical Architect,Software Architecture & Design,compound,medium,False
+Manual Tester,Software Testing,alias,high,False
+Embedded Engineer,Embedded & Firmware,alias,high,False
+Frontend Developer,Frontend Development,alias,high,False
+Security Engineer,Cybersecurity,alias,high,False
+Mobile Application Developer,Mobile Development,alias,high,False
+Network Engineer,.NET / C#,alias,high,False
+Java Developer,Java,alias,needs_review,True
+PHP Developer,Software Engineering (general),alias,needs_review,True
+Javascript Developer,Software Engineering (general),alias,needs_review,True
+HTML5 Developer,Software Engineering (general),alias,needs_review,True
+SQL Developer,SQL,alias,needs_review,True
+Android Developer,Android,alias,high,False
+iOS Developer,Swift / iOS,alias,high,False
+Ruby Developer,Ruby,alias,high,False
+Python Developer,Python,alias,needs_review,True
+Ruby On Rails Developer,Ruby,alias,high,False
+.NET Developer,.NET / C#,alias,high,False
+NodeJS Developer,Software Engineering (general),alias,needs_review,True
+Linux Developer,Linux,alias,high,False
+OOP Developer,Software Engineering (general),alias,needs_review,True
+Oracle Developer,Oracle Database,alias,high,False
+C++ Developer,Software Engineering (general),alias,needs_review,True
+Wordpress Developer,Software Engineering (general),alias,needs_review,True
+Database Administrator,Database Design,alias,high,False
+Mobile Apps Developer,Mobile Development,alias,high,False
+Low Code No Code Developer,ERP / CRM / Enterprise Apps,alias,high,False
+Hugging Face Transformers,Artificial Intelligence (AI),alias,needs_review,True
+Entity Framework,.NET / C#,alias,high,False
+CompTIA Security+,Cybersecurity,alias,high,False
+Usability testing,Software Testing,alias,high,False
+LINQ,.NET / C#,alias,needs_review,True
+Azure Cosmos DB,Microsoft Azure,alias,high,False
+Illustrator,UI/UX Design,alias,high,False
+Adobe,UI/UX Design,alias,high,False
+Cocos2d-x,Mobile Development,alias,high,False
+Magento,PHP,alias,needs_review,True
+Drupal,PHP,alias,needs_review,True
+Adobe XD,UI/UX Design,alias,high,False
+Microsoft Copilot,Artificial Intelligence (AI),alias,needs_review,True
+Mobile Backend,Mobile Development,alias,high,False
+Business Analyst Skills,Business Analysis (BA),alias,high,False
+Quản Trị Dữ Liệu Ngân Hàng,Data Governance & Management,alias,high,False
+PCB Layout,Embedded & Firmware,alias,high,False
+"Ứng Dụng Ai, Dữ Liệu Và Llm",Artificial Intelligence (AI) | Data Governance & Management,alias,needs_review,True
+Điều Phối Nhiều Nhóm Chuyên Môn,Project Management,alias,needs_review,True
+ERP Projects,ERP / CRM / Enterprise Apps,alias,high,False
+SAP Logistics,ERP / CRM / Enterprise Apps,alias,high,False
+Webpack,Frontend Development,alias,high,False
+Phân Tích Dữ Liệu Tài Chính,Data Analysis,alias,high,False
+Kiến Trúc Data Warehouse/Data Lake,Software Architecture & Design,compound,medium,False
+Big Data Và Cloud,Data Warehouse / Big Data | Cloud Computing,alias,needs_review,True
+"Sql, Python, R, Scala",SQL | Python | R | Scala,alias,needs_review,True
+Mô Hình Tài Chính,Blockchain / Fintech,alias,needs_review,True
+OOAD,Software Architecture & Design,alias,needs_review,True
+Git/Gerrit,Version Control (Git),compound,needs_review,True
+"Multi-Thread, Multi-Process Programming",Software Engineering (general),alias,needs_review,True
+Effective Presentation,Communication & Teamwork,alias,needs_review,True
+Object Oriented Programming,Software Architecture & Design,alias,high,False
+Javascript Và Python,JavaScript / TypeScript | Python,alias,needs_review,True
+"Api, Webhook Và Tích Hợp Hệ Thống",API Development,alias,high,False
+N8N Và Nền Tảng Tự Động Hóa,Automation & RPA,alias,needs_review,True
+Hệ Thống Llm Và Tác Nhân Ai,Artificial Intelligence (AI),alias,needs_review,True
+Wireless Technologies,Networking,alias,needs_review,True
+SD-WAN,Networking,alias,high,False
+Storage,IT Infrastructure & System Administration,alias,high,False
+Kiểm Thử Sản Phẩm,Software Testing,alias,high,False
+Xây dựng quy trình kiểm thử,Software Testing,alias,needs_review,True
+Hardware R&D,IT Support / Helpdesk,compound,medium,False
+lập trình C/C++,Software Engineering (general) | C/C++,compound,needs_review,True
+"Siem, Soar",Cybersecurity,alias,high,False
+"Python, Bash, Powershell",Python | Shell / Scripting,alias,needs_review,True
+"Terraform, Cloudformation",Infrastructure as Code | Cloud Computing,alias,needs_review,True
+Access Control,Cybersecurity,alias,needs_review,True
+Mobile System Architecture,Software Architecture & Design,alias,high,False
+Signaling Protocols,Networking,alias,needs_review,True
+Wireless solutions,Networking,alias,needs_review,True
+Telecom Infrastructure,Telecommunications,alias,high,False
+Vulnerability Scanning,Cybersecurity,alias,high,False
+Embedded Testing,Embedded & Firmware,alias,high,False
+Analysis & Reporting Skills,Data Analysis,compound,needs_review,True
+Presentation,Communication & Teamwork,alias,high,False
+Database management,Database Design,alias,high,False
+Details Orientation,Problem Solving & Analytical Thinking,alias,needs_review,True
+Cybersecurity Awareness,Cybersecurity,alias,high,False
+Cybersecurity Expertise,Cybersecurity,alias,high,False
+IBM Datastage,Data Warehouse / Big Data,alias,needs_review,True
+Aws Lakehouse/Data Mesh,AWS,compound,medium,False
+Terraform Và Ci/Cd,Infrastructure as Code,compound,needs_review,True
+AWS Cloud Computing,AWS,alias,high,False
+Python Dcc Automation,Python,alias,needs_review,True
+Unreal Engine/Unity Tools,Mobile Development,compound,medium,False
+Rest Apis And Relational Databases,API Development,alias,high,False
+Git Workflow,Version Control (Git),alias,needs_review,True
+Quản Lý Firewall,Cybersecurity,alias,high,False
+Phối Hợp Với Người Dùng,Communication & Teamwork,alias,high,False
+Technical,Software Engineering (general),alias,high,False
+Quản Trị Mạng Máy Tính,Networking,alias,high,False
+Công Nghệ Phần Mềm,Software Engineering (general),alias,needs_review,True
+Multi-Cloud Environments,Cloud Computing,alias,needs_review,True
+Phân tích thị trường,Data Analysis,alias,needs_review,True
+Sáng Tạo Công Nghệ Số,Problem Solving & Analytical Thinking,alias,high,False
+Data Platforms,Data Warehouse / Big Data,alias,needs_review,True
+MLFlow,Machine Learning (ML),alias,needs_review,True
+Kiến Trúc Microservices,Software Architecture & Design,alias,high,False
+Nền Tảng Big Data,Data Warehouse / Big Data,alias,needs_review,True
+Docker Swarm,Containers & Orchestration,alias,high,False
+Tư Vấn Kỹ Thuật,Digital Transformation / IT Consulting,alias,high,False
+Phân Tích Hành Vi,Data Analysis,alias,needs_review,True
+Wireframe,Business Analysis (BA),alias,high,False
+Ux Research,UI/UX Design,alias,high,False
+Electronics,Embedded & Firmware,alias,high,False
+Java 8,Java,alias,needs_review,True
+Apache Tomcat,Backend Development,alias,needs_review,True
+Java EE,Java,alias,high,False
+Network Architecture,.NET / C#,alias,high,False
+Java/.Net/Python,Java | .NET / C# | Python,compound,needs_review,True
+Solution Design,Software Architecture & Design,alias,high,False
+PU Technology,Digital Transformation / IT Consulting,alias,needs_review,True
+Technical Commercial,Software Engineering (general),alias,high,False
+Data Center Operation,IT Infrastructure & System Administration,alias,high,False
+Financial Market Analysis,Data Analysis,alias,needs_review,True
+Integration,System Integration,alias,needs_review,True
+RESTful APIs,API Development,alias,high,False
+Quản Lý Sản Phẩm Thẻ,Product Management,alias,high,False
+Google Ws And Ai Platforms,Artificial Intelligence (AI),alias,needs_review,True
+It Audit,Digital Transformation / IT Consulting,alias,high,False
+Software Audit,Digital Transformation / IT Consulting,alias,needs_review,True
+Lập Báo Cáo Dự Án,Project Management,alias,needs_review,True
+Java Swing,Java,alias,needs_review,True
+Front-End,Frontend Development,alias,high,False
+RDBMS,Database Design,alias,needs_review,True
+Công nghệ & AI,Digital Transformation / IT Consulting | Artificial Intelligence (AI),compound,needs_review,True
+REST,API Development,alias,needs_review,True
+jQuery,Frontend Development,alias,high,False
+Tiếng Trung Giao Tiếp,Chinese,alias,high,False
+Gia Công Phần Mềm,Software Engineering (general),alias,needs_review,True
+Phân Tích Sự Cố,Data Analysis,alias,needs_review,True
+Phân Tích Nghiệp Vụ Tài Chính,Business Analysis (BA),alias,high,False
+Korean Proficiency,Korean,alias,high,False
+Topik 5,Korean,alias,needs_review,True
+Dịch Thuật,Translation / Interpreting,alias,needs_review,True
+IT Software,Software Engineering (general),alias,needs_review,True
+Workflow,ERP / CRM / Enterprise Apps,alias,high,False
+Lean Six Sigma,Quality Management (QA/QC),alias,needs_review,True
+Process Improvement,Quality Management (QA/QC),alias,high,False
+AI / LLM Applications,Artificial Intelligence (AI),compound,medium,False
+Lập Trình C++,Software Engineering (general),alias,needs_review,True
+Phân Tích Lỗi,Data Analysis,alias,needs_review,True
+Routing Protocol,Networking,alias,high,False
+Data Center And Dr Environments,IT Infrastructure & System Administration,alias,high,False
+Architecture Model Making,Software Architecture & Design,alias,high,False
+ERP Business Analysis,ERP / CRM / Enterprise Apps,alias,high,False
+Crm,ERP / CRM / Enterprise Apps,alias,high,False
+AI Digital,Artificial Intelligence (AI),alias,high,False
+Containers And Microservices,Microservices,alias,needs_review,True
+Large-Scale Cloud Migration,Cloud Computing,alias,needs_review,True
+Large Language Model Systems,Artificial Intelligence (AI),alias,needs_review,True
+Agentic workflows,Artificial Intelligence (AI),alias,high,False
+AI Technology,Artificial Intelligence (AI),alias,high,False
+Rtos,Embedded & Firmware,alias,high,False
+Phần Mềm Bệnh Viện,Software Engineering (general),alias,needs_review,True
+CICD,CI/CD,alias,high,False
+Hclab Software Support,IT Support / Helpdesk,alias,needs_review,True
+Integration Management,System Integration,alias,needs_review,True
+Dự án,Project Management,alias,needs_review,True
+Ngân hàng,Blockchain / Fintech,alias,high,False
+Microsoft Dynamics AX,ERP / CRM / Enterprise Apps,alias,needs_review,True
+UX,UI/UX Design,alias,high,False
+Thiết Kế Giao Diện Phần Mềm,UI/UX Design,alias,high,False
+Application Solution,Digital Transformation / IT Consulting,alias,needs_review,True
+Generative AI Applications,Artificial Intelligence (AI),alias,needs_review,True
+MS Excel,Microsoft Office / Excel,alias,high,False
+ERP Management,ERP / CRM / Enterprise Apps,alias,high,False
+Software Troubleshooting,Software Engineering (general),alias,needs_review,True
+Fullstack .NET,Full Stack Development,alias,high,False
+Đàm Phán Hợp Đồng,Communication & Teamwork,alias,high,False
+Backend Engineering,Backend Development,alias,high,False
+Cisco Switches,Networking,alias,high,False
+Firewall Management,Cybersecurity,alias,high,False
+Tích Hợp Giải Pháp Viễn Thông,Digital Transformation / IT Consulting,alias,needs_review,True
+Quản Lý Dự Án Viễn Thông,Project Management,alias,high,False
+Tiếng Trung,Chinese,alias,high,False
+Phần Mềm Ngân Hàng,Software Engineering (general),alias,needs_review,True
+MCU Programming,Software Engineering (general),alias,needs_review,True
+C,C/C++,alias,high,False
+Python- C#- C++,Python | .NET / C# | C/C++,alias,needs_review,True
+Chủ Động- Trách Nhiệm,Problem Solving & Analytical Thinking,alias,needs_review,True
+Giao tiếp và làm việc nhóm,Communication & Teamwork,alias,high,False
+Embedded C programming,Embedded & Firmware,alias,high,False
+Autosar Classic Platform Architecture,Embedded & Firmware,alias,high,False
+Autosar Bsw Configuration And Integration,Embedded & Firmware,alias,high,False
+Mes Logic Implementation,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Infrastructure Management,IT Infrastructure & System Administration,alias,high,False
+Phát triển sản phẩm công nghệ,Product Management,alias,high,False
+Công Nghệ,Digital Transformation / IT Consulting,alias,needs_review,True
+Governance,Digital Transformation / IT Consulting,alias,high,False
+Quality Assessment,Quality Management (QA/QC),alias,high,False
+CMMi,Quality Management (QA/QC),alias,high,False
+IT Service Management,Digital Transformation / IT Consulting,alias,needs_review,True
+Linux Shell,Linux,alias,high,False
+Phân Tích Giải Pháp Cntt,Data Analysis,alias,needs_review,True
+Phân Tích ALM,Data Analysis,alias,needs_review,True
+Quản Trị Rủi Ro Lãi Suất,Project Management,alias,high,False
+Test Lab Management,Software Testing,alias,high,False
+Manufacturing Quality Control,Quality Management (QA/QC),alias,needs_review,True
+Algorithm,Software Architecture & Design,alias,high,False
+Platform Solution,Digital Transformation / IT Consulting,alias,needs_review,True
+Technology Application,Digital Transformation / IT Consulting,alias,needs_review,True
+Power Platform,ERP / CRM / Enterprise Apps,alias,high,False
+Dữ Liệu,Data Governance & Management,alias,needs_review,True
+Kỹ Sư Dữ Liệu,Data Governance & Management,alias,needs_review,True
+Security Administration,Cybersecurity,alias,high,False
+Security Test,Cybersecurity,alias,high,False
+It,Software Engineering (general),alias,high,False
+Etl/Elt,Data Warehouse / Big Data,compound,medium,False
+Data Lake,Data Warehouse / Big Data,alias,high,False
+Hạ Tầng Viễn Thông,IT Infrastructure & System Administration,alias,high,False
+Windows Backup,Windows / Windows Server,alias,high,False
+Cloud Storage,Cloud Computing,alias,high,False
+IBM Cloud,Cloud Computing,alias,needs_review,True
+An Toàn Thông Tin Mạng,Cybersecurity,alias,high,False
+Digital Platform,Digital Transformation / IT Consulting,alias,high,False
+Database Và Data Warehouse,Database Design,alias,high,False
+Security Analysis,Cybersecurity,alias,high,False
+Security Audit,Cybersecurity,alias,high,False
+Automotive software development,Embedded & Firmware,alias,high,False
+Software Configuration Management,Software Engineering (general),alias,needs_review,True
+Matlab,Embedded & Firmware,alias,high,False
+Korean,Korean,exact,high,False
+Postgre,PostgreSQL,alias,needs_review,True
+Shell Script,Shell / Scripting,alias,high,False
+Tài Chính,Blockchain / Fintech,alias,high,False
+Japanese Speaking,Japanese,alias,high,False
+Digital Wallet Expertise,Digital Transformation / IT Consulting,alias,high,False
+C/C ++,C/C++,compound,needs_review,True
+Help Desk Support,IT Support / Helpdesk,alias,high,False
+Tài chính,Blockchain / Fintech,alias,high,False
+Cấu Trúc Dữ Liệu,Software Architecture & Design,alias,high,False
+Ci/Cd & Gitops,CI/CD,compound,medium,False
+"Phối Hợp Với Development, System Và Security",Cybersecurity,alias,high,False
+Vận Hành Hệ Thống Phần Mềm,IT Infrastructure & System Administration,alias,high,False
+Windows Os,Windows / Windows Server,alias,high,False
+Security Engineering,Cybersecurity,alias,high,False
+Pháp Lý Công Nghệ Thông Tin,Digital Transformation / IT Consulting,alias,needs_review,True
+Software Solution Architecture,Software Architecture & Design,alias,high,False
+OpenAI API,Artificial Intelligence (AI),alias,high,False
+Hạ tầng CNTT & Quản trị hệ thống,IT Infrastructure & System Administration,compound,medium,False
+Linux/Windows Server,Linux,compound,medium,False
+Wireless Protocols,Networking,alias,needs_review,True
+"Sql, Python, R",SQL | Python | R,alias,needs_review,True
+Phân Tích Yêu Cầu Giải Pháp,Data Analysis,alias,needs_review,True
+"Kiểm Thử Sit, Uat Và Hồi Quy",Software Testing,alias,high,False
+Phối Hợp Nghiệp Vụ Và Kỹ Thuật,Communication & Teamwork,alias,high,False
+phần mềm,Software Engineering (general),alias,needs_review,True
+ETL Tool,Data Warehouse / Big Data,alias,high,False
+Trực quan hóa dữ liệu,Data Governance & Management,alias,needs_review,True
+Lãnh Đạo,Leadership & People Management,alias,high,False
+Data Governance Frameworks,Data Governance & Management,alias,high,False
+WMS System,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Autosar Classic Architecture,Embedded & Firmware,alias,high,False
+Embedded C++,Embedded & Firmware,alias,high,False
+Automotive Product,Embedded & Firmware,alias,high,False
+SAS Programming,Software Engineering (general),alias,needs_review,True
+Auditing,Digital Transformation / IT Consulting,alias,needs_review,True
+Information Security/ Cybersecurity,Cybersecurity,compound,medium,False
+Giải Pháp Phần Mềm,Software Engineering (general),alias,needs_review,True
+CentOS,Linux,alias,high,False
+Pentesting Tools,Cybersecurity,alias,high,False
+Electronic Testing,Embedded & Firmware,alias,high,False
+Mobile Telecom,Mobile Development,alias,high,False
+Network Analysis,.NET / C#,alias,high,False
+Software Defined Radio (Sdr),Software Engineering (general),alias,needs_review,True
+Tư Duy Toán Học,Problem Solving & Analytical Thinking,alias,high,False
+AutoCAD,Embedded & Firmware,alias,needs_review,True
+Technology Audit,Digital Transformation / IT Consulting,alias,needs_review,True
+It Auditing,Digital Transformation / IT Consulting,alias,high,False
+Cloud Architecture,Cloud Computing,alias,high,False
+Systems Integration Architecture,Software Architecture & Design,alias,high,False
+Kiến Trúc Data Lakehouse,Software Architecture & Design,alias,high,False
+Kiến Trúc Data Warehouse,Software Architecture & Design,alias,high,False
+SAP MM,ERP / CRM / Enterprise Apps,alias,high,False
+SAP S/4HANA,ERP / CRM / Enterprise Apps,compound,medium,False
+Cloud System,Cloud Computing,alias,high,False
+K8S Và Openshift,Containers & Orchestration,alias,needs_review,True
+Oracle Và Tidb,Oracle Database,alias,high,False
+Sáng Tạo Ý Tưởng,Problem Solving & Analytical Thinking,alias,high,False
+SAP ECC 6.0,ERP / CRM / Enterprise Apps,alias,high,False
+Waterfall,Agile & Scrum,alias,high,False
+ERP System Implementation,ERP / CRM / Enterprise Apps,alias,high,False
+Front End,Frontend Development,alias,high,False
+IT Infrastructure Operations,IT Infrastructure & System Administration,alias,high,False
+Tcp/Ip,Networking,compound,medium,False
+gRPC,API Development,alias,high,False
+Debugging Tools Usage,Software Engineering (general),alias,high,False
+Unit Test,Software Testing,alias,high,False
+CNTT,Software Engineering (general),alias,high,False
+Matlab Keras,Embedded & Firmware,alias,high,False
+Data Pipeline,Data Warehouse / Big Data,alias,high,False
+Generative Ai/Llm,Artificial Intelligence (AI),compound,needs_review,True
+Rag Và Vector Database,Artificial Intelligence (AI),alias,needs_review,True
+Mlops/Llmops,Machine Learning (ML),compound,needs_review,True
+Support Engineer,IT Support / Helpdesk,alias,high,False
+SCADA Application,Embedded & Firmware,alias,high,False
+SQL Sever,SQL,alias,needs_review,True
+Oracle Certificate,Oracle Database,alias,high,False
+Netezza,.NET / C#,alias,high,False
+Windows OS Installation,Windows / Windows Server,alias,high,False
+Python Django,Python,alias,needs_review,True
+Uml,Business Analysis (BA),alias,high,False
+Technology Operations,Digital Transformation / IT Consulting,alias,needs_review,True
+Leadership Management,Leadership & People Management,alias,high,False
+IT Infrastructure Management,IT Infrastructure & System Administration,alias,high,False
+Technology Change Management,Digital Transformation / IT Consulting,alias,needs_review,True
+"Technology, AI",Digital Transformation / IT Consulting | Artificial Intelligence (AI),alias,needs_review,True
+MDM Technology,Digital Transformation / IT Consulting,alias,needs_review,True
+Kỹ năng thuyết trình,Communication & Teamwork,alias,high,False
+Erp System,ERP / CRM / Enterprise Apps,alias,high,False
+Manufacturing Data Analysis,Data Analysis,alias,needs_review,True
+Finance Process Improvement,Blockchain / Fintech,alias,needs_review,True
+AI application,Artificial Intelligence (AI),alias,high,False
+Thiết Kế Phần Mềm,UI/UX Design,alias,high,False
+FullStack,Full Stack Development,alias,high,False
+Chuẩn hóa dữ liệu,Data Governance & Management,alias,needs_review,True
+Api Development,API Development,exact,high,False
+Triển Khai ERP,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Thiết Kế Hệ Thống SCADA,UI/UX Design,alias,high,False
+Android App Design,Android,alias,high,False
+Enterprise Software Solutions,Software Engineering (general),alias,needs_review,True
+Cloud Platforms,Cloud Computing,alias,high,False
+UX Wireframes,UI/UX Design,alias,high,False
+UIUX,UI/UX Design,alias,high,False
+Commercial Analysis,Data Analysis,alias,needs_review,True
+ERP SAP System,ERP / CRM / Enterprise Apps,alias,high,False
+Analysis Tool,Data Analysis,alias,needs_review,True
+Sql Statement,SQL,alias,needs_review,True
+ERP Consulting,ERP / CRM / Enterprise Apps,alias,high,False
+ISO9001:2015,Quality Management (QA/QC),alias,high,False
+Web Development,Frontend Development,alias,high,False
+Viết Test Case,Software Testing,alias,needs_review,True
+Cloud Integration,Cloud Computing,alias,high,False
+Quản Lý Tài Chính,Blockchain / Fintech,alias,needs_review,True
+An Ninh Quốc Phòng,Cybersecurity,alias,high,False
+Giải Pháp Cntt,Digital Transformation / IT Consulting,alias,needs_review,True
+Sử Dụng Công Cụ Ai (Llms),Artificial Intelligence (AI),alias,needs_review,True
+"Viết Tài Liệu Urd, Brd",Business Analysis (BA),alias,needs_review,True
+Bpmn Và User Flow,Business Analysis (BA),alias,needs_review,True
+Playwright Python,Python,alias,needs_review,True
+Data Center Infrastructure,IT Infrastructure & System Administration,alias,high,False
+Vmware/Hyper-V,Virtualization,compound,medium,False
+Network systems applications,.NET / C#,alias,high,False
+Java Programming,Java,alias,high,False
+MS Office,Microsoft Office / Excel,alias,high,False
+"Switching, Routing, Vlans, Firewalls, Vpns",Cybersecurity,alias,high,False
+"Containers, Monitoring, Backups, Automation",Monitoring & Observability | IT Infrastructure & System Administration | Automation & RPA,alias,needs_review,True
+Financial Institutions,Blockchain / Fintech,alias,needs_review,True
+Sql And Relational Databases,SQL,alias,needs_review,True
+eCommerce Platforms,ERP / CRM / Enterprise Apps,alias,needs_review,True
+QC,Software Testing,alias,high,False
+Application Support,IT Support / Helpdesk,alias,needs_review,True
+QA Automation,Automation & RPA,alias,needs_review,True
+Circuit Analysis,Data Analysis,alias,needs_review,True
+Computer Hardware Troubleshooting,IT Support / Helpdesk,alias,needs_review,True
+Product Roadmap And Backlog Management,Product Management,alias,high,False
+User Stories Management,Business Analysis (BA),alias,high,False
+Thiết Kế Học Liệu,UI/UX Design,alias,high,False
+Thiết Kế Storyboard,UI/UX Design,alias,high,False
+Learning Development,Problem Solving & Analytical Thinking,alias,high,False
+Sap O2C Process,ERP / CRM / Enterprise Apps,alias,high,False
+Compliance Management,Digital Transformation / IT Consulting,alias,high,False
+Technology Advisory,Digital Transformation / IT Consulting,alias,needs_review,True
+Large Language Models (LLM),Artificial Intelligence (AI),alias,needs_review,True
+Google Sheets,Microsoft Office / Excel,alias,high,False
+Software Project Management,Software Engineering (general),alias,needs_review,True
+OCR systems,Artificial Intelligence (AI),alias,needs_review,True
+Tiếng Anh Thành Thạo,English,alias,high,False
+Quản Lý Hệ Thống Phần Mềm,Software Engineering (general),alias,needs_review,True
+Lập Trình Cơ Bản,Software Engineering (general),alias,needs_review,True
+Cơ Sở Dữ Liệu Sql,SQL,alias,needs_review,True
+Network Infrastructure Architecture,.NET / C#,alias,high,False
+Phân Tích Doanh Nghiệp,Data Analysis,alias,needs_review,True
+Etl/Elt/Cdc/Api,Data Warehouse / Big Data,compound,medium,False
+PySpark,Data Warehouse / Big Data,alias,needs_review,True
+Phân Tích Yêu Cầu,Data Analysis,alias,needs_review,True
+Phân Tích Quy Trình,Data Analysis,alias,needs_review,True
+Kiến Thức Lĩnh Vực Payment Banking,Blockchain / Fintech,alias,needs_review,True
+System security,Cybersecurity,alias,high,False
+Uav Hardware Assembly,IT Support / Helpdesk,alias,needs_review,True
+Drone Prototyping And Testing,UI/UX Design | Software Testing,alias,needs_review,True
+Frontend,Frontend Development,alias,high,False
+Technical Project Management,Software Engineering (general),alias,high,False
+Virtualization VMware,Virtualization,alias,high,False
+Storage Management,IT Infrastructure & System Administration,alias,high,False
+Quản trị dữ liệu & BI,Data Governance & Management,compound,medium,False
+Communication & Negotiation Skills,Communication & Teamwork,compound,medium,False
+Proactive Spirit,Problem Solving & Analytical Thinking,alias,high,False
+Giao Tiếp Khách Hàng,Communication & Teamwork,alias,high,False
+Azure Dev Ops,Microsoft Azure,alias,high,False
+Event-driven architecture,Software Architecture & Design,alias,high,False
+Product Roadmap Ownership,Product Management,alias,high,False
+Process Analysis,Data Analysis,alias,needs_review,True
+Aiot Technologies,Artificial Intelligence (AI),alias,high,False
+IT Security solution,Cybersecurity,alias,high,False
+Cloud Solutions,Cloud Computing,alias,high,False
+Mobile Application,Mobile Development,alias,high,False
+CRM Software Management,ERP / CRM / Enterprise Apps,alias,high,False
+Project Management Support,Project Management,alias,high,False
+ERP System Software,ERP / CRM / Enterprise Apps,alias,high,False
+SRE,DevOps,alias,high,False
+Quality Control & Assurance,Quality Management (QA/QC),compound,medium,False
+Quality Management Tools,Quality Management (QA/QC),alias,high,False
+AI Governance,Artificial Intelligence (AI),alias,high,False
+Business Systems Analysis,Data Analysis,alias,needs_review,True
+Cost Benefit Analysis,Data Analysis,alias,needs_review,True
+Hỗ Trợ Khách Hàng,IT Support / Helpdesk,alias,needs_review,True
+Market Research,Product Management,alias,high,False
+Python Hoặc C/C++,Python | C/C++,compound,needs_review,True
+QMS Auditing,Digital Transformation / IT Consulting,alias,needs_review,True
+Database Technology,Database Design,alias,high,False
+An toàn thông tin (IT Security),Cybersecurity,alias,high,False
+Cơ Sở Dữ Liệu Non-Sql,SQL,alias,needs_review,True
+Azure Data Services,Microsoft Azure,alias,high,False
+Quality Engineering,Quality Management (QA/QC),alias,high,False
+Python Development,Python,alias,needs_review,True
+UX/UI Design,UI/UX Design,compound,medium,False
+Security Protocols,Cybersecurity,alias,high,False
+iOS Development,Swift / iOS,alias,high,False
+Ui/Ux Design,UI/UX Design,compound,medium,False
+Thử Nghiệm Độ Tin Cậy,Software Testing,alias,needs_review,True
+Web Security,Cybersecurity,alias,high,False
+"Python, Javascript/Typescript, Go",Python | JavaScript / TypeScript | Go,compound,needs_review,True
+Malware,Cybersecurity,alias,high,False
+AI/ML,Artificial Intelligence (AI),compound,medium,False
+URD,Business Analysis (BA),alias,needs_review,True
+Erp Systems,ERP / CRM / Enterprise Apps,alias,high,False
+Systems Architecture,Software Architecture & Design,alias,high,False
+Model Integration,System Integration,alias,needs_review,True
+Quality,Quality Management (QA/QC),alias,high,False
+STM32,Embedded & Firmware,alias,high,False
+Python And Node.Js Api Servers,Python,alias,needs_review,True
+Ubuntu,Linux,alias,high,False
+Sql And Vector Db,SQL,alias,needs_review,True
+Researching New Technologies,Problem Solving & Analytical Thinking,alias,high,False
+Audit,Digital Transformation / IT Consulting,alias,needs_review,True
+Chất Lượng Sản Phẩm,Quality Management (QA/QC),alias,needs_review,True
+WMS operations,ERP / CRM / Enterprise Apps,alias,needs_review,True
+SAP System Proficiency,ERP / CRM / Enterprise Apps,alias,high,False
+Data Automation,Automation & RPA,alias,needs_review,True
+Stakeholder communication,Digital Transformation / IT Consulting,alias,high,False
+"Prometheus, Grafana, Loki, Elk Stack",Monitoring & Observability | MongoDB / NoSQL,alias,needs_review,True
+Tư duy phân tích & giải quyết vấn đề,Problem Solving & Analytical Thinking,compound,medium,False
+System Security Management,Cybersecurity,alias,high,False
+Quản Trị Dự Án Phần Mềm,Project Management,alias,needs_review,True
+Agile Hoặc Scrum,Agile & Scrum,alias,high,False
+Quản lý chất lượng,Quality Management (QA/QC),alias,needs_review,True
+Quản Trị Hệ Thống Erp,IT Infrastructure & System Administration,alias,high,False
+SAP BTP,ERP / CRM / Enterprise Apps,alias,high,False
+SAP Fiori,ERP / CRM / Enterprise Apps,alias,high,False
+Viết Câu Lệnh Truy Vấn Sql,SQL,alias,needs_review,True
+Sử Dụng Ít Nhất Một Bi Tool,Data Visualization / BI,alias,needs_review,True
+Kiểm Thử Xâm Nhập Web/Api,Software Testing,compound,medium,False
+Kiểm Thử Ứng Dụng Ai/Llm,Software Testing,compound,medium,False
+Tự Động Hóa Python/Go,Python | Go,compound,needs_review,True
+Devsecops Và Ci/Cd,Cybersecurity,compound,medium,False
+Leadership Mindset,Leadership & People Management,alias,high,False
+Giao Tiếp,Communication & Teamwork,alias,high,False
+Owasp Masvs/Mastg,Cybersecurity,compound,medium,False
+Dwdm- Otn- Nms Transmission Systems,Telecommunications,alias,high,False
+Dwdm/Otn Equipment,Telecommunications,compound,medium,False
+Optical Transmission,Telecommunications,alias,needs_review,True
+Channel Support,IT Support / Helpdesk,alias,needs_review,True
+Network Support,.NET / C#,alias,high,False
+Service Desk,IT Support / Helpdesk,alias,high,False
+Bảo Trì Thiết Bị Tin Học,IT Support / Helpdesk,alias,needs_review,True
+Thiết Kế Hệ Thống Nhúng,UI/UX Design,alias,high,False
+Data Pipeline Optimization,Data Warehouse / Big Data,alias,high,False
+Playwright/Cypress/Selenium,Test Automation,compound,needs_review,True
+Ci/Cd Và Git,CI/CD,compound,medium,False
+Giao Tiếp Chủ Động,Communication & Teamwork,alias,high,False
+Ecommerce Platforms,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Data Processing,Data Warehouse / Big Data,alias,needs_review,True
+AI Applications,Artificial Intelligence (AI),alias,high,False
+SAP Analytics Cloud,ERP / CRM / Enterprise Apps,alias,high,False
+Kiểm Tra Xử Lý Phần Cứng,IT Support / Helpdesk,alias,needs_review,True
+Thiết Kế UX,UI/UX Design,alias,high,False
+Ai-Driven Planning And Automation,Artificial Intelligence (AI),alias,high,False
+Communication Leadership,Communication & Teamwork,alias,high,False
+Mobile Banking,Mobile Development,alias,high,False
+Korean Language,Korean,alias,high,False
+Pmp/Acp,Project Management,compound,needs_review,True
+AIMS,Artificial Intelligence (AI),alias,high,False
+Japanese Communication,Japanese,alias,high,False
+Sdlc And Cloud Computing,Software Engineering (general) | Cloud Computing,alias,needs_review,True
+Database Programming,Database Design,alias,high,False
+Analytic Skills,Problem Solving & Analytical Thinking,alias,high,False
+Phát Triển Ai / Machine Learning,Artificial Intelligence (AI) | Machine Learning (ML),compound,needs_review,True
+Thiết Kế CAD 2D,UI/UX Design,alias,high,False
+Phối Hợp Với Kỹ Sư,Communication & Teamwork,alias,high,False
+Đánh Giá Tác Động Dữ Liệu Cá Nhân,Data Governance & Management,alias,needs_review,True
+Phân Tích Data Flow,Data Analysis,alias,needs_review,True
+Kiến Trúc Vật Liệu,Software Architecture & Design,alias,high,False
+RESTful API design,API Development,alias,high,False
+Owasp Methodologies,Cybersecurity,alias,high,False
+Application Security Assessment,Cybersecurity,alias,high,False
+Linux OS,Linux,alias,high,False
+Cloud Enterprise Architecture,Cloud Computing,alias,high,False
+IT Help Desk,IT Support / Helpdesk,alias,high,False
+Business Model Analysis,Data Analysis,alias,needs_review,True
+Communication With Bod,Communication & Teamwork,alias,high,False
+Business Process Flow,Business Analysis (BA),alias,high,False
+Ai Application,Artificial Intelligence (AI),alias,high,False
+Điều Phối Dự Án,Project Management,alias,needs_review,True
+Security Risk,Cybersecurity,alias,high,False
+Product Manager,Product Management,alias,high,False
+Low-code Development,ERP / CRM / Enterprise Apps,alias,high,False
+Giải Pháp Kỹ Thuật,Digital Transformation / IT Consulting,alias,needs_review,True
+Xây Dựng Giải Pháp,Digital Transformation / IT Consulting,alias,needs_review,True
+Vpn Và Sd-Wan,Networking,alias,needs_review,True
+Phối Hợp Đa Bên,Communication & Teamwork,alias,high,False
+Payments And Collections,Blockchain / Fintech,alias,high,False
+RabbitMq,Backend Development,alias,high,False
+Vhdl Hoặc Verilog,Embedded & Firmware,alias,high,False
+Thiết Kế Mạch Điện Tử,UI/UX Design,alias,high,False
+Làm Việc Nhóm,Communication & Teamwork,alias,high,False
+Mobile App Design,Mobile Development,alias,high,False
+Adobe Analytics,UI/UX Design,alias,high,False
+Lập Trình ABAP,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Sap Pp,ERP / CRM / Enterprise Apps,alias,high,False
+"Waterfall, Agile/Hybrid",Agile & Scrum,compound,medium,False
+Governance Review,Digital Transformation / IT Consulting,alias,high,False
+Kỹ Năng Điều Phối,Project Management,alias,needs_review,True
+Thành thạo SQL,SQL,alias,needs_review,True
+Lập Trình Phân Tích Bằng Python,Python,alias,needs_review,True
+Sprint And Delivery Metrics,Agile & Scrum,alias,high,False
+Mobile Development,Mobile Development,exact,high,False
+Product Analysis,Data Analysis,alias,needs_review,True
+"Bgp, Ospf, Vlans",Networking,alias,needs_review,True
+Cisco Technology,Networking,alias,high,False
+Root cause analysis,Data Analysis,alias,needs_review,True
+Automation Software,Automation & RPA,alias,needs_review,True
+System Integration And Debugging,IT Infrastructure & System Administration,alias,high,False
+Python và SQL,Python | SQL,alias,needs_review,True
+Azure Data Factory,Microsoft Azure,alias,high,False
+Cloud Data,Cloud Computing,alias,high,False
+Telecom System Design,Telecommunications,alias,high,False
+Payment System,Blockchain / Fintech,alias,high,False
+Access Control System,Cybersecurity,alias,needs_review,True
+Security Risk Management,Cybersecurity,alias,high,False
+market research,Product Management,alias,high,False
+Interaction Design,UI/UX Design,alias,high,False
+Visual Design,UI/UX Design,alias,high,False
+Next.Js,JavaScript / TypeScript,alias,high,False
+Systems Analysis,Data Analysis,alias,needs_review,True
+Machine Learning Engineering,Machine Learning (ML),alias,high,False
+Leadership Skills,Leadership & People Management,alias,high,False
+Web App,Frontend Development,alias,high,False
+Azure DevOps,Microsoft Azure,alias,high,False
+Virtualization infrastructure,Virtualization,alias,high,False
+Etl/Elt Pipelines,Data Warehouse / Big Data,compound,medium,False
+Quản Trị Hệ Thống Mạng,IT Infrastructure & System Administration,alias,high,False
+Linux CentOS,Linux,alias,high,False
+Engineering Application Softwares,Software Engineering (general),alias,needs_review,True
+Thiết Kế Website,UI/UX Design,alias,high,False
+Đảm Bảo Chất Lượng,Quality Management (QA/QC),alias,needs_review,True
+Php,PHP,exact,high,False
+Full Stack Developer,Full Stack Development,alias,high,False
+SDLC methodologies,Software Engineering (general),alias,needs_review,True
+ORM,Backend Development,alias,high,False
+Systems Administration,IT Infrastructure & System Administration,alias,high,False
+Troubleshooting Skills,IT Support / Helpdesk,alias,high,False
+Giao Tiếp Với Stakeholder,Communication & Teamwork,alias,high,False
+Finance,Blockchain / Fintech,alias,needs_review,True
+Technical Engineering,Software Engineering (general),alias,high,False
+Data Center Management,IT Infrastructure & System Administration,alias,high,False
+CNTT - Phần Cứng,Software Engineering (general) | IT Support / Helpdesk,alias,needs_review,True
+Triển Khai Dự Án Chuyển Đổi Số,Project Management,alias,high,False
+Microsoft Excel,Microsoft Office / Excel,alias,high,False
+Java Backend Development,Java,alias,needs_review,True
+ASP.NET Core,.NET / C#,alias,high,False
+Lập Trình Frontend,Software Engineering (general),alias,needs_review,True
+Thiết Kế API,UI/UX Design,alias,high,False
+Thiết Kế Cơ Sở Dữ Liệu,UI/UX Design,alias,high,False
+Web Application Technology,Frontend Development,alias,high,False
+Ai-Integrated Feature Delivery,Artificial Intelligence (AI),alias,high,False
+Azure SQL Database,Microsoft Azure,alias,high,False
+Azure Databricks,Microsoft Azure,alias,high,False
+It/Ot Integration,Software Engineering (general) | System Integration,compound,needs_review,True
+Industrial Cybersecurity,Cybersecurity,alias,high,False
+Infrastructure Supervision,IT Infrastructure & System Administration,alias,high,False
+It Technical Support,IT Support / Helpdesk,alias,needs_review,True
+Ruby Programming,Ruby,alias,high,False
+Agile Software,Agile & Scrum,alias,high,False
+Customer Service Mindset,Communication & Teamwork,alias,high,False
+Compliance,Digital Transformation / IT Consulting,alias,high,False
+Thiết kế quy trình,UI/UX Design,alias,high,False
+Giải Pháp Chuyển Đổi Số,Digital Transformation / IT Consulting,alias,needs_review,True
+Triển Khai E-Learning/Lms,ERP / CRM / Enterprise Apps,compound,needs_review,True
+Công Nghệ Giáo Dục,Digital Transformation / IT Consulting,alias,needs_review,True
+IT Solutions Delivery,Digital Transformation / IT Consulting,alias,needs_review,True
+Negotiation skills,Communication & Teamwork,alias,high,False
+It Strategy Development,Digital Transformation / IT Consulting,alias,high,False
+Erp Systems Knowledge,ERP / CRM / Enterprise Apps,alias,high,False
+Phân Tích Tài Chính,Data Analysis,alias,needs_review,True
+UI Design,UI/UX Design,alias,high,False
+Digital Platforms,Digital Transformation / IT Consulting,alias,high,False
+SAP Master Data,ERP / CRM / Enterprise Apps,alias,high,False
+Digital Solution,Digital Transformation / IT Consulting,alias,high,False
+UI Programming,UI/UX Design,alias,high,False
+UI Development,UI/UX Design,alias,high,False
+ITIL Frameworks,Digital Transformation / IT Consulting,alias,high,False
+Cloud Server,Cloud Computing,alias,high,False
+Database Query,Database Design,alias,high,False
+Html/Css,HTML / CSS,compound,needs_review,True
+Attention to Details,Problem Solving & Analytical Thinking,alias,high,False
+"Spss, Excel, Sql, Python, Vba",Microsoft Office / Excel | SQL | Python,alias,needs_review,True
+Powerpoint,Microsoft Office / Excel,alias,high,False
+Reporting and analytical skills,Problem Solving & Analytical Thinking,alias,needs_review,True
+Implementing Business Software,Software Engineering (general),alias,needs_review,True
+CRM Softwares,ERP / CRM / Enterprise Apps,alias,high,False
+requirements analysis,Business Analysis (BA),alias,high,False
+WMS Implementations,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Jira- Confluence- Draw.io- Figma,Agile & Scrum | UI/UX Design,alias,needs_review,True
+Dashboard Analysis,Data Analysis,alias,needs_review,True
+Planning and Analytical Skills,Problem Solving & Analytical Thinking,alias,needs_review,True
+Ai Agent Và Agentic Workflow,Artificial Intelligence (AI),alias,high,False
+Llm Và Rag,Artificial Intelligence (AI),alias,needs_review,True
+Đánh Giá Chất Lượng,Quality Management (QA/QC),alias,needs_review,True
+Tư Duy Product,Problem Solving & Analytical Thinking,alias,high,False
+CRM System,ERP / CRM / Enterprise Apps,alias,high,False
+Help Desk,IT Support / Helpdesk,alias,high,False
+Hardware Maintenance,IT Support / Helpdesk,alias,high,False
+Technical Troubleshooting,Software Engineering (general),alias,high,False
+Sales Analysis,Data Analysis,alias,needs_review,True
+Pre-Sales Experience,Digital Transformation / IT Consulting,alias,high,False
+"Jira, Confluence, Figma, Draw.Io",Agile & Scrum | UI/UX Design,alias,needs_review,True
+SAP CRM,ERP / CRM / Enterprise Apps,alias,high,False
+Data Lake Và Bi,Data Warehouse / Big Data,alias,high,False
+PowerPoint,Microsoft Office / Excel,alias,high,False
+Telecom Support,Telecommunications,alias,high,False
+Solution Consulting,Digital Transformation / IT Consulting,alias,needs_review,True
+Manual Test,Software Testing,alias,high,False
+Embedded Programming C++,Embedded & Firmware,alias,high,False
+Mcu And Rtos,Embedded & Firmware,alias,needs_review,True
+Git And Alm Tools,Version Control (Git),alias,needs_review,True
+Wifi Wireless Chipsets,Networking,alias,needs_review,True
+ICT infrastructure management,Digital Transformation / IT Consulting,alias,needs_review,True
+Network Infrastructure Expertise,.NET / C#,alias,high,False
+Linux system,Linux,alias,high,False
+AI-assisted workflows,Artificial Intelligence (AI),alias,high,False
+AI coding tools,Artificial Intelligence (AI),alias,high,False
+Local Ai Deployment,Artificial Intelligence (AI),alias,needs_review,True
+Creative Mindset,Problem Solving & Analytical Thinking,alias,high,False
+Datacom Protocols,Networking,alias,needs_review,True
+Chinese Communication,Chinese,alias,high,False
+B2B Solution Sales,Digital Transformation / IT Consulting,alias,needs_review,True
+Solution Development,Digital Transformation / IT Consulting,alias,needs_review,True
+Financial Analysis,Data Analysis,alias,needs_review,True
+Api- Microservice,API Development,alias,high,False
+AI system,Artificial Intelligence (AI),alias,high,False
+Sql Và Postgresql,SQL | PostgreSQL,alias,needs_review,True
+Cloud Native Solutions,Cloud Computing,alias,high,False
+Mysql/Mariadb Administration,MySQL,compound,needs_review,True
+Oracle Database Administration,Oracle Database,alias,high,False
+Technical Analysis,Software Engineering (general),alias,high,False
+Test Driven Development,Software Testing,alias,high,False
+Continuous Integration,System Integration,alias,needs_review,True
+Css,HTML / CSS,alias,high,False
+Css Operation,HTML / CSS,alias,needs_review,True
+DB2,Database Design,alias,needs_review,True
+Oracle Cloud,Oracle Database,alias,high,False
+Chuyển Đổi Số,Digital Transformation / IT Consulting,alias,high,False
+Fortigate Firewall,Cybersecurity,alias,high,False
+Đàm Phán Thương Mại,Communication & Teamwork,alias,high,False
+Digital Storytelling,Digital Transformation / IT Consulting,alias,high,False
+BigQuery,Data Warehouse / Big Data,alias,high,False
+Figma Và Prototype,UI/UX Design,alias,needs_review,True
+Financial Service,Blockchain / Fintech,alias,needs_review,True
+Business Process Modeling Using Bpmn,Business Analysis (BA),alias,high,False
+"Brd, Fsd, And Srs Authoring",Business Analysis (BA),alias,needs_review,True
+Team Building Facilitation,Leadership & People Management,alias,high,False
+Power Apps,ERP / CRM / Enterprise Apps,alias,high,False
+English Language Skills,English,alias,high,False
+Hardware Support,IT Support / Helpdesk,alias,high,False
+An Ninh,Cybersecurity,alias,high,False
+Security Monitoring,Cybersecurity,alias,high,False
+IT Solutions,Digital Transformation / IT Consulting,alias,needs_review,True
+Architect,Software Architecture & Design,alias,high,False
+Analytics,Problem Solving & Analytical Thinking,alias,high,False
+Technology,Digital Transformation / IT Consulting,alias,needs_review,True
+A/B Testing,Data Analysis,compound,medium,False
+IT Solution Consulting,Digital Transformation / IT Consulting,alias,needs_review,True
+SAP CO,ERP / CRM / Enterprise Apps,alias,high,False
+IT Compliance,Digital Transformation / IT Consulting,alias,needs_review,True
+Ngân Hàng Số,Blockchain / Fintech,alias,high,False
+CRM Projects,ERP / CRM / Enterprise Apps,alias,high,False
+Togaf Framework,Software Architecture & Design,alias,needs_review,True
+Kiến Trúc Nền Tảng Dữ Liệu,Software Architecture & Design,alias,high,False
+Lập Trình Máy Tính,Software Engineering (general),alias,needs_review,True
+"Sql, Python, And Vba",SQL | Python | Microsoft Office / Excel,alias,needs_review,True
+Security Operations,Cybersecurity,alias,high,False
+Chứng Chỉ Togaf,Software Architecture & Design,alias,needs_review,True
+Sprint Planning,Agile & Scrum,alias,high,False
+User Story,Business Analysis (BA),alias,high,False
+4G,Telecommunications,alias,high,False
+4G 5G knowledge,Telecommunications,alias,high,False
+Viễn Thông - CNTT,Telecommunications,alias,high,False
+Thiết Kế A/B Test,UI/UX Design,compound,medium,False
+Market Analysis,Data Analysis,alias,needs_review,True
+Oracle CRM,Oracle Database,alias,high,False
+Statistical Modeling,Data Analysis,alias,high,False
+Microsoft Power BI,ERP / CRM / Enterprise Apps,alias,high,False
+Thiết Kế Hệ Thống CRM,UI/UX Design,alias,high,False
+Lập Trình Rpa Uipath,Automation & RPA,alias,needs_review,True
+Lập Trình NET,Software Engineering (general),alias,needs_review,True
+Kỹ năng nắm bắt và giải quyết vấn đề,Problem Solving & Analytical Thinking,alias,needs_review,True
+Phần Mềm CAD,Software Engineering (general),alias,needs_review,True
+Product Validation,Quality Management (QA/QC),alias,needs_review,True
+Creative Problem Solving,Problem Solving & Analytical Thinking,alias,high,False
+Software Installation,Software Engineering (general),alias,needs_review,True
+Vận Hành Máy Chủ,IT Infrastructure & System Administration,alias,needs_review,True
+UXUI Design,UI/UX Design,alias,high,False
+Digital Product Development,Digital Transformation / IT Consulting,alias,high,False
+Thiết Kế Pcb Altium Designer,UI/UX Design,alias,high,False
+Thiết Kế Mạch Thủy Lực,UI/UX Design,alias,high,False
+Lập Trình Vi Điều Khiển,Software Engineering (general),alias,needs_review,True
+"Rtos Và Giao Tiếp Can, I2C, Spi, Uart",Embedded & Firmware | Communication & Teamwork,alias,needs_review,True
+Kỹ Năng Debug Mạch Phần Cứng,IT Support / Helpdesk,alias,needs_review,True
+Storage Solution,IT Infrastructure & System Administration,alias,high,False
+Cơ Sở Dữ Liệu Quan Hệ (Sql),SQL,alias,needs_review,True
+Lập Trình ERP,ERP / CRM / Enterprise Apps,alias,needs_review,True
+Tư Vấn Giải Pháp Kỹ Thuật,Digital Transformation / IT Consulting,alias,high,False
+Hse Compliance,Digital Transformation / IT Consulting,alias,needs_review,True
+CompTIA Security,Cybersecurity,alias,high,False
+Rust Programming,Software Engineering (general),alias,needs_review,True
+Quality Control Plan,Quality Management (QA/QC),alias,high,False
+Aws Services,AWS,alias,high,False
+Test Engineering,Software Testing,alias,high,False
+Test Designing,Software Testing,alias,high,False
+Azure Monitor And Log Analytics,Microsoft Azure,alias,high,False
+Viết Prd Và User Story,Business Analysis (BA),alias,needs_review,True
+Ngôn Ngữ Sql,SQL,alias,needs_review,True
+System Validation,Quality Management (QA/QC),alias,needs_review,True
+Kubernetes Và Cloud,Containers & Orchestration | Cloud Computing,alias,needs_review,True
+Nodejs Và Python,JavaScript / TypeScript | Python,alias,needs_review,True
+Api Và Tích Hợp Hệ Thống,API Development,alias,high,False
+Vận Hành Hệ Thống Thu Phí,IT Infrastructure & System Administration,alias,high,False
+Quản Trị Rủi Ro,Project Management,alias,high,False
+Bug Report Writing,Software Testing,alias,high,False
+Platform Policy Compliance,Digital Transformation / IT Consulting,alias,needs_review,True
+Mobile Software,Mobile Development,alias,high,False
+Phát Triển Giải Pháp,Digital Transformation / IT Consulting,alias,needs_review,True
+Product Solutions,Digital Transformation / IT Consulting,alias,needs_review,True
+Web Automation Testing,Automation & RPA,alias,needs_review,True
+phân tích yêu cầu,Data Analysis,alias,needs_review,True
+It HelpDesk,IT Support / Helpdesk,alias,high,False
+Microsoft Office proficiency,Microsoft Office / Excel,alias,high,False
+LLM & Prompt Engineering,Artificial Intelligence (AI),compound,needs_review,True
+Sql Và Python,SQL | Python,alias,needs_review,True
+Big Data Processing,Data Warehouse / Big Data,alias,needs_review,True
+Spi Equipment Operation,Embedded & Firmware,alias,needs_review,True
+System Security,Cybersecurity,alias,high,False
+Digital transformation,Digital Transformation / IT Consulting,alias,high,False
+Vendor Management,Digital Transformation / IT Consulting,alias,high,False
+Threat Modeling,Cybersecurity,alias,high,False
+MES operation,ERP / CRM / Enterprise Apps,alias,needs_review,True
+CloudWatch,Cloud Computing,alias,high,False
+Quản Trị Hệ Thống ERP,IT Infrastructure & System Administration,alias,high,False
+Manufacturing Test Strategy,Software Testing,alias,needs_review,True
+Hardware Testing,IT Support / Helpdesk,alias,high,False
+Failure Analysis,Data Analysis,alias,needs_review,True
+Threat Hunting,Cybersecurity,alias,high,False
+Network Forensic,.NET / C#,alias,high,False
+Malware Analysis,Cybersecurity,alias,high,False
+Network Configuration,.NET / C#,alias,high,False
+Information Security Analysis,Cybersecurity,alias,high,False
+Infrastructure Consulting,IT Infrastructure & System Administration,alias,high,False
+Troubleshooting Control Systems,IT Support / Helpdesk,alias,high,False
+Automation system,Automation & RPA,alias,needs_review,True
+Lan/Wan Networks,Networking,compound,needs_review,True
+Low-Code/No-Code Platforms,ERP / CRM / Enterprise Apps,compound,medium,False
+Matrix Leadership,Leadership & People Management,alias,needs_review,True
+Cloud Development,Cloud Computing,alias,high,False
+Software Lifecycle Management,Software Engineering (general),alias,needs_review,True
+AI Solutions,Artificial Intelligence (AI),alias,high,False
+Tư duy sản phẩm,Problem Solving & Analytical Thinking,alias,high,False
+Tư Duy Kinh Doanh,Problem Solving & Analytical Thinking,alias,high,False
+ERP Application,ERP / CRM / Enterprise Apps,alias,high,False
+ERP Deployment,ERP / CRM / Enterprise Apps,alias,high,False
+Salesforce Implementation,ERP / CRM / Enterprise Apps,alias,high,False
+Software Engineer,Software Engineering (general),alias,needs_review,True
+Cisco CCNP,Networking,alias,high,False
+Analytical Problem Solving,Problem Solving & Analytical Thinking,alias,high,False
+Playwright With Python,Python,alias,needs_review,True
+Scalable Automation Frameworks,Automation & RPA,alias,needs_review,True
+Risk-based auditing,Digital Transformation / IT Consulting,alias,needs_review,True
+Giải Pháp Robot,Digital Transformation / IT Consulting,alias,needs_review,True
+Giải Pháp Tích Hợp,Digital Transformation / IT Consulting,alias,needs_review,True
+Database Design,Database Design,exact,high,False
+Stakeholder Relationship,Digital Transformation / IT Consulting,alias,high,False
+Robot Programming,Software Engineering (general),alias,needs_review,True
+Telecom And Radio Systems Railway,Telecommunications,alias,high,False
+Telecom Equipment Delivery,Telecommunications,alias,high,False
+Telecom Installation,Telecommunications,alias,high,False
+Banking Operation Control,Blockchain / Fintech,alias,high,False
+Solution Oriented,Digital Transformation / IT Consulting,alias,needs_review,True
+Database Management,Database Design,alias,high,False
+Ai Governance,Artificial Intelligence (AI),alias,high,False
+Power Query,Data Visualization / BI,alias,high,False
+Agile Leadership,Agile & Scrum,alias,high,False
+.Net & Flutter,.NET / C#,compound,medium,False
+Negotiation,Communication & Teamwork,alias,high,False
+Database System,Database Design,alias,high,False
+System Integrations,IT Infrastructure & System Administration,alias,high,False
+Mobile Product,Mobile Development,alias,high,False
+French Language,French,alias,needs_review,True
+User Support,IT Support / Helpdesk,alias,needs_review,True
+Quản Trị Phần Mềm,Software Engineering (general),alias,needs_review,True
+Hỗ trợ khách hàng,IT Support / Helpdesk,alias,needs_review,True
+Customer Journey Mapping,Business Analysis (BA),alias,high,False
+Digital Product Strategy,Digital Transformation / IT Consulting,alias,high,False
+API Restful,API Development,alias,high,False
+Vận Hành Hạ Tầng,IT Infrastructure & System Administration,alias,needs_review,True
+Http Protocol,Networking,alias,needs_review,True
+VPN,Networking,alias,high,False
+SAP Functional,ERP / CRM / Enterprise Apps,alias,high,False
+Testing Process,Software Testing,alias,high,False
+Thiết Kế Digital,UI/UX Design,alias,high,False
+PCB,Embedded & Firmware,alias,high,False
+Phần Mềm Thiết Kế 3D,Software Engineering (general),alias,needs_review,True
+PCB Layout Design,Embedded & Firmware,alias,high,False
+Automated Test Equipment (Ate),Test Automation,alias,high,False
+Mobile Web Design,Mobile Development,alias,high,False
+APIs,API Development,alias,high,False
+Ai Solutions,Artificial Intelligence (AI),alias,high,False
+Selenium WebDriver,Test Automation,alias,high,False
+Erp Implementation,ERP / CRM / Enterprise Apps,alias,high,False
+"Programming/Scripting (Al, C/Al, X++, Sql)",Software Engineering (general) | Shell / Scripting | C/C++ | SQL,compound,needs_review,True
+Requirement Specification,Business Analysis (BA),alias,high,False
+Design Pattern,Software Architecture & Design,alias,high,False
+Rest Api Và Database,API Development,alias,high,False
+Linux- Docker Và Ci/Cd,Linux,compound,medium,False
+Apis And Webhooks,API Development,alias,high,False
+Production Support,IT Support / Helpdesk,alias,needs_review,True
+Database MySQL,Database Design,alias,high,False

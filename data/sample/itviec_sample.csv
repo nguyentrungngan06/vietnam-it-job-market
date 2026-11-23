@@ -1,0 +1,276 @@
+﻿job_id,title,company,url,city,salary_visible,salary_min,salary_max,currency,salary_text,skills,description,requirement,site,company_slug,job_key,first_seen,last_seen,days_active,is_active,source_file,left_censored,right_censored,text_source,text_quality,job_uid
+4376026541,"DevOps Engineer (Python, AWS, Linux)",Techcom Securities,https://itviec.com/it-jobs/devops-engineer-python-aws-linux-techcom-securities-1643?lab_feature=preview_jd_page,Ha Noi,False,,,,,DevOps | CI/CD | Docker | Azure | AWS | Python,"Job description
+
+Techcom Securities (TCBS) đang tìm kiếm một số kỹ sư CloudOps, DevSecOps, DevOps để tham gia bộ phận CNTT của chúng tôi tại văn phòng Hà Nội. 
+
+ 
+
+Đây là cơ hội để bạn trở thành một thành viên trong đội ngũ ngân hàng đầu tư sáng tạo và uy tín hàng đầu Việt Nam! Nơi làm việc: 119 Trầ","Your skills and experience
+
+- Cử nhân hoặc Thạc sĩ về CNTT & Công nghệ hoặc lĩnh vực liên quan
+
+- Kinh nghiệm làm việc với AWS và các dịch vụ như EC2, EKS, S3, RDS, Lambda, VPC, IAM, v.v.
+
+- Kiến thức về mạng, bảo mật, và quản lý hệ thống.
+
+- Kỹ năng lập trình hoặc scripting (Python, Bash, hoặc Powe",itviec,techcom-securities,https://itviec.com/it-jobs/devops-engineer-python-aws-linux-techcom-securities-1643,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:4376026541
+3830532295,Product Owner (Monetization),XTECH AI,https://itviec.com/it-jobs/product-owner-monetization-xtech-ai-1023?lab_feature=preview_jd_page,Ho Chi Minh,True,1000.0,2000.0,USD,"1,000 - 2,000 USD",Product Owner | Project Management,"Job description
+
+Xtech is a dynamic IT software company building next-generation innovative mobile apps with world-class expertise and cutting-edge tech for global markets. We develop and publish products across three core verticals: AI-powered apps, Health & Wellness solutions, and intelligent Util","Your skills and experience
+
+(*) Knowledge and Experience:
+
+1–3 years in mobile app monetization, with a focus on in-app advertising (IAA) in a hybrid (ads + IAP / subscription) model.
+Hands-on experience with ad mediation platforms (AdMob Mediation, AppLovin MAX, ironSource) and waterfall / in-app b",itviec,xtech-ai,https://itviec.com/it-jobs/product-owner-monetization-xtech-ai-1023,2026-10-10,2026-10-15,6,False,itviec_clean_2026-10-15.csv,True,False,itviec_snapshot,full,itviec:3830532295
+1763948587,"Senior Frontend Engineer -React, TypeScript, JavaScript",VISION Advisory & Analytics,https://itviec.com/it-jobs/senior-frontend-engineer-react-typescript-javascript-vision-advisory-analytics-2336?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,,ReactJS | CSS | HTML | JavaScript | TypeScript,"Job description
+
+Role Overview
+
+We are a Macau-based casino gaming technology company providing technology solutions to international casino operators and gaming businesses worldwide. 
+
+We are looking for a Senior Frontend Engineer to develop and maintain web-based management applications and intera","Your skills and experience
+
+Required Skills
+
+5+ years of commercial frontend-development experience.
+Strong commercial experience with React.
+Strong TypeScript and JavaScript skills.
+Strong HTML5 and CSS skills and experience building responsive web applications.
+Experience integrating frontend appl",itviec,vision-advisory-analytics,https://itviec.com/it-jobs/senior-frontend-engineer-react-typescript-javascript-vision-advisory-analytics-2336,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:1763948587
+2632014048,"Expert, AI Engineering",Techcombank,https://itviec.com/it-jobs/expert-ai-engineering-techcombank-0544?lab_feature=preview_jd_page,Ha Noi,False,,,,,AI | Python | NLP | Deep Learning | Cloud | Machine Learning,"Job description
+
+JOB PURPOSE 
+
+- Lead the design and delivery of advanced AI solutions, ensuring high performance, scalability, and cost efficiency in production environments. 
+- Solve complex AI challenges (modeling, evaluation, multi-agent systems) and develop reusable frameworks and standards ado","Your skills and experience
+
+Qualifications 
+- Bachelor’s or master’s degree in computer science, Artificial Intelligence, Data Science, Software Engineering, Information Technology, or a related quantitative field 
+- Strong foundation in mathematics, statistics, and machine learning principles 
+- Re",itviec,techcombank,https://itviec.com/it-jobs/expert-ai-engineering-techcombank-0544,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:2632014048
+3427580043,Senior DevOps/Data Engineer,Panasonic Vietnam Group – Panasonic R&D Center Vietnam (PRDCV),https://itviec.com/it-jobs/senior-devops-data-engineer-panasonic-vietnam-group-panasonic-r-d-center-vietnam-prdcv-0123?lab_feature=preview_jd_page,Ha Noi,False,,,,,PostgreSql | C# | .NET | ELK | Redis | Kafka,"Job description
+Access to the highest technical resources available for problem resolution or new feature creation
+Level 3 technicians attempt to duplicate problems and define root causes, using product designs, code, or specifications
+Once a cause is identified, the company decides whether to creat","Your skills and experience
+
+1. Must have:
+
+Language: English
+Technical: generally, the most highly skilled product specialists, and may include the creators, chief architects, or engineers who created the product or service
+
+2. Nice to have:
+
+Have experienced in automating deployment with K8S
+Have e",itviec,panasonic-vietnam-group-panasonic-r-d-center-vietnam-prdcv,https://itviec.com/it-jobs/senior-devops-data-engineer-panasonic-vietnam-group-panasonic-r-d-center-vietnam-prdcv-0123,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:3427580043
+2042634195,Python Engineer,CODE LEAP,https://itviec.com/it-jobs/python-engineer-code-leap-2958?lab_feature=preview_jd_page,Ho Chi Minh,True,1000.0,1500.0,USD,"1,000 - 1,500 USD",Python | English | FastAPI | Django,"Job description
+
+YOUR NEW ROLE CODE LEAP
+
+This role is for CODE LEAP's sister-company named AINAVIO.
+
+ 
+
+AINAVIO is a startup providing an all-in-one cloud solution for the e-commerce industry to gather, enrich, and distribute product content at scale. We are using AI and workflow automation to help","Your skills and experience
+4+ years of experience in backend software development using Python
+Strong Python skills with experience building production systems using FastAPI or similar frameworks
+Solid software engineering fundamentals: clean code, design patterns, testing discipline
+Experience with",itviec,code-leap,https://itviec.com/it-jobs/python-engineer-code-leap-2958,2026-10-10,2026-10-16,7,False,itviec_clean_2026-10-16.csv,True,False,itviec_snapshot,full,itviec:2042634195
+3172898888,Backend Developer,SHINHAN DS,https://itviec.com/it-jobs/backend-developer-shinhan-ds-4838?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,,C language | Linux | Oracle | JavaScript | SQL | HTML5,"Job description
+
+Job description
+
+We are looking for Middle/Senior Software Developers to join the Core Banking team at Shinhan Bank Vietnam. The candidate will be responsible for developing, maintaining, and enhancing Core Banking applications and related banking systems, ensuring system stability,","Your skills and experience
+
+Technical Requirements
+
+Experience in developing main services using C-based frameworks
+Proficiency in building terminal/screen interfaces with HTML5, CSS, JavaScript 
+Strong knowledge of database design and management using Oracle SQL/PLSQL
+Experience working in Linux/Un",itviec,shinhan-ds,https://itviec.com/it-jobs/backend-developer-shinhan-ds-4838,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:3172898888
+3960548067,"CVCC/Chuyên gia Phân tích dữ liệu (Data Analyst, SQL)",ABBANK,https://itviec.com/it-jobs/cvcc-chuyen-gia-phan-tich-du-lieu-data-analyst-sql-abbank-3801?lab_feature=preview_jd_page,Ha Noi,False,,,,,Data Analysis | Tableau | Power BI | Pandas | SQL | Python,"Job description
+Tham gia vào quá trình thiết kế và phát triển các sản phẩm và dịch vụ ngân hàng số cho KHCN, SME và KHDN. Đề xuất các phương án sử dụng phân tích dữ liệu để am hiểu khách hàng, nhằm cá nhân hóa và tối ưu hóa trải nghiệm khách hàng, đồng thời tăng cường mức độ tương tác của khách hàng","Your skills and experience
+Bằng cấp: Đại học chuyên ngành Công nghệ thông tin/Điện tử viễn thông/Kinh tế/Ngân hàng
+Kinh nghiệm: tối thiểu 10 năm kinh nghiệm trong lĩnh vực phát triển phần mềm trong lĩnh vực Tài chính, Ngân hàng, Viễn thông, bất động sản.
+Kỹ năng:
+Có kỹ năng xử lý, phân tích và trích",itviec,abbank,https://itviec.com/it-jobs/cvcc-chuyen-gia-phan-tich-du-lieu-data-analyst-sql-abbank-3801,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:3960548067
+3807033290,Business Analyst (Banking/ Finance),SHINHAN DS,https://itviec.com/it-jobs/business-analyst-banking-finance-shinhan-ds-5152?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,Up to 1700 usd net,Business Analysis | SRS | Data Analysis | SQL | Agile,"Job description
+
+We are seeking an experienced Finance/ Loan Business Analyst to join our team and support the analysis, design, and implementation of business solutions, with a particular focus on systems built on or integrated with the Finance platform. The ideal candidate will bridge the gap betw","Your skills and experience
+Bachelor's degree in Business Administration, Information Systems, Finance, or a related field.
+Minimum 5 years of experience working as a Business Analyst in finance / banking
+Hands-on knowledge or working experience with the Nucleus solution (or similar core banking (loa",itviec,shinhan-ds,https://itviec.com/it-jobs/business-analyst-banking-finance-shinhan-ds-5152,2026-10-10,2026-10-19,10,False,itviec_clean_2026-10-19.csv,True,False,itviec_snapshot,full,itviec:3807033290
+5152628422,Thực tập sinh Phân tích nghiệp vụ,FPT IS,https://itviec.com/it-jobs/thuc-tap-sinh-phan-tich-nghiep-vu-fpt-is-5657?lab_feature=preview_jd_page,Ha Noi,False,,,,,Figma | SQL,"Job description
+Trao đổi với khách hàng và các bên liên quan để hiểu rõ yêu cầu, nghiệp vụ của AI use case
+Viết tài liệu mô tả yêu cầu, tài liệu phân tích thiết kế, tài liệu hướng dẫn sử dụng, slide trình bày cho khách hàng
+Tổ chức các buổi họp trao đổi, báo cáo tiến độ dự án
+Chuyển các yêu cầu của ","Your skills and experience
+Sinh viên các ngành CNTT, kinh tế, tài chính hoặc ngành luật
+Có năng lực phân tích dữ liệu
+Hiểu biết cơ bản về các khái niệm trong ngành CNTT, phát triển phần mềm, AI 
+Có khả năng giao tiếp, trình bày vấn đề tốt cả bằng lời và văn bản
+Có kỹ năng sử dụng AI, phần mềm Micros",itviec,fpt-is,https://itviec.com/it-jobs/thuc-tap-sinh-phan-tich-nghiep-vu-fpt-is-5657,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:5152628422
+3677383994,Applied AI Engineer,Everfit,https://itviec.com/it-jobs/applied-ai-engineer-everfit-5542?lab_feature=preview_jd_page,Da Nang,False,,,,,NodeJS | API | AI | TypeScript | English | Python,"Job description
+
+About Everfit
+
+Everfit is one of the fastest growing fitness coaching platforms in the world. We power more than 320,000 coaches across the globe with an all-in-one AI-powered platform to run and grow their businesses. In 6 years, we have become one of the leaders of the health and ","Your skills and experience
+4+ years of professional backend engineering experience.
+Comfortable communicating in English and working with an international team.
+Strong programming experience (preferably Node.js / TypeScript / Python) and backend architecture. Our core backend is Node.js/TypeScript a",itviec,everfit,https://itviec.com/it-jobs/applied-ai-engineer-everfit-5542,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:3677383994
+3995546492,Senior Business Analyst (EU/Oracle/Legacy),8Seneca,https://itviec.com/it-jobs/senior-business-analyst-eu-oracle-legacy-8seneca-0659?lab_feature=preview_jd_page,Ha Noi,False,,,,,English | QA QC | Agile | Oracle | SQL | Business Analysis,"Job description
+
+We are re-platforming a national public-sector system in the EU: ~750 screens of a legacy client-server 4GL (Uniface), rebuilt as a modern Java/Spring + React application on top of an Oracle database.
+
+The hardest question on this project is not ""does the new code work"" — it is ""doe","Your skills and experience
+What we expect (must-have)
+5+ years in business analysis on complex business systems — you have owned specifications that other people built and tested against
+Elicitation skills — from people and from systems — you can run a workshop with a domain expert, and you can reve",itviec,8seneca,https://itviec.com/it-jobs/senior-business-analyst-eu-oracle-legacy-8seneca-0659,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:3995546492
+3263584661,Fullstack (Java/React),Nitori Digital Base Vietnam,https://itviec.com/it-jobs/fullstack-java-react-nitori-digital-base-vietnam-4457?lab_feature=preview_jd_page,Ha Noi,False,,,,,Java | ReactJS | Spring Boot | JavaScript,"Job description
+
+Thông tin dự án 
+
+Tại Nitori Digital Base Việt Nam, chúng tôi đang triển khai đồng bộ nhiều dự án chiến lược nhằm hỗ trợ sự phát triển toàn diện cho tập đoàn Nitori – một trong những thương hiệu hàng đầu thế giới trong lĩnh vực sản xuất và bán lẻ nội thất, đồ gia dụng và trang trí n","Your skills and experience
+
+Điều kiện bắt buộc
+
+Tốt nghiệp chuyên ngành CNTT các trường đại học;
+Tối thiểu 03 năm kinh nghiệm, mạnh về Java Spring boot và Angular/React/Vue;
+Có kinh nghiệm với sql và nosql;
+Có kinh nghiệm thiết kế cơ bản, thiết kế chi tiết và test;
+
+Điều kiện ưu tiên
+
+Ưu tiên kinh n",itviec,nitori-digital-base-vietnam,https://itviec.com/it-jobs/fullstack-java-react-nitori-digital-base-vietnam-4457,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:3263584661
+3739318162,QC Intern,Innotech Vietnam Corporation,https://itviec.com/it-jobs/qc-intern-innotech-vietnam-corporation-1748?lab_feature=preview_jd_page,Ho Chi Minh,True,800.0,2500.0,USD,"800 - 2,500 USD",HTML | English,"Job description
+
+Key Responsibilities
+
+Execute manual test cases for web, mobile, and desktop applications across multiple platforms and browsers.
+Document, track, and report bugs using tools like Jira, Trello, or similar.
+Participate in requirements review and test case review meetings.
+Collaborate","Your skills and experience
+
+Requirements
+
+·        Pursuing or recently completed a degree in Computer Science, Information Technology, or a related field.
+
+·        Strong interest in software testing and quality assurance.
+
+·        Basic understanding of SDLC and STLC.
+
+·        Familiarity with ",itviec,innotech-vietnam-corporation,https://itviec.com/it-jobs/qc-intern-innotech-vietnam-corporation-1748,2026-10-10,2026-10-23,14,False,itviec_clean_2026-10-23.csv,True,False,itviec_snapshot,full,itviec:3739318162
+3034452135,Senior C++ Developer,DTS Software Vietnam,https://itviec.com/it-jobs/senior-c-developer-dts-software-vietnam-1533?lab_feature=preview_jd_page,Ha Noi,False,,,,,C++ | Technical Writing | WPF | C# | AI | Unity,"Job description
+Tham gia phát triển, triển khai chức năng trong dự án outsourcing về phần mềm ứng dụng CAD liên quan đến bản vẽ kiến trúc cho khách hàng Nhật Bản
+Hỗ trợ phân tích yêu cầu, làm rõ specification, phân tích thiết kế
+Hỗ trợ quản lý tiến độ, review source code, công việc cho team khoảng 2","Your skills and experience
+Đã tốt nghiệp các trường khối kỹ thuật chuyên ngành CNTT, Khoa học máy tính,…
+Từ 3-5 năm kinh nghiệm lập trình với C++ và C# (WPF hoặc Unity), tư duy logic tốt
+Có kỹ năng quản lý nhóm 2,3 người: bao gồm quản lý tiến độ, review source code
+Có kinh nghiệm sử dụng, tích hợp A",itviec,dts-software-vietnam,https://itviec.com/it-jobs/senior-c-developer-dts-software-vietnam-1533,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:3034452135
+3021107985,"Senior Golang Developer (AI, JSON, SQL, Linux)","PERSOL CROSS TECHNOLOGY VIETNAM CO., LTD.",https://itviec.com/it-jobs/senior-golang-developer-ai-json-sql-linux-persol-cross-technology-vietnam-co-ltd-4746?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,o Wedding allowance: 100$,Golang | Linux | Docker | SQL | JSON | AI,"Job description
+
+We are looking for a Senior Golang Developer to join our engineering team and support the development, enhancement, and production operation of an enterprise AI Chatbot and AI Agent platform. The role will primarily focus on Go/Golang backend development, building and maintaining sc","Your skills and experience
+
+A. MUST-HAVE SKILLS
+
+6+ years of software development experience, including at least 3 years of hands on experience working on Go/Golang projects.
+Strong hands-on experience with Go/Golang and backend development. 
+Experience building and maintaining production-grade back",itviec,persol-cross-technology-vietnam-co-ltd,https://itviec.com/it-jobs/senior-golang-developer-ai-json-sql-linux-persol-cross-technology-vietnam-co-ltd-4746,2026-10-10,2026-10-13,4,False,itviec_clean_2026-10-13.csv,True,False,itviec_snapshot,full,itviec:3021107985
+2954102955,Thực Tập Sinh An Ninh Bảo Mật (Fulltime),Sun Group,https://itviec.com/it-jobs/thuc-tap-sinh-an-ninh-bao-mat-fulltime-sun-group-0023?lab_feature=preview_jd_page,,True,1200.0,2000.0,USD,"1,200 - 2,000 USD",Project Management | Power Automate,"Job description
+
+Không chỉ là một “intern hỗ trợ”, mà vị trí này sẽ được tham gia trực tiếp vào các bài toán bảo mật thực tế – nơi mỗi dòng code, mỗi lỗ hổng được phát hiện đều tạo ra giá trị thật cho hệ thống.
+
+Đây là cơ hội để 
+
+- Hiểu cách một hệ thống lớn vận hành và được bảo vệ như thế nào
+
+- L","Your skills and experience
+
+- Sinh viên năm cuối chuyên ngành CNTT, An toàn thông tin hoặc các ngành liên quan
+
+- Làm việc Fulltime tại Văn phòng Hà Nội
+
+- Có kiến thức nền tảng về:
+
+ +Network / Web Security cơ bản
+
+ + Quy trình phát triển phần mềm (SDLC)
+
+ + Các tiêu chuẩn bảo mật (NIST, ISO 27001…",itviec,sun-group,https://itviec.com/it-jobs/thuc-tap-sinh-an-ninh-bao-mat-fulltime-sun-group-0023,2026-10-10,2026-10-12,3,False,itviec_clean_2026-10-12.csv,True,False,itviec_snapshot,full,itviec:2954102955
+2681450064,Senior/Lead - Data Engineering,M_Service (MoMo),https://itviec.com/it-jobs/senior-lead-data-engineering-m_service-momo-5443?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,,Data Engineer | Apache Spark | SQL | DBT | Data modeling,"Job description
+
+Introduction
+
+MoMo's data platform processes petabytes of data through thousands of pipelines. It powers product analytics, business performance deep dives, insight validation, and machine learning models for fraud detection, credit scoring, and personalization. Its reliability dire","Your skills and experience
+
+Must have
+
+2+ years of experience in Data Engineering, Data Platform Engineering, or a related backend or infrastructure role, with production systems you built or ran.
+Strong SQL and hands-on experience with at least one of Python, Java, or Scala.
+Hands-on experience wit",itviec,m_service-momo,https://itviec.com/it-jobs/senior-lead-data-engineering-m_service-momo-5443,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:2681450064
+3262118442,Engineering Manager (Banking/Fintech),ITviec Recruitment Consulting,https://itviec.com/it-jobs/engineering-manager-banking-fintech-itviec-recruitment-consulting-0440?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,Up to 1700 usd net,Java | CI/CD | API | Spring Boot | AI | Kafka,"Job description
+
+1. Technology Strategy & Architecture Ownership
+
+Own and define the end-to-end technology strategy and solution architecture for the program.
+Translate business capabilities into scalable technical architecture across applications, data, integrations, and infrastructure.
+Govern arch","Your skills and experience
+
+Leadership & Consulting
+
+10+ years of experience in senior technology leadership roles (CTO, Technical Director, Principal Architect, Solution Architect, Technical Consultant).
+Strong experience leading large-scale programs involving multiple engineering squads and comple",itviec,itviec-recruitment-consulting,https://itviec.com/it-jobs/engineering-manager-banking-fintech-itviec-recruitment-consulting-0440,2026-10-10,2026-10-11,2,False,itviec_clean_2026-10-11.csv,True,False,itviec_snapshot,full,itviec:3262118442
+5008330416,"AI Product Owner (PATI OS, Product Management, Linux)",PATI Group,https://itviec.com/it-jobs/ai-product-owner-pati-os-product-management-linux-pati-group-1759?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,,Product Owner | macOS | Business Analysis | Linux | Product Management | AI,"Job description
+
+PATI Group is not looking for a passive coder who waits for tickets. We are looking for a Product Manager — the product owner, for several product positions under PATI OS: AdLauncher, StoreLauncher, Creative Portal, AdVault, AI Portal, and Profit Center.
+
+You turn department pain po","Your skills and experience
+1–3 years in Product Management or Business Analysis, with a proven track record shipping digital products you personally build end-to-end (prefer multi-surface ownership).
+Hands-on deploying AI / automation that non-technical teammates actually use (not only personal Chat",itviec,pati-group,https://itviec.com/it-jobs/ai-product-owner-pati-os-product-management-linux-pati-group-1759,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:5008330416
+2149964413,"Sr. QA Engineer (from 6yoe, Automation, English)",YUM! Digital & Technology,https://itviec.com/it-jobs/sr-qa-engineer-from-6yoe-automation-english-yum-digital-technology-5203?lab_feature=preview_jd_page,Ho Chi Minh,True,2000.0,2900.0,USD,"2,000 - 2,900 USD",Automation Test | CI/CD | Leadership | English | Tester | QA QC,"Job description
+
+The Senior Quality Engineer will design and drive testing activities following the test strategy of the platform to ensure the reliability, performance, and functional integrity of the Byte by Yum! Commerce Platform, supporting KFC and Taco Bell digital ordering journeys (web and na","Your skills and experience
+
+• Bachelor's degree in computer science, or related technical field. 
+• 6+ years of experience in software quality assurance, with at least 1 years in a senior test role supporting large-scale e-commerce or high-volume consumer platforms
+• Proven experience leading testin",itviec,yum-digital-technology,https://itviec.com/it-jobs/sr-qa-engineer-from-6yoe-automation-english-yum-digital-technology-5203,2026-10-10,2026-10-15,6,False,itviec_clean_2026-10-15.csv,True,False,itviec_snapshot,full,itviec:2149964413
+5004570229,"WordPress Developer (PHP, HTML, CSS, JavaScript)",CÔNG TY CỔ PHẦN THIẾT KẾ GURU,https://itviec.com/it-jobs/wordpress-developer-php-html-css-javascript-cong-ty-co-phan-thiet-ke-guru-5717?lab_feature=preview_jd_page,Ha Noi,True,700.0,2000.0,USD,"700 - 2,000 USD",Wordpress | JavaScript | CSS | HTML | PHP,"Job description
+Chuyển đổi giao diện: Tiếp nhận bản thiết kế UI/UX từ đội ngũ Design (chủ yếu qua Figma/PSD) và tiến hành cắt HTML, CSS, Javascript để ráp thành giao diện website hoàn chỉnh, chính xác (""pixel-perfect"") trên nền tảng CMS WordPress.
+Phát triển chức năng: Tùy biến (customize) theme, xâ","Your skills and experience
+Kinh nghiệm cốt lõi: Có từ 2 năm kinh nghiệm thực chiến trong việc xây dựng website bằng hệ sinh thái CMS WordPress và ngôn ngữ PHP. (Ưu tiên ứng viên có Portfolio/Hồ sơ năng lực đính kèm các link website thực tế đã làm).
+Kỹ năng Frontend vững vàng: Sử dụng thành thạo HTML",itviec,cong-ty-co-phan-thiet-ke-guru,https://itviec.com/it-jobs/wordpress-developer-php-html-css-javascript-cong-ty-co-phan-thiet-ke-guru-5717,2026-10-10,2026-10-24,15,False,itviec_clean_2026-10-24.csv,True,False,itviec_snapshot,full,itviec:5004570229
+1496549722,System Architect (Joining Bonus),Bosch Global Software Technologies Company Limited,https://itviec.com/it-jobs/system-architect-joining-bonus-bosch-global-software-technologies-company-limited-1613?lab_feature=preview_jd_page,Ho Chi Minh,False,,,,,System Architecture | Security | English | ASPICE | AUTOSAR | Embedded,"Job description
+
+Quarter 4 JOINING BONUS
+
+Candidates with 4+ years of relevant experience who join BGSV by the end of 31 December 2026 can receive a Joining Bonus equivalent to 1 month’s gross salary, subject to program eligibility and terms & conditions.
+
+ 
+
+Department Information
+
+Bosch Cross-Doma","Your skills and experience
+
+Mandatory Qualifications
+
+Bachelor’s or Master’s degree in Electronics Engineering, Mechatronics, Computer Science, or a related field.
+Minimum 8 years of experience in Automotive Embedded Systems Development.
+Minimum 5 years of experience in a System Engineering role.
+Pr",itviec,bosch-global-software-technologies-company-limited,https://itviec.com/it-jobs/system-architect-joining-bonus-bosch-global-software-technologies-company-limited-1613,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:1496549722
+2405621216,Bridge System Engineer (Japanesse speaking),ITviec Recruitment Consulting,https://itviec.com/it-jobs/bridge-system-engineer-japanesse-speaking-itviec-recruitment-consulting-0003?lab_feature=preview_jd_page,Ha Noi,False,,,,,Business Analysis | C# | .NET | SQL,"Job description
+
+Our client, a leading international Japanese IT solutions provider, is seeking a proactive Bridge System Engineer (BrSE) specializing in .NET / C#. In this key position, you will act as the vital communication and technical bridge, converting complex client expectations into success","Your skills and experience
+Must Have:
+Solid track record serving as a Bridge System Engineer (BrSE) or Technical Lead in software development projects.
+3 years of experience as a BrSE or equivalent position in a Japanese outsourcing project.
+Strong technical background in .NET / C# stack (ASP.NET Co",itviec,itviec-recruitment-consulting,https://itviec.com/it-jobs/bridge-system-engineer-japanesse-speaking-itviec-recruitment-consulting-0003,2026-10-10,2026-10-25,16,True,itviec_clean_2026-10-25.csv,True,True,itviec_snapshot,full,itviec:2405621216
+3894751695,"Senior Business Analyst (Onboard ASAP, English)",Topicus Vietnam,https://itviec.com/it-jobs/senior-business-analyst-onboard-asap-english-topicus-vietnam-3555?lab_feature=preview_jd_page,Ho Chi Minh,True,1500.0,3200.0,USD,"1,500 - 3,200 USD",English | Business Analysis,"Job description
+
+About Us
+
+At Topicus, we believe IT should serve society. From healthcare and education to finance, our solutions empower millions of people every day by turning complex challenges into user-friendly platforms. We don't just build software; we increase self-reliance and reduce vulne","Your skills and experience
+Bachelor's degree or higher.
+5 – 8 years of experience in a Business Analyst role.
+Excellent English skills, both written and spoken.
+Good understanding of the international financial markets; FinTech experience is a strong plus.
+Strong analytical skills with the ability t",itviec,topicus-vietnam,https://itviec.com/it-jobs/senior-business-analyst-onboard-asap-english-topicus-vietnam-3555,2026-10-10,2026-10-19,10,False,itviec_clean_2026-10-19.csv,True,False,itviec_snapshot,full,itviec:3894751695

@@ -1,0 +1,40 @@
+{
+  "input_rows": 2019,
+  "unique_job_uids": 2019,
+  "source_duplicate_rows": 0,
+  "duplicate_jobs": 135,
+  "deduplicated_unique_jobs": 1884,
+  "duplicate_review_pairs": 41,
+  "company_ids": 777,
+  "skill_tags": 10086,
+  "unmapped_skill_tags": 775,
+  "job_skill_level_rows": 7783,
+  "skill_required": 5018,
+  "skill_preferred": 310,
+  "skill_duty": 468,
+  "skill_listed_only": 1987,
+  "exp_extracted_jobs": 1584,
+  "level_identified_jobs": 894,
+  "salary_comparable_jobs": 466,
+  "text_quality_full_jobs": 1583,
+  "text_quality_truncated_jobs": 436,
+  "left_censored_jobs": 1431,
+  "right_censored_jobs": 1388,
+  "text_source_counts": {
+    "itviec_snapshot": 968,
+    "vietnamworks_enriched": 618,
+    "vietnamworks_snapshot_truncated": 433
+  },
+  "reference_skill_labels": 99,
+  "assumptions": {
+    "monthly_working_days": 22,
+    "usd_vnd_rate": 25000,
+    "observation_window_days": 15,
+    "left_censored_boundary": "2026-10-11",
+    "right_censored_boundary": "2026-10-25 (is_active)"
+  },
+  "input_sources": [
+    "itviec_master_2026-10-25.csv",
+    "vietnamworks_master_2026-10-25.csv"
+  ]
+}

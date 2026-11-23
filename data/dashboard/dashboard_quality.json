@@ -1,0 +1,51 @@
+{
+  "unique_source_jobs": 2019,
+  "deduplicated_jobs": 1884,
+  "event_days_present": 15,
+  "events_without_dates": 0,
+  "salary_range_comparable_jobs": 421,
+  "salary_floor_jobs": 10,
+  "salary_ceiling_jobs": 76,
+  "salary_comparable_share": 0.223,
+  "salary_site_breakdown": {
+    "itviec": 234,
+    "vietnamworks": 187
+  },
+  "salary_tax_type_breakdown": {
+    "unspecified": 420,
+    "gross": 1
+  },
+  "skill_fact_pairs": 7783,
+  "company_segments_are_inferred": true,
+  "skill_demand_index": {
+    "index_as_of": "2026-10-24",
+    "growth_available": false,
+    "coverage_days_current_30": 15,
+    "coverage_days_previous_30": 0,
+    "index_rows": 1169
+  },
+  "skill_demand_index_weights": {
+    "default": {
+      "postings_volume": 0.45,
+      "company_breadth": 0.35,
+      "required_intensity": 0.2
+    },
+    "balanced_alternative": {
+      "postings_volume": 0.34,
+      "company_breadth": 0.33,
+      "required_intensity": 0.33
+    },
+    "volume_alternative": {
+      "postings_volume": 0.6,
+      "company_breadth": 0.25,
+      "required_intensity": 0.15
+    }
+  },
+  "assumptions": {
+    "usd_vnd_rate": 25000,
+    "working_days_month": 22,
+    "salary_ceiling_note": "up_to represents advertised maximum ceiling, not expected paid median"
+  },
+  "trend_metric_definition": "unique deduplicated jobs first observed (first_seen, fallback posted_date)",
+  "limitation": "Observed 15-day snapshot window (left-censored before 2026-10-11, right-censored if active on 2026-10-25). Salary benchmarks suppress n<5."
+}

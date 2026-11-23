@@ -1,0 +1,1170 @@
+﻿skill,job_count,company_count,required_count,needs_review_count,required_share,job_percentile,company_percentile,index_0_100,index_balanced_weights,index_volume_weights,segment,as_of,period_start,prior_30d_jobs,growth_30d_pct,growth_available,coverage_days_current_30,coverage_days_previous_30,reliability,sample_warning
+Python,299,193,230,6,0.769,0.9893617021276596,1.0,94.9,92.0,95.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,264,181,195,4,0.739,0.9680851063829787,0.9840425531914894,92.8,89.8,93.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),266,181,167,13,0.628,0.9787234042553191,0.9840425531914894,91.0,86.5,92.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,314,172,191,3,0.608,1.0,0.9680851063829787,91.0,86.0,93.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,202,140,146,8,0.723,0.9521276595744681,0.9468085106382979,90.4,87.5,91.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Business Analysis (BA),202,157,125,8,0.619,0.9521276595744681,0.9574468085106383,88.7,84.4,90.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,176,137,135,6,0.767,0.9042553191489362,0.9308510638297872,88.6,86.8,89.0,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,186,132,136,20,0.731,0.9361702127659575,0.9042553191489362,88.4,85.8,89.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),175,135,137,6,0.783,0.8936170212765957,0.9148936170212766,87.9,86.4,88.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,180,119,148,6,0.822,0.9148936170212766,0.8617021276595744,87.8,86.7,88.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,174,117,130,34,0.747,0.8829787234042553,0.851063829787234,84.5,82.8,85.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,159,125,123,12,0.774,0.8404255319148937,0.8829787234042553,84.2,83.3,84.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Project Management,182,137,86,13,0.473,0.925531914893617,0.9308510638297872,83.7,77.8,85.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,171,112,114,6,0.667,0.8723404255319149,0.8297872340425532,81.6,79.1,83.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,170,113,100,10,0.588,0.8617021276595744,0.8404255319148937,80.0,76.4,81.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,128,98,103,5,0.805,0.7978723404255319,0.7978723404255319,79.9,80.0,79.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Infrastructure & System Administration,150,126,74,1,0.493,0.8191489361702128,0.8936170212765957,78.0,73.6,78.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,116,84,94,2,0.81,0.776595744680851,0.7446808510638298,77.2,77.7,77.4,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Analysis,169,120,63,3,0.373,0.851063829787234,0.8723404255319149,76.3,70.0,78.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,152,111,74,1,0.487,0.8297872340425532,0.8191489361702128,75.8,71.3,77.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Testing,133,105,72,6,0.541,0.8085106382978723,0.8085106382978723,75.5,72.0,76.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,114,86,80,6,0.702,0.7659574468085106,0.7659574468085106,75.3,74.5,75.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,109,84,80,4,0.734,0.7553191489361702,0.7446808510638298,74.7,74.5,74.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,100,80,76,1,0.76,0.7180851063829787,0.7127659574468085,72.5,73.0,72.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,108,88,62,6,0.574,0.7446808510638298,0.776595744680851,72.2,69.9,72.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Test Automation,95,79,62,8,0.653,0.6808510638297872,0.7021276595744681,68.3,67.9,68.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Support / Helpdesk,100,90,41,1,0.41,0.7180851063829787,0.7872340425531915,68.1,63.9,68.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+React,75,67,63,4,0.84,0.6063829787234043,0.6702127659574468,67.5,70.5,65.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Quality Management (QA/QC),96,83,52,2,0.542,0.6914893617021277,0.723404255319149,67.3,65.3,67.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,121,73,43,3,0.355,0.7872340425531915,0.6808510638297872,66.4,60.9,69.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Machine Learning (ML),84,54,64,1,0.762,0.6702127659574468,0.5851063829787234,65.9,67.2,66.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,103,84,32,3,0.311,0.7340425531914894,0.7446808510638298,65.3,59.8,67.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,81,59,63,1,0.778,0.6382978723404256,0.601063829787234,65.3,67.2,65.0,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,70,60,59,3,0.843,0.5851063829787234,0.6223404255319149,65.0,68.2,63.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Embedded & Firmware,82,52,62,7,0.756,0.648936170212766,0.5585106382978723,63.9,65.4,64.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PostgreSQL,67,60,55,5,0.821,0.5638297872340425,0.6223404255319149,63.6,66.8,61.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,74,62,50,1,0.676,0.5957446808510638,0.6382978723404256,62.7,63.6,61.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kubernetes,66,59,54,1,0.818,0.5478723404255319,0.601063829787234,62.1,65.5,60.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,83,65,37,1,0.446,0.6595744680851063,0.6595744680851063,61.7,58.9,62.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Docker,66,52,57,1,0.864,0.5478723404255319,0.5585106382978723,61.5,65.6,59.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,76,47,58,2,0.763,0.6170212765957447,0.5053191489361702,60.7,62.8,61.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Leadership & People Management,98,76,20,0,0.204,0.7021276595744681,0.6914893617021277,59.9,53.4,62.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Product Management,79,63,35,2,0.443,0.6276595744680851,0.648936170212766,59.8,57.4,60.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Node.js,56,50,51,4,0.911,0.5106382978723404,0.526595744680851,59.6,64.8,57.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Oracle Database,68,50,52,4,0.765,0.574468085106383,0.526595744680851,59.6,62.2,59.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript / TypeScript,62,53,49,8,0.79,0.5212765957446809,0.574468085106383,59.4,62.8,57.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MySQL,52,47,42,0,0.808,0.5,0.5053191489361702,56.3,60.3,54.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Azure,50,43,39,0,0.78,0.4787234042553192,0.4787234042553192,53.9,57.8,52.4,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Governance & Management,64,51,32,4,0.5,0.5319148936170213,0.5425531914893617,52.9,52.5,53.0,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Power BI,46,39,31,0,0.674,0.4574468085106383,0.46808510638297873,50.4,53.2,49.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Go,51,46,28,1,0.549,0.48936170212765956,0.48936170212765956,50.1,50.9,49.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Mobile Development,49,38,32,2,0.653,0.46808510638297873,0.4574468085106383,50.1,52.6,49.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+HTML / CSS,37,34,29,0,0.784,0.3829787234042553,0.425531914893617,47.8,52.9,45.4,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft SQL Server,44,37,26,0,0.591,0.44148936170212766,0.44680851063829785,47.3,49.3,46.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Infrastructure as Code,35,33,29,2,0.829,0.3670212765957447,0.3882978723404255,46.7,52.6,44.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MongoDB / NoSQL,39,33,29,0,0.744,0.40425531914893614,0.3882978723404255,46.7,51.1,45.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Networking,44,33,28,5,0.636,0.44148936170212766,0.3882978723404255,46.2,48.8,45.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Blockchain / Fintech,43,34,25,1,0.581,0.425531914893617,0.425531914893617,45.7,47.7,44.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Visualization / BI,40,34,23,0,0.575,0.4148936170212766,0.425531914893617,45.1,47.1,44.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PHP,32,29,25,3,0.781,0.35106382978723405,0.35106382978723405,43.7,49.3,41.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Engineering,35,29,23,2,0.657,0.3670212765957447,0.35106382978723405,41.9,45.7,40.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Version Control (Git),26,22,23,0,0.885,0.2978723404255319,0.30851063829787234,41.9,49.5,38.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Windows / Windows Server,30,29,21,0,0.7,0.3404255319148936,0.35106382978723405,41.6,46.3,39.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Angular,27,25,19,1,0.704,0.31382978723404253,0.324468085106383,39.6,44.6,37.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Google Cloud Platform (GCP),20,17,17,1,0.85,0.24468085106382978,0.24468085106382978,36.6,44.4,33.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Android,19,17,17,3,0.895,0.22340425531914893,0.24468085106382978,36.5,45.2,32.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Office / Excel,27,25,14,0,0.519,0.31382978723404253,0.324468085106383,35.9,38.5,34.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Full Stack Development,38,33,7,0,0.184,0.39361702127659576,0.3882978723404255,35.0,32.3,36.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Swift / iOS,16,16,14,0,0.875,0.20212765957446807,0.22340425531914893,34.4,43.1,30.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python frameworks,21,17,15,0,0.714,0.2553191489361702,0.24468085106382978,34.3,40.3,32.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Japanese,25,19,14,1,0.56,0.2872340425531915,0.2872340425531915,34.2,37.7,32.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Shell / Scripting,19,15,16,0,0.842,0.22340425531914893,0.20212765957446807,34.0,42.1,31.1,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Backend Development,19,19,13,0,0.684,0.22340425531914893,0.2872340425531915,33.8,39.6,30.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Virtualization,23,18,13,0,0.565,0.2765957446808511,0.26595744680851063,33.1,36.8,31.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Automation & RPA,22,19,12,2,0.545,0.26595744680851063,0.2872340425531915,32.9,36.5,31.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Flutter / React Native,15,15,13,0,0.867,0.18617021276595744,0.20212765957446807,32.8,41.6,29.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Telecommunications,28,15,15,0,0.536,0.32978723404255317,0.20212765957446807,32.6,35.6,32.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microservices,11,9,11,0,1.0,0.13829787234042554,0.13829787234042554,31.1,42.3,26.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Vue.js,14,14,12,0,0.857,0.1702127659574468,0.18085106382978725,31.1,40.0,27.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Ruby,12,12,11,0,0.917,0.14893617021276595,0.1595744680851064,30.6,40.6,26.7,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kotlin,15,13,12,0,0.8,0.18617021276595744,0.1702127659574468,30.3,38.3,27.4,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Redis,13,10,11,0,0.846,0.1595744680851064,0.14893617021276595,29.3,38.3,26.0,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Frontend Development,8,8,7,0,0.875,0.10638297872340426,0.11702127659574468,26.4,36.4,22.4,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Rust,4,4,4,1,1.0,0.05851063829787234,0.05851063829787234,24.7,36.9,20.0,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+System Integration,8,8,6,1,0.75,0.10638297872340426,0.11702127659574468,23.9,32.2,20.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Containers & Orchestration,5,5,4,0,0.8,0.0797872340425532,0.0797872340425532,22.4,31.7,18.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Monitoring & Observability,8,7,5,0,0.625,0.10638297872340426,0.09574468085106383,20.6,27.4,18.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Chinese,10,8,4,0,0.4,0.1276595744680851,0.11702127659574468,17.8,21.4,16.6,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Korean,3,3,2,0,0.667,0.03723404255319149,0.03723404255319149,16.3,24.5,13.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Scala,4,4,2,0,0.5,0.05851063829787234,0.05851063829787234,14.7,20.4,12.5,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+French,2,2,1,0,0.5,0.02127659574468085,0.02127659574468085,11.7,17.9,9.3,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Other programming languages,3,3,1,1,0.333,0.03723404255319149,0.03723404255319149,9.6,13.5,8.2,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+R,5,5,0,0,0.0,0.0797872340425532,0.0797872340425532,6.4,5.3,6.8,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Translation / Interpreting,1,1,0,0,0.0,0.010638297872340425,0.010638297872340425,0.9,0.7,0.9,all,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,169,120,63,3,0.373,1.0,1.0,87.5,79.3,90.6,family:ai_data,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,114,86,80,6,0.702,0.8,0.8,78.0,76.8,78.5,family:ai_data,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Governance & Management,64,51,32,4,0.5,0.6,0.6,58.0,56.7,58.5,family:ai_data,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Power BI,46,39,31,0,0.674,0.4,0.4,45.5,49.0,44.1,family:ai_data,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Engineering,35,29,23,2,0.657,0.2,0.2,29.1,35.1,26.9,family:ai_data,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),266,181,167,13,0.628,1.0,1.0,92.6,87.7,94.4,family:ai_machine_learning,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Machine Learning (ML),84,54,64,1,0.762,0.5,0.5,55.2,58.6,53.9,family:ai_machine_learning,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,202,140,146,8,0.723,1.0,1.0,94.5,90.9,95.8,family:architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Automation & RPA,22,19,12,2,0.545,1.0,1.0,90.9,85.0,93.2,family:automation,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,159,125,123,12,0.774,1.0,1.0,95.5,92.5,96.6,family:backend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,81,59,63,1,0.778,0.75,0.75,75.6,75.9,75.4,family:backend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Node.js,56,50,51,4,0.911,0.5,0.5,58.2,63.6,56.2,family:backend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Backend Development,19,19,13,0,0.684,0.25,0.25,33.7,39.3,31.5,family:backend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Business Analysis (BA),202,157,125,8,0.619,1.0,1.0,92.4,87.4,94.3,family:business_process,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,170,113,100,10,0.588,1.0,1.0,91.8,86.4,93.8,family:consulting,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,186,132,136,20,0.731,1.0,1.0,94.6,91.1,96.0,family:cybersecurity,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,103,84,32,3,0.311,1.0,1.0,86.2,77.3,89.7,family:database,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Oracle Database,68,50,52,4,0.765,0.8571428571428571,0.7142857142857143,78.9,78.0,80.8,family:database,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PostgreSQL,67,60,55,5,0.821,0.7142857142857143,0.8571428571428571,78.6,79.7,76.6,family:database,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MySQL,52,47,42,0,0.808,0.5714285714285714,0.5714285714285714,61.9,64.9,60.7,family:database,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft SQL Server,44,37,26,0,0.591,0.42857142857142855,0.42857142857142855,46.1,48.2,45.3,family:database,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MongoDB / NoSQL,39,33,29,0,0.744,0.2857142857142857,0.2857142857142857,37.7,43.7,35.4,family:database,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Redis,13,10,11,0,0.846,0.14285714285714285,0.14285714285714285,28.3,37.5,24.8,family:database,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,152,111,74,1,0.487,1.0,1.0,89.7,83.1,92.3,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,128,98,103,5,0.805,0.9,0.9,88.1,86.9,88.6,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,116,84,94,2,0.81,0.8,0.75,78.4,78.7,78.9,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,109,84,80,4,0.734,0.7,0.75,72.4,72.8,71.8,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,100,80,76,1,0.76,0.6,0.6,63.2,65.3,62.4,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kubernetes,66,59,54,1,0.818,0.45,0.5,54.1,58.8,51.8,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Docker,66,52,57,1,0.864,0.45,0.4,51.5,57.0,50.0,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Azure,50,43,39,0,0.78,0.3,0.3,39.6,45.8,37.2,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Google Cloud Platform (GCP),20,17,17,1,0.85,0.2,0.2,33.0,41.4,29.8,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Containers & Orchestration,5,5,4,0,0.8,0.1,0.1,24.0,33.1,20.5,family:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Embedded & Firmware,82,52,62,7,0.756,1.0,1.0,95.1,91.9,96.3,family:embedded,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),175,135,137,6,0.783,1.0,1.0,95.7,92.8,96.7,family:engineering_general,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,174,117,130,34,0.747,1.0,1.0,94.9,91.7,96.2,family:enterprise,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+React,75,67,63,4,0.84,1.0,1.0,96.8,94.7,97.6,family:frontend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+HTML / CSS,37,34,29,0,0.784,0.8,0.8,79.7,79.5,79.8,family:frontend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Angular,27,25,19,1,0.704,0.6,0.6,62.1,63.4,61.6,family:frontend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Vue.js,14,14,12,0,0.857,0.4,0.4,49.1,55.1,46.9,family:frontend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Frontend Development,8,8,7,0,0.875,0.2,0.2,33.5,42.3,30.1,family:frontend_framework,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,314,172,191,3,0.608,1.0,1.0,92.2,87.1,94.1,family:human_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Japanese,25,19,14,1,0.56,0.5,0.5,51.2,52.0,50.9,family:human_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Infrastructure & System Administration,150,126,74,1,0.493,1.0,1.0,89.9,83.3,92.4,family:infra_support,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Support / Helpdesk,100,90,41,1,0.41,0.6666666666666666,0.6666666666666666,61.5,58.2,62.8,family:infra_support,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Networking,44,33,28,5,0.636,0.3333333333333333,0.3333333333333333,39.4,43.3,37.9,family:infra_support,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Project Management,182,137,86,13,0.473,1.0,1.0,89.5,82.6,92.1,family:management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Product Management,79,63,35,2,0.443,0.5,0.5,48.9,48.1,49.1,family:management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,171,112,114,6,0.667,1.0,1.0,93.3,89.0,95.0,family:methodology,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Mobile Development,49,38,32,2,0.653,1.0,1.0,93.1,88.5,94.8,family:mobile_development,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,299,193,230,6,0.769,1.0,1.0,95.4,92.4,96.5,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,264,181,195,4,0.739,0.9230769230769231,0.9230769230769231,88.6,86.2,89.5,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,180,119,148,6,0.822,0.8461538461538461,0.7692307692307693,81.4,81.3,82.3,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,176,137,135,6,0.767,0.7692307692307693,0.8461538461538461,79.6,79.4,78.8,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,74,62,50,1,0.676,0.6153846153846154,0.6923076923076923,65.4,66.1,64.4,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,76,47,58,2,0.763,0.6923076923076923,0.5384615384615384,65.3,66.5,66.4,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,70,60,59,3,0.843,0.5384615384615384,0.6153846153846154,62.6,66.4,60.3,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Go,51,46,28,1,0.549,0.46153846153846156,0.46153846153846156,47.9,49.0,47.5,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PHP,32,29,25,3,0.781,0.38461538461538464,0.38461538461538464,46.4,51.5,44.4,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kotlin,15,13,12,0,0.8,0.3076923076923077,0.3076923076923077,40.6,47.0,38.2,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Ruby,12,12,11,0,0.917,0.23076923076923078,0.23076923076923078,36.8,45.7,33.4,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Rust,4,4,4,1,1.0,0.11538461538461539,0.11538461538461539,29.2,40.7,24.8,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Scala,4,4,2,0,0.5,0.11538461538461539,0.11538461538461539,19.2,24.2,17.3,family:programming_language,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,98,76,20,0,0.204,1.0,1.0,84.1,73.7,88.1,family:soft_skills,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,108,88,62,6,0.574,0.9629629629629629,1.0,89.8,84.7,91.4,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript / TypeScript,62,53,49,8,0.79,0.8888888888888888,0.8888888888888888,86.9,85.6,87.4,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,121,73,43,3,0.355,1.0,0.9629629629629629,85.8,77.5,89.4,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,83,65,37,1,0.446,0.9259259259259259,0.9259259259259259,83.0,76.8,85.4,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Blockchain / Fintech,43,34,25,1,0.581,0.8518518518518519,0.8333333333333334,79.1,75.6,80.7,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Visualization / BI,40,34,23,0,0.575,0.8148148148148148,0.8333333333333334,77.3,74.2,78.3,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Infrastructure as Code,35,33,29,2,0.829,0.7407407407407407,0.7592592592592593,76.5,77.6,75.9,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Windows / Windows Server,30,29,21,0,0.7,0.7037037037037037,0.7037037037037037,70.3,70.2,70.3,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Version Control (Git),26,22,23,0,0.885,0.5925925925925926,0.6296296296296297,66.4,70.1,64.6,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Full Stack Development,38,33,7,0,0.184,0.7777777777777778,0.7592592592592593,65.3,57.6,68.4,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Office / Excel,27,25,14,0,0.519,0.6296296296296297,0.6666666666666666,62.0,60.5,62.2,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Android,19,17,17,3,0.895,0.46296296296296297,0.5370370370370371,57.5,63.0,54.6,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Virtualization,23,18,13,0,0.565,0.5555555555555556,0.5925925925925926,57.0,57.1,56.6,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python frameworks,21,17,15,0,0.714,0.5185185185185185,0.5370370370370371,56.4,58.9,55.2,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Telecommunications,28,15,15,0,0.536,0.6666666666666666,0.4074074074074074,55.0,53.8,58.2,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Swift / iOS,16,16,14,0,0.875,0.4074074074074074,0.48148148148148145,52.7,58.6,49.6,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Shell / Scripting,19,15,16,0,0.842,0.46296296296296297,0.4074074074074074,51.9,57.0,50.6,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Flutter / React Native,15,15,13,0,0.867,0.37037037037037035,0.4074074074074074,48.3,54.6,45.4,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microservices,11,9,11,0,1.0,0.3333333333333333,0.3333333333333333,46.7,55.3,43.3,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+System Integration,8,8,6,1,0.75,0.24074074074074073,0.2777777777777778,35.6,42.1,32.6,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Chinese,10,8,4,0,0.4,0.2962962962962963,0.2777777777777778,31.1,32.4,30.7,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Monitoring & Observability,8,7,5,0,0.625,0.24074074074074073,0.2222222222222222,31.1,36.1,29.4,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Korean,3,3,2,0,0.667,0.12962962962962962,0.12962962962962962,23.7,30.7,21.0,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Other programming languages,3,3,1,1,0.333,0.12962962962962962,0.12962962962962962,17.0,19.7,16.0,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+French,2,2,1,0,0.5,0.07407407407407407,0.07407407407407407,15.9,21.5,13.8,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+R,5,5,0,0,0.0,0.18518518518518517,0.18518518518518517,14.8,12.4,15.7,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Translation / Interpreting,1,1,0,0,0.0,0.037037037037037035,0.037037037037037035,3.0,2.5,3.1,family:technical,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,133,105,72,6,0.541,1.0,1.0,90.8,84.9,93.1,family:testing_qa,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Quality Management (QA/QC),96,83,52,2,0.542,0.6666666666666666,0.6666666666666666,64.2,62.6,64.8,family:testing_qa,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Test Automation,95,79,62,8,0.653,0.3333333333333333,0.3333333333333333,39.7,43.9,38.1,family:testing_qa,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,72,55,62,5,0.861,1.0,1.0,97.2,95.4,97.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,49,39,39,0,0.796,0.9864864864864865,0.972972972972973,94.4,91.9,95.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,45,41,36,1,0.8,0.9594594594594594,0.9864864864864865,93.7,91.6,94.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,38,35,30,1,0.789,0.9459459459459459,0.9459459459459459,91.5,89.4,92.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,33,30,27,3,0.818,0.9324324324324325,0.9324324324324325,91.0,89.5,91.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,46,37,30,3,0.652,0.972972972972973,0.9594594594594594,90.4,86.3,92.1,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MySQL,28,25,24,0,0.857,0.9054054054054054,0.918918918918919,90.0,89.4,90.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PostgreSQL,26,24,22,1,0.846,0.8918918918918919,0.8986486486486487,88.5,87.9,88.7,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,29,24,19,0,0.655,0.918918918918919,0.8986486486486487,85.9,82.5,87.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,20,19,16,0,0.8,0.8648648648648649,0.8648648648648649,85.2,84.3,85.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Go,23,23,16,0,0.696,0.8783783783783784,0.8783783783783784,84.2,81.8,85.1,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,12,11,12,0,1.0,0.777027027027027,0.7702702702702703,81.9,84.8,80.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,16,15,11,1,0.688,0.8513513513513513,0.8513513513513513,81.9,79.7,82.7,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PHP,14,13,11,3,0.786,0.8175675675675675,0.8175675675675675,81.1,80.7,81.3,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,14,14,10,2,0.714,0.8175675675675675,0.8378378378378378,80.4,79.0,80.7,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Node.js,11,11,11,0,1.0,0.7432432432432432,0.7702702702702703,80.4,83.7,78.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MongoDB / NoSQL,14,13,10,0,0.714,0.8175675675675675,0.8175675675675675,79.7,78.3,80.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,12,9,11,2,0.917,0.777027027027027,0.6756756756756757,77.0,79.0,77.3,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),14,12,8,1,0.571,0.8175675675675675,0.7972972972972973,76.1,73.0,77.6,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Version Control (Git),10,10,10,0,1.0,0.6824324324324325,0.722972972972973,76.0,80.1,74.0,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript / TypeScript,11,11,8,2,0.727,0.7432432432432432,0.7702702702702703,74.9,74.7,74.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Docker,10,10,9,0,0.9,0.6824324324324325,0.722972972972973,74.0,76.8,72.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Backend Development,10,10,8,0,0.8,0.6824324324324325,0.722972972972973,72.0,73.5,71.0,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Oracle Database,11,8,9,0,0.818,0.7432432432432432,0.6283783783783784,71.8,73.0,72.6,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,10,8,9,1,0.9,0.6824324324324325,0.6283783783783784,70.7,73.6,70.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,10,10,7,1,0.7,0.6824324324324325,0.722972972972973,70.0,70.2,69.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,9,9,8,1,0.889,0.6216216216216216,0.6756756756756757,69.4,72.8,67.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,9,8,7,1,0.778,0.6216216216216216,0.6283783783783784,65.5,67.5,64.7,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python frameworks,9,8,5,0,0.556,0.6216216216216216,0.6283783783783784,61.1,60.2,61.3,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kubernetes,6,6,5,0,0.833,0.5337837837837838,0.5472972972972973,59.8,63.7,58.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+React,6,6,5,1,0.833,0.5337837837837838,0.5472972972972973,59.8,63.7,58.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,8,7,5,0,0.625,0.5878378378378378,0.5878378378378378,59.5,60.0,59.3,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Azure,5,5,5,0,1.0,0.4864864864864865,0.5,59.4,66.0,56.7,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Redis,7,6,5,0,0.714,0.5675675675675675,0.5472972972972973,59.0,60.9,58.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,10,9,2,0,0.2,0.6824324324324325,0.6756756756756757,58.4,52.1,60.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),6,5,5,0,0.833,0.5337837837837838,0.5,58.2,62.1,57.0,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microservices,5,4,5,0,1.0,0.4864864864864865,0.4391891891891892,57.3,64.0,55.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,8,7,4,0,0.5,0.5878378378378378,0.5878378378378378,57.0,55.9,57.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+HTML / CSS,5,5,4,0,0.8,0.4864864864864865,0.5,55.4,59.4,53.7,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,4,4,4,0,1.0,0.4189189189189189,0.4391891891891892,54.2,61.7,51.1,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Ruby,4,4,4,0,1.0,0.4189189189189189,0.4391891891891892,54.2,61.7,51.1,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Agile & Scrum,6,6,3,0,0.5,0.5337837837837838,0.5472972972972973,53.2,52.7,53.2,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kotlin,4,4,3,0,0.75,0.4189189189189189,0.4391891891891892,49.2,53.5,47.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,4,4,3,0,0.75,0.4189189189189189,0.4391891891891892,49.2,53.5,47.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Engineering,3,3,3,0,1.0,0.3310810810810811,0.3581081081081081,47.4,56.1,43.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,4,2,3,0,0.75,0.4189189189189189,0.23648648648648649,42.1,46.8,42.3,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Business Analysis (BA),3,3,2,0,0.667,0.3310810810810811,0.3581081081081081,40.8,45.1,38.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,4,4,1,0,0.25,0.4189189189189189,0.4391891891891892,39.2,37.0,39.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Visualization / BI,2,2,2,0,1.0,0.21621621621621623,0.23648648648648649,38.0,48.2,33.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Google Cloud Platform (GCP),2,2,2,0,1.0,0.21621621621621623,0.23648648648648649,38.0,48.2,33.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Power BI,2,2,2,0,1.0,0.21621621621621623,0.23648648648648649,38.0,48.2,33.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Angular,3,3,1,0,0.333,0.3310810810810811,0.3581081081081081,34.1,34.1,33.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+DevOps,3,3,1,0,0.333,0.3310810810810811,0.3581081081081081,34.1,34.1,33.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,3,3,1,0,0.333,0.3310810810810811,0.3581081081081081,34.1,34.1,33.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,4,3,0,0,0.0,0.4189189189189189,0.3581081081081081,31.4,26.1,34.1,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Test Automation,3,2,1,0,0.333,0.3310810810810811,0.23648648648648649,29.8,30.0,30.8,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,2,2,1,0,0.5,0.21621621621621623,0.23648648648648649,28.0,31.7,26.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,2,2,1,0,0.5,0.21621621621621623,0.23648648648648649,28.0,31.7,26.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Scala,2,2,1,0,0.5,0.21621621621621623,0.23648648648648649,28.0,31.7,26.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Vue.js,2,2,1,0,0.5,0.21621621621621623,0.23648648648648649,28.0,31.7,26.4,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,1,1,1,0,1.0,0.07432432432432433,0.08108108108108109,26.2,38.2,21.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Infrastructure as Code,1,1,1,0,1.0,0.07432432432432433,0.08108108108108109,26.2,38.2,21.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,1,1,1,0,1.0,0.07432432432432433,0.08108108108108109,26.2,38.2,21.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Networking,1,1,1,0,1.0,0.07432432432432433,0.08108108108108109,26.2,38.2,21.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Rust,1,1,1,0,1.0,0.07432432432432433,0.08108108108108109,26.2,38.2,21.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Shell / Scripting,1,1,1,0,1.0,0.07432432432432433,0.08108108108108109,26.2,38.2,21.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+System Integration,1,1,1,0,1.0,0.07432432432432433,0.08108108108108109,26.2,38.2,21.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Full Stack Development,2,2,0,0,0.0,0.21621621621621623,0.23648648648648649,18.0,15.2,18.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),2,2,0,0,0.0,0.21621621621621623,0.23648648648648649,18.0,15.2,18.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+R,2,2,0,0,0.0,0.21621621621621623,0.23648648648648649,18.0,15.2,18.9,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,2,1,0,0,0.0,0.21621621621621623,0.08108108108108109,12.6,10.0,15.0,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Blockchain / Fintech,1,1,0,0,0.0,0.07432432432432433,0.08108108108108109,6.2,5.2,6.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Japanese,1,1,0,0,0.0,0.07432432432432433,0.08108108108108109,6.2,5.2,6.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Other programming languages,1,1,0,0,0.0,0.07432432432432433,0.08108108108108109,6.2,5.2,6.5,role:backend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Business Analysis (BA),105,95,84,5,0.8,1.0,1.0,96.0,93.4,97.0,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,43,40,31,0,0.721,0.9772727272727273,0.9772727272727273,92.6,89.3,93.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,27,26,15,0,0.556,0.9545454545454546,0.9545454545454546,87.5,82.3,89.5,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,23,22,14,5,0.609,0.9318181818181818,0.9318181818181818,86.7,82.5,88.3,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,22,21,14,0,0.636,0.9090909090909091,0.9090909090909091,85.4,81.9,86.8,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),11,11,10,0,0.909,0.7727272727272727,0.7840909090909091,80.4,82.1,79.6,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,20,20,10,0,0.5,0.8636363636363636,0.875,79.5,74.7,81.2,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Analysis,21,20,8,0,0.381,0.8863636363636364,0.875,78.1,71.6,80.8,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),15,14,7,0,0.467,0.8409090909090909,0.8409090909090909,76.6,71.8,78.5,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,10,9,8,1,0.8,0.75,0.75,76.0,76.6,75.8,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,12,11,5,0,0.417,0.7954545454545454,0.7840909090909091,71.6,66.7,73.6,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Project Management,14,13,3,0,0.214,0.8181818181818182,0.8181818181818182,69.7,61.9,72.8,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,8,8,5,0,0.625,0.7045454545454546,0.7159090909090909,69.3,68.2,69.5,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Product Management,8,7,3,0,0.375,0.7045454545454546,0.6818181818181818,63.1,58.8,64.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Blockchain / Fintech,7,5,4,1,0.571,0.6590909090909091,0.5909090909090909,61.8,60.8,62.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Testing,8,8,2,0,0.25,0.7045454545454546,0.7159090909090909,61.8,55.8,63.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,5,5,4,0,0.8,0.5568181818181818,0.5909090909090909,61.7,64.8,60.2,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Japanese,6,5,3,0,0.5,0.625,0.5909090909090909,58.8,57.2,59.8,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,4,4,4,0,1.0,0.4772727272727273,0.48863636363636365,58.6,65.4,55.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,4,4,3,0,0.75,0.4772727272727273,0.48863636363636365,53.6,57.1,52.1,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Java,3,3,3,0,1.0,0.38636363636363635,0.3977272727272727,51.3,59.3,48.1,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,6,6,0,0,0.0,0.625,0.6590909090909091,51.2,43.0,54.0,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,5,4,2,0,0.4,0.5568181818181818,0.48863636363636365,50.2,48.3,51.6,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Visualization / BI,5,5,1,0,0.2,0.5568181818181818,0.5909090909090909,49.7,45.0,51.2,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,5,5,1,0,0.2,0.5568181818181818,0.5909090909090909,49.7,45.0,51.2,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Office / Excel,3,3,2,0,0.667,0.38636363636363635,0.3977272727272727,44.6,48.3,43.1,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Power BI,3,3,2,0,0.667,0.38636363636363635,0.3977272727272727,44.6,48.3,43.1,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,2,2,2,0,1.0,0.2840909090909091,0.3068181818181818,43.5,52.8,39.7,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Warehouse / Big Data,3,2,2,0,0.667,0.38636363636363635,0.3068181818181818,41.5,45.3,40.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Quality Management (QA/QC),4,4,0,0,0.0,0.4772727272727273,0.48863636363636365,38.6,32.4,40.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,2,2,1,0,0.5,0.2840909090909091,0.3068181818181818,33.5,36.3,32.2,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,3,3,0,0,0.0,0.38636363636363635,0.3977272727272727,31.3,26.3,33.1,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+C/C++,1,1,1,0,1.0,0.125,0.13636363636363635,30.4,41.8,25.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,1,1,1,0,1.0,0.125,0.13636363636363635,30.4,41.8,25.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Korean,1,1,1,0,1.0,0.125,0.13636363636363635,30.4,41.8,25.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,1,1,1,0,1.0,0.125,0.13636363636363635,30.4,41.8,25.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MongoDB / NoSQL,1,1,1,0,1.0,0.125,0.13636363636363635,30.4,41.8,25.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Oracle Database,1,1,1,0,1.0,0.125,0.13636363636363635,30.4,41.8,25.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cybersecurity,2,2,0,0,0.0,0.2840909090909091,0.3068181818181818,23.5,19.8,24.7,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Chinese,2,1,0,0,0.0,0.2840909090909091,0.13636363636363635,17.6,14.2,20.5,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,1,1,0,0,0.0,0.125,0.13636363636363635,10.4,8.8,10.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Full Stack Development,1,1,0,0,0.0,0.125,0.13636363636363635,10.4,8.8,10.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),1,1,0,0,0.0,0.125,0.13636363636363635,10.4,8.8,10.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Telecommunications,1,1,0,0,0.0,0.125,0.13636363636363635,10.4,8.8,10.9,role:business_analyst,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+SQL,35,29,24,0,0.686,1.0,0.9861111111111112,93.2,89.2,94.9,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Analysis,31,29,19,1,0.613,0.9722222222222222,0.9861111111111112,90.5,85.8,92.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,21,20,13,1,0.619,0.9444444444444444,0.9444444444444444,87.9,83.7,89.6,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Power BI,19,19,14,0,0.737,0.8888888888888888,0.9166666666666666,86.8,84.8,87.3,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Governance & Management,20,18,12,4,0.6,0.9166666666666666,0.8888888888888888,84.4,80.3,86.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Visualization / BI,16,16,10,0,0.625,0.8611111111111112,0.8611111111111112,81.4,78.3,82.6,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,8,8,8,1,1.0,0.75,0.7638888888888888,80.5,83.7,79.1,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,14,13,5,0,0.357,0.8333333333333334,0.8333333333333334,73.8,67.6,76.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,9,8,5,1,0.556,0.7777777777777778,0.7638888888888888,72.9,70.0,74.1,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,7,6,4,0,0.571,0.7222222222222222,0.7083333333333334,68.7,66.8,69.6,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),5,5,4,0,0.8,0.6527777777777778,0.6527777777777778,68.2,70.1,67.5,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Oracle Database,4,4,4,0,1.0,0.5833333333333334,0.5833333333333334,66.7,72.1,64.6,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,10,10,1,0,0.1,0.8055555555555556,0.8055555555555556,66.4,57.3,70.0,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Business Analysis (BA),6,6,2,0,0.333,0.6944444444444444,0.7083333333333334,62.7,58.0,64.4,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,5,5,2,0,0.4,0.6527777777777778,0.6527777777777778,60.2,56.9,61.5,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Office / Excel,4,4,2,0,0.5,0.5833333333333334,0.5833333333333334,56.7,55.6,57.1,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,4,4,2,0,0.5,0.5833333333333334,0.5833333333333334,56.7,55.6,57.1,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),3,3,1,0,0.333,0.5,0.5,46.7,44.5,47.5,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+English,3,3,1,0,0.333,0.5,0.5,46.7,44.5,47.5,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),3,3,1,0,0.333,0.5,0.5,46.7,44.5,47.5,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,2,2,1,0,0.5,0.3888888888888889,0.3888888888888889,41.1,42.6,40.6,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,2,2,1,0,0.5,0.3888888888888889,0.3888888888888889,41.1,42.6,40.6,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,2,2,1,0,0.5,0.3888888888888889,0.3888888888888889,41.1,42.6,40.6,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cybersecurity,1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python frameworks,1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+TypeScript,1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Blockchain / Fintech,2,2,0,0,0.0,0.3888888888888889,0.3888888888888889,31.1,26.1,33.1,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,2,2,0,0,0.0,0.3888888888888889,0.3888888888888889,31.1,26.1,33.1,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Engineering,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MySQL,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Product Management,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+R,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:data_analyst_bi,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Warehouse / Big Data,21,20,19,3,0.905,1.0,1.0,98.1,96.9,98.6,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,19,19,17,0,0.895,0.972972972972973,0.972972972972973,95.7,94.7,96.1,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,16,15,15,0,0.938,0.9459459459459459,0.9459459459459459,94.4,94.3,94.5,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Engineering,13,12,9,1,0.692,0.918918918918919,0.918918918918919,87.4,84.4,88.5,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,6,5,5,0,0.833,0.8783783783783784,0.8648648648648649,86.5,85.9,86.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,6,6,3,0,0.5,0.8783783783783784,0.8918918918918919,80.7,75.8,82.5,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,4,4,2,0,0.5,0.8108108108108109,0.8243243243243243,75.3,71.3,76.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Visualization / BI,3,3,2,0,0.667,0.7027027027027027,0.7297297297297297,70.5,70.0,70.4,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,3,3,2,0,0.667,0.7027027027027027,0.7297297297297297,70.5,70.0,70.4,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,3,3,2,0,0.667,0.7027027027027027,0.7297297297297297,70.5,70.0,70.4,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,4,4,1,0,0.25,0.8108108108108109,0.8243243243243243,70.3,63.0,73.0,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Oracle Database,4,3,1,0,0.25,0.8108108108108109,0.7297297297297297,67.0,59.9,70.6,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,2,2,2,0,1.0,0.5675675675675675,0.581081081081081,65.9,71.5,63.6,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Engineering (general),2,2,2,0,1.0,0.5675675675675675,0.581081081081081,65.9,71.5,63.6,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),3,2,2,0,0.667,0.7027027027027027,0.581081081081081,65.3,65.1,66.7,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,3,3,1,0,0.333,0.7027027027027027,0.7297297297297297,63.8,59.0,65.4,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Google Cloud Platform (GCP),2,2,1,0,0.5,0.5675675675675675,0.581081081081081,55.9,55.0,56.1,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),2,2,0,0,0.0,0.5675675675675675,0.581081081081081,45.9,38.5,48.6,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Communication & Teamwork,2,2,0,0,0.0,0.5675675675675675,0.581081081081081,45.9,38.5,48.6,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Automation & RPA,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+CI/CD,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Java,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Linux,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Office / Excel,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MySQL,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PostgreSQL,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Power BI,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,1,1,1,0,1.0,0.25675675675675674,0.25675675675675674,40.5,50.2,36.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+DevOps,1,1,0,0,0.0,0.25675675675675674,0.25675675675675674,20.5,17.2,21.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Digital Transformation / IT Consulting,1,1,0,0,0.0,0.25675675675675674,0.25675675675675674,20.5,17.2,21.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+English,1,1,0,0,0.0,0.25675675675675674,0.25675675675675674,20.5,17.2,21.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,1,1,0,0,0.0,0.25675675675675674,0.25675675675675674,20.5,17.2,21.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MongoDB / NoSQL,1,1,0,0,0.0,0.25675675675675674,0.25675675675675674,20.5,17.2,21.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,1,1,0,0,0.0,0.25675675675675674,0.25675675675675674,20.5,17.2,21.8,role:data_engineer,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,79,56,68,2,0.861,0.9855072463768116,0.9855072463768116,96.1,94.4,96.7,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),117,91,92,11,0.786,1.0,1.0,95.7,92.9,96.8,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Machine Learning (ML),56,36,48,1,0.857,0.9710144927536232,0.9710144927536232,94.8,93.3,95.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,22,21,20,0,0.909,0.9565217391304348,0.9565217391304348,94.7,94.1,94.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,14,13,13,0,0.929,0.9057971014492754,0.8985507246376812,90.8,91.1,90.7,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,14,14,12,0,0.857,0.9057971014492754,0.9130434782608695,89.9,89.2,90.0,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,21,19,14,0,0.667,0.9420289855072463,0.9420289855072463,88.7,85.1,90.1,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,12,11,10,0,0.833,0.8840579710144928,0.8768115942028986,87.1,86.5,87.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,18,15,11,0,0.611,0.927536231884058,0.927536231884058,86.4,82.3,88.0,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),11,11,9,0,0.818,0.855072463768116,0.8768115942028986,85.5,85.0,85.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python frameworks,10,7,8,0,0.8,0.8260869565217391,0.7536231884057971,79.6,79.4,80.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,8,8,6,0,0.75,0.7608695652173914,0.8260869565217391,78.2,77.9,77.6,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,7,7,7,1,1.0,0.6884057971014492,0.7536231884057971,77.4,81.3,75.1,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,7,7,6,0,0.857,0.6884057971014492,0.7536231884057971,74.5,76.6,73.0,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Azure,7,7,6,0,0.857,0.6884057971014492,0.7536231884057971,74.5,76.6,73.0,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Docker,11,5,8,0,0.727,0.855072463768116,0.5797101449275363,73.3,72.2,76.7,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,9,4,9,0,1.0,0.8043478260869565,0.4855072463768116,73.2,76.4,75.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,8,8,4,0,0.5,0.7608695652173914,0.8260869565217391,73.2,69.6,73.8,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Analysis,11,10,2,0,0.182,0.855072463768116,0.855072463768116,72.0,63.3,75.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,6,6,6,0,1.0,0.6231884057971014,0.6739130434782609,71.6,76.4,69.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,8,7,4,0,0.5,0.7608695652173914,0.7536231884057971,70.6,67.2,72.0,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,8,5,6,0,0.75,0.7608695652173914,0.5797101449275363,69.5,69.8,71.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Go,9,8,2,0,0.222,0.8043478260869565,0.8260869565217391,69.5,61.9,72.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Node.js,5,5,5,1,1.0,0.5507246376811594,0.5797101449275363,65.1,70.9,62.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,6,6,4,0,0.667,0.6231884057971014,0.6739130434782609,65.0,65.4,64.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Engineering,7,6,3,0,0.429,0.6884057971014492,0.6739130434782609,63.1,59.8,64.6,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,7,7,2,0,0.286,0.6884057971014492,0.7536231884057971,63.1,57.7,64.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Automation & RPA,6,6,3,1,0.5,0.6231884057971014,0.6739130434782609,61.6,59.9,61.7,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PostgreSQL,5,5,4,0,0.8,0.5507246376811594,0.5797101449275363,61.1,64.3,59.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Project Management,7,7,1,0,0.143,0.6884057971014492,0.7536231884057971,60.2,53.0,62.3,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Business Analysis (BA),5,5,3,0,0.6,0.5507246376811594,0.5797101449275363,57.1,57.7,56.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,5,5,3,0,0.6,0.5507246376811594,0.5797101449275363,57.1,57.7,56.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,5,5,2,0,0.4,0.5507246376811594,0.5797101449275363,53.1,51.1,53.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,3,3,3,0,1.0,0.39855072463768115,0.39855072463768115,51.9,59.7,48.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),3,3,3,0,1.0,0.39855072463768115,0.39855072463768115,51.9,59.7,48.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,5,5,1,0,0.2,0.5507246376811594,0.5797101449275363,49.1,44.5,50.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,4,4,2,0,0.5,0.4782608695652174,0.4855072463768116,48.5,48.8,48.3,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,4,4,2,0,0.5,0.4782608695652174,0.4855072463768116,48.5,48.8,48.3,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,3,3,2,0,0.667,0.39855072463768115,0.39855072463768115,45.2,48.7,43.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,3,3,2,0,0.667,0.39855072463768115,0.39855072463768115,45.2,48.7,43.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript / TypeScript,3,3,2,0,0.667,0.39855072463768115,0.39855072463768115,45.2,48.7,43.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,3,3,2,0,0.667,0.39855072463768115,0.39855072463768115,45.2,48.7,43.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,5,5,0,0,0.0,0.5507246376811594,0.5797101449275363,45.1,37.9,47.5,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Full Stack Development,4,4,1,0,0.25,0.4782608695652174,0.4855072463768116,43.5,40.5,44.6,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Flutter / React Native,2,2,2,0,1.0,0.2753623188405797,0.2753623188405797,42.0,51.4,38.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Google Cloud Platform (GCP),2,2,2,0,1.0,0.2753623188405797,0.2753623188405797,42.0,51.4,38.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,2,2,2,0,1.0,0.2753623188405797,0.2753623188405797,42.0,51.4,38.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microservices,2,2,2,0,1.0,0.2753623188405797,0.2753623188405797,42.0,51.4,38.4,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Product Management,3,3,1,0,0.333,0.39855072463768115,0.39855072463768115,38.5,37.7,38.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Blockchain / Fintech,2,2,1,0,0.5,0.2753623188405797,0.2753623188405797,32.0,34.9,30.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Japanese,2,2,1,0,0.5,0.2753623188405797,0.2753623188405797,32.0,34.9,30.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,2,2,1,0,0.5,0.2753623188405797,0.2753623188405797,32.0,34.9,30.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,2,2,1,0,0.5,0.2753623188405797,0.2753623188405797,32.0,34.9,30.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Test Automation,2,2,1,1,0.5,0.2753623188405797,0.2753623188405797,32.0,34.9,30.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Quality Management (QA/QC),3,3,0,0,0.0,0.39855072463768115,0.39855072463768115,31.9,26.7,33.9,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Backend Development,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+HTML / CSS,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kotlin,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MongoDB / NoSQL,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PHP,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Redis,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Ruby,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Spring / Java frameworks,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+System Integration,1,1,1,0,1.0,0.10869565217391304,0.10869565217391304,28.7,40.3,24.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Monitoring & Observability,1,1,0,0,0.0,0.10869565217391304,0.10869565217391304,8.7,7.3,9.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Oracle Database,1,1,0,0,0.0,0.10869565217391304,0.10869565217391304,8.7,7.3,9.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Power BI,1,1,0,0,0.0,0.10869565217391304,0.10869565217391304,8.7,7.3,9.2,role:data_scientist_ai,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+DevOps,65,58,57,4,0.877,1.0,1.0,97.5,95.9,98.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,48,45,41,4,0.854,0.9795918367346939,0.9795918367346939,95.4,93.8,96.1,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,42,37,38,1,0.905,0.9387755102040817,0.9387755102040817,93.2,92.8,93.4,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kubernetes,38,36,35,1,0.921,0.9183673469387755,0.9183673469387755,91.9,91.9,91.9,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,46,41,30,0,0.652,0.9591836734693877,0.9591836734693877,89.8,85.8,91.3,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Docker,27,25,24,0,0.889,0.8877551020408163,0.8877551020408163,88.8,88.8,88.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Infrastructure as Code,27,25,24,0,0.889,0.8877551020408163,0.8877551020408163,88.8,88.8,88.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,20,19,18,0,0.9,0.826530612244898,0.8571428571428571,85.2,86.1,84.5,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Azure,20,18,17,0,0.85,0.826530612244898,0.826530612244898,83.1,83.4,83.0,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,15,14,14,0,0.933,0.7959183673469388,0.7959183673469388,82.3,84.1,81.6,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,23,18,11,1,0.478,0.8571428571428571,0.826530612244898,77.1,72.2,79.3,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Infrastructure & System Administration,12,12,9,0,0.75,0.7755102040816326,0.7755102040816326,77.0,76.7,77.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Google Cloud Platform (GCP),7,6,7,1,1.0,0.7040816326530612,0.6938775510204082,76.0,79.8,74.6,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Shell / Scripting,8,6,7,0,0.875,0.7448979591836735,0.6938775510204082,75.3,77.1,75.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,6,6,6,0,1.0,0.673469387755102,0.6938775510204082,74.6,78.8,72.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),8,7,6,0,0.75,0.7448979591836735,0.7448979591836735,74.6,74.7,74.6,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,7,7,3,1,0.429,0.7040816326530612,0.7448979591836735,66.3,62.7,67.3,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,5,4,4,0,0.8,0.6326530612244898,0.5816326530612245,64.8,67.1,64.5,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,5,4,3,0,0.6,0.6326530612244898,0.5816326530612245,60.8,60.5,61.5,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,4,4,3,1,0.75,0.5306122448979592,0.5816326530612245,59.2,62.0,57.6,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+ERP / CRM / Enterprise Apps,4,4,3,2,0.75,0.5306122448979592,0.5816326530612245,59.2,62.0,57.6,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MongoDB / NoSQL,4,3,3,0,0.75,0.5306122448979592,0.4897959183673469,56.0,59.0,55.3,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Communication & Teamwork,5,5,1,0,0.2,0.6326530612244898,0.6530612244897959,55.3,49.7,57.3,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Leadership & People Management,4,4,2,0,0.5,0.5306122448979592,0.5816326530612245,54.2,53.7,53.9,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Monitoring & Observability,4,3,2,0,0.5,0.5306122448979592,0.4897959183673469,51.0,50.7,51.6,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Agile & Scrum,4,4,1,0,0.25,0.5306122448979592,0.5816326530612245,49.2,45.5,50.1,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Backend Development,2,2,2,0,1.0,0.3163265306122449,0.3469387755102041,46.4,55.2,42.7,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Containers & Orchestration,2,2,2,0,1.0,0.3163265306122449,0.3469387755102041,46.4,55.2,42.7,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Redis,2,2,2,0,1.0,0.3163265306122449,0.3469387755102041,46.4,55.2,42.7,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Ruby,2,2,2,0,1.0,0.3163265306122449,0.3469387755102041,46.4,55.2,42.7,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Oracle Database,4,3,1,0,0.25,0.5306122448979592,0.4897959183673469,46.0,42.5,47.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PostgreSQL,3,2,2,0,0.667,0.4387755102040816,0.3469387755102041,45.2,48.4,45.0,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,3,2,1,0,0.333,0.4387755102040816,0.3469387755102041,38.5,37.4,40.0,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Warehouse / Big Data,2,2,1,0,0.5,0.3163265306122449,0.3469387755102041,36.4,38.7,35.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Go,2,2,1,0,0.5,0.3163265306122449,0.3469387755102041,36.4,38.7,35.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Java,2,2,1,0,0.5,0.3163265306122449,0.3469387755102041,36.4,38.7,35.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),2,2,1,0,0.5,0.3163265306122449,0.3469387755102041,36.4,38.7,35.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,2,2,1,0,0.5,0.3163265306122449,0.3469387755102041,36.4,38.7,35.2,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Engineering,1,1,1,0,1.0,0.11224489795918367,0.12244897959183673,29.3,40.9,24.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,1,1,1,0,1.0,0.11224489795918367,0.12244897959183673,29.3,40.9,24.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Japanese,1,1,1,0,1.0,0.11224489795918367,0.12244897959183673,29.3,40.9,24.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,1,1,1,0,1.0,0.11224489795918367,0.12244897959183673,29.3,40.9,24.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,2,1,1,0,0.5,0.3163265306122449,0.12244897959183673,28.5,31.3,29.5,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,1,1,0,0,0.0,0.11224489795918367,0.12244897959183673,9.3,7.9,9.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Networking,1,1,0,0,0.0,0.11224489795918367,0.12244897959183673,9.3,7.9,9.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Quality Management (QA/QC),1,1,0,0,0.0,0.11224489795918367,0.12244897959183673,9.3,7.9,9.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Engineering (general),1,1,0,0,0.0,0.11224489795918367,0.12244897959183673,9.3,7.9,9.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),1,1,0,0,0.0,0.11224489795918367,0.12244897959183673,9.3,7.9,9.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Virtualization,1,1,0,0,0.0,0.11224489795918367,0.12244897959183673,9.3,7.9,9.8,role:devops_cloud,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,29,19,23,1,0.793,1.0,1.0,95.9,93.2,96.9,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,17,12,10,0,0.588,0.95,0.95,87.8,83.1,89.6,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,6,6,5,0,0.833,0.825,0.825,82.7,82.8,82.6,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,8,7,4,0,0.5,0.9,0.9,82.0,76.8,84.0,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,3,3,3,0,1.0,0.65,0.675,72.9,77.4,70.9,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Engineering (general),3,3,3,0,1.0,0.65,0.675,72.9,77.4,70.9,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Support / Helpdesk,6,6,2,0,0.333,0.825,0.825,72.7,66.3,75.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Testing,4,4,2,0,0.5,0.75,0.75,70.0,66.8,71.2,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,3,2,3,0,1.0,0.65,0.525,67.6,72.4,67.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),2,2,2,0,1.0,0.45,0.525,58.6,65.6,55.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,2,2,1,0,0.5,0.45,0.525,48.6,49.1,47.6,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,2,1,2,0,1.0,0.45,0.225,48.1,55.7,47.6,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Networking,2,2,0,0,0.0,0.45,0.525,38.6,32.6,40.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,2,1,1,0,0.5,0.45,0.225,38.1,39.2,40.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+API Development,1,1,1,0,1.0,0.175,0.225,35.8,46.4,31.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),1,1,1,0,1.0,0.175,0.225,35.8,46.4,31.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+CI/CD,1,1,1,0,1.0,0.175,0.225,35.8,46.4,31.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,1,1,1,0,1.0,0.175,0.225,35.8,46.4,31.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,1,1,0,0,0.0,0.175,0.225,15.8,13.4,16.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+HTML / CSS,1,1,0,0,0.0,0.175,0.225,15.8,13.4,16.1,role:embedded_hardware,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+ERP / CRM / Enterprise Apps,11,11,10,6,0.909,1.0,1.0,98.2,97.0,98.6,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,3,3,2,0,0.667,0.92,0.92,86.9,83.7,88.2,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+English,3,3,2,0,0.667,0.92,0.92,86.9,83.7,88.2,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Digital Transformation / IT Consulting,3,3,1,0,0.333,0.92,0.92,80.3,72.6,83.2,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,2,2,1,0,0.5,0.76,0.76,70.8,67.4,72.1,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+SQL,2,2,1,0,0.5,0.76,0.76,70.8,67.4,72.1,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,2,2,1,1,0.5,0.76,0.76,70.8,67.4,72.1,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Business Analysis (BA),2,2,0,0,0.0,0.76,0.76,60.8,50.9,64.6,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,2,2,0,0,0.0,0.76,0.76,60.8,50.9,64.6,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+AWS,1,1,1,0,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+CI/CD,1,1,1,0,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Engineering,1,1,1,1,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Warehouse / Big Data,1,1,1,0,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Java,1,1,1,0,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,1,1,1,0,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Oracle Database,1,1,1,0,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,1,1,1,0,1.0,0.34,0.34,47.2,55.8,43.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Backend Development,1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+C/C++,1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Communication & Teamwork,1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+HTML / CSS,1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PostgreSQL,1,1,0,0,0.0,0.34,0.34,27.2,22.8,28.9,role:erp_crm,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,15,15,14,0,0.933,1.0,1.0,98.7,97.8,99.0,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,12,12,8,0,0.667,0.96875,0.96875,90.8,86.9,92.3,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+HTML / CSS,10,10,9,0,0.9,0.90625,0.90625,90.5,90.4,90.5,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,11,11,8,0,0.727,0.9375,0.9375,89.5,86.8,90.6,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript / TypeScript,9,9,8,1,0.889,0.859375,0.859375,86.5,86.9,86.4,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Angular,8,8,7,0,0.875,0.8125,0.8125,82.5,83.3,82.2,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Vue.js,5,5,5,0,1.0,0.78125,0.78125,82.5,85.3,81.4,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,9,9,6,0,0.667,0.859375,0.859375,82.1,79.6,83.1,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,3,3,3,0,1.0,0.75,0.75,80.0,83.2,78.8,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Node.js,2,2,2,0,1.0,0.640625,0.640625,71.2,75.9,69.5,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,2,2,2,0,1.0,0.640625,0.640625,71.2,75.9,69.5,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Ruby,2,2,2,0,1.0,0.640625,0.640625,71.2,75.9,69.5,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,2,2,2,0,1.0,0.640625,0.640625,71.2,75.9,69.5,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),2,2,2,0,1.0,0.640625,0.640625,71.2,75.9,69.5,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),2,2,1,0,0.5,0.640625,0.640625,61.2,59.4,62.0,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+CI/CD,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Frontend Development,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Linux,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MySQL,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PHP,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Rust,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,1,1,1,0,1.0,0.28125,0.28125,42.5,51.8,38.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+AWS,1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Agile & Scrum,1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cybersecurity,1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,1,1,0,0,0.0,0.28125,0.28125,22.5,18.8,23.9,role:frontend,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,37,35,30,1,0.811,1.0,1.0,96.2,93.8,97.2,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,27,26,23,1,0.852,0.9553571428571429,0.9821428571428571,94.4,93.0,94.7,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Node.js,27,25,23,1,0.852,0.9553571428571429,0.9553571428571429,93.5,92.1,94.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript / TypeScript,26,24,23,3,0.885,0.9196428571428571,0.9285714285714286,91.6,91.1,91.7,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,26,20,20,1,0.769,0.9196428571428571,0.8928571428571429,88.0,86.1,89.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,24,21,19,0,0.792,0.8928571428571429,0.9107142857142857,87.9,86.5,88.2,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,17,16,16,0,0.941,0.8392857142857143,0.8392857142857143,86.0,87.3,85.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,17,16,13,0,0.765,0.8392857142857143,0.8392857142857143,82.4,81.5,82.8,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),18,16,12,0,0.667,0.875,0.8392857142857143,82.1,79.5,83.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Full Stack Development,28,25,5,0,0.179,0.9821428571428571,0.9553571428571429,81.2,70.8,85.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,15,14,13,0,0.867,0.7946428571428571,0.7857142857142857,80.6,81.6,80.3,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,17,17,10,1,0.588,0.8392857142857143,0.875,80.2,76.8,81.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PostgreSQL,15,14,12,1,0.8,0.7946428571428571,0.7857142857142857,79.3,79.3,79.3,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,14,14,12,1,0.857,0.7589285714285714,0.7857142857142857,78.8,80.0,78.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,13,13,12,0,0.923,0.7321428571428571,0.75,77.7,80.1,76.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,10,9,10,1,1.0,0.6964285714285714,0.6785714285714286,75.1,79.1,73.8,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Angular,11,10,9,1,0.818,0.7142857142857143,0.7142857142857143,73.5,74.9,73.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,14,11,9,1,0.643,0.7589285714285714,0.7321428571428571,72.6,71.2,73.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PHP,9,9,8,0,0.889,0.6696428571428571,0.6785714285714286,71.7,74.5,70.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+HTML / CSS,7,7,7,0,1.0,0.6339285714285714,0.6339285714285714,70.7,75.5,68.9,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MongoDB / NoSQL,7,7,7,0,1.0,0.6339285714285714,0.6339285714285714,70.7,75.5,68.9,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Go,9,9,6,1,0.667,0.6696428571428571,0.6785714285714286,67.2,67.2,67.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MySQL,5,5,5,0,1.0,0.5625,0.5892857142857143,65.9,71.6,63.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Vue.js,5,5,5,0,1.0,0.5625,0.5892857142857143,65.9,71.6,63.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,5,4,4,0,0.8,0.5625,0.5178571428571429,59.4,62.6,58.7,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Docker,5,4,4,1,0.8,0.5625,0.5178571428571429,59.4,62.6,58.7,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft SQL Server,5,4,4,0,0.8,0.5625,0.5178571428571429,59.4,62.6,58.7,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),5,5,3,0,0.6,0.5625,0.5892857142857143,57.9,58.4,57.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,4,4,2,1,0.5,0.49107142857142855,0.5178571428571429,50.2,50.3,49.9,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,4,4,2,0,0.5,0.49107142857142855,0.5178571428571429,50.2,50.3,49.9,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+ERP / CRM / Enterprise Apps,3,3,2,0,0.667,0.4375,0.44642857142857145,48.7,51.6,47.4,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Agile & Scrum,2,2,2,0,1.0,0.3125,0.33035714285714285,45.6,54.5,42.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+C/C++,2,2,2,0,1.0,0.3125,0.33035714285714285,45.6,54.5,42.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,2,2,2,0,1.0,0.3125,0.33035714285714285,45.6,54.5,42.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Ruby,2,2,2,0,1.0,0.3125,0.33035714285714285,45.6,54.5,42.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cybersecurity,2,2,1,0,0.5,0.3125,0.33035714285714285,35.6,38.0,34.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Flutter / React Native,2,2,1,0,0.5,0.3125,0.33035714285714285,35.6,38.0,34.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,2,2,1,0,0.5,0.3125,0.33035714285714285,35.6,38.0,34.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,2,2,1,0,0.5,0.3125,0.33035714285714285,35.6,38.0,34.5,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,3,3,0,0,0.0,0.4375,0.44642857142857145,35.3,29.6,37.4,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+DevOps,3,3,0,0,0.0,0.4375,0.44642857142857145,35.3,29.6,37.4,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Oracle Database,3,1,1,0,0.333,0.4375,0.125,30.7,30.0,34.4,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Frontend Development,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Linux,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microservices,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python frameworks,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Redis,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Rust,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Test Automation,1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),1,1,1,0,1.0,0.11607142857142858,0.125,29.6,41.1,25.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Warehouse / Big Data,2,2,0,0,0.0,0.3125,0.33035714285714285,25.6,21.5,27.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Product Management,2,2,0,0,0.0,0.3125,0.33035714285714285,25.6,21.5,27.0,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Communication & Teamwork,1,1,0,0,0.0,0.11607142857142858,0.125,9.6,8.1,10.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,1,1,0,0,0.0,0.11607142857142858,0.125,9.6,8.1,10.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Other programming languages,1,1,0,1,0.0,0.11607142857142858,0.125,9.6,8.1,10.1,role:fullstack,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,12,10,8,2,0.667,1.0,1.0,93.3,89.0,95.0,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,7,6,6,0,0.857,0.95,0.95,93.1,91.9,93.6,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,5,5,4,0,0.8,0.9,0.9,88.0,86.7,88.5,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,3,2,3,0,1.0,0.8,0.725,81.4,84.1,81.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+C/C++,3,3,2,0,0.667,0.8,0.85,79.1,77.3,79.3,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,2,2,2,0,1.0,0.6,0.725,72.4,77.3,69.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+English,2,2,1,0,0.5,0.6,0.725,62.4,60.8,61.6,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,3,2,0,0,0.0,0.8,0.725,61.4,51.1,66.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),2,1,2,0,1.0,0.6,0.325,58.4,64.1,59.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Chinese,1,1,1,0,1.0,0.25,0.325,42.6,52.2,38.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,1,1,1,0,1.0,0.25,0.325,42.6,52.2,38.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Product Management,1,1,1,0,1.0,0.25,0.325,42.6,52.2,38.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,1,1,1,0,1.0,0.25,0.325,42.6,52.2,38.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),1,1,1,0,1.0,0.25,0.325,42.6,52.2,38.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Angular,2,1,0,0,0.0,0.6,0.325,38.4,31.1,44.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript / TypeScript,2,1,0,0,0.0,0.6,0.325,38.4,31.1,44.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+API Development,1,1,0,0,0.0,0.25,0.325,22.6,19.2,23.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Full Stack Development,1,1,0,0,0.0,0.25,0.325,22.6,19.2,23.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MySQL,1,1,0,0,0.0,0.25,0.325,22.6,19.2,23.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Windows / Windows Server,1,1,0,0,0.0,0.25,0.325,22.6,19.2,23.1,role:game_dev,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,19,17,13,2,0.684,1.0,1.0,93.7,89.6,95.3,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),15,15,11,1,0.733,0.9714285714285714,0.9857142857142858,92.9,89.7,93.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,13,10,11,6,0.846,0.9357142857142857,0.9142857142857143,91.0,89.9,91.7,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,16,13,10,1,0.625,0.9857142857142858,0.9714285714285714,90.9,86.2,92.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,12,12,9,0,0.75,0.9142857142857143,0.9571428571428572,89.6,87.4,90.0,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,11,9,9,0,0.818,0.9,0.9,88.4,87.3,88.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,14,11,8,0,0.571,0.9571428571428572,0.9357142857142857,87.2,82.3,89.4,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,13,11,8,0,0.615,0.9357142857142857,0.9357142857142857,87.2,83.0,88.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Oracle Database,7,6,6,0,0.857,0.8571428571428571,0.8357142857142857,85.0,85.0,85.2,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,7,7,5,1,0.714,0.8571428571428571,0.8642857142857143,83.1,81.2,83.7,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+HTML / CSS,6,6,5,0,0.833,0.8071428571428572,0.8357142857142857,82.2,82.5,81.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Node.js,6,5,5,2,0.833,0.8071428571428572,0.7857142857142857,80.5,80.9,80.6,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,8,8,3,0,0.375,0.8857142857142857,0.8857142857142857,78.4,71.7,80.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,5,5,4,0,0.8,0.7428571428571429,0.7857142857142857,76.9,77.6,76.2,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MySQL,5,4,4,0,0.8,0.7428571428571429,0.7,73.9,74.8,74.1,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+React,5,4,4,1,0.8,0.7428571428571429,0.7,73.9,74.8,74.1,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,5,4,4,0,0.8,0.7428571428571429,0.7,73.9,74.8,74.1,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,6,5,3,0,0.5,0.8071428571428572,0.7857142857142857,73.8,69.9,75.6,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,5,5,3,0,0.6,0.7428571428571429,0.7857142857142857,72.9,71.0,73.2,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,7,7,1,0,0.143,0.8571428571428571,0.8642857142857143,71.7,62.4,75.2,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,6,5,2,1,0.333,0.8071428571428572,0.7857142857142857,70.5,64.4,73.1,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,4,4,2,0,0.5,0.6642857142857143,0.7,64.4,62.2,64.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,4,3,2,1,0.5,0.6642857142857143,0.5785714285714286,60.1,58.2,61.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript / TypeScript,4,3,2,2,0.5,0.6642857142857143,0.5785714285714286,60.1,58.2,61.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,4,4,1,0,0.25,0.6642857142857143,0.7,59.4,53.9,61.1,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,4,4,1,0,0.25,0.6642857142857143,0.7,59.4,53.9,61.1,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+AWS,3,2,3,0,1.0,0.55,0.4,58.8,64.9,58.0,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),3,3,2,0,0.667,0.55,0.5785714285714286,58.3,59.8,57.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,3,3,2,0,0.667,0.55,0.5785714285714286,58.3,59.8,57.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,3,3,2,0,0.667,0.55,0.5785714285714286,58.3,59.8,57.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MongoDB / NoSQL,3,3,2,0,0.667,0.55,0.5785714285714286,58.3,59.8,57.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,4,4,0,0,0.0,0.6642857142857143,0.7,54.4,45.7,57.4,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+TypeScript,3,2,2,0,0.667,0.55,0.4,52.1,53.9,53.0,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Business Analysis (BA),3,3,1,1,0.333,0.55,0.5785714285714286,51.7,48.8,52.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Blockchain / Fintech,2,2,2,0,1.0,0.37142857142857144,0.4,50.7,58.8,47.3,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,2,2,2,0,1.0,0.37142857142857144,0.4,50.7,58.8,47.3,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,2,2,2,0,1.0,0.37142857142857144,0.4,50.7,58.8,47.3,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cybersecurity,3,3,0,0,0.0,0.55,0.5785714285714286,45.0,37.8,47.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,3,3,0,0,0.0,0.55,0.5785714285714286,45.0,37.8,47.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Test Automation,3,3,0,0,0.0,0.55,0.5785714285714286,45.0,37.8,47.5,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Automation & RPA,2,1,2,0,1.0,0.37142857142857144,0.15,42.0,50.6,41.0,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,2,2,1,0,0.5,0.37142857142857144,0.4,40.7,42.3,39.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Warehouse / Big Data,2,2,1,0,0.5,0.37142857142857144,0.4,40.7,42.3,39.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Frontend Development,2,2,1,0,0.5,0.37142857142857144,0.4,40.7,42.3,39.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Full Stack Development,2,2,1,0,0.5,0.37142857142857144,0.4,40.7,42.3,39.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Go,2,2,1,0,0.5,0.37142857142857144,0.4,40.7,42.3,39.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Japanese,2,2,1,0,0.5,0.37142857142857144,0.4,40.7,42.3,39.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,2,2,1,0,0.5,0.37142857142857144,0.4,40.7,42.3,39.8,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+DevOps,1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Other programming languages,1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PostgreSQL,1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Quality Management (QA/QC),1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Redis,1,1,1,0,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Rust,1,1,1,1,1.0,0.1357142857142857,0.15,31.4,42.6,26.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PHP,2,2,0,0,0.0,0.37142857142857144,0.4,30.7,25.8,32.3,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Product Management,2,2,0,0,0.0,0.37142857142857144,0.4,30.7,25.8,32.3,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),2,2,0,0,0.0,0.37142857142857144,0.4,30.7,25.8,32.3,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Power BI,2,1,0,0,0.0,0.37142857142857144,0.15,22.0,17.6,26.0,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Android,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Angular,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Backend Development,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Engineering,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+French,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Office / Excel,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Ruby,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Swift / iOS,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Vue.js,1,1,0,0,0.0,0.1357142857142857,0.15,11.4,9.6,11.9,role:general_software_eng,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Android,14,13,13,3,0.929,1.0,1.0,98.6,97.7,98.9,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Flutter / React Native,8,8,7,0,0.875,0.9629629629629629,0.9629629629629629,94.5,93.4,95.0,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,7,7,7,1,1.0,0.8888888888888888,0.8888888888888888,91.1,92.6,90.6,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kotlin,7,7,6,0,0.857,0.8888888888888888,0.8888888888888888,88.3,87.8,88.4,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Swift / iOS,6,6,6,0,1.0,0.7962962962962963,0.7962962962962963,83.7,86.4,82.7,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,7,7,2,0,0.286,0.8888888888888888,0.8888888888888888,76.8,69.0,79.8,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,4,4,4,0,1.0,0.6851851851851852,0.6851851851851852,74.8,78.9,73.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,6,6,3,0,0.5,0.7962962962962963,0.7962962962962963,73.7,69.9,75.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,5,5,3,0,0.6,0.7407407407407407,0.7407407407407407,71.3,69.4,72.0,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,4,4,3,0,0.75,0.6851851851851852,0.6851851851851852,69.8,70.7,69.5,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Linux,3,3,3,1,1.0,0.5925925925925926,0.5925925925925926,67.4,72.7,65.4,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+API Development,3,3,2,0,0.667,0.5925925925925926,0.5925925925925926,60.7,61.7,60.4,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,3,3,2,0,0.667,0.5925925925925926,0.5925925925925926,60.7,61.7,60.4,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Backend Development,2,2,2,0,1.0,0.42592592592592593,0.42592592592592593,54.1,61.5,51.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,2,2,2,1,1.0,0.42592592592592593,0.42592592592592593,54.1,61.5,51.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript / TypeScript,2,2,2,0,1.0,0.42592592592592593,0.42592592592592593,54.1,61.5,51.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,2,2,2,1,1.0,0.42592592592592593,0.42592592592592593,54.1,61.5,51.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),2,2,1,0,0.5,0.42592592592592593,0.42592592592592593,44.1,45.0,43.7,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+AWS,2,2,0,0,0.0,0.42592592592592593,0.42592592592592593,34.1,28.5,36.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Angular,1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),1,1,1,0,1.0,0.16666666666666666,0.16666666666666666,33.3,44.2,29.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Chinese,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+TypeScript,1,1,0,0,0.0,0.16666666666666666,0.16666666666666666,13.3,11.2,14.2,role:mobile,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Engineering (general),81,72,59,5,0.728,0.9767441860465116,0.9883720930232558,93.1,89.8,94.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,94,73,52,4,0.553,1.0,1.0,91.1,85.2,93.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,68,50,50,8,0.735,0.9534883720930233,0.9186046511627907,89.8,87.0,91.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Infrastructure & System Administration,82,71,42,0,0.512,0.9883720930232558,0.9767441860465116,88.9,82.7,91.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,62,54,38,3,0.613,0.9244186046511628,0.9418604651162791,86.8,82.7,88.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,56,45,39,3,0.696,0.9069767441860465,0.8953488372093024,86.1,83.4,87.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,53,49,37,1,0.698,0.8953488372093024,0.9069767441860465,86.0,83.4,86.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Support / Helpdesk,65,59,24,0,0.369,0.9418604651162791,0.9651162790697675,83.5,76.0,86.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Analysis,70,52,26,2,0.371,0.9651162790697675,0.9302325581395349,83.4,75.8,86.7,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,47,40,34,0,0.723,0.8488372093023255,0.8662790697674418,83.0,81.3,83.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Project Management,62,57,23,1,0.371,0.9244186046511628,0.9534883720930233,82.4,75.1,84.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,52,43,30,0,0.577,0.8837209302325582,0.8837209302325582,82.2,78.3,83.8,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Oracle Database,30,30,26,4,0.867,0.7616279069767442,0.8255813953488372,80.5,81.8,79.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,32,28,24,0,0.75,0.7965116279069767,0.7965116279069767,78.7,78.1,79.0,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,32,28,23,3,0.719,0.7965116279069767,0.7965116279069767,78.1,77.1,78.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,33,28,22,2,0.667,0.8197674418604651,0.7965116279069767,78.1,76.2,79.1,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Business Analysis (BA),49,39,22,2,0.449,0.8604651162790697,0.8488372093023255,77.4,72.1,79.6,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,44,40,20,3,0.455,0.8372093023255814,0.8662790697674418,77.1,72.1,78.7,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,51,34,15,1,0.294,0.872093023255814,0.8372093023255814,74.4,67.0,77.7,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,33,28,14,1,0.424,0.8197674418604651,0.7965116279069767,73.2,68.1,75.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,29,26,19,0,0.655,0.7441860465116279,0.7441860465116279,72.6,71.5,73.1,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Embedded & Firmware,25,20,19,1,0.76,0.7034883720930233,0.6744186046511628,70.5,71.3,70.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Governance & Management,30,23,14,0,0.467,0.7616279069767442,0.7267441860465116,69.0,65.3,70.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Leadership & People Management,31,27,10,0,0.323,0.7790697674418605,0.7616279069767442,68.2,62.3,70.6,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Blockchain / Fintech,23,23,13,0,0.565,0.6802325581395349,0.7267441860465116,67.3,65.8,67.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,28,27,10,1,0.357,0.7325581395348837,0.7616279069767442,66.8,61.8,68.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,16,16,13,0,0.812,0.6046511627906976,0.622093023255814,65.2,67.9,64.0,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,26,21,11,2,0.423,0.7209302325581395,0.6918604651162791,65.1,61.3,66.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Networking,21,16,14,1,0.667,0.6395348837209303,0.622093023255814,63.9,64.3,63.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),23,22,9,0,0.391,0.6802325581395349,0.7093023255813954,63.3,59.4,64.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PostgreSQL,14,14,12,3,0.857,0.563953488372093,0.5872093023255814,63.1,66.8,61.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Telecommunications,25,12,14,0,0.56,0.7034883720930233,0.563953488372093,62.6,61.0,64.7,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft SQL Server,21,19,11,0,0.524,0.6395348837209303,0.6569767441860465,62.3,60.7,62.7,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Windows / Windows Server,14,14,11,0,0.786,0.563953488372093,0.5872093023255814,61.7,64.5,60.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Quality Management (QA/QC),18,17,9,0,0.5,0.6162790697674418,0.6395348837209303,60.1,58.6,60.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Product Management,22,21,6,1,0.273,0.6627906976744186,0.6918604651162791,59.5,54.4,61.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Testing,21,19,8,0,0.381,0.6395348837209303,0.6569767441860465,59.4,56.0,60.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,15,15,8,0,0.533,0.5872093023255814,0.6046511627906976,58.2,57.5,58.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Power BI,15,12,9,0,0.6,0.5872093023255814,0.563953488372093,58.2,58.4,58.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,12,11,9,0,0.75,0.5174418604651163,0.5348837209302325,57.0,60.0,55.7,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Virtualization,12,10,9,0,0.75,0.5174418604651163,0.4883720930232558,55.4,58.5,54.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Machine Learning (ML),13,10,9,0,0.692,0.5406976744186046,0.4883720930232558,55.3,57.3,55.0,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Visualization / BI,13,11,7,0,0.538,0.5406976744186046,0.5348837209302325,53.8,53.8,53.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Mobile Development,9,8,8,0,0.889,0.4418604651162791,0.436046511627907,52.9,58.7,50.7,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,10,10,7,0,0.7,0.47093023255813954,0.4883720930232558,52.3,55.2,51.0,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,11,10,7,0,0.636,0.4941860465116279,0.4883720930232558,52.1,53.9,51.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Office / Excel,11,11,6,0,0.545,0.4941860465116279,0.5348837209302325,51.9,52.4,51.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,9,8,7,0,0.778,0.4418604651162791,0.436046511627907,50.7,55.1,49.1,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Engineering,7,7,6,0,0.857,0.4011627906976744,0.4011627906976744,49.2,55.2,47.0,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MySQL,9,8,6,0,0.667,0.4418604651162791,0.436046511627907,48.5,51.4,47.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MongoDB / NoSQL,8,8,5,0,0.625,0.4186046511627907,0.436046511627907,46.6,49.2,45.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Test Automation,7,7,5,0,0.714,0.4011627906976744,0.4011627906976744,46.4,50.4,44.8,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Automation & RPA,10,10,4,1,0.4,0.47093023255813954,0.4883720930232558,46.3,45.3,46.5,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kubernetes,5,5,4,0,0.8,0.3430232558139535,0.3430232558139535,43.4,49.4,41.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Shell / Scripting,5,5,4,0,0.8,0.3430232558139535,0.3430232558139535,43.4,49.4,41.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,5,5,4,0,0.8,0.3430232558139535,0.3430232558139535,43.4,49.4,41.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Chinese,6,6,3,0,0.5,0.37790697674418605,0.37790697674418605,40.2,41.8,39.6,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Infrastructure as Code,6,6,3,2,0.5,0.37790697674418605,0.37790697674418605,40.2,41.8,39.6,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+System Integration,5,5,3,1,0.6,0.3430232558139535,0.3430232558139535,39.4,42.8,38.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Azure,4,4,3,0,0.75,0.3023255813953488,0.3023255813953488,39.2,45.0,36.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Frontend Development,3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Monitoring & Observability,3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Swift / iOS,3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+TypeScript,3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Version Control (Git),3,3,3,0,1.0,0.23837209302325582,0.23837209302325582,39.1,49.0,35.3,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+HTML / CSS,4,4,2,0,0.5,0.3023255813953488,0.3023255813953488,34.2,36.8,33.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Japanese,4,4,2,1,0.5,0.3023255813953488,0.3023255813953488,34.2,36.8,33.2,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Flutter / React Native,2,2,2,0,1.0,0.14534883720930233,0.14534883720930233,31.6,42.7,27.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript / TypeScript,2,2,2,0,1.0,0.14534883720930233,0.14534883720930233,31.6,42.7,27.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Node.js,2,2,2,0,1.0,0.14534883720930233,0.14534883720930233,31.6,42.7,27.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Android,1,1,1,0,1.0,0.05232558139534884,0.05232558139534884,24.2,36.5,19.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Angular,1,1,1,0,1.0,0.05232558139534884,0.05232558139534884,24.2,36.5,19.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+French,1,1,1,0,1.0,0.05232558139534884,0.05232558139534884,24.2,36.5,19.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Google Cloud Platform (GCP),1,1,1,0,1.0,0.05232558139534884,0.05232558139534884,24.2,36.5,19.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Korean,1,1,1,0,1.0,0.05232558139534884,0.05232558139534884,24.2,36.5,19.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Vue.js,1,1,1,0,1.0,0.05232558139534884,0.05232558139534884,24.2,36.5,19.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Containers & Orchestration,2,2,1,0,0.5,0.14534883720930233,0.14534883720930233,21.6,26.2,19.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PHP,2,2,1,0,0.5,0.14534883720930233,0.14534883720930233,21.6,26.2,19.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Scala,2,2,1,0,0.5,0.14534883720930233,0.14534883720930233,21.6,26.2,19.9,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Backend Development,2,2,0,0,0.0,0.14534883720930233,0.14534883720930233,11.6,9.7,12.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+R,2,2,0,0,0.0,0.14534883720930233,0.14534883720930233,11.6,9.7,12.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kotlin,1,1,0,0,0.0,0.05232558139534884,0.05232558139534884,4.2,3.5,4.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Translation / Interpreting,1,1,0,0,0.0,0.05232558139534884,0.05232558139534884,4.2,3.5,4.4,role:other,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,77,65,53,12,0.688,1.0,1.0,93.8,89.7,95.3,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,63,46,43,6,0.683,0.9821428571428571,0.9821428571428571,92.2,88.3,93.7,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,32,27,23,0,0.719,0.9464285714285714,0.9464285714285714,90.1,87.1,91.2,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Product Management,40,35,24,1,0.6,0.9642857142857143,0.9642857142857143,89.1,84.4,91.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),15,15,14,0,0.933,0.8392857142857143,0.8571428571428571,86.4,87.6,85.8,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,31,26,18,3,0.581,0.9285714285714286,0.9285714285714286,85.9,81.4,87.6,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Business Analysis (BA),27,24,11,0,0.407,0.9107142857142857,0.9107142857142857,81.0,74.4,83.5,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),22,18,11,0,0.5,0.875,0.875,80.0,75.1,81.9,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,10,9,8,0,0.8,0.7857142857142857,0.7857142857142857,78.9,79.0,78.8,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,16,13,8,1,0.5,0.8571428571428571,0.8392857142857143,77.9,73.3,79.9,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,11,8,8,3,0.727,0.8035714285714286,0.75,77.0,76.1,77.9,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,9,9,6,0,0.667,0.7589285714285714,0.7857142857142857,75.0,73.7,75.2,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,9,9,6,0,0.667,0.7589285714285714,0.7857142857142857,75.0,73.7,75.2,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Leadership & People Management,23,21,4,0,0.174,0.8928571428571429,0.8928571428571429,74.9,65.6,78.5,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,7,7,6,0,0.857,0.7142857142857143,0.7232142857142857,74.6,76.4,73.8,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Japanese,6,5,5,0,0.833,0.6875,0.6696428571428571,71.0,73.0,70.5,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,8,7,5,1,0.625,0.7321428571428571,0.7232142857142857,70.8,69.4,71.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Analysis,14,12,3,0,0.214,0.8214285714285714,0.8214285714285714,70.0,62.1,73.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,6,6,4,0,0.667,0.6875,0.6964285714285714,68.7,68.4,68.7,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Blockchain / Fintech,4,4,4,0,1.0,0.5714285714285714,0.5803571428571429,66.0,71.6,63.8,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Quality Management (QA/QC),5,5,3,0,0.6,0.6517857142857143,0.6696428571428571,64.8,64.1,64.8,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,5,4,3,0,0.6,0.6517857142857143,0.5803571428571429,61.6,61.1,62.6,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,4,4,3,0,0.75,0.5714285714285714,0.5803571428571429,61.0,63.3,60.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,4,4,3,0,0.75,0.5714285714285714,0.5803571428571429,61.0,63.3,60.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,4,4,3,0,0.75,0.5714285714285714,0.5803571428571429,61.0,63.3,60.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+API Development,3,3,3,0,1.0,0.48214285714285715,0.48214285714285715,58.6,65.3,56.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+CI/CD,3,3,3,0,1.0,0.48214285714285715,0.48214285714285715,58.6,65.3,56.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,4,4,2,0,0.5,0.5714285714285714,0.5803571428571429,56.0,55.1,56.3,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,4,4,2,0,0.5,0.5714285714285714,0.5803571428571429,56.0,55.1,56.3,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Oracle Database,2,2,2,0,1.0,0.4107142857142857,0.42857142857142855,53.5,61.1,50.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Networking,3,3,2,1,0.667,0.48214285714285715,0.48214285714285715,51.9,54.3,51.0,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,4,4,0,0,0.0,0.5714285714285714,0.5803571428571429,46.0,38.6,48.8,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,2,1,2,0,1.0,0.4107142857142857,0.20535714285714285,45.7,53.7,44.8,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Warehouse / Big Data,2,2,1,0,0.5,0.4107142857142857,0.42857142857142855,43.5,44.6,42.9,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Spring / Java frameworks,2,1,1,0,0.5,0.4107142857142857,0.20535714285714285,35.7,37.2,37.3,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+C/C++,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Visualization / BI,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Frontend Development,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Support / Helpdesk,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Linux,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microservices,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PHP,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Power BI,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+System Integration,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Windows / Windows Server,1,1,1,0,1.0,0.1875,0.20535714285714285,35.6,46.2,31.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,2,2,0,0,0.0,0.4107142857142857,0.42857142857142855,33.5,28.1,35.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,1,1,0,0,0.0,0.1875,0.20535714285714285,15.6,13.2,16.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Go,1,1,0,0,0.0,0.1875,0.20535714285714285,15.6,13.2,16.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Office / Excel,1,1,0,0,0.0,0.1875,0.20535714285714285,15.6,13.2,16.4,role:project_product_management,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,84,77,51,6,0.607,1.0,1.0,92.1,87.0,94.1,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Test Automation,79,69,54,7,0.684,0.9791666666666666,0.9791666666666666,92.0,88.2,93.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Quality Management (QA/QC),63,57,39,2,0.619,0.9583333333333334,0.9583333333333334,89.0,84.6,90.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,40,36,24,0,0.6,0.9375,0.9375,87.0,82.6,88.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,28,25,19,4,0.679,0.9166666666666666,0.9166666666666666,86.9,83.8,88.1,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,23,21,18,0,0.783,0.875,0.875,85.7,84.5,86.1,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,27,24,19,0,0.704,0.8958333333333334,0.8958333333333334,85.7,83.3,86.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,19,19,15,0,0.789,0.8541666666666666,0.8541666666666666,84.1,83.3,84.4,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,18,17,12,0,0.667,0.8229166666666666,0.8229166666666666,79.2,77.1,80.0,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,12,11,9,4,0.75,0.7916666666666666,0.7916666666666666,78.3,77.8,78.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),18,17,10,0,0.556,0.8229166666666666,0.8229166666666666,77.0,73.5,78.3,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,8,8,7,0,0.875,0.7083333333333334,0.71875,74.5,76.7,73.6,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,8,7,7,0,0.875,0.7083333333333334,0.6875,73.4,75.6,72.8,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Embedded & Firmware,8,8,4,1,0.5,0.7083333333333334,0.71875,67.0,64.3,68.0,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),5,5,4,0,0.8,0.625,0.625,66.0,68.3,65.1,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,11,9,3,0,0.273,0.7604166666666666,0.75,65.9,59.6,68.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Mobile Development,6,6,3,0,0.5,0.6666666666666666,0.6666666666666666,63.3,61.2,64.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Leadership & People Management,11,10,0,0,0.0,0.7604166666666666,0.7708333333333334,61.2,51.3,64.9,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,5,5,2,0,0.4,0.625,0.625,58.0,55.1,59.1,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,5,5,2,0,0.4,0.625,0.625,58.0,55.1,59.1,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,4,4,2,1,0.5,0.5625,0.5625,55.0,54.2,55.3,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Automation & RPA,3,3,2,0,0.667,0.4791666666666667,0.4791666666666667,51.7,54.1,50.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+C/C++,3,3,2,0,0.667,0.4791666666666667,0.4791666666666667,51.7,54.1,50.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Linux,3,3,2,0,0.667,0.4791666666666667,0.4791666666666667,51.7,54.1,50.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,4,4,1,0,0.25,0.5625,0.5625,50.0,45.9,51.6,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,4,4,1,0,0.25,0.5625,0.5625,50.0,45.9,51.6,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,2,2,2,0,1.0,0.34375,0.34375,47.5,56.0,44.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+DevOps,2,2,2,0,1.0,0.34375,0.34375,47.5,56.0,44.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Office / Excel,2,2,2,0,1.0,0.34375,0.34375,47.5,56.0,44.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Shell / Scripting,2,2,2,0,1.0,0.34375,0.34375,47.5,56.0,44.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Swift / iOS,2,2,2,0,1.0,0.34375,0.34375,47.5,56.0,44.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Go,3,3,1,0,0.333,0.4791666666666667,0.4791666666666667,45.0,43.1,45.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,3,3,0,0,0.0,0.4791666666666667,0.4791666666666667,38.3,32.1,40.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+HTML / CSS,2,2,1,0,0.5,0.34375,0.34375,37.5,39.5,36.7,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Android,1,1,1,0,1.0,0.13541666666666666,0.13541666666666666,30.8,42.1,26.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,1,1,1,0,1.0,0.13541666666666666,0.13541666666666666,30.8,42.1,26.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),1,1,1,0,1.0,0.13541666666666666,0.13541666666666666,30.8,42.1,26.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,1,1,1,0,1.0,0.13541666666666666,0.13541666666666666,30.8,42.1,26.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+MySQL,1,1,1,0,1.0,0.13541666666666666,0.13541666666666666,30.8,42.1,26.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,1,1,1,0,1.0,0.13541666666666666,0.13541666666666666,30.8,42.1,26.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Japanese,2,2,0,0,0.0,0.34375,0.34375,27.5,23.0,29.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft SQL Server,2,2,0,0,0.0,0.34375,0.34375,27.5,23.0,29.2,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Business Analysis (BA),1,1,0,0,0.0,0.13541666666666666,0.13541666666666666,10.8,9.1,11.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Digital Transformation / IT Consulting,1,1,0,0,0.0,0.13541666666666666,0.13541666666666666,10.8,9.1,11.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Support / Helpdesk,1,1,0,0,0.0,0.13541666666666666,0.13541666666666666,10.8,9.1,11.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Korean,1,1,0,0,0.0,0.13541666666666666,0.13541666666666666,10.8,9.1,11.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,1,1,0,0,0.0,0.13541666666666666,0.13541666666666666,10.8,9.1,11.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,1,1,0,0,0.0,0.13541666666666666,0.13541666666666666,10.8,9.1,11.5,role:qa_tester,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cybersecurity,65,52,60,11,0.923,1.0,1.0,98.5,97.5,98.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,10,9,9,0,0.9,0.9333333333333333,0.9333333333333333,92.7,92.2,92.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,10,8,8,1,0.8,0.9333333333333333,0.8888888888888888,89.1,87.5,90.2,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,20,17,10,0,0.5,0.9777777777777777,0.9777777777777777,88.2,82.0,90.6,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,10,9,6,1,0.6,0.9333333333333333,0.9333333333333333,86.7,82.3,88.3,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,9,9,6,0,0.667,0.8888888888888888,0.9333333333333333,86.0,83.0,86.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python,7,7,7,0,1.0,0.8111111111111111,0.8222222222222222,85.3,87.7,84.2,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,7,6,4,0,0.571,0.8111111111111111,0.7444444444444445,74.0,71.0,75.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Infrastructure & System Administration,7,7,3,0,0.429,0.8111111111111111,0.8222222222222222,73.9,68.9,75.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Windows / Windows Server,6,6,4,0,0.667,0.7333333333333333,0.7444444444444445,72.4,71.5,72.6,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),5,4,4,0,0.8,0.7,0.7,72.0,73.3,71.5,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,7,7,2,0,0.286,0.8111111111111111,0.8222222222222222,71.0,64.1,73.5,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,5,2,5,0,1.0,0.7,0.5111111111111111,69.4,73.7,69.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,7,7,1,0,0.143,0.8111111111111111,0.8222222222222222,68.1,59.4,71.4,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Project Management,7,7,1,0,0.143,0.8111111111111111,0.8222222222222222,68.1,59.4,71.4,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Embedded & Firmware,2,2,2,1,1.0,0.4666666666666667,0.5111111111111111,58.9,65.7,55.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Java,2,2,2,0,1.0,0.4666666666666667,0.5111111111111111,58.9,65.7,55.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Power BI,2,2,2,0,1.0,0.4666666666666667,0.5111111111111111,58.9,65.7,55.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+SQL,2,2,2,0,1.0,0.4666666666666667,0.5111111111111111,58.9,65.7,55.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Swift / iOS,2,2,2,0,1.0,0.4666666666666667,0.5111111111111111,58.9,65.7,55.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Google Cloud Platform (GCP),3,3,1,0,0.333,0.6333333333333333,0.6666666666666666,58.5,54.5,59.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),4,4,0,1,0.0,0.6666666666666666,0.7,54.5,45.8,57.5,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Support / Helpdesk,2,2,1,0,0.5,0.4666666666666667,0.5111111111111111,48.9,49.2,48.3,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Networking,2,2,1,0,0.5,0.4666666666666667,0.5111111111111111,48.9,49.2,48.3,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Agile & Scrum,2,1,2,0,1.0,0.4666666666666667,0.18888888888888888,47.6,55.1,47.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,3,2,0,0,0.0,0.6333333333333333,0.5111111111111111,46.4,38.4,50.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,2,2,0,0,0.0,0.4666666666666667,0.5111111111111111,38.9,32.7,40.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,2,2,0,0,0.0,0.4666666666666667,0.5111111111111111,38.9,32.7,40.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,2,2,0,0,0.0,0.4666666666666667,0.5111111111111111,38.9,32.7,40.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,2,2,0,0,0.0,0.4666666666666667,0.5111111111111111,38.9,32.7,40.8,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+API Development,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Android,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+CI/CD,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kotlin,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PHP,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PostgreSQL,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Redis,1,1,1,0,1.0,0.16666666666666666,0.18888888888888888,34.1,44.9,29.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,2,1,0,0,0.0,0.4666666666666667,0.18888888888888888,27.6,22.1,32.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Communication & Teamwork,1,1,0,0,0.0,0.16666666666666666,0.18888888888888888,14.1,11.9,14.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,1,1,0,0,0.0,0.16666666666666666,0.18888888888888888,14.1,11.9,14.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+ERP / CRM / Enterprise Apps,1,1,0,0,0.0,0.16666666666666666,0.18888888888888888,14.1,11.9,14.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Go,1,1,0,0,0.0,0.16666666666666666,0.18888888888888888,14.1,11.9,14.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,1,1,0,0,0.0,0.16666666666666666,0.18888888888888888,14.1,11.9,14.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Testing,1,1,0,0,0.0,0.16666666666666666,0.18888888888888888,14.1,11.9,14.7,role:security,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,31,26,31,3,1.0,1.0,1.0,100.0,100.0,100.0,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,8,7,7,0,0.875,0.9333333333333333,0.9333333333333333,92.2,91.4,92.5,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,16,15,10,0,0.625,0.9777777777777777,0.9777777777777777,90.7,86.1,92.5,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,5,5,5,0,1.0,0.8,0.8444444444444444,85.6,88.1,84.1,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),9,8,4,0,0.444,0.9555555555555556,0.9555555555555556,85.3,78.7,87.9,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,5,4,5,0,1.0,0.8,0.7555555555555555,82.4,85.1,81.9,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,5,5,4,0,0.8,0.8,0.8444444444444444,81.6,81.5,81.1,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kubernetes,6,6,3,0,0.5,0.8777777777777778,0.9,81.0,76.0,82.7,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,6,4,4,0,0.667,0.8777777777777778,0.7555555555555555,79.3,76.8,81.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,4,4,4,0,1.0,0.7111111111111111,0.7555555555555555,78.4,82.1,76.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,6,6,2,0,0.333,0.8777777777777778,0.9,77.7,70.5,80.2,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,6,5,2,0,0.333,0.8777777777777778,0.8444444444444444,75.7,68.7,78.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,4,4,3,0,0.75,0.7111111111111111,0.7555555555555555,73.4,73.9,72.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Digital Transformation / IT Consulting,4,4,3,0,0.75,0.7111111111111111,0.7555555555555555,73.4,73.9,72.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cybersecurity,3,3,3,0,1.0,0.5666666666666667,0.6222222222222222,67.3,72.8,64.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Engineering (general),3,3,3,0,1.0,0.5666666666666667,0.6222222222222222,67.3,72.8,64.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,4,3,2,0,0.5,0.7111111111111111,0.6222222222222222,63.8,61.2,65.7,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,4,2,3,1,0.75,0.7111111111111111,0.4444444444444444,62.6,63.6,65.0,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Node.js,3,2,3,0,1.0,0.5666666666666667,0.4444444444444444,61.1,66.9,60.1,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,3,3,2,0,0.667,0.5666666666666667,0.6222222222222222,60.6,61.8,59.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,3,3,2,0,0.667,0.5666666666666667,0.6222222222222222,60.6,61.8,59.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript / TypeScript,3,2,2,0,0.667,0.5666666666666667,0.4444444444444444,54.4,55.9,55.1,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Agile & Scrum,3,3,1,0,0.333,0.5666666666666667,0.6222222222222222,53.9,50.8,54.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,2,2,2,0,1.0,0.3888888888888889,0.4444444444444444,53.1,60.9,49.4,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+ERP / CRM / Enterprise Apps,2,2,2,0,1.0,0.3888888888888889,0.4444444444444444,53.1,60.9,49.4,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Google Cloud Platform (GCP),2,2,2,0,1.0,0.3888888888888889,0.4444444444444444,53.1,60.9,49.4,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microservices,2,2,2,0,1.0,0.3888888888888889,0.4444444444444444,53.1,60.9,49.4,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,3,3,0,0,0.0,0.5666666666666667,0.6222222222222222,47.3,39.8,49.6,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+C/C++,2,1,2,0,1.0,0.3888888888888889,0.17777777777777778,43.7,52.1,42.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+React,2,1,2,0,1.0,0.3888888888888889,0.17777777777777778,43.7,52.1,42.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+SQL,2,2,1,0,0.5,0.3888888888888889,0.4444444444444444,43.1,44.4,41.9,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Android,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Containers & Orchestration,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Flutter / React Native,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Go,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+IT Infrastructure & System Administration,1,1,1,1,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kotlin,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Machine Learning (ML),1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Swift / iOS,1,1,1,0,1.0,0.15555555555555556,0.17777777777777778,33.2,44.2,28.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Governance & Management,2,2,0,0,0.0,0.3888888888888889,0.4444444444444444,33.1,27.9,34.4,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Blockchain / Fintech,1,1,0,0,0.0,0.15555555555555556,0.17777777777777778,13.2,11.2,13.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Engineering,1,1,0,0,0.0,0.15555555555555556,0.17777777777777778,13.2,11.2,13.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,1,1,0,0,0.0,0.15555555555555556,0.17777777777777778,13.2,11.2,13.8,role:solution_architecture,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+.NET / C#,21,21,15,1,0.714,0.9444444444444444,0.9444444444444444,89.8,86.8,91.0,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Infrastructure & System Administration,30,27,13,0,0.433,1.0,1.0,88.7,81.3,91.5,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Support / Helpdesk,25,25,13,1,0.52,0.9722222222222222,0.9722222222222222,88.2,82.3,90.4,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Networking,14,12,10,3,0.714,0.8888888888888888,0.8888888888888888,85.4,83.1,86.3,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,15,15,9,2,0.6,0.9166666666666666,0.9166666666666666,85.3,81.2,86.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,11,10,7,0,0.636,0.8611111111111112,0.8611111111111112,81.6,78.7,82.7,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),7,7,6,0,0.857,0.7361111111111112,0.7638888888888888,77.0,78.5,76.1,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Windows / Windows Server,8,8,5,0,0.625,0.7916666666666666,0.8194444444444444,76.8,74.6,77.4,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Virtualization,10,8,4,0,0.4,0.8333333333333334,0.8194444444444444,74.2,68.6,76.5,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,7,7,3,0,0.429,0.7361111111111112,0.7638888888888888,68.4,64.4,69.7,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Shell / Scripting,3,3,2,0,0.667,0.6527777777777778,0.6527777777777778,65.6,65.7,65.5,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Cloud Computing,8,6,1,0,0.125,0.7916666666666666,0.7222222222222222,63.4,54.9,67.4,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,2,2,2,0,1.0,0.5277777777777778,0.5277777777777778,62.2,68.4,59.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Embedded & Firmware,2,2,2,0,1.0,0.5277777777777778,0.5277777777777778,62.2,68.4,59.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Office / Excel,4,4,1,0,0.25,0.6944444444444444,0.6944444444444444,60.6,54.8,62.8,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+ERP / CRM / Enterprise Apps,2,2,1,0,0.5,0.5277777777777778,0.5277777777777778,52.2,51.9,52.4,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,2,2,1,0,0.5,0.5277777777777778,0.5277777777777778,52.2,51.9,52.4,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,2,2,1,0,0.5,0.5277777777777778,0.5277777777777778,52.2,51.9,52.4,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Software Architecture & Design,3,3,0,0,0.0,0.6527777777777778,0.6527777777777778,52.2,43.7,55.5,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Telecommunications,2,2,1,0,0.5,0.5277777777777778,0.5277777777777778,52.2,51.9,52.4,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,2,2,0,0,0.0,0.5277777777777778,0.5277777777777778,42.2,35.4,44.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Digital Transformation / IT Consulting,1,1,1,0,1.0,0.2222222222222222,0.2222222222222222,37.8,47.9,33.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Google Cloud Platform (GCP),1,1,1,0,1.0,0.2222222222222222,0.2222222222222222,37.8,47.9,33.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Infrastructure as Code,1,1,1,0,1.0,0.2222222222222222,0.2222222222222222,37.8,47.9,33.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Japanese,1,1,1,0,1.0,0.2222222222222222,0.2222222222222222,37.8,47.9,33.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Java,1,1,1,0,1.0,0.2222222222222222,0.2222222222222222,37.8,47.9,33.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Microsoft Azure,1,1,1,0,1.0,0.2222222222222222,0.2222222222222222,37.8,47.9,33.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+PHP,1,1,1,0,1.0,0.2222222222222222,0.2222222222222222,37.8,47.9,33.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Database Design,1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Docker,1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Kubernetes,1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Leadership & People Management,1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Project Management,1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Quality Management (QA/QC),1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Swift / iOS,1,1,0,0,0.0,0.2222222222222222,0.2222222222222222,17.8,14.9,18.9,role:system_network,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+UI/UX Design,13,12,13,2,1.0,1.0,1.0,100.0,100.0,100.0,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,2,2,1,0,0.5,0.8333333333333334,0.875,78.1,73.7,79.4,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Mobile Development,2,2,1,0,0.5,0.8333333333333334,0.875,78.1,73.7,79.4,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+English,2,1,0,0,0.0,0.8333333333333334,0.4166666666666667,52.1,42.1,60.4,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Agile & Scrum,1,1,1,0,1.0,0.375,0.4166666666666667,51.5,59.5,47.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Blockchain / Fintech,1,1,1,0,1.0,0.375,0.4166666666666667,51.5,59.5,47.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+ERP / CRM / Enterprise Apps,1,1,1,0,1.0,0.375,0.4166666666666667,51.5,59.5,47.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Problem Solving & Analytical Thinking,1,1,1,0,1.0,0.375,0.4166666666666667,51.5,59.5,47.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Artificial Intelligence (AI),1,1,0,0,0.0,0.375,0.4166666666666667,31.5,26.5,32.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Business Analysis (BA),1,1,0,0,0.0,0.375,0.4166666666666667,31.5,26.5,32.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Data Analysis,1,1,0,0,0.0,0.375,0.4166666666666667,31.5,26.5,32.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+JavaScript,1,1,0,0,0.0,0.375,0.4166666666666667,31.5,26.5,32.9,role:uiux_design,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Python,299,193,230,6,0.769,0.9893617021276596,1.0,94.9,92.0,95.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+SQL,264,181,195,4,0.739,0.9680851063829787,0.9840425531914894,92.8,89.8,93.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Artificial Intelligence (AI),266,181,167,13,0.628,0.9787234042553191,0.9840425531914894,91.0,86.5,92.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+English,314,172,191,3,0.608,1.0,0.9680851063829787,91.0,86.0,93.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Architecture & Design,202,140,146,8,0.723,0.9521276595744681,0.9468085106382979,90.4,87.5,91.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Business Analysis (BA),202,157,125,8,0.619,0.9521276595744681,0.9574468085106383,88.7,84.4,90.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+.NET / C#,176,137,135,6,0.767,0.9042553191489362,0.9308510638297872,88.6,86.8,89.0,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cybersecurity,186,132,136,20,0.731,0.9361702127659575,0.9042553191489362,88.4,85.8,89.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Engineering (general),175,135,137,6,0.783,0.8936170212765957,0.9148936170212766,87.9,86.4,88.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Java,180,119,148,6,0.822,0.9148936170212766,0.8617021276595744,87.8,86.7,88.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+ERP / CRM / Enterprise Apps,174,117,130,34,0.747,0.8829787234042553,0.851063829787234,84.5,82.8,85.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+API Development,159,125,123,12,0.774,0.8404255319148937,0.8829787234042553,84.2,83.3,84.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Project Management,182,137,86,13,0.473,0.925531914893617,0.9308510638297872,83.7,77.8,85.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Agile & Scrum,171,112,114,6,0.667,0.8723404255319149,0.8297872340425532,81.6,79.1,83.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Digital Transformation / IT Consulting,170,113,100,10,0.588,0.8617021276595744,0.8404255319148937,80.0,76.4,81.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+AWS,128,98,103,5,0.805,0.7978723404255319,0.7978723404255319,79.9,80.0,79.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Infrastructure & System Administration,150,126,74,1,0.493,0.8191489361702128,0.8936170212765957,78.0,73.6,78.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+CI/CD,116,84,94,2,0.81,0.776595744680851,0.7446808510638298,77.2,77.7,77.4,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Analysis,169,120,63,3,0.373,0.851063829787234,0.8723404255319149,76.3,70.0,78.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Cloud Computing,152,111,74,1,0.487,0.8297872340425532,0.8191489361702128,75.8,71.3,77.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Software Testing,133,105,72,6,0.541,0.8085106382978723,0.8085106382978723,75.5,72.0,76.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Warehouse / Big Data,114,86,80,6,0.702,0.7659574468085106,0.7659574468085106,75.3,74.5,75.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+DevOps,109,84,80,4,0.734,0.7553191489361702,0.7446808510638298,74.7,74.5,74.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Linux,100,80,76,1,0.76,0.7180851063829787,0.7127659574468085,72.5,73.0,72.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+UI/UX Design,108,88,62,6,0.574,0.7446808510638298,0.776595744680851,72.2,69.9,72.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Test Automation,95,79,62,8,0.653,0.6808510638297872,0.7021276595744681,68.3,67.9,68.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+IT Support / Helpdesk,100,90,41,1,0.41,0.7180851063829787,0.7872340425531915,68.1,63.9,68.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+React,75,67,63,4,0.84,0.6063829787234043,0.6702127659574468,67.5,70.5,65.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Quality Management (QA/QC),96,83,52,2,0.542,0.6914893617021277,0.723404255319149,67.3,65.3,67.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Communication & Teamwork,121,73,43,3,0.355,0.7872340425531915,0.6808510638297872,66.4,60.9,69.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Machine Learning (ML),84,54,64,1,0.762,0.6702127659574468,0.5851063829787234,65.9,67.2,66.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Database Design,103,84,32,3,0.311,0.7340425531914894,0.7446808510638298,65.3,59.8,67.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Spring / Java frameworks,81,59,63,1,0.778,0.6382978723404256,0.601063829787234,65.3,67.2,65.0,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+TypeScript,70,60,59,3,0.843,0.5851063829787234,0.6223404255319149,65.0,68.2,63.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Embedded & Firmware,82,52,62,7,0.756,0.648936170212766,0.5585106382978723,63.9,65.4,64.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PostgreSQL,67,60,55,5,0.821,0.5638297872340425,0.6223404255319149,63.6,66.8,61.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript,74,62,50,1,0.676,0.5957446808510638,0.6382978723404256,62.7,63.6,61.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kubernetes,66,59,54,1,0.818,0.5478723404255319,0.601063829787234,62.1,65.5,60.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Problem Solving & Analytical Thinking,83,65,37,1,0.446,0.6595744680851063,0.6595744680851063,61.7,58.9,62.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Docker,66,52,57,1,0.864,0.5478723404255319,0.5585106382978723,61.5,65.6,59.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+C/C++,76,47,58,2,0.763,0.6170212765957447,0.5053191489361702,60.7,62.8,61.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Leadership & People Management,98,76,20,0,0.204,0.7021276595744681,0.6914893617021277,59.9,53.4,62.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Product Management,79,63,35,2,0.443,0.6276595744680851,0.648936170212766,59.8,57.4,60.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Node.js,56,50,51,4,0.911,0.5106382978723404,0.526595744680851,59.6,64.8,57.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Oracle Database,68,50,52,4,0.765,0.574468085106383,0.526595744680851,59.6,62.2,59.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+JavaScript / TypeScript,62,53,49,8,0.79,0.5212765957446809,0.574468085106383,59.4,62.8,57.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MySQL,52,47,42,0,0.808,0.5,0.5053191489361702,56.3,60.3,54.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Azure,50,43,39,0,0.78,0.4787234042553192,0.4787234042553192,53.9,57.8,52.4,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Governance & Management,64,51,32,4,0.5,0.5319148936170213,0.5425531914893617,52.9,52.5,53.0,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Power BI,46,39,31,0,0.674,0.4574468085106383,0.46808510638297873,50.4,53.2,49.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Go,51,46,28,1,0.549,0.48936170212765956,0.48936170212765956,50.1,50.9,49.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Mobile Development,49,38,32,2,0.653,0.46808510638297873,0.4574468085106383,50.1,52.6,49.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+HTML / CSS,37,34,29,0,0.784,0.3829787234042553,0.425531914893617,47.8,52.9,45.4,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft SQL Server,44,37,26,0,0.591,0.44148936170212766,0.44680851063829785,47.3,49.3,46.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Infrastructure as Code,35,33,29,2,0.829,0.3670212765957447,0.3882978723404255,46.7,52.6,44.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+MongoDB / NoSQL,39,33,29,0,0.744,0.40425531914893614,0.3882978723404255,46.7,51.1,45.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Networking,44,33,28,5,0.636,0.44148936170212766,0.3882978723404255,46.2,48.8,45.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Blockchain / Fintech,43,34,25,1,0.581,0.425531914893617,0.425531914893617,45.7,47.7,44.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Visualization / BI,40,34,23,0,0.575,0.4148936170212766,0.425531914893617,45.1,47.1,44.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+PHP,32,29,25,3,0.781,0.35106382978723405,0.35106382978723405,43.7,49.3,41.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Data Engineering,35,29,23,2,0.657,0.3670212765957447,0.35106382978723405,41.9,45.7,40.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Version Control (Git),26,22,23,0,0.885,0.2978723404255319,0.30851063829787234,41.9,49.5,38.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Windows / Windows Server,30,29,21,0,0.7,0.3404255319148936,0.35106382978723405,41.6,46.3,39.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Angular,27,25,19,1,0.704,0.31382978723404253,0.324468085106383,39.6,44.6,37.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Google Cloud Platform (GCP),20,17,17,1,0.85,0.24468085106382978,0.24468085106382978,36.6,44.4,33.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Android,19,17,17,3,0.895,0.22340425531914893,0.24468085106382978,36.5,45.2,32.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microsoft Office / Excel,27,25,14,0,0.519,0.31382978723404253,0.324468085106383,35.9,38.5,34.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Full Stack Development,38,33,7,0,0.184,0.39361702127659576,0.3882978723404255,35.0,32.3,36.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Swift / iOS,16,16,14,0,0.875,0.20212765957446807,0.22340425531914893,34.4,43.1,30.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Python frameworks,21,17,15,0,0.714,0.2553191489361702,0.24468085106382978,34.3,40.3,32.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Japanese,25,19,14,1,0.56,0.2872340425531915,0.2872340425531915,34.2,37.7,32.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Shell / Scripting,19,15,16,0,0.842,0.22340425531914893,0.20212765957446807,34.0,42.1,31.1,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Backend Development,19,19,13,0,0.684,0.22340425531914893,0.2872340425531915,33.8,39.6,30.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Virtualization,23,18,13,0,0.565,0.2765957446808511,0.26595744680851063,33.1,36.8,31.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Automation & RPA,22,19,12,2,0.545,0.26595744680851063,0.2872340425531915,32.9,36.5,31.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Flutter / React Native,15,15,13,0,0.867,0.18617021276595744,0.20212765957446807,32.8,41.6,29.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Telecommunications,28,15,15,0,0.536,0.32978723404255317,0.20212765957446807,32.6,35.6,32.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Microservices,11,9,11,0,1.0,0.13829787234042554,0.13829787234042554,31.1,42.3,26.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Vue.js,14,14,12,0,0.857,0.1702127659574468,0.18085106382978725,31.1,40.0,27.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Ruby,12,12,11,0,0.917,0.14893617021276595,0.1595744680851064,30.6,40.6,26.7,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Kotlin,15,13,12,0,0.8,0.18617021276595744,0.1702127659574468,30.3,38.3,27.4,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Redis,13,10,11,0,0.846,0.1595744680851064,0.14893617021276595,29.3,38.3,26.0,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Frontend Development,8,8,7,0,0.875,0.10638297872340426,0.11702127659574468,26.4,36.4,22.4,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Rust,4,4,4,1,1.0,0.05851063829787234,0.05851063829787234,24.7,36.9,20.0,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+System Integration,8,8,6,1,0.75,0.10638297872340426,0.11702127659574468,23.9,32.2,20.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Containers & Orchestration,5,5,4,0,0.8,0.0797872340425532,0.0797872340425532,22.4,31.7,18.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Monitoring & Observability,8,7,5,0,0.625,0.10638297872340426,0.09574468085106383,20.6,27.4,18.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Chinese,10,8,4,0,0.4,0.1276595744680851,0.11702127659574468,17.8,21.4,16.6,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Korean,3,3,2,0,0.667,0.03723404255319149,0.03723404255319149,16.3,24.5,13.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Scala,4,4,2,0,0.5,0.05851063829787234,0.05851063829787234,14.7,20.4,12.5,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+French,2,2,1,0,0.5,0.02127659574468085,0.02127659574468085,11.7,17.9,9.3,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+Other programming languages,3,3,1,1,0.333,0.03723404255319149,0.03723404255319149,9.6,13.5,8.2,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True
+R,5,5,0,0,0.0,0.0797872340425532,0.0797872340425532,6.4,5.3,6.8,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,False
+Translation / Interpreting,1,1,0,0,0.0,0.010638297872340425,0.010638297872340425,0.9,0.7,0.9,size:unknown,2026-10-24,2026-09-25,,,False,15,0,limited_coverage,True

@@ -1,0 +1,2309 @@
+﻿skill_raw,count,skill_canonical,skill_canonical_all,skill_type,mapping_source,decision,needs_human_check
+English,298,English,English,language,rule,map,False
+Python,220,Python,Python,programming_language,rule,map,False
+SQL,212,SQL,SQL,programming_language,rule,map,False
+Java,189,Java,Java,programming_language,rule,map,False
+CI/CD,85,CI/CD,CI/CD,devops,rule,map,False
+PYTHON,69,Python,Python,programming_language,rule,map,False
+Linux,67,Linux,Linux,os,rule,map,False
+LLM,59,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Spring Boot,58,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+Golang,55,Go,Go,programming_language,rule,map,False
+PostgreSql,50,PostgreSQL,PostgreSQL,database,rule,map,False
+MySQL,48,MySQL,MySQL,database,rule,map,False
+Jira,43,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+ERP,41,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Sql,37,SQL,SQL,programming_language,rule,map,False
+Product Management,35,Product Management,Product Management,business,rule,map,False
+Kafka,33,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Embedded,32,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Stakeholder management,32,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Cloud Security,31,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Data Engineer,30,Data Engineering,Data Engineering,ai_data,rule,map,False
+PHP,30,PHP,PHP,programming_language,rule,map,False
+MongoDB,30,MongoDB / NoSQL,MongoDB / NoSQL,database,rule,map,False
+SAP,29,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Terraform,29,Infrastructure as Code,Infrastructure as Code,devops,rule,map,False
+Fullstack,29,Full Stack Development,Full Stack Development,development,rule,map,False
+Networking,28,.NET / C#,.NET / C#,programming_language,rule,map,False
+Phân Tích Dữ Liệu,28,Data Analysis,Data Analysis,ai_data,rule,map,False
+Spring,27,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+Business Intelligence,27,Data Visualization / BI,Data Visualization / BI,ai_data,rule,map,False
+IT Support,25,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Công Nghệ Thông Tin,25,Software Engineering (general),Software Engineering (general),development,rule,map,False
+System Architecture,24,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Angular,24,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+Design Systems,24,UI/UX Design,UI/UX Design,design,rule,map,False
+Risk Management,24,Project Management,Project Management,business,rule,map,False
+Solution Architecture,23,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Computer Vision,23,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+HTML,21,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+Figma,21,UI/UX Design,UI/UX Design,design,rule,map,False
+Big Data,21,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+UI-UX,20,UI/UX Design,UI/UX Design,design,rule,map,False
+Git,20,Version Control (Git),Version Control (Git),tool,rule,map,False
+Playwright,20,Test Automation,Test Automation,testing,rule,map,False
+Android,20,Android,Android,mobile,rule,map,False
+Data Science,20,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+Data Modeling,20,Database Design,Database Design,database,rule,map,False
+Data Management,20,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+NLP,19,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Deep Learning,19,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+ETL,19,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Selenium,19,Test Automation,Test Automation,testing,rule,map,False
+DevSecOps,19,DevOps,DevOps,devops,rule,map,False
+CRM,18,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+OOP,18,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Kotlin,17,Kotlin,Kotlin,programming_language,rule,map,False
+Penetration Testing,17,Cybersecurity,Cybersecurity,security,rule,map,False
+Japanese,17,Japanese,Japanese,language,rule,map,False
+Redis,16,Redis,Redis,database,rule,map,False
+NextJS,16,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+Communication skills,16,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Games,15,Mobile Development,Mobile Development,development,rule,map,False
+PostgreSQL,15,PostgreSQL,PostgreSQL,database,rule,map,False
+LINUX,15,Linux,Linux,os,rule,map,False
+An Toàn Thông Tin,15,Cybersecurity,Cybersecurity,security,rule,map,False
+Data Analytics,15,Data Analysis,Data Analysis,ai_data,rule,map,False
+Computer Science,15,Software Engineering (general),Software Engineering (general),development,rule,map,False
+HTML5,14,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+Agentic AI,14,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Mobile Apps,14,Mobile Development,Mobile Development,development,rule,map,False
+Information Security,14,Cybersecurity,Cybersecurity,security,rule,map,False
+IT Governance,14,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Enterprise Architecture,14,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Firewall,14,Cybersecurity,Cybersecurity,security,rule,map,False
+Phát Triển Phần Mềm,14,Software Engineering (general),Software Engineering (general),development,rule,map,False
+FastAPI,13,Python frameworks,Python frameworks,framework,rule,map,False
+Data Warehousing,13,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+NestJS,13,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+Stakeholder Management,13,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+problem-solving,13,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+CSS,12,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+Japanese IT Communication,12,Japanese,Japanese,language,rule,map,False
+IT Helpdesk,12,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Quản Trị Dữ Liệu,12,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Automation Testing,12,Test Automation,Test Automation,testing,rule,map,False
+Technical Support,12,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Quản Trị Hệ Thống,12,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Core Banking,12,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+C/C++,12,C/C++,C/C++,programming_language,rule,map,False
+Công nghệ thông tin,12,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Ci/Cd Methodologies,12,CI/CD,CI/CD,devops,rule,map,False
+Power Automate,11,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+AUTOSAR,11,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Postman,11,Test Automation,Test Automation,testing,rule,map,False
+VMware,11,Virtualization,Virtualization,infra,rule,map,False
+MLOps,11,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+User story,11,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+System Administration,11,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Data Governance,11,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Software Engineering,11,Software Engineering (general),Software Engineering (general),development,rule,map,False
+"Governance, Risk & Compliance",10,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+ISO 27001,10,Cybersecurity,Cybersecurity,security,rule,map,False
+Ruby on Rails,10,Ruby,Ruby,programming_language,rule,map,False
+Data Quality Tools,10,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+React Native,10,Flutter / React Native,Flutter / React Native,mobile,rule,map,False
+Design,10,UI/UX Design,UI/UX Design,design,rule,map,False
+Windows Server,10,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+Python programming,10,Python,Python,programming_language,rule,map,False
+Phát Triển Sản Phẩm,10,Product Management,Product Management,business,rule,map,False
+Giao tiếp,10,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+IT Infrastructure,10,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Java Spring Boot,10,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+Information Technology,10,Software Engineering (general),Software Engineering (general),development,rule,map,False
+IT Phần Mềm,10,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Tableau,9,Data Visualization / BI,Data Visualization / BI,ai_data,rule,map,False
+Unity,9,Mobile Development,Mobile Development,development,rule,map,False
+OWASP,9,Cybersecurity,Cybersecurity,security,rule,map,False
+Jenkins,9,CI/CD,CI/CD,devops,rule,map,False
+Laravel,9,PHP,PHP,programming_language,rule,map,False
+Microservices Architecture,9,Microservices,Microservices,architecture,rule,map,False
+iOS,9,Swift / iOS,Swift / iOS,programming_language,rule,map,False
+.Net Core,9,.NET / C#,.NET / C#,programming_language,rule,map,False
+Firmware,9,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+DBA,9,Database Design,Database Design,database,rule,map,False
+Embedded C,9,C/C++,C/C++,programming_language,rule,map,False
+Bridge Engineer,9,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Data Warehouse,9,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+PMP,9,Project Management,Project Management,business,rule,map,False
+Oracle Database,9,Oracle Database,Oracle Database,database,rule,map,False
+It Support,9,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Agile Methodologies,9,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Vận Hành Hệ Thống,9,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+ASP.NET,8,.NET / C#,.NET / C#,programming_language,rule,map,False
+Microsoft SQL Server,8,Microsoft SQL Server,Microsoft SQL Server,database,rule,map,False
+Swift,8,Swift / iOS,Swift / iOS,programming_language,rule,map,False
+Databricks,8,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Data-driven,8,Data Analysis,Data Analysis,ai_data,rule,map,False
+IT Communication/Translation,8,,,,unmapped,unmapped_long_tail,True
+Chinese,8,Chinese,Chinese,language,rule,map,False
+BRD,8,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Clean Architecture,8,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+PyTorch,8,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+NoSQL,8,MongoDB / NoSQL,MongoDB / NoSQL,database,rule,map,False
+Collaboration,8,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+English Communication,8,English,English,language,rule,map,False
+Phân Tích Kinh Doanh,8,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Customer Journey Map,8,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Quản Trị Mạng,8,Networking,Networking,infra,rule,map,False
+IT Operations,8,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+IT Project Management,8,Project Management,Project Management,business,rule,map,False
+Fintech,8,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+analytical skills,8,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Software Development,8,Software Engineering (general),Software Engineering (general),development,rule,map,False
+IT Risk Management,8,,,,unmapped,unmapped_long_tail,True
+Spring Core,8,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+IT System Administration,8,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Tensorflow,8,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+Django,7,Python frameworks,Python frameworks,framework,rule,map,False
+Windows,7,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+RAG,7,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Pentest,7,Cybersecurity,Cybersecurity,security,rule,map,False
+PowerShell,7,Shell / Scripting,Shell / Scripting,programming_language,rule,map,False
+Kỹ năng giao tiếp,7,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Khoa Học Máy Tính,7,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Data Engineering,7,Data Engineering,Data Engineering,ai_data,rule,map,False
+Electrical Engineering,7,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Network,7,.NET / C#,.NET / C#,programming_language,rule,map,False
+Microservice,7,Microservices,Microservices,architecture,rule,map,False
+Network Infrastructure,7,.NET / C#,.NET / C#,programming_language,rule,map,False
+Manual Testing,7,Software Testing,Software Testing,testing,rule,map,False
+communication,7,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Systems Engineering,7,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Portfolio Management,7,Project Management,Project Management,business,rule,map,False
+Scrum Master,7,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Problem Solving,7,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+SRS,6,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+JSON,6,API Development,API Development,architecture,rule,map,False
+Data modeling,6,Database Design,Database Design,database,rule,map,False
+Product roadmap,6,Product Management,Product Management,business,rule,map,False
+Presale,6,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Application Security,6,Cybersecurity,Cybersecurity,security,rule,map,False
+SOLID Principles,6,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Cypress,6,Test Automation,Test Automation,testing,rule,map,False
+Blockchain,6,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+MVC,6,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Ruby,6,Ruby,Ruby,programming_language,rule,map,False
+SIEM,6,Cybersecurity,Cybersecurity,security,rule,map,False
+Incident Response,6,Cybersecurity,Cybersecurity,security,rule,map,False
+Unit test,6,Software Testing,Software Testing,testing,rule,map,False
+MVVM,6,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+TensorFlow,6,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+Odoo,6,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Grafana,6,Monitoring & Observability,Monitoring & Observability,devops,rule,map,False
+Quản Lý Sản Phẩm,6,Product Management,Product Management,business,rule,map,False
+Mlops,6,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+IT Security,6,Cybersecurity,Cybersecurity,security,rule,map,False
+Telecommunications Technology,6,Telecommunications,Telecommunications,infra,rule,map,False
+Embedded Systems,6,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Kỹ năng giao tiêp,6,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Usability Testing,6,Software Testing,Software Testing,testing,rule,map,False
+English fluency,6,English,English,language,rule,map,False
+System Integration,6,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Triển Khai Dự Án,6,Project Management,Project Management,business,rule,map,False
+Communication Skills,6,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Teamwork,6,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Manage ERP Software,6,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Cloud Platform,6,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Điện Tử Viễn Thông,6,Telecommunications,Telecommunications,infra,rule,map,False
+Troubleshooting,6,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Api Testing,6,API Development,API Development,architecture,rule,map,False
+Excel,6,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+TCP/IP,6,Networking,Networking,infra,rule,map,False
+Linux System Administration,6,Linux,Linux,os,rule,map,False
+Apache Spark,5,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Wordpress,5,PHP,PHP,programming_language,rule,map,False
+Flutter,5,Flutter / React Native,Flutter / React Native,mobile,rule,map,False
+Algorithms,5,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Vulnerability Assessment,5,Cybersecurity,Cybersecurity,security,rule,map,False
+Bash Shell,5,Shell / Scripting,Shell / Scripting,programming_language,rule,map,False
+Ansible,5,Infrastructure as Code,Infrastructure as Code,devops,rule,map,False
+Cisco,5,Networking,Networking,infra,rule,map,False
+PL/SQL,5,SQL,SQL,programming_language,rule,map,False
+Hardware Design,5,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Cloud-native Architecture,5,Cloud Computing,Cloud Computing,cloud,rule,map,False
+PCI DSS,5,Cybersecurity,Cybersecurity,security,rule,map,False
+Integration test,5,Software Testing,Software Testing,testing,rule,map,False
+GitHub,5,CI/CD,CI/CD,devops,rule,map,False
+Spark,5,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Waterfall Methodology,5,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Adobe Photoshop,5,UI/UX Design,UI/UX Design,design,rule,map,False
+AngularJS,5,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+EDR,5,Cybersecurity,Cybersecurity,security,rule,map,False
+SAP FICO,5,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Sap,5,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Quản Lý Dự Án Công Nghệ,5,Project Management,Project Management,business,rule,map,False
+Bảo Mật Thông Tin,5,Cybersecurity,Cybersecurity,security,rule,map,False
+Telecommunications,5,Telecommunications,Telecommunications,infra,rule,map,False
+Phân tích dữ liệu,5,Data Analysis,Data Analysis,ai_data,rule,map,False
+CCNA,5,Networking,Networking,infra,rule,map,False
+Database Development,5,Database Design,Database Design,database,rule,map,False
+Hybrid Cloud,5,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Network Automation,5,.NET / C#,.NET / C#,programming_language,rule,map,False
+Viễn Thông,5,Telecommunications,Telecommunications,infra,rule,map,False
+Infrastructure As Code,5,Infrastructure as Code,Infrastructure as Code,devops,rule,map,False
+Business Process Design,5,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Information Systems,5,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Solution Architect,5,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+IT System,5,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+FastApi,5,Python frameworks,Python frameworks,framework,rule,map,False
+Cơ Sở Dữ Liệu,5,Database Design,Database Design,database,rule,map,False
+IT Phần Cứng,5,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Ai/Ml,5,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Project Planning,5,Project Management,Project Management,business,rule,map,False
+It Infrastructure Management,5,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Stakeholder Mangement,5,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Quality Assurance,5,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Node.Js,5,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+Consulting,5,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Telecommunication Protocols,5,Telecommunications,Telecommunications,infra,rule,map,False
+Telecommunication Systems,5,Telecommunications,Telecommunications,infra,rule,map,False
+Digitalization,5,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+SAP Integration Suite,5,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+PMO,5,Project Management,Project Management,business,rule,map,False
+C/C++ Programming,5,C/C++,C/C++,programming_language,rule,map,False
+Data Integration,5,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Quản Trị Cơ Sở Dữ Liệu,5,Database Design,Database Design,database,rule,map,False
+Infrastructure,5,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Spring Boots,5,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+Nlp,5,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Gitlab Ci,5,CI/CD,CI/CD,devops,rule,map,False
+An Ninh Thông Tin,5,Cybersecurity,Cybersecurity,security,rule,map,False
+IT Management,5,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Thiết Kế Giải Pháp,5,UI/UX Design,UI/UX Design,design,rule,map,False
+Quality Control,5,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Lập Trình Nhúng,5,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Bảo Mật Hệ Thống,5,Cybersecurity,Cybersecurity,security,rule,map,False
+Lập Trình,5,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Security Infrastructure,5,Cybersecurity,Cybersecurity,security,rule,map,False
+Backlog Management,5,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Quản Lý Rủi Ro,5,Project Management,Project Management,business,rule,map,False
+Quản Lý Incident/Request,5,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Phối Hợp Xử Lý,5,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Software,5,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Microsoft Power Platform,5,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Technical Writing,4,Software Engineering (general),Software Engineering (general),development,rule,map,False
+J2EE,4,Java,Java,programming_language,rule,map,False
+Rust,4,Rust,Rust,programming_language,rule,map,False
+Appium,4,Test Automation,Test Automation,testing,rule,map,False
+Microsoft Azure SQL Database,4,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+User flows,4,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Juniper,4,Networking,Networking,infra,rule,map,False
+Flask,4,Python frameworks,Python frameworks,framework,rule,map,False
+AWS Lambda,4,AWS,AWS,cloud,rule,map,False
+Hardware Troubleshooting,4,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Apache Airflow,4,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+IoT,4,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Security Hardening,4,Cybersecurity,Cybersecurity,security,rule,map,False
+Prompt Engineering,4,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+IT Audit,4,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Web API,4,API Development,API Development,architecture,rule,map,False
+PQA,4,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+BPMN,4,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Data Privacy / Compliance,4,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Snowflake,4,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Market research,4,Product Management,Product Management,business,rule,map,False
+GitLab,4,CI/CD,CI/CD,devops,rule,map,False
+System Engineer,4,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Tư duy logic,4,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Software Implementation,4,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Bảo Mật Server,4,Cybersecurity,Cybersecurity,security,rule,map,False
+AI Agent,4,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+MSSQL,4,Microsoft SQL Server,Microsoft SQL Server,database,rule,map,False
+An Ninh Mạng,4,Cybersecurity,Cybersecurity,security,rule,map,False
+Unit Testing,4,Software Testing,Software Testing,testing,rule,map,False
+Agile Project Management,4,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Data Visualization,4,Data Visualization / BI,Data Visualization / BI,ai_data,rule,map,False
+Tài Chính Ngân Hàng,4,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Salesforce Development,4,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Cloud Solution,4,Cloud Computing,Cloud Computing,cloud,rule,map,False
+MS SQL Server,4,Microsoft SQL Server,Microsoft SQL Server,database,rule,map,False
+API Gateway,4,API Development,API Development,architecture,rule,map,False
+AI Engineer,4,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Full Stack Development,4,Full Stack Development,Full Stack Development,development,rule,map,False
+Java programming,4,Java,Java,programming_language,rule,map,False
+Điện tử viễn thông,4,Telecommunications,Telecommunications,infra,rule,map,False
+C Programming Language,4,C/C++,C/C++,programming_language,rule,map,False
+Effective Communication,4,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Workflow Automation,4,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Artificial Intelligence (AI),4,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Khoa Học Dữ Liệu,4,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+Backend,4,Backend Development,Backend Development,development,rule,map,False
+Giao Tiếp Đàm Phán,4,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+MYSQL,4,MySQL,MySQL,database,rule,map,False
+Test Planning,4,Software Testing,Software Testing,testing,rule,map,False
+RESTful,4,API Development,API Development,architecture,rule,map,False
+Postgresql,4,PostgreSQL,PostgreSQL,database,rule,map,False
+IT Business Analyst,4,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Test Case,4,Software Testing,Software Testing,testing,rule,map,False
+Product Development,4,Product Management,Product Management,business,rule,map,False
+Communication,4,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Test Case Writing,4,Software Testing,Software Testing,testing,rule,map,False
+Master Data Management,4,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Tư Vấn Giải Pháp,4,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Testing,4,Software Testing,Software Testing,testing,rule,map,False
+Làm việc nhóm,4,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Chuyển đổi số,4,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Lập Kế Hoạch Dự Án,4,Project Management,Project Management,business,rule,map,False
+Giải Pháp Công Nghệ,4,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Powershell,4,Shell / Scripting,Shell / Scripting,programming_language,rule,map,False
+API Testing,4,API Development,API Development,architecture,rule,map,False
+Agile Development,4,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Analytical Skills,4,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+WAN,4,Networking,Networking,infra,rule,map,False
+Technical Lead,4,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Windows Operating Systems,4,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+LLMs,4,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Endpoint Security,4,Cybersecurity,Cybersecurity,security,rule,map,False
+Project Manager Qualification,4,Project Management,Project Management,business,rule,map,False
+Security System Management,4,Cybersecurity,Cybersecurity,security,rule,map,False
+Azure Devops,4,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Digital Transformation,4,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Data Architecture,4,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Strategic Thinking,4,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Pandas,3,Python frameworks,Python frameworks,framework,rule,map,False
+DBT,3,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Hibernate,3,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+Product strategy,3,Product Management,Product Management,business,rule,map,False
+Zephyr,3,Software Testing,Software Testing,testing,rule,map,False
+AWS CloudFormation,3,AWS,AWS,cloud,rule,map,False
+Change Management,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+A/B testing,3,Data Analysis,Data Analysis,ai_data,rule,map,False
+GraphQL,3,API Development,API Development,architecture,rule,map,False
+Redhat,3,Linux,Linux,os,rule,map,False
+Google BigQuery,3,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+SOAR,3,Cybersecurity,Cybersecurity,security,rule,map,False
+Jmeter,3,Test Automation,Test Automation,testing,rule,map,False
+Wireframing,3,UI/UX Design,UI/UX Design,design,rule,map,False
+Statistical Analysis,3,Data Analysis,Data Analysis,ai_data,rule,map,False
+Middleware,3,Backend Development,Backend Development,development,rule,map,False
+GitLab CI,3,CI/CD,CI/CD,devops,rule,map,False
+RTOS,3,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Identity & Access Management,3,Cybersecurity,Cybersecurity,security,rule,map,False
+Scala,3,Scala,Scala,programming_language,rule,map,False
+ITIL Foundation,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Prototyping,3,UI/UX Design,UI/UX Design,design,rule,map,False
+R,3,R,R,programming_language,rule,map,False
+Microsoft Dynamics 365,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+IDS/IPS,3,Cybersecurity,Cybersecurity,security,rule,map,False
+Technology Roadmapping,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Shopify,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Automation Tester,3,Test Automation,Test Automation,testing,rule,map,False
+Sharepoint,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Salesforce,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+MIS,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Giao Tiếp,3,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Quản Lý Lãnh Đạo,3,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Quản Trị Hạ Tầng Ảo Hóa,3,Virtualization,Virtualization,infra,rule,map,False
+QUẢN TRỊ RỦI RO,3,Project Management,Project Management,business,rule,map,False
+Airflow,3,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Active Directory,3,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+Automation,3,Automation & RPA,Automation & RPA,enterprise,rule,map,False
+Analytical Thinking,3,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+CCNP,3,Networking,Networking,infra,rule,map,False
+NMS,3,Telecommunications,Telecommunications,infra,keyword_low,map,True
+Network Performance Optimization,3,.NET / C#,.NET / C#,programming_language,rule,map,False
+Quản Trị Mạng Lan,3,Networking,Networking,infra,rule,map,False
+Security Information,3,Cybersecurity,Cybersecurity,security,rule,map,False
+IOT,3,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Operating System,3,Linux,Linux,os,keyword_low,map,True
+Phân Tích Chiến Lược,3,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Thiết Kế Hệ Thống,3,UI/UX Design,UI/UX Design,design,rule,map,False
+SQLServer,3,Microsoft SQL Server,Microsoft SQL Server,database,keyword_low,map,True
+Information security,3,Cybersecurity,Cybersecurity,security,rule,map,False
+Thử Nghiệm Hệ Thống,3,Software Testing,Software Testing,testing,keyword_low,map,True
+IT Hardware,3,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+T24,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Sap Erp,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+API Integration,3,API Development,API Development,architecture,rule,map,False
+Data Structure,3,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Software Prototyping,3,UI/UX Design,UI/UX Design,design,keyword_low,map,True
+MES,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Critical Thinking,3,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+API Management,3,API Development,API Development,architecture,rule,map,False
+Triển Khai Phần Mềm,3,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Quản Trị Máy Chủ,3,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,keyword_low,map,True
+My SQL,3,MySQL,MySQL,database,keyword_low,map,True
+IT Administration,3,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+It Operations,3,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Communication Protocols,3,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+People Leadership,3,Leadership & People Management,Leadership & People Management,soft_skill,keyword_low,map,True
+excel,3,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Test Design,3,Software Testing,Software Testing,testing,rule,map,False
+SAP Consulting,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Manufacturing Operations,3,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Routing,3,Networking,Networking,infra,rule,map,False
+Switching System,3,Networking,Networking,infra,rule,map,False
+Security Firewall,3,Cybersecurity,Cybersecurity,security,rule,map,False
+Mis,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Điện Tử,3,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Kiểm Thử Tính Năng,3,Software Testing,Software Testing,testing,rule,map,False
+Digital Product Management,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+English Comunication,3,English,English,language,rule,map,False
+Microsoft Office,3,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Quản Lý Dữ Liệu,3,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Functional Testing,3,Software Testing,Software Testing,testing,rule,map,False
+Regression Testing,3,Software Testing,Software Testing,testing,rule,map,False
+Hopsworks,3,Machine Learning (ML),Machine Learning (ML),ai_data,keyword_low,map,True
+Banking,3,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Sdlc,3,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Data processing,3,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Data Quality,3,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+ISTQB,3,Software Testing,Software Testing,testing,keyword_low,map,True
+Postgre SQL,3,PostgreSQL,PostgreSQL,database,keyword_low,map,True
+GIT,3,Version Control (Git),Version Control (Git),tool,rule,map,False
+Oracle SQL,3,Oracle Database,Oracle Database,database,rule,map,False
+ERP Migration,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Data Quality Assurance,3,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Software Architecture Design,3,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+English communication,3,English,English,language,rule,map,False
+Technology Management,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Public Cloud,3,Cloud Computing,Cloud Computing,cloud,keyword_low,map,True
+Quản Trị Hệ Thống CNTT,3,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Technical Documentation,3,Software Engineering (general),Software Engineering (general),development,rule,map,False
+VBA,3,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Api Integration,3,API Development,API Development,architecture,rule,map,False
+ICT,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Server System Management,3,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+DWH,3,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+ODS,3,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Pyspark,3,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Giải Quyết Vấn Đề,3,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+.NET Core,3,.NET / C#,.NET / C#,programming_language,rule,map,False
+Quản Trị Dự Án,3,Project Management,Project Management,business,keyword_low,map,True
+Quản Trị Hạ Tầng CNTT,3,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,keyword_low,map,True
+Erp,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Partnership Management,3,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Cloud Infrastructure,3,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Oop,3,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Pytorch,3,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+Embedded Linux,3,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Cloud Computing,3,Cloud Computing,Cloud Computing,cloud,rule,map,False
+English Proficiency,3,English,English,language,rule,map,False
+Project Coordination,3,Project Management,Project Management,business,rule,map,False
+BI Tools,3,Data Visualization / BI,Data Visualization / BI,ai_data,keyword_low,map,True
+MS SQL DBA,3,Microsoft SQL Server,Microsoft SQL Server,database,rule,map,False
+IT Service,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Xử Lý Sự Cố,3,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+ERP Systems,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Siem,3,Cybersecurity,Cybersecurity,security,rule,map,False
+UAT,3,Software Testing,Software Testing,testing,rule,map,False
+Bảo Mật Dữ Liệu,3,Cybersecurity,Cybersecurity,security,rule,map,False
+Ecommerce Technology,3,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Kỹ Năng Nắm Bắt và Giải Quyết Vấn Đề,3,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,keyword_low,map,True
+Qc,3,Software Testing,Software Testing,testing,rule,map,False
+Tableau BI,3,,,,unmapped,unmapped_long_tail,True
+Network Routing,3,.NET / C#,.NET / C#,programming_language,rule,map,False
+Network Technology,3,.NET / C#,.NET / C#,programming_language,rule,map,False
+Phân Tích Tư Duy,3,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Network Protocols,3,.NET / C#,.NET / C#,programming_language,rule,map,False
+Bpmn/Uml,3,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+User Story Mapping,3,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Phân Tích Use Case Ai,3,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Disaster Recovery,3,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,keyword_low,map,True
+VBA Excel,3,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Phân Tích Hệ Thống,3,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+Software Technology,3,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Digital Banking,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Card Payment Technology,3,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Hỗ Trợ Kỹ Thuật,3,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Business Data Analysis & Reporting,3,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+ELK,2,MongoDB / NoSQL,MongoDB / NoSQL,database,rule,map,False
+macOS,2,Windows / Windows Server,Windows / Windows Server,os,keyword_low,map,True
+ASPICE,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+IoT Platforms,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+TestRail,2,Software Testing,Software Testing,testing,rule,map,False
+OpenStack,2,Cloud Computing,Cloud Computing,cloud,keyword_low,map,True
+REST Assured,2,Test Automation,Test Automation,testing,rule,map,False
+Product Design,2,,,,unmapped,unmapped_long_tail,True
+ELT,2,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Product Metrics,2,,,,unmapped,unmapped_long_tail,True
+Symfony,2,PHP,PHP,programming_language,rule,map,False
+Objective C,2,Swift / iOS,Swift / iOS,programming_language,keyword_low,map,True
+ServiceNow,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Embedded Android,2,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+OpenCV,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+CSS 3,2,HTML / CSS,HTML / CSS,programming_language,keyword_low,map,True
+Prometheus,2,Monitoring & Observability,Monitoring & Observability,devops,rule,map,False
+UML,2,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Kanban,2,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+COBOL,2,Other programming languages,Other programming languages,programming_language,keyword_low,map,True
+Dart,2,Flutter / React Native,Flutter / React Native,mobile,rule,map,False
+Domain-Driven Design,2,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+OCR,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+SPI,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+BLE,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+TOGAF,2,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Robotic Process Automation (RPA),2,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Cocos,2,Mobile Development,Mobile Development,development,rule,map,False
+Firebase,2,Backend Development,Backend Development,development,keyword_low,map,True
+Trello,2,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Helm,2,Containers & Orchestration,Containers & Orchestration,devops,rule,map,False
+SSO,2,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+XML,2,API Development,API Development,architecture,keyword_low,map,True
+Spine,2,,,,unmapped,unmapped_long_tail,True
+Robot Framework,2,Test Automation,Test Automation,testing,rule,map,False
+Cocos Creator,2,Mobile Development,Mobile Development,development,rule,map,False
+Elasticsearch,2,MongoDB / NoSQL,MongoDB / NoSQL,database,rule,map,False
+Cassandra,2,MongoDB / NoSQL,MongoDB / NoSQL,database,rule,map,False
+Functional specifications,2,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+Process Automation,2,Automation & RPA,Automation & RPA,enterprise,rule,map,False
+Product Analyst,2,,,,unmapped,unmapped_long_tail,True
+DEV,2,,,,unmapped,unmapped_long_tail,True
+Data Analys,2,Data Analysis,Data Analysis,ai_data,rule,map,False
+Mô Hình Dữ Liệu,2,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Data Privacy,2,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+CSS5,2,,,,unmapped,unmapped_long_tail,True
+Quản Lý Nhóm,2,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Python Programming,2,Python,Python,programming_language,rule,map,False
+Giao tiếp Tiếng Anh,2,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Security Solutions,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Web Service,2,API Development,API Development,architecture,keyword_low,map,True
+Giám Sát Hoạt Động,2,,,,unmapped,unmapped_long_tail,True
+Qa,2,Software Testing,Software Testing,testing,rule,map,False
+Phần mềm nhúng,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Kỹ năng làm việc nhóm,2,Communication & Teamwork,Communication & Teamwork,soft_skill,keyword_low,map,True
+IAM,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Protocols,2,Networking,Networking,infra,keyword_low,map,True
+Mobile Network,2,Mobile Development,Mobile Development,development,rule,map,False
+Autocad,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Linux Security Configuration,2,Linux,Linux,os,rule,map,False
+Windows Security Management,2,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+CCNA Security,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Cyber Risk Management,2,Cybersecurity,Cybersecurity,security,rule,map,False
+ETL Database,2,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Nghiên Cứu Tài Liệu,2,,,,unmapped,unmapped_long_tail,True
+Microsoft SQL,2,Microsoft SQL Server,Microsoft SQL Server,database,rule,map,False
+Risk Analysis,2,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+API RESTful,2,API Development,API Development,architecture,rule,map,False
+Trí Tuệ Nhân Tạo,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+DWDM,2,Telecommunications,Telecommunications,infra,rule,map,False
+Transmission,2,Telecommunications,Telecommunications,infra,keyword_low,map,True
+Wireless Networks,2,Networking,Networking,infra,keyword_low,map,True
+Ran Architecture,2,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Digital Marketing,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Thiết Kế UI-UX,2,UI/UX Design,UI/UX Design,design,rule,map,False
+User Flows,2,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Thiết Kế Trải Nghiệm Người Dùng,2,UI/UX Design,UI/UX Design,design,rule,map,False
+Prototype,2,UI/UX Design,UI/UX Design,design,rule,map,False
+Software Development Tools,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Cloud AWS,2,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Data Mining,2,Data Analysis,Data Analysis,ai_data,rule,map,False
+Server Management,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Unix,2,Linux,Linux,os,rule,map,False
+Research,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Teaching,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Spring Framework,2,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+Analytics Tool,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Application Development,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Network- Server And Virtualisation,2,.NET / C#,.NET / C#,programming_language,rule,map,False
+VMware vSphere,2,Virtualization,Virtualization,infra,rule,map,False
+Linux Server,2,Linux,Linux,os,rule,map,False
+AI Tools,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Rest Apis,2,API Development,API Development,architecture,rule,map,False
+Network Installation,2,.NET / C#,.NET / C#,programming_language,rule,map,False
+Internal Audit,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Ci/Cd,2,CI/CD,CI/CD,devops,rule,map,False
+CI/CD tools,2,CI/CD,CI/CD,devops,rule,map,False
+Thiết Kế Mạch Điện,2,UI/UX Design,UI/UX Design,design,rule,map,False
+Integration Platforms,2,System Integration,System Integration,infra,keyword_low,map,True
+Tư Duy Chiến Lược,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+"Figma, Illustrator, Photoshop",2,UI/UX Design,UI/UX Design,,composite,map,True
+User Experience Testing,2,,,,unmapped,unmapped_long_tail,True
+Kubeflow,2,Machine Learning (ML),Machine Learning (ML),ai_data,keyword_low,map,True
+Tự Động Hóa,2,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Analytical thinking,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Automated Software Testing,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+High Availability Database Environment,2,,,,unmapped,unmapped_long_tail,True
+Database Tuning And Capacity Planning,2,Database Design,Database Design,database,rule,map,False
+Product Strategies,2,,,,unmapped,unmapped_long_tail,True
+Duy Trì Khách Hàng,2,,,,unmapped,unmapped_long_tail,True
+Tài Chính Kế Toán,2,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Kiểm Tra Phần Mềm,2,Software Testing,Software Testing,testing,keyword_low,map,True
+Server Administration,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+UI/UX,2,UI/UX Design,UI/UX Design,design,rule,map,False
+SQL Database,2,SQL,SQL,programming_language,keyword_low,map,True
+Hệ Thống Ảo Hóa,2,Virtualization,Virtualization,infra,keyword_low,map,True
+NIST,2,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+Software Management,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Logical Thinking,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Test Automation,2,Test Automation,Test Automation,testing,rule,map,False
+AI Software,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Ai Development,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Phối hợp giữa các bộ phận,2,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Embedded Software,2,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Embedded System,2,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Access SQL,2,SQL,SQL,programming_language,keyword_low,map,True
+Data Warehouse Systems,2,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Hạ Tầng Công Nghệ,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+It Administration,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Data Quality Assessment,2,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Root Cause Analysis,2,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+SAP FI,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Troubleshooting Analysis,2,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+It Security,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Business Process Management,2,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Ngân Hàng,2,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+ITSM,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,keyword_low,map,True
+Debugging,2,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Objective-C,2,Swift / iOS,Swift / iOS,programming_language,rule,map,False
+Mobile App,2,Mobile Development,Mobile Development,development,rule,map,False
+Reverse Engineering,2,,,,unmapped,unmapped_long_tail,True
+System Project Management,2,,,,unmapped,unmapped_long_tail,True
+Network Solutions,2,.NET / C#,.NET / C#,programming_language,rule,map,False
+Vận Hành Hệ Thống Mạng,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Requirement Analysis,2,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Big Data Analytics,2,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Waterfall Project Management,2,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Quản Trị Hệ Thống Máy Chủ,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Bảo Trì,2,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Kiểm Soát Tuân Thủ,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Scripting,2,Shell / Scripting,Shell / Scripting,programming_language,keyword_low,map,True
+Customer Experience Management,2,,,,unmapped,unmapped_long_tail,True
+RESTful API development,2,API Development,API Development,architecture,rule,map,False
+Confluence,2,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Vmware,2,Virtualization,Virtualization,infra,rule,map,False
+Mongodb,2,MongoDB / NoSQL,MongoDB / NoSQL,database,rule,map,False
+AI Agents,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Basel II,2,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Triton Inference Server,2,Machine Learning (ML),Machine Learning (ML),ai_data,keyword_low,map,True
+Helpdesk Support,2,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+English Conversation,2,English,English,language,rule,map,False
+Kiến trúc hệ thống,2,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+iOS App Testing,2,Swift / iOS,Swift / iOS,programming_language,rule,map,False
+Giao tiếp tiếng Hàn,2,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+IP Routing,2,Networking,Networking,infra,keyword_low,map,True
+Data Loss Prevention,2,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+Prepare Test Data,2,Software Testing,Software Testing,testing,keyword_low,map,True
+Rational Performance Tester,2,,,,unmapped,unmapped_long_tail,True
+Banking Operations,2,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Distributed Systems,2,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Database Software,2,Database Design,Database Design,database,rule,map,False
+Apache Maven,2,CI/CD,CI/CD,devops,keyword_low,map,True
+Attention to Detail,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Quality Management,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Operations Management,2,,,,unmapped,unmapped_long_tail,True
+Scope Management,2,Project Management,Project Management,business,keyword_low,map,True
+Software Design,2,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Test Automation Tools,2,Test Automation,Test Automation,testing,rule,map,False
+Tư Duy Research-Oriented,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Core Network Solution,2,Telecommunications,Telecommunications,infra,rule,map,False
+Bảo Mật Web,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Quản Trị Rủi Ro Thông Tin,2,Project Management,Project Management,business,rule,map,False
+Audiovisual,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Audio Visual Support,2,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Audio Visual Equipment,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+AV Installation,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Tư Duy Hệ Thống,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Interpersonal Skills,2,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Sql- Python Or R,2,SQL,SQL | Python,programming_language,composite,map,True
+Financial Risk Analysis,2,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+SAP-ERP,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Tiếng Nhật N2,2,Japanese,Japanese,language,rule,map,False
+IT Production,2,,,,unmapped,unmapped_long_tail,True
+Quản Lý Dự Án Số Hóa,2,Project Management,Project Management,business,rule,map,False
+Quản Lý Điều Phối Dự Án,2,Project Management,Project Management,business,keyword_low,map,True
+Backend developer,2,Backend Development,Backend Development,development,rule,map,False
+Validation,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Network Administration,2,.NET / C#,.NET / C#,programming_language,rule,map,False
+Sap S/4Hana,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Budgeting,2,Project Management,Project Management,business,rule,map,False
+Virtualization,2,Virtualization,Virtualization,infra,rule,map,False
+Lập Trình Backend,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Soạn Thảo Urd/Srs/User Stories,2,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+WMS,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Node.js,2,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+Phát Triển Hệ Thống,2,,,,unmapped,unmapped_long_tail,True
+Back-end Programming,2,Backend Development,Backend Development,development,rule,map,False
+It Management,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Lãnh đạo,2,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Network Management,2,.NET / C#,.NET / C#,programming_language,rule,map,False
+Infrastructure Support,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Loan Origination System,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Software Programming,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Program Management,2,Project Management,Project Management,business,rule,map,False
+Html,2,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+System Modeling,2,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Financial Products,2,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Kiểm Soát Chất Lượng,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Systems Integration,2,System Integration,System Integration,infra,keyword_low,map,True
+Java System,2,Java,Java,programming_language,keyword_low,map,True
+System Support,2,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Hạ Tầng Mạng,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+GRC,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Helpdesk,2,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Tích Hợp Dữ Liệu,2,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Sales Forecast,2,,,,unmapped,unmapped_long_tail,True
+AI Adoption,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+CBAP,2,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+CCBA,2,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+Thiết Kế Flowchart,2,UI/UX Design,UI/UX Design,design,rule,map,False
+Tích hợp API,2,API Development,API Development,architecture,keyword_low,map,True
+Infrastructure-As-Code,2,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Kiểm thử ứng dụng,2,Software Testing,Software Testing,testing,rule,map,False
+Digital Strategy,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+genAI,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+IT support,2,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+People Management,2,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+AI Development,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+ITIL,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+WebSocket,2,Backend Development,Backend Development,development,rule,map,False
+Iso 9001,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+CAPA,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Tin Học Văn Phòng,2,Software Engineering (general),Software Engineering (general),development,rule,map,False
+SQL programming,2,SQL,SQL,programming_language,keyword_low,map,True
+Hospitality,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Burp Suite,2,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+Data AI,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Communication and negotiation skills,2,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Friendly Communication,2,,,,unmapped,unmapped_long_tail,True
+End-User Support,2,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Resource Coordination,2,Project Management,Project Management,business,keyword_low,map,True
+CEH,2,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+SOC,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Cơ Sở Dữ Liệu SQL Server,2,Microsoft SQL Server,Microsoft SQL Server,database,keyword_low,map,True
+Data Security,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Ecommerce Solution,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+PM,2,,,,unmapped,unmapped_long_tail,True
+Kiểm Thử,2,Software Testing,Software Testing,testing,rule,map,False
+Lập Trình Python,2,Python,Python,programming_language,keyword_low,map,True
+Tư duy hệ thống,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Risk Control Analysis,2,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Risk Governance,2,,,,unmapped,unmapped_long_tail,True
+Product Security,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Customer Communication,2,,,,unmapped,unmapped_long_tail,True
+Microsoft Office 365,2,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Cơ Khí,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Spring Data JPA,2,Spring / Java frameworks,Spring / Java frameworks,framework,rule,map,False
+Pre-sales,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+User Research,2,UI/UX Design,UI/UX Design,design,rule,map,False
+Chứng khoán,2,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Giám Sát,2,,,,unmapped,unmapped_long_tail,True
+QA,2,Software Testing,Software Testing,testing,rule,map,False
+Test Cases,2,Software Testing,Software Testing,testing,rule,map,False
+Kernel,2,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+I2C,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Spi,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Posix Operating Systems,2,Linux,Linux,os,keyword_low,map,True
+Linux Kernel,2,Linux,Linux,os,rule,map,False
+Linux Device Driver,2,Linux,Linux,os,rule,map,False
+ARM Cortex-M,2,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Device Drivers,2,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+CX Management,2,,,,unmapped,unmapped_long_tail,True
+Security Incident Response,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Access Control Management,2,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+service blueprinting,2,,,,unmapped,unmapped_long_tail,True
+Quản Trị Thay Đổi,2,,,,unmapped,unmapped_long_tail,True
+Kiểm Thử Bảo Mật,2,Cybersecurity,Cybersecurity,security,rule,map,False
+Kỹ Thuật Vật Lý,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Presales Technical,2,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+ABAP,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Technical Communications,2,Software Engineering (general),Software Engineering (general),development,rule,map,False
+SQL Tunning,2,SQL,SQL,programming_language,keyword_low,map,True
+Problem-solving,2,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Network Troubleshooting,2,.NET / C#,.NET / C#,programming_language,rule,map,False
+Customer Service,2,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Infrastructure Security,2,Cybersecurity,Cybersecurity,security,rule,map,False
+System Analysis,2,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+Gap Analysis,2,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Quản Lý Kế Hoạch,2,,,,unmapped,unmapped_long_tail,True
+Automotive Engineering,2,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Diagnostic tools,2,,,,unmapped,unmapped_long_tail,True
+Mechatronics,2,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Thiết Kế FPGA,2,UI/UX Design,UI/UX Design,design,rule,map,False
+Ui/Ux,2,UI/UX Design,UI/UX Design,design,rule,map,False
+English Language Proficiency,2,English,English,language,rule,map,False
+Quality Tools,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Impediment Management,2,,,,unmapped,unmapped_long_tail,True
+Communication and Facilitation,2,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+CFA,2,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Mortgage Loan,2,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+SwiftUI,2,Swift / iOS,Swift / iOS,programming_language,rule,map,False
+Fullstack Development,2,Full Stack Development,Full Stack Development,development,rule,map,False
+Microsoft 365,2,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+AI/ML & Data Engineering,2,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Software engineer,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Automation Solutions,2,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Core ERP,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Software Quality Assurance,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Điều Phối,2,Project Management,Project Management,business,keyword_low,map,True
+ODOO,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Vue.js,2,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+End User Support,2,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Project Finance Management,2,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Quản Trị Mạng Hạ Tầng,2,Networking,Networking,infra,rule,map,False
+Triển Khai Hệ Thống Mạng Doanh Nghiệp,2,,,,unmapped,unmapped_long_tail,True
+Quản lý ngân sách,2,,,,unmapped,unmapped_long_tail,True
+Microsoft Azure,2,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Effective Teamwork,2,Communication & Teamwork,Communication & Teamwork,soft_skill,keyword_low,map,True
+Kỹ Thuật,2,,,,unmapped,unmapped_long_tail,True
+CSS3,2,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+Pyspark And Python,2,Data Warehouse / Big Data,Data Warehouse / Big Data | Python,programming_language,composite,map,True
+Microcontroller Programming,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+SQL & Power BI,2,SQL,SQL | Data Visualization / BI,programming_language,composite,map,True
+UAT Test,2,Software Testing,Software Testing,testing,keyword_low,map,True
+PCB Application,2,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Thiết Kế Phần Cứng,2,UI/UX Design,UI/UX Design,design,rule,map,False
+English Fluency,2,English,English,language,rule,map,False
+Data-Driven,2,Data Analysis,Data Analysis,ai_data,rule,map,False
+Báo Cáo Quản Trị,2,,,,unmapped,unmapped_long_tail,True
+Database Administration,2,Database Design,Database Design,database,rule,map,False
+Bi Tools,2,Data Visualization / BI,Data Visualization / BI,ai_data,keyword_low,map,True
+Operational Excellence,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Industrial Engineer,2,,,,unmapped,unmapped_long_tail,True
+Continuous Improvement,2,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Production Engineer,2,,,,unmapped,unmapped_long_tail,True
+Debug,2,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Data Management Tools,2,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+SAP ABAP,2,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Software Process Development,2,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+ENGLISH COMUNICATION,2,English,English,language,rule,map,False
+WPF,1,.NET / C#,.NET / C#,programming_language,keyword_low,map,True
+JUnit,1,Test Automation,Test Automation,testing,rule,map,False
+CloudFormation,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Data mining,1,Data Analysis,Data Analysis,ai_data,rule,map,False
+Decorator pattern,1,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Repository pattern,1,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Hack (HHVM),1,,,,unmapped,unmapped_long_tail,True
+PHPUnit,1,PHP,PHP,programming_language,keyword_low,map,True
+Data Lineage,1,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Yii,1,PHP,PHP,programming_language,keyword_low,map,True
+ARM Cortex,1,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Amazon Aurora,1,AWS,AWS,cloud,rule,map,False
+Less,1,,,,unmapped,unmapped_long_tail,True
+CANoe,1,,,,unmapped,unmapped_long_tail,True
+Cucumber,1,Test Automation,Test Automation,testing,rule,map,False
+ServiceNow App Engine,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+SIP Server,1,,,,unmapped,unmapped_long_tail,True
+Web Application Firewall,1,Cybersecurity,Cybersecurity,security,rule,map,False
+kotlinx.coroutines,1,,,,unmapped,unmapped_long_tail,True
+Pro Engineer,1,,,,unmapped,unmapped_long_tail,True
+FRS,1,,,,unmapped,unmapped_long_tail,True
+Event-Driven Architecture,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+JQuery,1,Frontend Development,Frontend Development,development,rule,map,False
+Sass,1,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+Elixir,1,Other programming languages,Other programming languages,programming_language,keyword_low,map,True
+k6,1,Test Automation,Test Automation,testing,rule,map,False
+French,1,French,French,language,keyword_low,map,True
+Blazor,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Hadoop,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+HRM / HCM,1,,,,unmapped,unmapped_long_tail,True
+Lean Project Management,1,,,,unmapped,unmapped_long_tail,True
+DynamoDB,1,MongoDB / NoSQL,MongoDB / NoSQL,database,rule,map,False
+SOAP,1,API Development,API Development,architecture,rule,map,False
+ExpressJS,1,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+Unreal Engine,1,Mobile Development,Mobile Development,development,rule,map,False
+TestComplete,1,Software Testing,Software Testing,testing,rule,map,False
+scikit-learn,1,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+Bootstrap,1,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+Blender,1,,,,unmapped,unmapped_long_tail,True
+Splunk,1,Monitoring & Observability,Monitoring & Observability,devops,rule,map,False
+NetSuite,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Chef,1,Infrastructure as Code,Infrastructure as Code,devops,rule,map,False
+IBM DB2,1,Database Design,Database Design,database,keyword_low,map,True
+Data Catalog,1,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Nuxt.js,1,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+T-SQL,1,SQL,SQL,programming_language,rule,map,False
+pytest,1,Test Automation,Test Automation,testing,rule,map,False
+Android studio,1,Android,Android,mobile,rule,map,False
+Manager,1,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Team Leader,1,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Designer,1,,,,unmapped,unmapped_long_tail,True
+Project Manager,1,Project Management,Project Management,business,rule,map,False
+Backend Developer,1,Backend Development,Backend Development,development,rule,map,False
+Fullstack Developer,1,Full Stack Development,Full Stack Development,development,rule,map,False
+DevOps Engineer,1,,,,unmapped,unmapped_long_tail,True
+Software/Technical Architect,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Manual Tester,1,Software Testing,Software Testing,testing,rule,map,False
+Embedded Engineer,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Frontend Developer,1,Frontend Development,Frontend Development,development,rule,map,False
+Security Engineer,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Mobile Application Developer,1,Mobile Development,Mobile Development,development,rule,map,False
+Network Engineer,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Java Developer,1,Java,Java,programming_language,keyword_low,map,True
+PHP Developer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Javascript Developer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+HTML5 Developer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+SQL Developer,1,SQL,SQL,programming_language,keyword_low,map,True
+Android Developer,1,Android,Android,mobile,rule,map,False
+iOS Developer,1,Swift / iOS,Swift / iOS,programming_language,rule,map,False
+Ruby Developer,1,Ruby,Ruby,programming_language,rule,map,False
+Python Developer,1,Python,Python,programming_language,keyword_low,map,True
+Ruby On Rails Developer,1,Ruby,Ruby,programming_language,rule,map,False
+.NET Developer,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+NodeJS Developer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Linux Developer,1,Linux,Linux,os,rule,map,False
+OOP Developer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Oracle Developer,1,Oracle Database,Oracle Database,database,rule,map,False
+C++ Developer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Wordpress Developer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Database Administrator,1,Database Design,Database Design,database,rule,map,False
+Mobile Apps Developer,1,Mobile Development,Mobile Development,development,rule,map,False
+Ho Chi Minh,1,Noise (not a skill),Noise (not a skill),noise,keyword_low,drop_noise,True
+Ha Noi,1,Noise (not a skill),Noise (not a skill),noise,keyword_low,drop_noise,True
+Da Nang,1,Noise (not a skill),Noise (not a skill),noise,keyword_low,drop_noise,True
+Others,1,Noise (not a skill),Noise (not a skill),noise,keyword_low,drop_noise,True
+Low Code No Code Developer,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Hugging Face Transformers,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Entity Framework,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Risk Assessment / BCP,1,,,,unmapped,unmapped_long_tail,True
+CompTIA Security+,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Mockups,1,,,,unmapped,unmapped_long_tail,True
+Usability testing,1,Software Testing,Software Testing,testing,rule,map,False
+LINQ,1,.NET / C#,.NET / C#,programming_language,keyword_low,map,True
+Robotics,1,,,,unmapped,unmapped_long_tail,True
+Azure Cosmos DB,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Illustrator,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Strategy planning,1,,,,unmapped,unmapped_long_tail,True
+Adobe,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Cocos2d-x,1,Mobile Development,Mobile Development,development,rule,map,False
+Magento,1,PHP,PHP,programming_language,keyword_low,map,True
+Drupal,1,PHP,PHP,programming_language,keyword_low,map,True
+Fiori,1,,,,unmapped,unmapped_long_tail,True
+Contextual inquiry,1,,,,unmapped,unmapped_long_tail,True
+Adobe XD,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Microsoft Copilot,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Mobile Backend,1,Mobile Development,Mobile Development,development,rule,map,False
+Web Client,1,,,,unmapped,unmapped_long_tail,True
+Business Analyst Skills,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Quản Trị Dữ Liệu Ngân Hàng,1,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Allegro PCB Design,1,,,,unmapped,unmapped_long_tail,True
+OrCAD,1,,,,unmapped,unmapped_long_tail,True
+PCB Layout,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Signal Integrity,1,,,,unmapped,unmapped_long_tail,True
+SerDes,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Web,1,,,,unmapped,unmapped_long_tail,True
+"Ứng Dụng Ai, Dữ Liệu Và Llm",1,Artificial Intelligence (AI),Artificial Intelligence (AI) | Data Governance & Management,ai_data,composite,map,True
+Điều Phối Nhiều Nhóm Chuyên Môn,1,Project Management,Project Management,business,keyword_low,map,True
+ERP Projects,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+SAP Logistics,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Webpack,1,Frontend Development,Frontend Development,development,rule,map,False
+Phân Tích Dữ Liệu Tài Chính,1,Data Analysis,Data Analysis,ai_data,rule,map,False
+Confluence BA,1,,,,unmapped,unmapped_long_tail,True
+draw.io,1,,,,unmapped,unmapped_long_tail,True
+UAT testing,1,,,,unmapped,unmapped_long_tail,True
+ISO 9000,1,,,,unmapped,unmapped_long_tail,True
+Giám Sát Kiểm Tra,1,,,,unmapped,unmapped_long_tail,True
+Kiến Trúc Data Warehouse/Data Lake,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Big Data Và Cloud,1,Data Warehouse / Big Data,Data Warehouse / Big Data | Cloud Computing,data,composite,map,True
+"Sql, Python, R, Scala",1,SQL,SQL | Python | R | Scala,programming_language,composite,map,True
+Mô Hình Rủi Ro,1,,,,unmapped,unmapped_long_tail,True
+Mô Hình Tài Chính,1,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+OOAD,1,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Git/Gerrit,1,Version Control (Git),Version Control (Git),tool,keyword_low,map,True
+"Multi-Thread, Multi-Process Programming",1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Effective Presentation,1,Communication & Teamwork,Communication & Teamwork,soft_skill,keyword_low,map,True
+Object Oriented Programming,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Javascript Và Python,1,JavaScript / TypeScript,JavaScript / TypeScript | Python,programming_language,composite,map,True
+"Api, Webhook Và Tích Hợp Hệ Thống",1,API Development,API Development,architecture,rule,map,False
+N8N Và Nền Tảng Tự Động Hóa,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Hệ Thống Llm Và Tác Nhân Ai,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Wireless Technologies,1,Networking,Networking,infra,keyword_low,map,True
+Enterprise Networking,1,,,,unmapped,unmapped_long_tail,True
+CCIE,1,,,,unmapped,unmapped_long_tail,True
+SD-WAN,1,Networking,Networking,infra,rule,map,False
+Storage,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+QC Systems,1,,,,unmapped,unmapped_long_tail,True
+Hệ Thống Quản Lý,1,,,,unmapped,unmapped_long_tail,True
+Kiểm Thử Sản Phẩm,1,Software Testing,Software Testing,testing,rule,map,False
+Xây dựng quy trình kiểm thử,1,Software Testing,Software Testing,testing,keyword_low,map,True
+Hardware R&D,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Nghiên Cứu Khoa Học,1,,,,unmapped,unmapped_long_tail,True
+Reverse Engineering Binary,1,,,,unmapped,unmapped_long_tail,True
+lập trình C/C++,1,Software Engineering (general),Software Engineering (general) | C/C++,development,composite,map,True
+"Siem, Soar",1,Cybersecurity,Cybersecurity,security,rule,map,False
+"Python, Bash, Powershell",1,Python,Python | Shell / Scripting,programming_language,composite,map,True
+"Terraform, Cloudformation",1,Infrastructure as Code,Infrastructure as Code | Cloud Computing,devops,composite,map,True
+Access Control,1,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+Mobile System Architecture,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Radio Interface Knowledge,1,,,,unmapped,unmapped_long_tail,True
+Signaling Protocols,1,Networking,Networking,infra,keyword_low,map,True
+Wireless solutions,1,Networking,Networking,infra,keyword_low,map,True
+Telecom Infrastructure,1,Telecommunications,Telecommunications,infra,rule,map,False
+Vulnerability Scanning,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Embedded Testing,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Analysis & Reporting Skills,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Presentation,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Database management,1,Database Design,Database Design,database,rule,map,False
+Details Orientation,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,keyword_low,map,True
+Cybersecurity Awareness,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Cybersecurity Expertise,1,Cybersecurity,Cybersecurity,security,rule,map,False
+IBM Datastage,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Aws Lakehouse/Data Mesh,1,AWS,AWS,cloud,rule,map,False
+Terraform Và Ci/Cd,1,Infrastructure as Code,Infrastructure as Code,devops,keyword_low,map,True
+AWS Cloud Computing,1,AWS,AWS,cloud,rule,map,False
+Python Dcc Automation,1,Python,Python,programming_language,keyword_low,map,True
+Unreal Engine/Unity Tools,1,Mobile Development,Mobile Development,development,rule,map,False
+Rest Apis And Relational Databases,1,API Development,API Development,architecture,rule,map,False
+Web Content Optimization,1,,,,unmapped,unmapped_long_tail,True
+Git Workflow,1,Version Control (Git),Version Control (Git),tool,keyword_low,map,True
+Quản Trị Server,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Firewall,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Phối Hợp Với Người Dùng,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Technical,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Quản Lý Vận Hành,1,,,,unmapped,unmapped_long_tail,True
+Quản Trị Mạng Máy Tính,1,Networking,Networking,infra,rule,map,False
+Giảng Dạy,1,,,,unmapped,unmapped_long_tail,True
+Công Nghệ Phần Mềm,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Multi-Cloud Environments,1,Cloud Computing,Cloud Computing,cloud,keyword_low,map,True
+Phân tích thị trường,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Sáng Tạo Công Nghệ Số,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Data Platforms,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+MLFlow,1,Machine Learning (ML),Machine Learning (ML),ai_data,keyword_low,map,True
+Quản Lý Kinh Doanh Số,1,,,,unmapped,unmapped_long_tail,True
+Kiến Trúc Microservices,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Nền Tảng Big Data,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Docker Swarm,1,Containers & Orchestration,Containers & Orchestration,devops,rule,map,False
+Tư Vấn Kỹ Thuật,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+User Acceptance Testing,1,,,,unmapped,unmapped_long_tail,True
+Distributor management,1,,,,unmapped,unmapped_long_tail,True
+Phân Tích Hành Vi,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Consumer Behavior,1,,,,unmapped,unmapped_long_tail,True
+Wireframe,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Qualitative Research,1,,,,unmapped,unmapped_long_tail,True
+Ux Research,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Customer Insight,1,,,,unmapped,unmapped_long_tail,True
+Electronics,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+CAE Engineering,1,,,,unmapped,unmapped_long_tail,True
+ANSYS,1,,,,unmapped,unmapped_long_tail,True
+Business Informatics System,1,,,,unmapped,unmapped_long_tail,True
+Java 8,1,Java,Java,programming_language,keyword_low,map,True
+Tiếp Thị Sản Phẩm,1,,,,unmapped,unmapped_long_tail,True
+Apache Tomcat,1,Backend Development,Backend Development,development,keyword_low,map,True
+Java EE,1,Java,Java,programming_language,rule,map,False
+Network Architecture,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Java/.Net/Python,1,Java,Java | .NET / C# | Python,programming_language,composite,map,True
+Solution Design,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Maintenance Products,1,,,,unmapped,unmapped_long_tail,True
+PU Technology,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Technical Commercial,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Data Center Operation,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Financial Market Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Stock Trading,1,,,,unmapped,unmapped_long_tail,True
+Computer Engineering,1,,,,unmapped,unmapped_long_tail,True
+Ipaas Platforms,1,,,,unmapped,unmapped_long_tail,True
+Integration,1,System Integration,System Integration,infra,keyword_low,map,True
+RESTful APIs,1,API Development,API Development,architecture,rule,map,False
+Vận Hành Thẻ,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Sản Phẩm Thẻ,1,Product Management,Product Management,business,rule,map,False
+Kiểm Soát Giao Dịch Thẻ,1,,,,unmapped,unmapped_long_tail,True
+Google Ws And Ai Platforms,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+CISA,1,,,,unmapped,unmapped_long_tail,True
+It Audit,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Software Audit,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Cài Đặt Hệ Thống,1,,,,unmapped,unmapped_long_tail,True
+Lập Báo Cáo Dự Án,1,Project Management,Project Management,business,keyword_low,map,True
+Java Swing,1,Java,Java,programming_language,keyword_low,map,True
+Front-End,1,Frontend Development,Frontend Development,development,rule,map,False
+RDBMS,1,Database Design,Database Design,database,keyword_low,map,True
+Quản Trị Kinh Doanh,1,,,,unmapped,unmapped_long_tail,True
+Công nghệ & AI,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting | Artificial Intelligence (AI),ai_data,composite,map,True
+REST,1,API Development,API Development,architecture,keyword_low,map,True
+LWC,1,,,,unmapped,unmapped_long_tail,True
+jQuery,1,Frontend Development,Frontend Development,development,rule,map,False
+Tiếng Trung Giao Tiếp,1,Chinese,Chinese,language,rule,map,False
+Gia Công Phần Mềm,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Phân Tích Sự Cố,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Phân Tích Nghiệp Vụ Tài Chính,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Quản Lý Thông Tin,1,,,,unmapped,unmapped_long_tail,True
+Korean Proficiency,1,Korean,Korean,language,rule,map,False
+Topik 5,1,Korean,Korean,language,keyword_low,map,True
+Dịch Thuật,1,Translation / Interpreting,Translation / Interpreting,language,keyword_low,map,True
+IT Software,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Business Communication,1,,,,unmapped,unmapped_long_tail,True
+Workflow,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Lean Six Sigma,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Process Improvement,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+AI / LLM Applications,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Lập Trình C++,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Visual Studio,1,,,,unmapped,unmapped_long_tail,True
+Phân Tích Lỗi,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Routing Protocol,1,Networking,Networking,infra,rule,map,False
+Data Center And Dr Environments,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Architecture Model Making,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Wood Framing,1,,,,unmapped,unmapped_long_tail,True
+Fraud Detection Systems,1,,,,unmapped,unmapped_long_tail,True
+ERP Business Analysis,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Crm,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+AI Digital,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Project Controls,1,,,,unmapped,unmapped_long_tail,True
+Cost Management,1,,,,unmapped,unmapped_long_tail,True
+Schedule Management,1,,,,unmapped,unmapped_long_tail,True
+Containers And Microservices,1,Microservices,Microservices,,composite,map,True
+Large-Scale Cloud Migration,1,Cloud Computing,Cloud Computing,cloud,keyword_low,map,True
+Business Acumen,1,,,,unmapped,unmapped_long_tail,True
+Large Language Model Systems,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Agentic workflows,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+AI Technology,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+GUI Design,1,,,,unmapped,unmapped_long_tail,True
+Rtos,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Giao Thức Truyền Thông,1,,,,unmapped,unmapped_long_tail,True
+Phần Mềm Bệnh Viện,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+CICD,1,CI/CD,CI/CD,devops,rule,map,False
+Hclab Software Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Healthcare It Implementation,1,,,,unmapped,unmapped_long_tail,True
+Integration Management,1,System Integration,System Integration,infra,keyword_low,map,True
+Strategic Planning,1,,,,unmapped,unmapped_long_tail,True
+Dự án,1,Project Management,Project Management,business,keyword_low,map,True
+Ngân hàng,1,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+AX Technical,1,,,,unmapped,unmapped_long_tail,True
+Microsoft Dynamics AX,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+UX,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Thiết Kế Giao Diện Phần Mềm,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Application Solution,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Generative AI Applications,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Kế Toán Thanh Toán,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Hợp Đồng,1,,,,unmapped,unmapped_long_tail,True
+Kỹ Năng Tổng Hợp Báo Cáo,1,,,,unmapped,unmapped_long_tail,True
+MS Excel,1,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+ERP Management,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Software Troubleshooting,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Decision Making,1,,,,unmapped,unmapped_long_tail,True
+Fullstack .NET,1,Full Stack Development,Full Stack Development,development,rule,map,False
+Ms Power BI,1,,,,unmapped,unmapped_long_tail,True
+Hệ Thống Mạng Lan,1,,,,unmapped,unmapped_long_tail,True
+Business Operation,1,,,,unmapped,unmapped_long_tail,True
+Resource Optimization,1,,,,unmapped,unmapped_long_tail,True
+Đàm Phán Hợp Đồng,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Quản Lý Đối Tác,1,,,,unmapped,unmapped_long_tail,True
+Backend Engineering,1,Backend Development,Backend Development,development,rule,map,False
+Cable Management,1,,,,unmapped,unmapped_long_tail,True
+Cisco Switches,1,Networking,Networking,infra,rule,map,False
+Firewall Management,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Dịch Vụ Viễn Thông,1,,,,unmapped,unmapped_long_tail,True
+Tích Hợp Giải Pháp Viễn Thông,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Quản Lý Dự Án Viễn Thông,1,Project Management,Project Management,business,rule,map,False
+Tiếng Trung,1,Chinese,Chinese,language,rule,map,False
+Phần Mềm Ngân Hàng,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Lập Báo Cáo Ngân Hàng,1,,,,unmapped,unmapped_long_tail,True
+MCU Programming,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+C,1,C/C++,C/C++,programming_language,rule,map,False
+Python- C#- C++,1,Python,Python | .NET / C# | C/C++,programming_language,composite,map,True
+Polyspace,1,,,,unmapped,unmapped_long_tail,True
+CAN,1,,,,unmapped,unmapped_long_tail,True
+Chủ Động- Trách Nhiệm,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,,composite,map,True
+Chịu Được Áp Lực,1,,,,unmapped,unmapped_long_tail,True
+Giao tiếp và làm việc nhóm,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Bảo Dưỡng,1,,,,unmapped,unmapped_long_tail,True
+Sửa Chữa Lắp Đặt,1,,,,unmapped,unmapped_long_tail,True
+Embedded C programming,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Autosar Classic Platform Architecture,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Autosar Bsw Configuration And Integration,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Mission Operations,1,,,,unmapped,unmapped_long_tail,True
+Mes Logic Implementation,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Log File Troubleshooting,1,,,,unmapped,unmapped_long_tail,True
+Business performance,1,,,,unmapped,unmapped_long_tail,True
+Strategy & Planning,1,,,,unmapped,unmapped_long_tail,True
+Performance Management,1,,,,unmapped,unmapped_long_tail,True
+Infrastructure Management,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+it engineering,1,,,,unmapped,unmapped_long_tail,True
+Phát triển sản phẩm công nghệ,1,Product Management,Product Management,business,rule,map,False
+Công Nghệ,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Governance,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+KPIs Management,1,,,,unmapped,unmapped_long_tail,True
+Quality Assessment,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+CMMi,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+IT Service Management,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Linux Shell,1,Linux,Linux,os,rule,map,False
+Dịch Vụ Ngân Hàng,1,,,,unmapped,unmapped_long_tail,True
+Phân Tích Giải Pháp Cntt,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Phân Tích ALM,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+ALM Reporting,1,,,,unmapped,unmapped_long_tail,True
+Quản Trị Rủi Ro Lãi Suất,1,Project Management,Project Management,business,rule,map,False
+Test Lab Management,1,Software Testing,Software Testing,testing,rule,map,False
+Fixture Processing,1,,,,unmapped,unmapped_long_tail,True
+Manufacturing Quality Control,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+KPI,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Thúc Đẩy Kinh Doanh,1,,,,unmapped,unmapped_long_tail,True
+Ethernet,1,,,,unmapped,unmapped_long_tail,True
+Algorithm,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Project Ownership,1,,,,unmapped,unmapped_long_tail,True
+Platform Solution,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Technology Application,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Power Platform,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Dữ Liệu,1,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Kỹ Sư Dữ Liệu,1,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Security Administration,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Security Test,1,Cybersecurity,Cybersecurity,security,rule,map,False
+It,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Lean Analytics,1,,,,unmapped,unmapped_long_tail,True
+Quantitative Modeling,1,,,,unmapped,unmapped_long_tail,True
+Etl/Elt,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Data Lake,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Hadoop Ecosystem,1,,,,unmapped,unmapped_long_tail,True
+Hadoop Cluster Performance Tuning,1,,,,unmapped,unmapped_long_tail,True
+Phân Phối Bán Lẻ,1,,,,unmapped,unmapped_long_tail,True
+Hạ Tầng Viễn Thông,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Làm Tài Liệu Kỹ Thuật,1,,,,unmapped,unmapped_long_tail,True
+Flutter Development,1,,,,unmapped,unmapped_long_tail,True
+Windows Backup,1,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+Cloud Storage,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+IBM Cloud,1,Cloud Computing,Cloud Computing,cloud,keyword_low,map,True
+Đấu Thầu,1,,,,unmapped,unmapped_long_tail,True
+Nghiệm Thu,1,,,,unmapped,unmapped_long_tail,True
+Thẩm Định Hồ Sơ Dự Thầu,1,,,,unmapped,unmapped_long_tail,True
+Soạn Thảo Tài Liệu,1,,,,unmapped,unmapped_long_tail,True
+Báo Cáo Thống Kê,1,,,,unmapped,unmapped_long_tail,True
+UML Tools,1,,,,unmapped,unmapped_long_tail,True
+Kỹ Thuật Đo Lường,1,,,,unmapped,unmapped_long_tail,True
+An Toàn Thông Tin Mạng,1,Cybersecurity,Cybersecurity,security,rule,map,False
+User Experience,1,,,,unmapped,unmapped_long_tail,True
+Digital Platform,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Basic Design,1,,,,unmapped,unmapped_long_tail,True
+Database Và Data Warehouse,1,Database Design,Database Design,database,rule,map,False
+Security Analysis,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Security Audit,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Website Development,1,,,,unmapped,unmapped_long_tail,True
+AEM,1,,,,unmapped,unmapped_long_tail,True
+Automotive software development,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Software Configuration Management,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Matlab,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Korean,1,Korean,Korean,language,rule,map,False
+Postgre,1,PostgreSQL,PostgreSQL,database,keyword_low,map,True
+Osi Model,1,,,,unmapped,unmapped_long_tail,True
+Shell Script,1,Shell / Scripting,Shell / Scripting,programming_language,rule,map,False
+Tài Chính,1,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Japanese Speaking,1,Japanese,Japanese,language,rule,map,False
+Digital Wallet Expertise,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+ONNX,1,,,,unmapped,unmapped_long_tail,True
+C/C ++,1,C/C++,C/C++,,composite,map,True
+M365 Administration,1,,,,unmapped,unmapped_long_tail,True
+Help Desk Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Tài chính,1,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Cấu Trúc Dữ Liệu,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Ci/Cd & Gitops,1,CI/CD,CI/CD,devops,rule,map,False
+"Phối Hợp Với Development, System Và Security",1,Cybersecurity,Cybersecurity,security,rule,map,False
+Logistics,1,,,,unmapped,unmapped_long_tail,True
+Vận Hành Hệ Thống Phần Mềm,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Windows Os,1,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+Visio,1,,,,unmapped,unmapped_long_tail,True
+Security Engineering,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Hồ Sơ Pháp Lý,1,,,,unmapped,unmapped_long_tail,True
+Pháp Lý Công Nghệ Thông Tin,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Luật,1,,,,unmapped,unmapped_long_tail,True
+Detailed Network Design,1,,,,unmapped,unmapped_long_tail,True
+Huawei Enterprise Products,1,,,,unmapped,unmapped_long_tail,True
+Data Policy,1,,,,unmapped,unmapped_long_tail,True
+Data Masking,1,,,,unmapped,unmapped_long_tail,True
+Software Solution Architecture,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Data Organization,1,,,,unmapped,unmapped_long_tail,True
+OpenAI API,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Hạ tầng CNTT & Quản trị hệ thống,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Linux/Windows Server,1,Linux,Linux,os,rule,map,False
+Huawei Olt/Ont,1,,,,unmapped,unmapped_long_tail,True
+Wireless Protocols,1,Networking,Networking,infra,keyword_low,map,True
+VLAN,1,,,,unmapped,unmapped_long_tail,True
+WiFi Technologies,1,,,,unmapped,unmapped_long_tail,True
+"Sql, Python, R",1,SQL,SQL | Python | R,programming_language,composite,map,True
+Tín Dụng,1,,,,unmapped,unmapped_long_tail,True
+OpenAPI,1,,,,unmapped,unmapped_long_tail,True
+Credit Scoring,1,,,,unmapped,unmapped_long_tail,True
+Phân Tích Yêu Cầu Giải Pháp,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Giám Sát Thiết Kế,1,,,,unmapped,unmapped_long_tail,True
+Lập kế hoạch,1,,,,unmapped,unmapped_long_tail,True
+"Kiểm Thử Sit, Uat Và Hồi Quy",1,Software Testing,Software Testing,testing,rule,map,False
+Phối Hợp Nghiệp Vụ Và Kỹ Thuật,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+phần mềm,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Framework,1,,,,unmapped,unmapped_long_tail,True
+ETL Tool,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Trực quan hóa dữ liệu,1,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Automated Unit Testing,1,,,,unmapped,unmapped_long_tail,True
+Lãnh Đạo,1,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Data Governance Frameworks,1,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+WMS System,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Autosar Classic Architecture,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Embedded C++,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Automotive Product,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Repository Management,1,,,,unmapped,unmapped_long_tail,True
+SAS Programming,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Auditing,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Information Security/ Cybersecurity,1,Cybersecurity,Cybersecurity,security,rule,map,False
+It Risk Assessment,1,,,,unmapped,unmapped_long_tail,True
+Dax Formula,1,,,,unmapped,unmapped_long_tail,True
+Logic Models,1,,,,unmapped,unmapped_long_tail,True
+Giải Pháp Phần Mềm,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+CentOS,1,Linux,Linux,os,rule,map,False
+Pentesting Tools,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Fixed Assets Management,1,,,,unmapped,unmapped_long_tail,True
+Electronic Testing,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Evaluation Method,1,,,,unmapped,unmapped_long_tail,True
+Mobile Telecom,1,Mobile Development,Mobile Development,development,rule,map,False
+Network Analysis,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Software Defined Radio (Sdr),1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Tư Duy Toán Học,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Quantum Mechanics,1,,,,unmapped,unmapped_long_tail,True
+Cơ Học Lượng Tử,1,,,,unmapped,unmapped_long_tail,True
+Hamiltonian,1,,,,unmapped,unmapped_long_tail,True
+AutoCAD,1,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Site Survey,1,,,,unmapped,unmapped_long_tail,True
+Low Voltage System,1,,,,unmapped,unmapped_long_tail,True
+General Communication English,1,,,,unmapped,unmapped_long_tail,True
+Technology Audit,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+It Auditing,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Cloud Architecture,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Microservice ESB,1,,,,unmapped,unmapped_long_tail,True
+Systems Integration Architecture,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+ADR Recording,1,,,,unmapped,unmapped_long_tail,True
+IT Presale,1,,,,unmapped,unmapped_long_tail,True
+Kiến Trúc Data Lakehouse,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Kiến Trúc Data Warehouse,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+SAP MM,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+SAP S/4HANA,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Fiber Optic Cable,1,,,,unmapped,unmapped_long_tail,True
+Provide Demonstration,1,,,,unmapped,unmapped_long_tail,True
+Optical Communication,1,,,,unmapped,unmapped_long_tail,True
+Product Training,1,,,,unmapped,unmapped_long_tail,True
+Purchasing,1,,,,unmapped,unmapped_long_tail,True
+Material Control,1,,,,unmapped,unmapped_long_tail,True
+IT Standard,1,,,,unmapped,unmapped_long_tail,True
+Cloud System,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+K8S Và Openshift,1,Containers & Orchestration,Containers & Orchestration,,composite,map,True
+Oracle Và Tidb,1,Oracle Database,Oracle Database,database,rule,map,False
+Tiêu Chuẩn Iso,1,,,,unmapped,unmapped_long_tail,True
+Sáng Tạo Ý Tưởng,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Đào Tạo,1,,,,unmapped,unmapped_long_tail,True
+Lập kế hoạch và quản lý ngân sách,1,,,,unmapped,unmapped_long_tail,True
+SAP ECC 6.0,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Waterfall,1,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+ERP System Implementation,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Front End,1,Frontend Development,Frontend Development,development,rule,map,False
+IT Infrastructure Operations,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Tcp/Ip,1,Networking,Networking,infra,rule,map,False
+gRPC,1,API Development,API Development,architecture,rule,map,False
+Debugging Tools Usage,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Unit Test,1,Software Testing,Software Testing,testing,rule,map,False
+CNTT,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Matlab Keras,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Data Pipeline,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Generative Ai/Llm,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Rag Và Vector Database,1,Artificial Intelligence (AI),Artificial Intelligence (AI),,composite,map,True
+Mlops/Llmops,1,Machine Learning (ML),Machine Learning (ML),,composite,map,True
+Revenue Growth,1,,,,unmapped,unmapped_long_tail,True
+Pricing Strategy,1,,,,unmapped,unmapped_long_tail,True
+Promotion Management,1,,,,unmapped,unmapped_long_tail,True
+Support Engineer,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+SCADA Application,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+SQL Sever,1,SQL,SQL,programming_language,keyword_low,map,True
+Oracle Certificate,1,Oracle Database,Oracle Database,database,rule,map,False
+Netezza,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+BI TABLEAU,1,,,,unmapped,unmapped_long_tail,True
+BI Publisher,1,,,,unmapped,unmapped_long_tail,True
+Windows OS Installation,1,Windows / Windows Server,Windows / Windows Server,os,rule,map,False
+Computer Network,1,,,,unmapped,unmapped_long_tail,True
+Python Django,1,Python,Python,programming_language,keyword_low,map,True
+Uml,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Draw.io,1,,,,unmapped,unmapped_long_tail,True
+Technology Operations,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Leadership Management,1,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+IT Infrastructure Management,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Technology Change Management,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+"Technology, AI",1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting | Artificial Intelligence (AI),ai_data,composite,map,True
+MDM Technology,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Kỹ năng thuyết trình,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Erp System,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Manufacturing Data Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+C# (.NET Core),1,,,,unmapped,unmapped_long_tail,True
+Finance Process Improvement,1,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+AI application,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Thiết Kế Phần Mềm,1,UI/UX Design,UI/UX Design,design,rule,map,False
+FullStack,1,Full Stack Development,Full Stack Development,development,rule,map,False
+Chuẩn hóa dữ liệu,1,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Xử Lý Số Liệu,1,,,,unmapped,unmapped_long_tail,True
+Internal Control,1,,,,unmapped,unmapped_long_tail,True
+Api Development,1,API Development,API Development,architecture,rule,map,False
+Triển Khai ERP,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Thiết Kế Hệ Thống SCADA,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Android App Design,1,Android,Android,mobile,rule,map,False
+Enterprise Software Solutions,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Cloud Platforms,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Pivot Table,1,,,,unmapped,unmapped_long_tail,True
+Channel Management,1,,,,unmapped,unmapped_long_tail,True
+Business Planning,1,,,,unmapped,unmapped_long_tail,True
+Technician,1,,,,unmapped,unmapped_long_tail,True
+IT Operation,1,,,,unmapped,unmapped_long_tail,True
+Userflow Design,1,,,,unmapped,unmapped_long_tail,True
+UX Wireframes,1,UI/UX Design,UI/UX Design,design,rule,map,False
+UIUX,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Market Insight,1,,,,unmapped,unmapped_long_tail,True
+Commercial Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+ERP SAP System,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Analysis Tool,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Sql Statement,1,SQL,SQL,programming_language,keyword_low,map,True
+ERP Consulting,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+PCCC system management,1,,,,unmapped,unmapped_long_tail,True
+ISO9001:2015,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Web Development,1,Frontend Development,Frontend Development,development,rule,map,False
+Viết Test Case,1,Software Testing,Software Testing,testing,keyword_low,map,True
+Identity Management,1,,,,unmapped,unmapped_long_tail,True
+Cloud Integration,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Microsoft 365 Administration,1,,,,unmapped,unmapped_long_tail,True
+Phát Triển Kinh Doanh,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Tài Chính,1,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+An Ninh Quốc Phòng,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Giải Pháp Cntt,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Khoa học & Kỹ Thuật,1,,,,unmapped,unmapped_long_tail,True
+Sử Dụng Công Cụ Ai (Llms),1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+"Viết Tài Liệu Urd, Brd",1,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+Bpmn Và User Flow,1,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+SaaSOps,1,,,,unmapped,unmapped_long_tail,True
+Marketing Development,1,,,,unmapped,unmapped_long_tail,True
+Playwright Python,1,Python,Python,programming_language,keyword_low,map,True
+ISO Standards,1,,,,unmapped,unmapped_long_tail,True
+Tổng Hợp Thông Tin,1,,,,unmapped,unmapped_long_tail,True
+Data Center Infrastructure,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Vmware/Hyper-V,1,Virtualization,Virtualization,infra,rule,map,False
+Network systems applications,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Java Programming,1,Java,Java,programming_language,rule,map,False
+MS Office,1,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Axure,1,,,,unmapped,unmapped_long_tail,True
+Viết Tài Liệu,1,,,,unmapped,unmapped_long_tail,True
+Interview Screening,1,,,,unmapped,unmapped_long_tail,True
+"Gpu Servers, Nvidia Drivers, Cuda",1,,,,unmapped,unmapped_long_tail,True
+"Switching, Routing, Vlans, Firewalls, Vpns",1,Cybersecurity,Cybersecurity,security,rule,map,False
+"Containers, Monitoring, Backups, Automation",1,Monitoring & Observability,Monitoring & Observability | IT Infrastructure & System Administration | Automation & RPA,enterprise,composite,map,True
+Work Independently,1,,,,unmapped,unmapped_long_tail,True
+Reinforcement Learning,1,,,,unmapped,unmapped_long_tail,True
+Credit Product Development,1,,,,unmapped,unmapped_long_tail,True
+Financial Institutions,1,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Sql And Relational Databases,1,SQL,SQL,programming_language,keyword_low,map,True
+eCommerce Platforms,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+QC,1,Software Testing,Software Testing,testing,rule,map,False
+Qc Engineering,1,,,,unmapped,unmapped_long_tail,True
+Core,1,,,,unmapped,unmapped_long_tail,True
+Project magement,1,,,,unmapped,unmapped_long_tail,True
+Application Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+QA Automation,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+QA Engineering,1,,,,unmapped,unmapped_long_tail,True
+Game Server,1,,,,unmapped,unmapped_long_tail,True
+Team Work,1,,,,unmapped,unmapped_long_tail,True
+Circuit Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Computer Hardware Troubleshooting,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Oscilloscopes And Logic Analyzers,1,,,,unmapped,unmapped_long_tail,True
+WebLogic,1,,,,unmapped,unmapped_long_tail,True
+Product Roadmap And Backlog Management,1,Product Management,Product Management,business,rule,map,False
+User Stories Management,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Thiết Kế Học Liệu,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Thiết Kế Storyboard,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Lms Management,1,,,,unmapped,unmapped_long_tail,True
+Learning Development,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+VMS systems,1,,,,unmapped,unmapped_long_tail,True
+Solarwinds,1,,,,unmapped,unmapped_long_tail,True
+Anh Văn B1,1,,,,unmapped,unmapped_long_tail,True
+Sap O2C Process,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Compliance Management,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Technology Advisory,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Large Language Models (LLM),1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Kiểm Soát Tài Liệu,1,,,,unmapped,unmapped_long_tail,True
+Google Sheets,1,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Uds Iso144229,1,,,,unmapped,unmapped_long_tail,True
+Flash Bootloader Development,1,,,,unmapped,unmapped_long_tail,True
+Software Project Management,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+RAG Systems,1,,,,unmapped,unmapped_long_tail,True
+OCR systems,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Kế Hoạch Kinh Doanh,1,,,,unmapped,unmapped_long_tail,True
+Kinh Doanh Hàng Không,1,,,,unmapped,unmapped_long_tail,True
+Tiếng Anh Thành Thạo,1,English,English,language,rule,map,False
+Quản Lý Danh Mục,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Hệ Thống Phần Mềm,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Lập Trình Cơ Bản,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Cơ Sở Dữ Liệu Sql,1,SQL,SQL,programming_language,keyword_low,map,True
+Quản Lý Sự Cố Cntt,1,,,,unmapped,unmapped_long_tail,True
+Network Infrastructure Architecture,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Phân Tích Doanh Nghiệp,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Etl/Elt/Cdc/Api,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+PySpark,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Hệ Thống T24,1,,,,unmapped,unmapped_long_tail,True
+Bank,1,,,,unmapped,unmapped_long_tail,True
+Phân Tích Yêu Cầu,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Xử Lý Yêu Cầu,1,,,,unmapped,unmapped_long_tail,True
+Phân Tích Quy Trình,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Kiến Thức Lĩnh Vực Payment Banking,1,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Phương pháp Agile,1,,,,unmapped,unmapped_long_tail,True
+System security,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Uav Hardware Assembly,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Drone Prototyping And Testing,1,UI/UX Design,UI/UX Design | Software Testing,design,composite,map,True
+"Motors, Escs, Batteries",1,,,,unmapped,unmapped_long_tail,True
+Custom PCB,1,,,,unmapped,unmapped_long_tail,True
+System Analyst,1,,,,unmapped,unmapped_long_tail,True
+Frontend,1,Frontend Development,Frontend Development,development,rule,map,False
+Technical Project Management,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Healthcare Analytics,1,,,,unmapped,unmapped_long_tail,True
+Virtualization VMware,1,Virtualization,Virtualization,infra,rule,map,False
+Storage Management,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Task Coordination,1,,,,unmapped,unmapped_long_tail,True
+Đấu Thầu Mua Sắm,1,,,,unmapped,unmapped_long_tail,True
+Kiểm Soát Kiểm Toán,1,,,,unmapped,unmapped_long_tail,True
+Entrepreneurial Mindset,1,,,,unmapped,unmapped_long_tail,True
+Quản trị dữ liệu & BI,1,Data Governance & Management,Data Governance & Management,ai_data,rule,map,False
+Communication & Negotiation Skills,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Proactive Spirit,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Giao Tiếp Khách Hàng,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Mô Hình Hóa Nghiệp Vụ,1,,,,unmapped,unmapped_long_tail,True
+Azure Dev Ops,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Triển Khai Bản Vẽ 2D,1,,,,unmapped,unmapped_long_tail,True
+Làm Việc Với Đối Tác Nước Ngoài,1,,,,unmapped,unmapped_long_tail,True
+Event-driven architecture,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Product Roadmap Ownership,1,Product Management,Product Management,business,rule,map,False
+Process Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Aiot Technologies,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+IT Security solution,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Cloud Solutions,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Customer Experiences,1,,,,unmapped,unmapped_long_tail,True
+Mobile Application,1,Mobile Development,Mobile Development,development,rule,map,False
+System Operation,1,,,,unmapped,unmapped_long_tail,True
+Equipment Management,1,,,,unmapped,unmapped_long_tail,True
+CRM Software Management,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Project Management Support,1,Project Management,Project Management,business,rule,map,False
+ERP System Software,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+SRE,1,DevOps,DevOps,devops,rule,map,False
+Quality Control & Assurance,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Quality Management Tools,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Measurement Tools,1,,,,unmapped,unmapped_long_tail,True
+AI Governance,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+DMS,1,,,,unmapped,unmapped_long_tail,True
+Business Systems Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Business Case Development,1,,,,unmapped,unmapped_long_tail,True
+Cost Benefit Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+DHCP,1,,,,unmapped,unmapped_long_tail,True
+Wi-Fi Mesh,1,,,,unmapped,unmapped_long_tail,True
+Hỗ Trợ Khách Hàng,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Market Research,1,Product Management,Product Management,business,rule,map,False
+Agricultural Research,1,,,,unmapped,unmapped_long_tail,True
+Service Delivery Management,1,,,,unmapped,unmapped_long_tail,True
+Python Hoặc C/C++,1,Python,Python | C/C++,programming_language,composite,map,True
+QMS System,1,,,,unmapped,unmapped_long_tail,True
+NCR Control,1,,,,unmapped,unmapped_long_tail,True
+QMS Auditing,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Structural Engineering,1,,,,unmapped,unmapped_long_tail,True
+Civil Engineering,1,,,,unmapped,unmapped_long_tail,True
+Construction,1,,,,unmapped,unmapped_long_tail,True
+Database Technology,1,Database Design,Database Design,database,rule,map,False
+An toàn thông tin (IT Security),1,Cybersecurity,Cybersecurity,security,rule,map,False
+Cơ Sở Dữ Liệu Non-Sql,1,SQL,SQL,programming_language,keyword_low,map,True
+Azure Data Services,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Quality Engineering,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Python Development,1,Python,Python,programming_language,keyword_low,map,True
+UX/UI Design,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Security Protocols,1,Cybersecurity,Cybersecurity,security,rule,map,False
+iOS Development,1,Swift / iOS,Swift / iOS,programming_language,rule,map,False
+Ui/Ux Design,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Thử Nghiệm Độ Tin Cậy,1,Software Testing,Software Testing,testing,keyword_low,map,True
+Vận Hành Điện,1,,,,unmapped,unmapped_long_tail,True
+Web Security,1,Cybersecurity,Cybersecurity,security,rule,map,False
+"Python, Javascript/Typescript, Go",1,Python,Python | JavaScript / TypeScript | Go,programming_language,composite,map,True
+Malware,1,Cybersecurity,Cybersecurity,security,rule,map,False
+AI/ML,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+URD,1,Business Analysis (BA),Business Analysis (BA),business,keyword_low,map,True
+Erp Systems,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Systems Architecture,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Asynchronous Execution,1,,,,unmapped,unmapped_long_tail,True
+Model Integration,1,System Integration,System Integration,infra,keyword_low,map,True
+Quality,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+manufacturing,1,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+QMS,1,,,,unmapped,unmapped_long_tail,True
+EU GMP,1,,,,unmapped,unmapped_long_tail,True
+QAOA,1,,,,unmapped,unmapped_long_tail,True
+VQE,1,,,,unmapped,unmapped_long_tail,True
+QML,1,,,,unmapped,unmapped_long_tail,True
+Thuật Toán Lượng Tử,1,,,,unmapped,unmapped_long_tail,True
+QEC,1,,,,unmapped,unmapped_long_tail,True
+STM32,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Github Desktop,1,,,,unmapped,unmapped_long_tail,True
+Python And Node.Js Api Servers,1,Python,Python,programming_language,keyword_low,map,True
+Ubuntu,1,Linux,Linux,os,rule,map,False
+Sql And Vector Db,1,SQL,SQL,programming_language,keyword_low,map,True
+Llm Api Optimization,1,,,,unmapped,unmapped_long_tail,True
+Researching New Technologies,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Audit,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Bảo Hành,1,,,,unmapped,unmapped_long_tail,True
+Chất Lượng Sản Phẩm,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Sửa Chữa,1,,,,unmapped,unmapped_long_tail,True
+WMS operations,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+SAP System Proficiency,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Data Automation,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Stakeholder communication,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+"Prometheus, Grafana, Loki, Elk Stack",1,Monitoring & Observability,Monitoring & Observability | MongoDB / NoSQL,,composite,map,True
+Tư duy phân tích & giải quyết vấn đề,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+LangGraph,1,,,,unmapped,unmapped_long_tail,True
+Rag Pipelines,1,,,,unmapped,unmapped_long_tail,True
+System Security Management,1,Cybersecurity,Cybersecurity,security,rule,map,False
+DLP,1,,,,unmapped,unmapped_long_tail,True
+Quản Trị Dự Án Phần Mềm,1,Project Management,Project Management,business,keyword_low,map,True
+Agile Hoặc Scrum,1,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Quản Lý Nhà Phân Phối,1,,,,unmapped,unmapped_long_tail,True
+System Testing,1,,,,unmapped,unmapped_long_tail,True
+Pair Trading,1,,,,unmapped,unmapped_long_tail,True
+Securities,1,,,,unmapped,unmapped_long_tail,True
+Quản lý chất lượng,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Quản Trị Hệ Thống Erp,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+SAP BTP,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+S/4HANA,1,,,,unmapped,unmapped_long_tail,True
+SAP Fiori,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+PHP Development,1,,,,unmapped,unmapped_long_tail,True
+"Thành Thạo Excel, Google Sheet Nâng Cao",1,,,,unmapped,unmapped_long_tail,True
+Viết Câu Lệnh Truy Vấn Sql,1,SQL,SQL,programming_language,keyword_low,map,True
+Sử Dụng Ít Nhất Một Bi Tool,1,Data Visualization / BI,Data Visualization / BI,ai_data,keyword_low,map,True
+Có Kinh Nghiệm Làm Việc Với Data Warehouse,1,,,,unmapped,unmapped_long_tail,True
+Kiểm Thử Xâm Nhập Web/Api,1,Software Testing,Software Testing,testing,rule,map,False
+Kiểm Thử Ứng Dụng Ai/Llm,1,Software Testing,Software Testing,testing,rule,map,False
+Tự Động Hóa Python/Go,1,Python,Python | Go,programming_language,composite,map,True
+Devsecops Và Ci/Cd,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Aerospace,1,,,,unmapped,unmapped_long_tail,True
+Kỹ Thuật Hàng Không,1,,,,unmapped,unmapped_long_tail,True
+Kỹ Thuật Máy Bay,1,,,,unmapped,unmapped_long_tail,True
+Leadership Mindset,1,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Google Looker,1,,,,unmapped,unmapped_long_tail,True
+Giao Tiếp,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Ứng Dụng IOS,1,,,,unmapped,unmapped_long_tail,True
+Owasp Masvs/Mastg,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Labview,1,,,,unmapped,unmapped_long_tail,True
+Dwdm- Otn- Nms Transmission Systems,1,Telecommunications,Telecommunications,infra,rule,map,False
+Dwdm/Otn Equipment,1,Telecommunications,Telecommunications,infra,rule,map,False
+Optical Transmission,1,Telecommunications,Telecommunications,infra,keyword_low,map,True
+MI Platform,1,,,,unmapped,unmapped_long_tail,True
+Ability to Communicate,1,,,,unmapped,unmapped_long_tail,True
+Computer Maintenance,1,,,,unmapped,unmapped_long_tail,True
+Channel Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Network Support,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Fluent Communication Skills,1,,,,unmapped,unmapped_long_tail,True
+Service Desk,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Field Sales,1,,,,unmapped,unmapped_long_tail,True
+Bảo Trì Thiết Bị Tin Học,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Lắp Đặt Thiết Bị,1,,,,unmapped,unmapped_long_tail,True
+Cli/Terminal Và Thu Thập Log,1,,,,unmapped,unmapped_long_tail,True
+Thiết Kế Hệ Thống Nhúng,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Data Pipeline Optimization,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Playwright/Cypress/Selenium,1,Test Automation,Test Automation,,composite,map,True
+Ci/Cd Và Git,1,CI/CD,CI/CD,devops,rule,map,False
+Giao Tiếp Chủ Động,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Ecommerce Platforms,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Data Processing,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Data Entry,1,,,,unmapped,unmapped_long_tail,True
+AI Applications,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Instrumentation Engineering,1,,,,unmapped,unmapped_long_tail,True
+SAP Analytics Cloud,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Kiểm Tra Xử Lý Phần Cứng,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Cài Đặt Windows Sever,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Mạng Máy Tính,1,,,,unmapped,unmapped_long_tail,True
+OpenLDAP,1,,,,unmapped,unmapped_long_tail,True
+SOQL,1,,,,unmapped,unmapped_long_tail,True
+Apex,1,,,,unmapped,unmapped_long_tail,True
+Đọc Bản Vẽ Kỹ Thuật,1,,,,unmapped,unmapped_long_tail,True
+Chế Tạo Máy,1,,,,unmapped,unmapped_long_tail,True
+kỹ thuật vật liệu,1,,,,unmapped,unmapped_long_tail,True
+Vận hành máy,1,,,,unmapped,unmapped_long_tail,True
+Thiết Kế UX,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Migration Management,1,,,,unmapped,unmapped_long_tail,True
+Ai-Driven Planning And Automation,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Communication Leadership,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+POC development,1,,,,unmapped,unmapped_long_tail,True
+Nông Nghiệp,1,,,,unmapped,unmapped_long_tail,True
+Mobile Banking,1,Mobile Development,Mobile Development,development,rule,map,False
+Internet Banking,1,,,,unmapped,unmapped_long_tail,True
+Korean Language,1,Korean,Korean,language,rule,map,False
+Pmp/Acp,1,Project Management,Project Management,,composite,map,True
+PSS,1,,,,unmapped,unmapped_long_tail,True
+AIMS,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Amos,1,,,,unmapped,unmapped_long_tail,True
+Japanese Communication,1,Japanese,Japanese,language,rule,map,False
+Sdlc And Cloud Computing,1,Software Engineering (general),Software Engineering (general) | Cloud Computing,development,composite,map,True
+Risk Analytics,1,,,,unmapped,unmapped_long_tail,True
+Database Programming,1,Database Design,Database Design,database,rule,map,False
+Analytic Skills,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Public Facilitation,1,,,,unmapped,unmapped_long_tail,True
+Phát Triển Ai / Machine Learning,1,Artificial Intelligence (AI),Artificial Intelligence (AI) | Machine Learning (ML),ai_data,composite,map,True
+Thiết Kế CAD 2D,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Phối Hợp Với Kỹ Sư,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Công Cụ Uipath,1,,,,unmapped,unmapped_long_tail,True
+Đánh Giá Tác Động Dữ Liệu Cá Nhân,1,Data Governance & Management,Data Governance & Management,ai_data,keyword_low,map,True
+Phân Tích Data Flow,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Quản lý,1,,,,unmapped,unmapped_long_tail,True
+3D Modeling,1,,,,unmapped,unmapped_long_tail,True
+Microsoft Fabric,1,,,,unmapped,unmapped_long_tail,True
+Kiến Trúc Vật Liệu,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Business English,1,,,,unmapped,unmapped_long_tail,True
+RESTful API design,1,API Development,API Development,architecture,rule,map,False
+Cds Views And Rap,1,,,,unmapped,unmapped_long_tail,True
+S/4Hana Conversion,1,,,,unmapped,unmapped_long_tail,True
+International Collaboration,1,,,,unmapped,unmapped_long_tail,True
+Owasp Methodologies,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Sast/Dast/Sca Tools,1,,,,unmapped,unmapped_long_tail,True
+Application Security Assessment,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Linux OS,1,Linux,Linux,os,rule,map,False
+Cloud Enterprise Architecture,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+IT Help Desk,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Business Model Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Data Backup,1,,,,unmapped,unmapped_long_tail,True
+Communication With Bod,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Commercial Planning,1,,,,unmapped,unmapped_long_tail,True
+Customer Marketing,1,,,,unmapped,unmapped_long_tail,True
+Retail Marketing,1,,,,unmapped,unmapped_long_tail,True
+Business Process Flow,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Ai Application,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Điều Phối Dự Án,1,Project Management,Project Management,business,keyword_low,map,True
+Security Risk,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Product Manager,1,Product Management,Product Management,business,rule,map,False
+Low-code Development,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Giải Pháp Kỹ Thuật,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Nghiên Cứu Sản Phẩm,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Tiến Độ,1,,,,unmapped,unmapped_long_tail,True
+Xây Dựng Giải Pháp,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Đào Tạo Kĩ Thuật,1,,,,unmapped,unmapped_long_tail,True
+Vpn Và Sd-Wan,1,Networking,Networking,,composite,map,True
+Phối Hợp Đa Bên,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Cash Management,1,,,,unmapped,unmapped_long_tail,True
+Payments And Collections,1,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Client Interaction,1,,,,unmapped,unmapped_long_tail,True
+RabbitMq,1,Backend Development,Backend Development,development,rule,map,False
+Vhdl Hoặc Verilog,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Thiết Kế Mạch Điện Tử,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Dao Động Ký,1,,,,unmapped,unmapped_long_tail,True
+Làm Việc Nhóm,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Mobile App Design,1,Mobile Development,Mobile Development,development,rule,map,False
+Adobe Analytics,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Lập Trình ABAP,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Affiliate marketing on TikTok & Shopee,1,,,,unmapped,unmapped_long_tail,True
+MCN Partnership,1,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Livestream Management,1,,,,unmapped,unmapped_long_tail,True
+Project Performance,1,,,,unmapped,unmapped_long_tail,True
+Sap Pp,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+"Waterfall, Agile/Hybrid",1,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Trello Jira,1,,,,unmapped,unmapped_long_tail,True
+Governance Review,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Kỹ Năng Điều Phối,1,Project Management,Project Management,business,keyword_low,map,True
+Power Bi Hoặc Tableau,1,,,,unmapped,unmapped_long_tail,True
+Thành thạo SQL,1,SQL,SQL,programming_language,keyword_low,map,True
+Lập Trình Phân Tích Bằng Python,1,Python,Python,programming_language,keyword_low,map,True
+Squad Ceremony Facilitation,1,,,,unmapped,unmapped_long_tail,True
+Sprint And Delivery Metrics,1,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Customer segmentation,1,,,,unmapped,unmapped_long_tail,True
+Mobile Development,1,Mobile Development,Mobile Development,development,rule,map,False
+LAYOUT,1,,,,unmapped,unmapped_long_tail,True
+Growth Management,1,,,,unmapped,unmapped_long_tail,True
+Product Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+"Bgp, Ospf, Vlans",1,Networking,Networking,,composite,map,True
+Cisco Technology,1,Networking,Networking,infra,rule,map,False
+Root cause analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Automation Software,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Machine Vision,1,,,,unmapped,unmapped_long_tail,True
+System Integration And Debugging,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Application Debugging,1,,,,unmapped,unmapped_long_tail,True
+Rational Functional Tester,1,,,,unmapped,unmapped_long_tail,True
+Python và SQL,1,Python,Python | SQL,programming_language,composite,map,True
+Azure Data Factory,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Application Engineering,1,,,,unmapped,unmapped_long_tail,True
+Cloud Data,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Telecom System Design,1,Telecommunications,Telecommunications,infra,rule,map,False
+CCTV System Design,1,,,,unmapped,unmapped_long_tail,True
+Payment System,1,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Access Control System,1,Cybersecurity,Cybersecurity,security,keyword_low,map,True
+Product Delivery,1,,,,unmapped,unmapped_long_tail,True
+Safety Products,1,,,,unmapped,unmapped_long_tail,True
+Security Risk Management,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Market Planning,1,,,,unmapped,unmapped_long_tail,True
+market research,1,Product Management,Product Management,business,rule,map,False
+Interaction Design,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Visual Design,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Next.Js,1,JavaScript / TypeScript,JavaScript / TypeScript,programming_language,rule,map,False
+Systems Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Machine Learning Engineering,1,Machine Learning (ML),Machine Learning (ML),ai_data,rule,map,False
+Leadership Skills,1,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+Web App,1,Frontend Development,Frontend Development,development,rule,map,False
+HTTP,1,,,,unmapped,unmapped_long_tail,True
+Thuyết Phục,1,,,,unmapped,unmapped_long_tail,True
+Frameworks Frontend,1,,,,unmapped,unmapped_long_tail,True
+Optimizing Performance,1,,,,unmapped,unmapped_long_tail,True
+Azure DevOps,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Uat Planning/Execution,1,,,,unmapped,unmapped_long_tail,True
+Cultural sensitivities,1,,,,unmapped,unmapped_long_tail,True
+Triển Khai Thiết Bị Mạng,1,,,,unmapped,unmapped_long_tail,True
+Virtualization infrastructure,1,Virtualization,Virtualization,infra,rule,map,False
+IATF 16949:2016,1,,,,unmapped,unmapped_long_tail,True
+Iso/Iatf Documentation,1,,,,unmapped,unmapped_long_tail,True
+Team Mentoring,1,,,,unmapped,unmapped_long_tail,True
+Etl/Elt Pipelines,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Quản Trị Hệ Thống Mạng,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Linux CentOS,1,Linux,Linux,os,rule,map,False
+Hệ Thống Active Directory,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Tài Khoản Người Dùng,1,,,,unmapped,unmapped_long_tail,True
+Engineering Application Softwares,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Thiết Kế Website,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Đảm Bảo Chất Lượng,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Phát Triển Game,1,,,,unmapped,unmapped_long_tail,True
+Unity 3D,1,,,,unmapped,unmapped_long_tail,True
+Game 2D,1,,,,unmapped,unmapped_long_tail,True
+Credit,1,,,,unmapped,unmapped_long_tail,True
+Báo Cáo Số Liệu,1,,,,unmapped,unmapped_long_tail,True
+Php,1,PHP,PHP,programming_language,rule,map,False
+Full Stack Developer,1,Full Stack Development,Full Stack Development,development,rule,map,False
+SDLC methodologies,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+ORM,1,Backend Development,Backend Development,development,rule,map,False
+Systems Administration,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Troubleshooting Skills,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Giao Tiếp Với Stakeholder,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Finance,1,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Technical Engineering,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Data Center Management,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+CNTT - Phần Cứng,1,Software Engineering (general),Software Engineering (general) | IT Support / Helpdesk,support,composite,map,True
+Triển Khai Dự Án Chuyển Đổi Số,1,Project Management,Project Management,business,rule,map,False
+Hệ Thống Đánh Giá KPIs,1,,,,unmapped,unmapped_long_tail,True
+Microsoft Excel,1,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Dashboard Và Biểu Đồ Quản Trị,1,,,,unmapped,unmapped_long_tail,True
+Java Backend Development,1,Java,Java,programming_language,keyword_low,map,True
+ASP.NET Core,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Lập Trình Frontend,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Phát Triển Ứng Dụng Web,1,,,,unmapped,unmapped_long_tail,True
+Thiết Kế API,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Thiết Kế Cơ Sở Dữ Liệu,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Năng Lực Điều Hành,1,,,,unmapped,unmapped_long_tail,True
+Data System Management,1,,,,unmapped,unmapped_long_tail,True
+Web Application Technology,1,Frontend Development,Frontend Development,development,rule,map,False
+Ai-Integrated Feature Delivery,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Version Control,1,,,,unmapped,unmapped_long_tail,True
+Qa Testing,1,,,,unmapped,unmapped_long_tail,True
+Azure SQL Database,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Azure Databricks,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+It/Ot Integration,1,Software Engineering (general),Software Engineering (general) | System Integration,infra,composite,map,True
+Industrial Cybersecurity,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Infrastructure Supervision,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Barcode System,1,,,,unmapped,unmapped_long_tail,True
+It Technical Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+CI CD,1,,,,unmapped,unmapped_long_tail,True
+Ruby Programming,1,Ruby,Ruby,programming_language,rule,map,False
+Agile Software,1,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+Customer Service Mindset,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Compliance,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Thiết kế quy trình,1,UI/UX Design,UI/UX Design,design,rule,map,False
+UAT Systems,1,,,,unmapped,unmapped_long_tail,True
+International Environment,1,,,,unmapped,unmapped_long_tail,True
+Triển Khai Hệ Thống,1,,,,unmapped,unmapped_long_tail,True
+Giải Pháp Chuyển Đổi Số,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Đổi Mới Sáng Tạo,1,,,,unmapped,unmapped_long_tail,True
+Triển Khai E-Learning/Lms,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,,composite,map,True
+Công Nghệ Giáo Dục,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+IT Solutions Delivery,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Negotiation skills,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Power Pivot,1,,,,unmapped,unmapped_long_tail,True
+It Strategy Development,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Erp Systems Knowledge,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Phân Tích Tài Chính,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+UI Design,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Digital Platforms,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Web Design,1,,,,unmapped,unmapped_long_tail,True
+SAP Master Data,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Procurement System,1,,,,unmapped,unmapped_long_tail,True
+Procurement Outsourcing,1,,,,unmapped,unmapped_long_tail,True
+Procurement,1,,,,unmapped,unmapped_long_tail,True
+Digital Solution,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Website Wireframe,1,,,,unmapped,unmapped_long_tail,True
+UI Programming,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Figma Design,1,,,,unmapped,unmapped_long_tail,True
+UI Development,1,UI/UX Design,UI/UX Design,design,rule,map,False
+ITIL Frameworks,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+IT Project Planning,1,,,,unmapped,unmapped_long_tail,True
+Cloud Server,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+IP Networking,1,,,,unmapped,unmapped_long_tail,True
+Database Query,1,Database Design,Database Design,database,rule,map,False
+BI Reporting,1,,,,unmapped,unmapped_long_tail,True
+Business Transformation,1,,,,unmapped,unmapped_long_tail,True
+Html/Css,1,HTML / CSS,HTML / CSS,programming_language,keyword_low,map,True
+Svelte,1,,,,unmapped,unmapped_long_tail,True
+JavaScripts,1,,,,unmapped,unmapped_long_tail,True
+Attention to Details,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Vietnamese fluency,1,,,,unmapped,unmapped_long_tail,True
+"Spss, Excel, Sql, Python, Vba",1,Microsoft Office / Excel,Microsoft Office / Excel | SQL | Python,programming_language,composite,map,True
+Powerpoint,1,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+Reporting and analytical skills,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,,composite,map,True
+Transportation Operations,1,,,,unmapped,unmapped_long_tail,True
+Project Logistics,1,,,,unmapped,unmapped_long_tail,True
+Implementing Business Software,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Implementing Strategy,1,,,,unmapped,unmapped_long_tail,True
+Delivery Control,1,,,,unmapped,unmapped_long_tail,True
+Excel Proficiency,1,,,,unmapped,unmapped_long_tail,True
+CRM Softwares,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Operation,1,,,,unmapped,unmapped_long_tail,True
+requirements analysis,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+WMS Implementations,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Jira- Confluence- Draw.io- Figma,1,Agile & Scrum,Agile & Scrum | UI/UX Design,,composite,map,True
+Work Standardization,1,,,,unmapped,unmapped_long_tail,True
+Data Transformation,1,,,,unmapped,unmapped_long_tail,True
+Dashboard Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Planning and Analytical Skills,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,,composite,map,True
+Ai Agent Và Agentic Workflow,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Llm Và Rag,1,Artificial Intelligence (AI),Artificial Intelligence (AI),,composite,map,True
+Đánh Giá Chất Lượng,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Tư Duy Product,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+CRM System,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Help Desk,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Camera Operator,1,,,,unmapped,unmapped_long_tail,True
+WLAN,1,,,,unmapped,unmapped_long_tail,True
+Hardware Maintenance,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Technical Troubleshooting,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Sales Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Pre-Sales Experience,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Quản Lý Yêu Cầu,1,,,,unmapped,unmapped_long_tail,True
+"Jira, Confluence, Figma, Draw.Io",1,Agile & Scrum,Agile & Scrum | UI/UX Design,,composite,map,True
+Quản Trị Tiến Độ,1,,,,unmapped,unmapped_long_tail,True
+Quản Trị Khách Hàng,1,,,,unmapped,unmapped_long_tail,True
+SAP CRM,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Data Lake Và Bi,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Tableu,1,,,,unmapped,unmapped_long_tail,True
+PowerPoint,1,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+R&D,1,,,,unmapped,unmapped_long_tail,True
+Hệ Thống Camera Quan Sát,1,,,,unmapped,unmapped_long_tail,True
+Không Cần Kinh Nghiệm,1,,,,unmapped,unmapped_long_tail,True
+Máy Tính,1,,,,unmapped,unmapped_long_tail,True
+Triển Khai Mạng,1,,,,unmapped,unmapped_long_tail,True
+ISP,1,,,,unmapped,unmapped_long_tail,True
+Telecom Support,1,Telecommunications,Telecommunications,infra,rule,map,False
+Solution Consulting,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Manual Test,1,Software Testing,Software Testing,testing,rule,map,False
+Embedded Programming C++,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Mcu And Rtos,1,Embedded & Firmware,Embedded & Firmware,,composite,map,True
+Git And Alm Tools,1,Version Control (Git),Version Control (Git),tool,keyword_low,map,True
+Wifi Wireless Chipsets,1,Networking,Networking,infra,keyword_low,map,True
+ICT infrastructure management,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Structured Cabling Knowledge,1,,,,unmapped,unmapped_long_tail,True
+Network Infrastructure Expertise,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Linux system,1,Linux,Linux,os,rule,map,False
+Apache NiFi,1,,,,unmapped,unmapped_long_tail,True
+NGINX Proxy,1,,,,unmapped,unmapped_long_tail,True
+Natural Processing Language,1,,,,unmapped,unmapped_long_tail,True
+ESS Tools,1,,,,unmapped,unmapped_long_tail,True
+AI-assisted workflows,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+AI coding tools,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Local Ai Deployment,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,keyword_low,map,True
+Creative Mindset,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Datacom Protocols,1,Networking,Networking,infra,keyword_low,map,True
+Fixed Access Network,1,,,,unmapped,unmapped_long_tail,True
+Chinese Communication,1,Chinese,Chinese,language,rule,map,False
+B2B Solution Sales,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Tendering,1,,,,unmapped,unmapped_long_tail,True
+Solution Development,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Financial Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Hệ Thống Core,1,,,,unmapped,unmapped_long_tail,True
+Treasury Systems,1,,,,unmapped,unmapped_long_tail,True
+GSM,1,,,,unmapped,unmapped_long_tail,True
+WCDMA,1,,,,unmapped,unmapped_long_tail,True
+Api- Microservice,1,API Development,API Development,architecture,rule,map,False
+Product Planning,1,,,,unmapped,unmapped_long_tail,True
+Science,1,,,,unmapped,unmapped_long_tail,True
+AI system,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Sql Và Postgresql,1,SQL,SQL | PostgreSQL,database,composite,map,True
+Cloud Native Solutions,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Manufacturing Execution System,1,Non-IT domain knowledge,Non-IT domain knowledge,not_it_skill,keyword_low,non_it_domain,True
+Warehouse Management,1,,,,unmapped,unmapped_long_tail,True
+Cải Tiến Sản Phẩm,1,,,,unmapped,unmapped_long_tail,True
+Mysql/Mariadb Administration,1,MySQL,MySQL,,composite,map,True
+Oracle Database Administration,1,Oracle Database,Oracle Database,database,rule,map,False
+Technical Analysis,1,Software Engineering (general),Software Engineering (general),development,rule,map,False
+Wholesale Banking,1,,,,unmapped,unmapped_long_tail,True
+Test Driven Development,1,Software Testing,Software Testing,testing,rule,map,False
+Continuous Integration,1,System Integration,System Integration,infra,keyword_low,map,True
+Decisive Judgment,1,,,,unmapped,unmapped_long_tail,True
+Application Portfolio Management,1,,,,unmapped,unmapped_long_tail,True
+Capacity Planning,1,,,,unmapped,unmapped_long_tail,True
+Business Strategic Planning,1,,,,unmapped,unmapped_long_tail,True
+Css,1,HTML / CSS,HTML / CSS,programming_language,rule,map,False
+Css Operation,1,HTML / CSS,HTML / CSS,programming_language,keyword_low,map,True
+Lambda,1,,,,unmapped,unmapped_long_tail,True
+DB2,1,Database Design,Database Design,database,keyword_low,map,True
+MS Azure,1,,,,unmapped,unmapped_long_tail,True
+Oracle Cloud,1,Oracle Database,Oracle Database,database,rule,map,False
+Chuyển Đổi Số,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Fortigate Firewall,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Đàm Phán Thương Mại,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Design Management,1,,,,unmapped,unmapped_long_tail,True
+Digital Storytelling,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+BigQuery,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,rule,map,False
+Figma Và Prototype,1,UI/UX Design,UI/UX Design,design,keyword_low,map,True
+Nghiên Cứu Ứng Dụng Sản Phẩm,1,,,,unmapped,unmapped_long_tail,True
+Data Administration,1,,,,unmapped,unmapped_long_tail,True
+Advanced Excel,1,,,,unmapped,unmapped_long_tail,True
+Financial Service,1,Blockchain / Fintech,Blockchain / Fintech,domain,keyword_low,map,True
+Business Process Modeling Using Bpmn,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+"Brd, Fsd, And Srs Authoring",1,Business Analysis (BA),Business Analysis (BA),,composite,map,True
+Acceptance Testing,1,,,,unmapped,unmapped_long_tail,True
+Team Building Facilitation,1,Leadership & People Management,Leadership & People Management,soft_skill,rule,map,False
+React.js,1,,,,unmapped,unmapped_long_tail,True
+Image Building,1,,,,unmapped,unmapped_long_tail,True
+Personal Assistance,1,,,,unmapped,unmapped_long_tail,True
+C# .Net Framework,1,,,,unmapped,unmapped_long_tail,True
+Micro-Services Design,1,,,,unmapped,unmapped_long_tail,True
+Power Apps,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Power Fx,1,,,,unmapped,unmapped_long_tail,True
+Đối Chiếu Số Liệu,1,,,,unmapped,unmapped_long_tail,True
+PMP Certification,1,,,,unmapped,unmapped_long_tail,True
+English Language Skills,1,English,English,language,rule,map,False
+Hardware Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+An Ninh,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Security Monitoring,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Trouble Shooting,1,,,,unmapped,unmapped_long_tail,True
+IT Solutions,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Architect,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Analytics,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Technology,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+CRO,1,,,,unmapped,unmapped_long_tail,True
+A/B Testing,1,Data Analysis,Data Analysis,ai_data,rule,map,False
+IT Solution Consulting,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+SAP CO,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+IT Planning,1,,,,unmapped,unmapped_long_tail,True
+IT Compliance,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Ngân Hàng Số,1,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+CRM Projects,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Coordinator,1,,,,unmapped,unmapped_long_tail,True
+Togaf Framework,1,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Kiến Trúc Nền Tảng Dữ Liệu,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Lập Trình Máy Tính,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Điện Toán Đám Mây,1,,,,unmapped,unmapped_long_tail,True
+"Sql, Python, And Vba",1,SQL,SQL | Python | Microsoft Office / Excel,programming_language,composite,map,True
+Security Operations,1,Cybersecurity,Cybersecurity,security,rule,map,False
+CISSP,1,,,,unmapped,unmapped_long_tail,True
+Chứng Chỉ Togaf,1,Software Architecture & Design,Software Architecture & Design,architecture,keyword_low,map,True
+Meeting Facilitation,1,,,,unmapped,unmapped_long_tail,True
+Sprint Planning,1,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+User Story,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Process Flow,1,,,,unmapped,unmapped_long_tail,True
+4G,1,Telecommunications,Telecommunications,infra,rule,map,False
+4G 5G knowledge,1,Telecommunications,Telecommunications,infra,rule,map,False
+Viễn Thông - CNTT,1,Telecommunications,Telecommunications,infra,rule,map,False
+Xây Dựng Roadmap Sản Phẩm,1,,,,unmapped,unmapped_long_tail,True
+Viết Prd,1,,,,unmapped,unmapped_long_tail,True
+Thiết Kế A/B Test,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Market Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Oracle CRM,1,Oracle Database,Oracle Database,database,rule,map,False
+Statistical Modeling,1,Data Analysis,Data Analysis,ai_data,rule,map,False
+Microsoft Power BI,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Thiết Kế Hệ Thống CRM,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Lập Trình Rpa Uipath,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Quản Trị Database,1,,,,unmapped,unmapped_long_tail,True
+Lập Trình NET,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Kỹ năng nắm bắt và giải quyết vấn đề,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,keyword_low,map,True
+Phần Mềm CAD,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Shop Drawing,1,,,,unmapped,unmapped_long_tail,True
+Kỹ Thuật Mạng,1,,,,unmapped,unmapped_long_tail,True
+Cấu Hình Mạng,1,,,,unmapped,unmapped_long_tail,True
+Đọc Hiểu Tài Liệu Kỹ Thuật,1,,,,unmapped,unmapped_long_tail,True
+Risk Control,1,,,,unmapped,unmapped_long_tail,True
+Service Strategy,1,,,,unmapped,unmapped_long_tail,True
+Product Validation,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+Creative Problem Solving,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Ticket Management,1,,,,unmapped,unmapped_long_tail,True
+Software Installation,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Vận Hành Máy Chủ,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,keyword_low,map,True
+UXUI Design,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Digital Product Development,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Thiết Kế Pcb Altium Designer,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Thiết Kế Mạch Thủy Lực,1,UI/UX Design,UI/UX Design,design,rule,map,False
+Lập Trình Vi Điều Khiển,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+"Rtos Và Giao Tiếp Can, I2C, Spi, Uart",1,Embedded & Firmware,Embedded & Firmware | Communication & Teamwork,embedded,composite,map,True
+Kỹ Năng Debug Mạch Phần Cứng,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Storage Solution,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+"Switch, Router, Wi-Fi",1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Hệ Thống CCTV,1,,,,unmapped,unmapped_long_tail,True
+Hệ Thống Mạng,1,,,,unmapped,unmapped_long_tail,True
+Game Testing,1,,,,unmapped,unmapped_long_tail,True
+Cơ Sở Dữ Liệu Quan Hệ (Sql),1,SQL,SQL,programming_language,keyword_low,map,True
+Thiết Lập Quy Trình,1,,,,unmapped,unmapped_long_tail,True
+Lập Trình ERP,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+Tư Vấn Giải Pháp Kỹ Thuật,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Camera,1,,,,unmapped,unmapped_long_tail,True
+Cctv,1,,,,unmapped,unmapped_long_tail,True
+Hse Compliance,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Site Inspection,1,,,,unmapped,unmapped_long_tail,True
+Subcontractor Supervision,1,,,,unmapped,unmapped_long_tail,True
+CompTIA Security,1,Cybersecurity,Cybersecurity,security,rule,map,False
+AES,1,,,,unmapped,unmapped_long_tail,True
+Rust Programming,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Quality Control Plan,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,rule,map,False
+Thiết Bị Điện Tử,1,,,,unmapped,unmapped_long_tail,True
+Kotlin Android,1,,,,unmapped,unmapped_long_tail,True
+Aws Services,1,AWS,AWS,cloud,rule,map,False
+Reporting Progress,1,,,,unmapped,unmapped_long_tail,True
+Pm,1,,,,unmapped,unmapped_long_tail,True
+IT Outsourcing,1,,,,unmapped,unmapped_long_tail,True
+Test Engineering,1,Software Testing,Software Testing,testing,rule,map,False
+Test Designing,1,Software Testing,Software Testing,testing,rule,map,False
+Azure Monitor And Log Analytics,1,Microsoft Azure,Microsoft Azure,cloud,rule,map,False
+Active Mindset,1,,,,unmapped,unmapped_long_tail,True
+Quản Lý Product Backlog,1,,,,unmapped,unmapped_long_tail,True
+Viết Prd Và User Story,1,Business Analysis (BA),Business Analysis (BA),,composite,map,True
+Ứng Dụng Sản Phẩm,1,,,,unmapped,unmapped_long_tail,True
+Hệ Thống Quản Lý Lỗi Jira,1,,,,unmapped,unmapped_long_tail,True
+Ngôn Ngữ Sql,1,SQL,SQL,programming_language,keyword_low,map,True
+Computerized System,1,,,,unmapped,unmapped_long_tail,True
+System Validation,1,Quality Management (QA/QC),Quality Management (QA/QC),quality,keyword_low,map,True
+CSV,1,,,,unmapped,unmapped_long_tail,True
+Kubernetes Và Cloud,1,Containers & Orchestration,Containers & Orchestration | Cloud Computing,cloud,composite,map,True
+Nodejs Và Python,1,JavaScript / TypeScript,JavaScript / TypeScript | Python,programming_language,composite,map,True
+Api Và Tích Hợp Hệ Thống,1,API Development,API Development,architecture,rule,map,False
+Vận Hành Hệ Thống Thu Phí,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Quản Trị Rủi Ro,1,Project Management,Project Management,business,rule,map,False
+Bug Report Writing,1,Software Testing,Software Testing,testing,rule,map,False
+Platform Policy Compliance,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Manual QA,1,,,,unmapped,unmapped_long_tail,True
+Mobile Software,1,Mobile Development,Mobile Development,development,rule,map,False
+Content Moderation,1,,,,unmapped,unmapped_long_tail,True
+Quản lý danh mục,1,,,,unmapped,unmapped_long_tail,True
+Phát Triển Giải Pháp,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Thành thạo Excel,1,,,,unmapped,unmapped_long_tail,True
+Chỉ Số Hiệu Suất Cs,1,,,,unmapped,unmapped_long_tail,True
+Trình bày kết quả,1,,,,unmapped,unmapped_long_tail,True
+Product operations,1,,,,unmapped,unmapped_long_tail,True
+Product Solutions,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Business Operations,1,,,,unmapped,unmapped_long_tail,True
+Non-life Insurance,1,,,,unmapped,unmapped_long_tail,True
+Web Automation Testing,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+ITGC,1,,,,unmapped,unmapped_long_tail,True
+Distributed Computing,1,,,,unmapped,unmapped_long_tail,True
+Dashboards Design,1,,,,unmapped,unmapped_long_tail,True
+phân tích yêu cầu,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+It HelpDesk,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Microsoft Office proficiency,1,Microsoft Office / Excel,Microsoft Office / Excel,tool,rule,map,False
+LLM & Prompt Engineering,1,Artificial Intelligence (AI),Artificial Intelligence (AI),,composite,map,True
+NVIDIA,1,,,,unmapped,unmapped_long_tail,True
+Luật Đấu Thầu,1,,,,unmapped,unmapped_long_tail,True
+Làm Hồ Sơ Thầu,1,,,,unmapped,unmapped_long_tail,True
+Pháp Chế,1,,,,unmapped,unmapped_long_tail,True
+Hành Chính,1,,,,unmapped,unmapped_long_tail,True
+Sql Và Python,1,SQL,SQL | Python,programming_language,composite,map,True
+Gaming,1,,,,unmapped,unmapped_long_tail,True
+Material Master Data Management,1,,,,unmapped,unmapped_long_tail,True
+Data Extraction,1,,,,unmapped,unmapped_long_tail,True
+Big Data Processing,1,Data Warehouse / Big Data,Data Warehouse / Big Data,data,keyword_low,map,True
+Aoi Equipment Operation,1,,,,unmapped,unmapped_long_tail,True
+Spi Equipment Operation,1,Embedded & Firmware,Embedded & Firmware,embedded,keyword_low,map,True
+Report Writing,1,,,,unmapped,unmapped_long_tail,True
+AOI Machines,1,,,,unmapped,unmapped_long_tail,True
+Pam (Privileged Access Management),1,,,,unmapped,unmapped_long_tail,True
+Hệ điều hành Linux,1,,,,unmapped,unmapped_long_tail,True
+System Security,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Digital transformation,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Vendor Management,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Threat Modeling,1,Cybersecurity,Cybersecurity,security,rule,map,False
+MES operation,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,keyword_low,map,True
+CloudWatch,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Quản Trị Hệ Thống ERP,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Nhận Diện Rủi Ro,1,,,,unmapped,unmapped_long_tail,True
+Nest.js,1,,,,unmapped,unmapped_long_tail,True
+Manufacturing Test Strategy,1,Software Testing,Software Testing,testing,keyword_low,map,True
+Hardware Testing,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Failure Analysis,1,Data Analysis,Data Analysis,ai_data,keyword_low,map,True
+Trellix And Intune,1,,,,unmapped,unmapped_long_tail,True
+Threat Hunting,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Network Forensic,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Malware Analysis,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Đánh Giá Rủi Ro,1,,,,unmapped,unmapped_long_tail,True
+Lập Báo Cáo Quản Trị,1,,,,unmapped,unmapped_long_tail,True
+Quản Trị Dịch Vụ,1,,,,unmapped,unmapped_long_tail,True
+System Management,1,,,,unmapped,unmapped_long_tail,True
+Network Configuration,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Information Security Analysis,1,Cybersecurity,Cybersecurity,security,rule,map,False
+Infrastructure Consulting,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Troubleshooting Control Systems,1,IT Support / Helpdesk,IT Support / Helpdesk,support,rule,map,False
+Automation system,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Lan/Wan Networks,1,Networking,Networking,,composite,map,True
+Low-Code/No-Code Platforms,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Matrix Leadership,1,Leadership & People Management,Leadership & People Management,soft_skill,keyword_low,map,True
+Service Management,1,,,,unmapped,unmapped_long_tail,True
+Cloud Development,1,Cloud Computing,Cloud Computing,cloud,rule,map,False
+Software Lifecycle Management,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+AI Solutions,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Tư duy sản phẩm,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Tư Duy Kinh Doanh,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+ERP Application,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+ERP Deployment,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Salesforce Implementation,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Software Engineer,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Aruba Networks,1,,,,unmapped,unmapped_long_tail,True
+Cisco CCNP,1,Networking,Networking,infra,rule,map,False
+Analytical Problem Solving,1,Problem Solving & Analytical Thinking,Problem Solving & Analytical Thinking,soft_skill,rule,map,False
+Playwright With Python,1,Python,Python,programming_language,keyword_low,map,True
+Scalable Automation Frameworks,1,Automation & RPA,Automation & RPA,enterprise,keyword_low,map,True
+Risk-based auditing,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Vendor Contract,1,,,,unmapped,unmapped_long_tail,True
+Giải Pháp Robot,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Giải Pháp Tích Hợp,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Quản Lý PO,1,,,,unmapped,unmapped_long_tail,True
+Database Design,1,Database Design,Database Design,database,rule,map,False
+Replication Management,1,,,,unmapped,unmapped_long_tail,True
+Loop Tuning,1,,,,unmapped,unmapped_long_tail,True
+Stakeholder Relationship,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+Quản Lý Chương Trình,1,,,,unmapped,unmapped_long_tail,True
+Design System Control,1,,,,unmapped,unmapped_long_tail,True
+DFM,1,,,,unmapped,unmapped_long_tail,True
+Robot Programming,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Kỹ Thuật Linh Kiện,1,,,,unmapped,unmapped_long_tail,True
+Cơ Điện Tử,1,,,,unmapped,unmapped_long_tail,True
+Telecom And Radio Systems Railway,1,Telecommunications,Telecommunications,infra,rule,map,False
+Design Planning,1,,,,unmapped,unmapped_long_tail,True
+Installation Testing,1,,,,unmapped,unmapped_long_tail,True
+Telecom Equipment Delivery,1,Telecommunications,Telecommunications,infra,rule,map,False
+Telecom Installation,1,Telecommunications,Telecommunications,infra,rule,map,False
+Banking Operation Control,1,Blockchain / Fintech,Blockchain / Fintech,domain,rule,map,False
+Solution Oriented,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,keyword_low,map,True
+Database Management,1,Database Design,Database Design,database,rule,map,False
+Ai Governance,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Data Reporting,1,,,,unmapped,unmapped_long_tail,True
+AB Testing,1,,,,unmapped,unmapped_long_tail,True
+Power Query,1,Data Visualization / BI,Data Visualization / BI,ai_data,rule,map,False
+Agile Leadership,1,Agile & Scrum,Agile & Scrum,methodology,rule,map,False
+.Net & Flutter,1,.NET / C#,.NET / C#,programming_language,rule,map,False
+Negotiation,1,Communication & Teamwork,Communication & Teamwork,soft_skill,rule,map,False
+Corebanking,1,,,,unmapped,unmapped_long_tail,True
+Database System,1,Database Design,Database Design,database,rule,map,False
+System Integrations,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,rule,map,False
+Data Recovery,1,,,,unmapped,unmapped_long_tail,True
+Mobile Product,1,Mobile Development,Mobile Development,development,rule,map,False
+French Language,1,French,French,language,keyword_low,map,True
+Operation Coordination,1,,,,unmapped,unmapped_long_tail,True
+User Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Quản Trị Phần Mềm,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Hỗ trợ khách hàng,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+Customer Journey Mapping,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+Digital Product Strategy,1,Digital Transformation / IT Consulting,Digital Transformation / IT Consulting,business,rule,map,False
+API Restful,1,API Development,API Development,architecture,rule,map,False
+Php Development,1,,,,unmapped,unmapped_long_tail,True
+Vận Hành Hạ Tầng,1,IT Infrastructure & System Administration,IT Infrastructure & System Administration,infra,keyword_low,map,True
+Http Protocol,1,Networking,Networking,infra,keyword_low,map,True
+VPN,1,Networking,Networking,infra,rule,map,False
+DHCP Server,1,,,,unmapped,unmapped_long_tail,True
+SAP Functional,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+Testing Process,1,Software Testing,Software Testing,testing,rule,map,False
+SMT Programing,1,,,,unmapped,unmapped_long_tail,True
+BOM Development,1,,,,unmapped,unmapped_long_tail,True
+linh kiện điện tử,1,,,,unmapped,unmapped_long_tail,True
+Thiết Kế Digital,1,UI/UX Design,UI/UX Design,design,rule,map,False
+PCB,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Phần Mềm Thiết Kế 3D,1,Software Engineering (general),Software Engineering (general),development,keyword_low,map,True
+Altium Design,1,,,,unmapped,unmapped_long_tail,True
+PCB Layout Design,1,Embedded & Firmware,Embedded & Firmware,embedded,rule,map,False
+Automated Test Equipment (Ate),1,Test Automation,Test Automation,testing,rule,map,False
+IT Testing,1,,,,unmapped,unmapped_long_tail,True
+Schematics,1,,,,unmapped,unmapped_long_tail,True
+UNITY PRO,1,,,,unmapped,unmapped_long_tail,True
+Dom/Webgl Rendering,1,,,,unmapped,unmapped_long_tail,True
+Mobile Web Design,1,Mobile Development,Mobile Development,development,rule,map,False
+Professional Communication,1,,,,unmapped,unmapped_long_tail,True
+APIs,1,API Development,API Development,architecture,rule,map,False
+Ai Solutions,1,Artificial Intelligence (AI),Artificial Intelligence (AI),ai_data,rule,map,False
+Selenium WebDriver,1,Test Automation,Test Automation,testing,rule,map,False
+Business Central (Bc) Configuration,1,,,,unmapped,unmapped_long_tail,True
+Erp Implementation,1,ERP / CRM / Enterprise Apps,ERP / CRM / Enterprise Apps,enterprise,rule,map,False
+"Programming/Scripting (Al, C/Al, X++, Sql)",1,Software Engineering (general),Software Engineering (general) | Shell / Scripting | C/C++ | SQL,programming_language,composite,map,True
+Quản Trị Vận Hành,1,,,,unmapped,unmapped_long_tail,True
+Mô Hình Mitre Att&Ck,1,,,,unmapped,unmapped_long_tail,True
+Requirement Specification,1,Business Analysis (BA),Business Analysis (BA),business,rule,map,False
+International Business,1,,,,unmapped,unmapped_long_tail,True
+IT Product,1,,,,unmapped,unmapped_long_tail,True
+Product Portfolio Development,1,,,,unmapped,unmapped_long_tail,True
+Design Pattern,1,Software Architecture & Design,Software Architecture & Design,architecture,rule,map,False
+Rest Api Và Database,1,API Development,API Development,architecture,rule,map,False
+Linux- Docker Và Ci/Cd,1,Linux,Linux,os,rule,map,False
+Apis And Webhooks,1,API Development,API Development,architecture,rule,map,False
+Incident Management,1,,,,unmapped,unmapped_long_tail,True
+New Product Release,1,,,,unmapped,unmapped_long_tail,True
+Production Support,1,IT Support / Helpdesk,IT Support / Helpdesk,support,keyword_low,map,True
+data-driven decision making,1,,,,unmapped,unmapped_long_tail,True
+Database MySQL,1,Database Design,Database Design,database,rule,map,False

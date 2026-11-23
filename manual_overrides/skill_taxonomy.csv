@@ -1,0 +1,100 @@
+﻿skill,skill_family,skill_category
+Python,programming_language,technical_hard_skill
+Java,programming_language,technical_hard_skill
+SQL,programming_language,technical_hard_skill
+C/C++,programming_language,technical_hard_skill
+Go,programming_language,technical_hard_skill
+PHP,programming_language,technical_hard_skill
+Ruby,programming_language,technical_hard_skill
+.NET / C#,programming_language,technical_hard_skill
+JavaScript,programming_language,technical_hard_skill
+TypeScript,programming_language,technical_hard_skill
+Scala,programming_language,technical_hard_skill
+Rust,programming_language,technical_hard_skill
+Kotlin,programming_language,technical_hard_skill
+Swift,programming_language,technical_hard_skill
+React,frontend_framework,technical_hard_skill
+Angular,frontend_framework,technical_hard_skill
+Vue.js,frontend_framework,technical_hard_skill
+HTML / CSS,frontend_framework,technical_hard_skill
+Frontend Development,frontend_framework,technical_hard_skill
+Node.js,backend_framework,technical_hard_skill
+Spring / Java frameworks,backend_framework,technical_hard_skill
+Django / Flask / FastAPI,backend_framework,technical_hard_skill
+.NET Core,backend_framework,technical_hard_skill
+Backend Development,backend_framework,technical_hard_skill
+API Development,backend_framework,technical_hard_skill
+Mobile Development,mobile_development,technical_hard_skill
+Flutter,mobile_development,technical_hard_skill
+React Native,mobile_development,technical_hard_skill
+PostgreSQL,database,technical_hard_skill
+MySQL,database,technical_hard_skill
+Oracle Database,database,technical_hard_skill
+Microsoft SQL Server,database,technical_hard_skill
+MongoDB / NoSQL,database,technical_hard_skill
+Redis,database,technical_hard_skill
+Database Design,database,technical_hard_skill
+DevOps,devops_cloud,technical_hard_skill
+CI/CD,devops_cloud,technical_hard_skill
+Containers & Orchestration,devops_cloud,technical_hard_skill
+Docker,devops_cloud,technical_hard_skill
+Kubernetes,devops_cloud,technical_hard_skill
+Cloud Computing,devops_cloud,technical_hard_skill
+AWS,devops_cloud,technical_hard_skill
+Microsoft Azure,devops_cloud,technical_hard_skill
+Google Cloud Platform (GCP),devops_cloud,technical_hard_skill
+Linux,devops_cloud,technical_hard_skill
+Artificial Intelligence (AI),ai_machine_learning,technical_hard_skill
+Machine Learning (ML),ai_machine_learning,technical_hard_skill
+Data Analysis,ai_data,technical_hard_skill
+Data Engineering,ai_data,technical_hard_skill
+Data Warehouse / Big Data,ai_data,technical_hard_skill
+Power BI,ai_data,technical_hard_skill
+Data Governance & Management,ai_data,technical_hard_skill
+Software Testing,testing_qa,technical_hard_skill
+Test Automation,testing_qa,technical_hard_skill
+Quality Management (QA/QC),testing_qa,technical_hard_skill
+Cybersecurity,cybersecurity,technical_hard_skill
+Software Architecture & Design,architecture,technical_hard_skill
+Embedded & Firmware,embedded,technical_hard_skill
+IT Infrastructure & System Administration,infra_support,technical_hard_skill
+IT Support / Helpdesk,infra_support,technical_hard_skill
+Networking,infra_support,technical_hard_skill
+Automation & RPA,automation,technical_hard_skill
+Business Analysis (BA),business_process,domain_knowledge
+Project Management,management,domain_knowledge
+Product Management,management,domain_knowledge
+Agile & Scrum,methodology,domain_knowledge
+Digital Transformation / IT Consulting,consulting,domain_knowledge
+ERP / CRM / Enterprise Apps,enterprise,domain_knowledge
+Software Engineering (general),engineering_general,technical_hard_skill
+Leadership & People Management,soft_skills,soft_skill
+English,human_language,human_language
+Japanese,human_language,human_language
+Android,mobile_development,technical_hard_skill
+Blockchain / Fintech,emerging_tech,technical_hard_skill
+Chinese,human_language,human_language
+Communication & Teamwork,soft_skills,soft_skill
+Data Visualization / BI,ai_data,technical_hard_skill
+Flutter / React Native,mobile_development,technical_hard_skill
+French,human_language,human_language
+Full Stack Development,frontend_framework,technical_hard_skill
+Infrastructure as Code,devops_cloud,technical_hard_skill
+JavaScript / TypeScript,programming_language,technical_hard_skill
+Korean,human_language,human_language
+Microservices,architecture,technical_hard_skill
+Microsoft Office / Excel,productivity,domain_knowledge
+Monitoring & Observability,devops_cloud,technical_hard_skill
+Other programming languages,programming_language,technical_hard_skill
+Problem Solving & Analytical Thinking,soft_skills,soft_skill
+Python frameworks,backend_framework,technical_hard_skill
+R,programming_language,technical_hard_skill
+Shell / Scripting,infra_support,technical_hard_skill
+Swift / iOS,mobile_development,technical_hard_skill
+System Integration,architecture,technical_hard_skill
+Telecommunications,infra_support,domain_knowledge
+Translation / Interpreting,human_language,domain_knowledge
+UI/UX Design,design,technical_hard_skill
+Version Control (Git),engineering_general,technical_hard_skill
+Virtualization,infra_support,technical_hard_skill
+Windows / Windows Server,infra_support,technical_hard_skill

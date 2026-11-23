@@ -222,14 +222,34 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Scraped data
-data/
-*.parquet
-*.csv
-*.jsonl
+# Scraped raw data and credentials
+data/daily/
+data/master/
+data/raw/
+data/interim/
+snapshotsitviec/
+snapshotvnwork/
 checkpoint_crawl_*.csv
+*.parquet
+*.jsonl
 auth.json
 .github_token.json
 .env
 .env.*
+
+# Protected raw corpora (full text JDs under copyright)
+combine_clean.csv
+vietnamworks_jobs.csv
+*master_*.csv
+raw_*.csv
+
+# Unignore curated data marts and samples
+!data/
+!data/dashboard/
+!data/dashboard/**
+!data/sample/
+!data/sample/**
+!manual_overrides/
+!manual_overrides/**
+
 
