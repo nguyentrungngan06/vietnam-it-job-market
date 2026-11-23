@@ -14,7 +14,7 @@ from recruitment_pipeline import (
     make_skill_dictionary, skill_match, detect_companies, text_containment
 )
 from jd_analysis import extract_experience, extract_level, classify_skill, infer_level_from_experience
-from dashboard_data import role_from_title
+from dashboard_data import role_from_title, classify_role_group
 
 
 class TestPipeline(unittest.TestCase):
@@ -134,6 +134,30 @@ class TestPipeline(unittest.TestCase):
         self.assertEqual(role_from_title('AI Engineer (LLM, PyTorch)'), 'data_scientist_ai')
         self.assertEqual(role_from_title('Bridge System Engineer (Japanese N2)'), 'business_analyst')
         self.assertEqual(role_from_title('DevOps / Cloud Engineer (AWS, K8s)'), 'devops_cloud')
+
+    def test_canonical_role_group_classification(self):
+        # Strict domain tests
+        self.assertEqual(classify_role_group('Senior Java Software Engineer'), ('Backend', 'title', 'high'))
+        self.assertEqual(classify_role_group('ReactJS Frontend Developer'), ('Frontend', 'title', 'high'))
+        self.assertEqual(classify_role_group('Fullstack Developer (.NET & React)'), ('Fullstack', 'title', 'high'))
+        self.assertEqual(classify_role_group('Senior QA Automation Engineer'), ('QA / QC / Tester', 'title', 'high'))
+        self.assertEqual(classify_role_group('Senior Data Scientist / AI Specialist'), ('Data / AI', 'title', 'high'))
+        self.assertEqual(classify_role_group('DevOps / Cloud Engineer (AWS)'), ('DevOps / Cloud / SysAdmin', 'title', 'high'))
+        self.assertEqual(classify_role_group('IT Support / Helpdesk Specialist'), ('IT Support / ERP', 'title', 'high'))
+        self.assertEqual(classify_role_group('SOC Security Analyst'), ('Security', 'title', 'high'))
+        self.assertEqual(classify_role_group('Product Owner / Business Analyst'), ('BA / PO / PM', 'title', 'high'))
+        self.assertEqual(classify_role_group('Chief Technology Officer (CTO)'), ('Management / Leadership', 'title', 'high'))
+        
+        # Domain Manager should stay in domain, not falsely become Leadership
+        self.assertEqual(classify_role_group('QA / QC Manager')[0], 'QA / QC / Tester')
+        self.assertEqual(classify_role_group('Cybersecurity Manager')[0], 'Security')
+        self.assertEqual(classify_role_group('Head of Data Science')[0], 'Data / AI')
+        
+        # Skill fallbacks for generic titles
+        self.assertEqual(classify_role_group('Software Engineer', skills='ReactJS, CSS, HTML'), ('Frontend', 'skills', 'medium'))
+        self.assertEqual(classify_role_group('Software Engineer', skills='ReactJS, Spring Boot, Java'), ('Fullstack', 'skills', 'medium'))
+        self.assertEqual(classify_role_group('Software Engineer', skills='Machine Learning, PyTorch, Python'), ('Data / AI', 'skills', 'medium'))
+        self.assertEqual(classify_role_group('Software Developer', skills='Flutter, Dart, Mobile'), ('Mobile', 'skills', 'medium'))
 
     # --------------------------------------------------------------------------
     # 12. Text Containment Function

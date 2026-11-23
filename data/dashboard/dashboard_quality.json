@@ -17,12 +17,40 @@
   },
   "skill_fact_pairs": 7783,
   "company_segments_are_inferred": true,
+  "role_group_distribution": {
+    "Other": 390,
+    "Data / AI": 286,
+    "Backend": 256,
+    "BA / PO / PM": 242,
+    "DevOps / Cloud / SysAdmin": 156,
+    "QA / QC / Tester": 148,
+    "Security": 105,
+    "Fullstack": 95,
+    "IT Support / ERP": 66,
+    "Embedded / Hardware / Telecom": 36,
+    "Mobile": 29,
+    "Frontend": 24,
+    "Management / Leadership": 23,
+    "Game Dev": 14,
+    "UI / UX Design": 14
+  },
+  "role_source_distribution": {
+    "title": 1363,
+    "unknown": 390,
+    "job_function": 112,
+    "skills": 19
+  },
+  "role_confidence_distribution": {
+    "high": 1306,
+    "low": 447,
+    "medium": 131
+  },
   "skill_demand_index": {
     "index_as_of": "2026-10-24",
     "growth_available": false,
     "coverage_days_current_30": 15,
     "coverage_days_previous_30": 0,
-    "index_rows": 1169
+    "index_rows": 995
   },
   "skill_demand_index_weights": {
     "default": {

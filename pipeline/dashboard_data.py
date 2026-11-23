@@ -83,6 +83,108 @@ def role_from_title(title):
     return specific[0] if specific else 'general_software_eng'
 
 
+def classify_role_group(title, skills='', job_function=''):
+    """Classifies job into 15 canonical role groups using hierarchical rules and skill fallbacks.
+    
+    Returns:
+        tuple[str, str, str]: (role_group, role_source, role_confidence)
+          role_group in {'Backend', 'Frontend', 'Fullstack', 'Mobile', 'Data / AI',
+                         'DevOps / Cloud / SysAdmin', 'QA / QC / Tester', 'BA / PO / PM',
+                         'Security', 'IT Support / ERP', 'Management / Leadership',
+                         'UI / UX Design', 'Embedded / Hardware / Telecom', 'Game Dev', 'Other'}
+          role_source in {'title', 'skills', 'job_function', 'unknown'}
+          role_confidence in {'high', 'medium', 'low'}
+    """
+    t = str(title).lower() if pd.notna(title) else ''
+    s = str(skills).lower() if pd.notna(skills) else ''
+    jf_str = str(job_function).lower() if pd.notna(job_function) else ''
+
+    # 1. Security
+    if re.search(r'\b(?:security|cybersecurity|soc(?:\s|analyst)|pentest|penetration test(?:er)?|an ninh mạng|bảo mật|infosec|information security|it risk)\b', t):
+        return 'Security', 'title', 'high'
+
+    # 2. QA / QC / Tester
+    if re.search(r'\b(?:qa|qc|tester|testing|quality assurance|quality control|\bsdet\b|kiểm thử|test engineer|test automation|automation test|manual test)\b', t):
+        return 'QA / QC / Tester', 'title', 'high'
+
+    # 3. Mobile
+    if re.search(r'\b(?:ios developer|ios engineer|\bios\b|android developer|android engineer|\bandroid\b|flutter|react native|mobile developer|mobile engineer|swift developer|kotlin developer|mobile architect)\b', t):
+        return 'Mobile', 'title', 'high'
+
+    # 4. Fullstack
+    if re.search(r'\b(?:full.?stack|full stack|full-stack)\b', t):
+        return 'Fullstack', 'title', 'high'
+
+    # 5. Frontend
+    if re.search(r'\b(?:front.?end|frontend|react developer|reactjs developer|vue developer|vuejs developer|angular developer|web developer|frontend engineer)\b', t):
+        return 'Frontend', 'title', 'high'
+
+    # 6. BA / PO / PM
+    if re.search(r'\b(?:business analyst|business analysis|system analyst|\bba\b|product owner|project manager|project leader|program manager|delivery manager|\bscrum master\b|\bpmo\b|quản lý dự án|quản lý sản phẩm|phân tích nghiệp vụ|bridge system engineer|\bbse\b|\bbrse\b)\b', t):
+        return 'BA / PO / PM', 'title', 'high'
+
+    # 7. Data / AI (Strict boundary: explicit data/ML/AI roles)
+    if re.search(r'\b(?:data science|data scientist|machine learning|\bml engineer\b|ai engineer|ai specialist|ai researcher|deep learning|computer vision|\bnlp\b|data engineer|data platform|data warehouse|big data|etl|data analyst|bi analyst|business intelligence|power bi|\bdba\b|database administrator|database engineer|database expert|kỹ sư dữ liệu|kỹ sư ai|head of ai|head of data|ai lead|applied ai|ai architect)\b', t):
+        return 'Data / AI', 'title', 'high'
+
+    # 8. DevOps / Cloud / SysAdmin
+    if re.search(r'\b(?:devops|devsecops|\bsre\b|site reliability|cloud engineer|cloud architect|cloud|aws engineer|azure engineer|gcp|sysadmin|system admin|systems administrator|system administrator|system engineer|network engineer|infrastructure engineer|kỹ sư hệ thống|quản trị mạng|sysops)\b', t):
+        return 'DevOps / Cloud / SysAdmin', 'title', 'high'
+
+    # 9. UI / UX Design
+    if re.search(r'\b(?:ui/ux|ux/ui|ux designer|ui designer|product designer|graphic designer|concept artist|thiết kế giao diện)\b', t):
+        return 'UI / UX Design', 'title', 'high'
+
+    # 10. Embedded / Hardware / Telecom
+    if re.search(r'\b(?:embedded|firmware|hardware engineer|vi mạch|soc bsp|iot engineer|semiconductor|telecom|viễn thông|rf engineer|audio engineer)\b', t):
+        return 'Embedded / Hardware / Telecom', 'title', 'high'
+
+    # 11. Game Dev
+    if re.search(r'\b(?:game developer|unity developer|unreal engine|game programmer|game)\b', t):
+        return 'Game Dev', 'title', 'high'
+
+    # 12. IT Support / ERP
+    if re.search(r'\b(?:it support|helpdesk|desktop support|it officer|customer support|kỹ thuật viên it|hỗ trợ kỹ thuật|erp|sap|salesforce|crm|dynamics 365|dms|oracle apps|application consultant)\b', t):
+        return 'IT Support / ERP', 'title', 'high'
+
+    # 13. Backend
+    if re.search(r'\b(?:back.?end|backend|\bjava\b(?!script)|\bpython\b|\bgolang\b|\bgo engineer\b|\.net|\bc#\b|\bc\+\+\b|\bphp\b|nodejs|node\.js|\bruby\b|backend engineer|solution architect|solutions architect|software architect|system architect|tech lead|technical lead)\b', t):
+        return 'Backend', 'title', 'high'
+
+    # 14. Leadership (Strict C-level / general IT management)
+    if re.search(r'\b(?:chief technology officer|\bcto\b|\bcio\b|head of it|director of it|it director|director of engineering|vp of engineering|engineering manager|it manager|trưởng phòng it|giám đốc công nghệ|quản lý it)\b', t):
+        return 'Management / Leadership', 'title', 'high'
+
+    # Fallback for generic dev titles using skills
+    is_generic_dev = bool(re.search(r'\b(?:software engineer|software developer|developer|lập trình viên|kỹ sư phần mềm|chuyên viên phát triển phần mềm|thực tập sinh lập trình|it specialist)\b', t))
+    if is_generic_dev:
+        if re.search(r'\b(?:reactjs|vuejs|angular)\b', s) and not re.search(r'\b(?:java|python|\.net|php|golang|nodejs)\b', s):
+            return 'Frontend', 'skills', 'medium'
+        if re.search(r'\b(?:reactjs|vuejs|angular)\b', s) and re.search(r'\b(?:java|python|\.net|php|golang|nodejs)\b', s):
+            return 'Fullstack', 'skills', 'medium'
+        if re.search(r'\b(?:flutter|react native|ios|android|swift|kotlin)\b', s):
+            return 'Mobile', 'skills', 'medium'
+        if re.search(r'\b(?:spring boot|django|fastapi|laravel|asp\.net|\.net core|expressjs|ruby on rails)\b', s):
+            return 'Backend', 'skills', 'medium'
+        if re.search(r'\b(?:machine learning|deep learning|tensorflow|pytorch|nlp|computer vision)\b', s):
+            return 'Data / AI', 'skills', 'medium'
+        if re.search(r'\b(?:kubernetes|docker|terraform|ansible|jenkins|ci/cd|aws|azure|gcp)\b', s) and not re.search(r'\b(?:java|python|c#|\.net)\b', s):
+            return 'DevOps / Cloud / SysAdmin', 'skills', 'medium'
+        if re.search(r'\b(?:selenium|cypress|jmeter|automation testing|appium)\b', s):
+            return 'QA / QC / Tester', 'skills', 'medium'
+        return 'Backend', 'title', 'low'
+
+    # VietnamWorks secondary signal (job_function)
+    if 'qa/qc' in jf_str or 'testing' in jf_str:
+        return 'QA / QC / Tester', 'job_function', 'medium'
+    if 'database' in jf_str or 'data engineer' in jf_str or 'analyst/ai' in jf_str:
+        return 'Data / AI', 'job_function', 'medium'
+    if 'security' in jf_str:
+        return 'Security', 'job_function', 'medium'
+
+    return 'Other', 'unknown', 'low'
+
+
 def size_bucket(n):
     if pd.isna(n) or n <= 0:
         return 'unknown'
@@ -134,7 +236,7 @@ def build_skill_demand_index(jobs, skill_fact, out):
                 old = previous[previous['skill_family'].eq(fam)]
                 windows.append((f"family:{fam}", part, old))
 
-    for column, prefix in [('role_dashboard', 'role:'), ('size_bucket', 'size:')]:
+    for column, prefix in [('role_group', 'role:'), ('size_bucket', 'size:')]:
         for value, part in current.groupby(column, dropna=False):
             old = previous[previous[column].eq(value)]
             windows.append((prefix + str(value), part, old))
@@ -200,6 +302,19 @@ def run(clean_path: Path, skill_path: Path, out: Path):
         raise ValueError('Job UID not unique: require one row per source job UID')
 
     jobs['role_dashboard'] = jobs.title.fillna('').map(role_from_title)
+    
+    # Canonical role group classification with source & confidence
+    skills_series = jobs['skills'] if 'skills' in jobs.columns else pd.Series('', index=jobs.index)
+    jf_series = jobs['job_function'] if 'job_function' in jobs.columns else pd.Series('', index=jobs.index)
+    
+    role_tuples = [
+        classify_role_group(t, s, jf)
+        for t, s, jf in zip(jobs['title'], skills_series, jf_series)
+    ]
+    jobs['role_group'] = [r[0] for r in role_tuples]
+    jobs['role_source'] = [r[1] for r in role_tuples]
+    jobs['role_confidence'] = [r[2] for r in role_tuples]
+
     jobs['level_dashboard'] = jobs['level_norm'].replace('unknown', None).fillna(jobs.get('level_inferred_exp')).fillna('unknown')
 
     if 'company_size' in jobs:
@@ -260,7 +375,7 @@ def run(clean_path: Path, skill_path: Path, out: Path):
     # Save Dimensions and Fact Jobs
     columns = [
         'job_uid', 'site', 'title', 'company', 'company_canonical_id', 'company_canonical_name',
-        'city', 'role_dashboard', 'level_dashboard', 'size_bucket', 'company_type',
+        'city', 'role_group', 'role_source', 'role_confidence', 'role_dashboard', 'level_dashboard', 'size_bucket', 'company_type',
         'posted_date', 'first_seen', 'last_seen', 'event_date', 'event_month',
         'valid_job', 'is_duplicate', 'n_postings_in_group', 'left_censored', 'right_censored',
         'text_source', 'text_quality',
@@ -270,27 +385,29 @@ def run(clean_path: Path, skill_path: Path, out: Path):
     avail_cols = [c for c in columns if c in jobs.columns]
     jobs[avail_cols].to_csv(out / 'fact_jobs.csv', index=False, encoding='utf-8-sig')
 
-    if 'valid_job' in skills.columns:
-        skills = skills.drop(columns=['valid_job'])
+    for col in ['valid_job', 'role_group', 'role_dashboard', 'level_dashboard', 'event_date', 'event_month', 'company_canonical_id']:
+        if col in skills.columns:
+            skills = skills.drop(columns=[col])
 
     skill_fact = skills.merge(
-        jobs[['job_uid', 'company_canonical_id', 'role_dashboard', 'level_dashboard', 'event_date', 'event_month', 'valid_job']],
+        jobs[['job_uid', 'company_canonical_id', 'role_group', 'role_dashboard', 'level_dashboard', 'event_date', 'event_month', 'valid_job']],
         on='job_uid', how='left', validate='many_to_one'
     )
     skill_fact = skill_fact.drop_duplicates(['job_uid', 'skill'])
     skill_cols_to_keep = [
         'job_uid', 'skill', 'skill_raw', 'skill_family', 'skill_category',
         'needs_human_check', 'importance', 'proficiency', 'prof_score', 'imp_weight', 'match_weight',
-        'company_canonical_id', 'role_dashboard', 'level_dashboard', 'event_date', 'event_month', 'valid_job'
+        'company_canonical_id', 'role_group', 'role_dashboard', 'level_dashboard', 'event_date', 'event_month', 'valid_job'
     ]
     avail_skill_cols = [c for c in skill_cols_to_keep if c in skill_fact.columns]
-    skill_fact[avail_skill_cols].to_csv(out / 'fact_job_skills.csv', index=False, encoding='utf-8-sig')
+    skill_fact = skill_fact[avail_skill_cols]
+    skill_fact.to_csv(out / 'fact_job_skills.csv', index=False, encoding='utf-8-sig')
 
     valid_jobs = jobs[jobs.valid_job & jobs.event_date.notna()].copy()
     valid_skills = skill_fact[skill_fact.valid_job.eq(True) & skill_fact.event_date.notna()].copy()
 
     def trend(period, name):
-        valid_jobs.groupby([period, 'role_dashboard'], dropna=False).agg(
+        valid_jobs.groupby([period, 'role_group'], dropna=False).agg(
             new_jobs=('job_uid', 'nunique'), companies=('company_canonical_id', 'nunique')
         ).reset_index().to_csv(out / f'role_trend_{name}.csv', index=False, encoding='utf-8-sig')
         valid_skills.groupby([period, 'skill'], dropna=False).agg(
@@ -301,10 +418,10 @@ def run(clean_path: Path, skill_path: Path, out: Path):
     trend('event_month', 'monthly')
 
     # Salary Benchmarks with threshold n >= 5 and clean separation of range vs from vs up_to
-    # Primary grouping is role_dashboard + level_dashboard (size_bucket excluded as all are unknown)
-    pay = jobs[(jobs.salary_reliable | jobs.salary_floor_reliable | jobs.salary_ceiling_reliable) & jobs.role_dashboard.ne('multiple_review')].copy()
+    # Primary grouping is role_group + level_dashboard
+    pay = jobs[(jobs.salary_reliable | jobs.salary_floor_reliable | jobs.salary_ceiling_reliable) & jobs.role_group.ne('Other')].copy()
 
-    benchmarks = pay.groupby(['role_dashboard', 'level_dashboard'], dropna=False).agg(
+    benchmarks = pay.groupby(['role_group', 'level_dashboard'], dropna=False).agg(
         n_salary_jobs=('job_uid', 'nunique'),
         n_range_jobs=('salary_mid_m', lambda s: int(s.notna().sum())),
         median_range_mid_m=('salary_mid_m', lambda s: round(float(s.dropna().median()), 2) if len(s.dropna()) >= 5 else float('nan')),
@@ -327,23 +444,23 @@ def run(clean_path: Path, skill_path: Path, out: Path):
 
     # Monthly salary trends (only range & exact)
     pay_range = jobs[jobs.salary_reliable & jobs.event_month.notna()].copy()
-    pay_range.groupby(['event_month', 'role_dashboard', 'level_dashboard']).agg(
+    pay_range.groupby(['event_month', 'role_group', 'level_dashboard']).agg(
         n_salary_jobs=('job_uid', 'nunique'), median_salary_mid_m=('salary_mid_m', 'median')
     ).reset_index().to_csv(out / 'salary_monthly.csv', index=False, encoding='utf-8-sig')
 
     company_rows = []
     for cid, rows in jobs[jobs.valid_job].groupby('company_canonical_id'):
         direct, source = segment_company_type(rows.company_type.dropna())
-        role_counts = rows.role_dashboard.value_counts()
-        top_role = role_counts.index[0] if len(role_counts) else 'other'
+        role_counts = rows.role_group.value_counts()
+        top_role = role_counts.index[0] if len(role_counts) else 'Other'
         share = round(float(role_counts.iloc[0] / len(rows)), 3) if len(role_counts) else None
         enough = len(rows) >= 5
-        focus = ('ai_data_hiring' if top_role in {'data_scientist_ai', 'data_engineer', 'data_analyst_bi'} else
-                 'software_engineering_hiring' if top_role in {'backend', 'frontend', 'fullstack', 'mobile'} else
-                 'infrastructure_security_hiring' if top_role in {'devops_cloud', 'security', 'system_network'} else
-                 'business_quality_hiring' if top_role in {'business_analyst', 'qa_tester'} else
-                 'product_project_management_hiring' if top_role in {'project_product_management'} else
-                 'design_hiring' if top_role in {'uiux_design'} else 'other_hiring') if enough and share >= .4 else 'undetermined'
+        focus = ('ai_data_hiring' if top_role in {'Data / AI'} else
+                 'software_engineering_hiring' if top_role in {'Backend', 'Frontend', 'Fullstack', 'Mobile'} else
+                 'infrastructure_security_hiring' if top_role in {'DevOps / Cloud / SysAdmin', 'Security'} else
+                 'business_quality_hiring' if top_role in {'BA / PO / PM', 'QA / QC / Tester'} else
+                 'product_project_management_hiring' if top_role in {'BA / PO / PM', 'Management / Leadership'} else
+                 'design_hiring' if top_role in {'UI / UX Design'} else 'other_hiring') if enough and share >= .4 else 'undetermined'
         company_rows.append({
             'company_canonical_id': cid,
             'company_canonical_name': rows.company_canonical_name.iloc[0],
@@ -351,12 +468,12 @@ def run(clean_path: Path, skill_path: Path, out: Path):
             'company_type_evidence': source,
             'company_size_bucket': rows.size_bucket.mode().iloc[0] if not rows.size_bucket.mode().empty else 'unknown',
             'observed_jobs': len(rows),
-            'distinct_role_groups': int(rows.role_dashboard.nunique()),
+            'distinct_role_groups': int(rows.role_group.nunique()),
             'top_hiring_role': top_role,
             'top_hiring_role_share': share,
             'hiring_focus_inferred': focus,
             'hiring_profile': 'specialized_hiring' if len(rows) >= 5 and share >= .65 else
-                              'diverse_hiring' if len(rows) >= 5 and rows.role_dashboard.nunique() >= 4 else
+                              'diverse_hiring' if len(rows) >= 5 and rows.role_group.nunique() >= 4 else
                               'insufficient_evidence',
             'profile_is_inference': True,
             'hiring_focus_confidence': 'low' if not enough else 'medium',
@@ -383,6 +500,9 @@ def run(clean_path: Path, skill_path: Path, out: Path):
         'salary_tax_type_breakdown': tax_pay,
         'skill_fact_pairs': len(skill_fact),
         'company_segments_are_inferred': True,
+        'role_group_distribution': valid_jobs['role_group'].value_counts().to_dict(),
+        'role_source_distribution': valid_jobs['role_source'].value_counts().to_dict(),
+        'role_confidence_distribution': valid_jobs['role_confidence'].value_counts().to_dict(),
         'skill_demand_index': demand_index_status,
         'skill_demand_index_weights': {
             'default': {'postings_volume': 0.45, 'company_breadth': 0.35, 'required_intensity': 0.20},

@@ -37,7 +37,7 @@ vietnam-it-job-market/
 │   ├── dashboard_data.py        # Dựng Star Schema (Fact/Dim) & tính chỉ số kỹ năng 0-100
 │   ├── jd_analysis.py           # Bóc tách số năm kinh nghiệm, cấp bậc, tầm quan trọng kỹ năng
 │   ├── run_hr_pipeline.py       # Script điều phối thực thi pipeline từ dòng lệnh
-│   ├── test_recruitment_pipeline.py # Bộ kiểm thử tự động 20 Suites kiểm tra toàn vẹn
+│   ├── test_recruitment_pipeline.py # Bộ kiểm thử tự động 21 Suites kiểm tra toàn vẹn
 │   ├── quality_report.json      # Báo cáo chất lượng dữ liệu & các giả định quy đổi
 │   ├── requirements.txt         # Khai báo thư viện phụ thuộc cho pipeline
 │   └── README.md                # 📖 Hướng dẫn kỹ thuật chi tiết phân hệ Pipeline
@@ -172,12 +172,12 @@ Chi tiết tài liệu kỹ thuật phân hệ xử lý được lưu tại [pip
 pip install -r pipeline/requirements.txt
 ```
 
-### 2. Chạy Bộ Kiểm Thử Tự Động (20 Test Suites)
-Bộ kiểm thử bao gồm kiểm tra chuẩn hóa công ty, bóc tách lương ngoại tệ, bóc tách chuỗi kỹ năng ghép, luật bảo vệ chống nối chuỗi và 6 bất biến toàn vẹn dữ liệu:
+### 2. Chạy Bộ Kiểm Thử Tự Động (21 Test Suites)
+Bộ kiểm thử bao gồm kiểm tra chuẩn hóa công ty, bóc tách lương ngoại tệ, bóc tách chuỗi kỹ năng ghép, luật bảo vệ chống nối chuỗi, phân loại vai trò đa tầng và 6 bất biến toàn vẹn dữ liệu:
 ```bash
 python -m unittest pipeline/test_recruitment_pipeline.py
 ```
-*(Kết quả mong đợi: `Ran 20 tests ... OK`)*
+*(Kết quả mong đợi: `Ran 21 tests ... OK`)*
 
 ### 3. Chạy Pipeline Xử Lý Trên Dữ Liệu Mẫu (Sample Data)
 Người dùng có thể chạy thử nghiệm toàn bộ quy trình trên tập dữ liệu mẫu 50 dòng (`data/sample/`):
@@ -189,13 +189,15 @@ python pipeline/run_hr_pipeline.py --input data/sample/itviec_sample.csv data/sa
 
 ## 📊 Tóm Tắt Kết Quả Xử Lý & Đo Lường Thực Tế
 
-Trên tập dữ liệu quan sát gồm 2.019 tin tuyển dụng (10/10 - 25/10/2026):
+Trên tập dữ liệu quan sát gồm 2.019 tin tuyển dụng (10/10 - 25/10/2026), sau khi khử 135 tin trùng lặp bằng Guard Rule, còn lại **1.884 tin hợp lệ duy nhất** (`valid_job`):
+- **Phân bổ nguồn tin hợp lệ:** ITviec đóng góp **927 tin (49.20%)**, VietnamWorks đóng góp **957 tin (50.80%)**.
+- **Minh bạch schema:** ITviec có 20 cột rỗng 100% (`job_function`, `level`, `views`, `days_alive`, `industry`...). Do đó, các phân tích về vòng đời tin và lượt xem thuộc độc quyền về VietnamWorks, trong khi dữ liệu kỹ năng, cấp bậc suy luận và mức lương được chuẩn hóa cân bằng trên cả hai sàn.
 
 | Tiêu Chí Đo Lường | Trước Tối Ưu | Sau Chuẩn Hóa | Ý Nghĩa / Giải Pháp |
 |---|---|---|---|
 | **Kỹ năng chuẩn hóa** | Phân tán nhiều biến thể | **99 nhãn chuẩn** | Xây dựng danh mục Taxonomy 2 tầng (`skill_family`, `skill_category`) |
 | **Cấp bậc chưa xác định (`unknown`)** | 57% | **11.69%** (236 tin) | Khai thác suy luận cấp bậc bổ trợ từ số năm kinh nghiệm yêu cầu |
-| **Vai trò chưa phân loại (`other`)** | 40% | **26.80%** (541 tin) | Mở rộng hệ luật regex nhận diện 20 vai trò công nghệ chuyên biệt |
+| **Nhóm vị trí chuẩn (`role_group`)** | Không có (chỉ có nhãn thô VNW) | **15 nhóm chuẩn** (Độ chính xác audit 96.0%) | Áp dụng regex phân cấp title chặt + fallback kỹ năng, kiểm định trên 100 mẫu |
 | **Ô chuẩn mực lương tin cậy ($n \ge 5$)** | Nhiều ô $n < 5$ bị méo mó | **27 / 96 ô** | Triệt tiêu hiển thị (gán `NaN`) cho các ô $n < 5$ để tránh sai lệch thống kê |
 | **Chất lượng văn bản mô tả (`full`)** | Không phân loại | **1.583 / 2.019 tin (78.4%)** | Đánh giá độ dài mô tả và làm giàu tin VietnamWorks |
 | **Độ chính xác khử trùng lặp (Guard Rule)** | Dễ nối chuỗi sai | **30/30 (100%)** | Kiểm định độc lập 30 cặp tin mới (`duplicate_validation_sample_30.csv`) |

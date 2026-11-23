@@ -14,7 +14,7 @@ pipeline/
 ├── recruitment_pipeline.py      # Module xử lý cốt lõi: Làm sạch, map kỹ năng, khử trùng lặp
 ├── dashboard_data.py            # Module tạo mô hình Star Schema & tính toán chỉ số
 ├── run_hr_pipeline.py           # Script điều phối chạy quy trình từ dòng lệnh
-├── test_recruitment_pipeline.py # Bộ kiểm thử tự động 20 Suites kiểm tra bất biến dữ liệu
+├── test_recruitment_pipeline.py # Bộ kiểm thử tự động 21 Suites kiểm tra bất biến dữ liệu
 ├── requirements.txt             # Khai báo thư viện phụ thuộc (rapidfuzz, pandas, openpyxl)
 ├── quality_report.json          # Báo cáo đo lường chất lượng dữ liệu và các giả định quy đổi
 └── README.md                    # Tài liệu kỹ thuật chi tiết của phân hệ
@@ -54,6 +54,21 @@ pipeline/
   - `right_censored`: Tin vẫn đang mở tuyển tại ngày snapshot cuối cùng (25/10/2026).
   - *Lưu ý:* Trường `days_active` chỉ phản ánh số ngày quan sát thấy trong chu kỳ 15 ngày, không phải tổng thời gian mở tuyển thực tế (time-to-hire).
 
+### 2.4. Chuẩn Hóa Nhóm Vị Trí Đa Nguồn (Role Group Classification)
+- **Bối cảnh & Sai khác Schema giữa hai sàn:**
+  - Trên tổng số 1.884 tin tuyển dụng hợp lệ sau khử trùng lặp (`valid_job`), ITviec đóng góp **927 tin (49.20%)** và VietnamWorks đóng góp **957 tin (50.80%)**.
+  - Sàn ITviec có khoảng 20 trường rỗng 100% so với VietnamWorks (`job_function`, `level`, `views`, `days_alive`, `industry`, `posted_on`, `expired_on`...). Cột `job_function` gốc của VietnamWorks phân loại quá thô (ví dụ gom chung Backend/Frontend/Mobile thành "Software Developer") và hoàn toàn vắng bóng ở ITviec.
+  - Do đó, pipeline thiết lập bộ nhận diện vị trí chuẩn tắc dựa trên `title` (đạt 100% độ phủ ở cả hai sàn), kết hợp fallback qua kỹ năng yêu cầu (`skills`) và phân ngành phụ trợ (`job_function` của VietnamWorks).
+- **Hệ thống 15 nhóm vị trí chuẩn (`role_group`):**
+  - `Backend` (256 tin - 13.59%), `Data / AI` (286 tin - 15.18%), `BA / PO / PM` (242 tin - 12.85%), `DevOps / Cloud / SysAdmin` (156 tin - 8.28%), `QA / QC / Tester` (148 tin - 7.86%), `Security` (105 tin - 5.57%), `Fullstack` (95 tin - 5.04%), `IT Support / ERP` (66 tin - 3.50%), `Embedded / Hardware / Telecom` (36 tin - 1.91%), `Mobile` (29 tin - 1.54%), `Frontend` (24 tin - 1.27%), `Management / Leadership` (23 tin - 1.22%), `Game Dev` (14 tin - 0.74%), `UI / UX Design` (14 tin - 0.74%), `Other` (390 tin - 20.70%).
+- **Kiểm soát ranh giới nghiêm ngặt:**
+  - *Data / AI*: Đặt ranh giới từ khóa chặt chẽ (`data scientist`, `machine learning`, `data engineer`, `etl`, `bi analyst`, `dba`...), loại trừ các title lạm phát và tránh fallback nhầm từ các kỹ năng cơ sở dữ liệu phổ thông (`SQL`, `PostgreSQL`).
+  - *Management / Leadership*: Chỉ gom các vị trí C-level và quản lý IT cấp cao (`CTO`, `CIO`, `Head of IT`, `IT Director`...), giữ các vị trí quản lý chuyên môn (`QA Manager`, `Cybersecurity Manager`, `Data Science Manager`) đúng về nhóm nghiệp vụ tương ứng.
+- **Minh bạch nguồn gốc & độ tin cậy:**
+  - `role_source`: `title` (1.363 tin - 72.35%), `unknown` (390 tin - 20.70%), `job_function` (112 tin - 5.94%), `skills` (19 tin - 1.01%).
+  - `role_confidence`: `high` (1.306 tin - 69.32%), `medium` (131 tin - 6.95%), `low` (447 tin - 23.73%).
+- **Kiểm định độc lập trên mẫu ngẫu nhiên:** Kiểm toán mù 100 tin ngẫu nhiên (`random_state=42`) ghi nhận độ chính xác thực tế đạt **96.0%** (96/100 tin phân loại chuẩn xác).
+
 ---
 
 ## 3. Chỉ Số Nhu Cầu Kỹ Năng (`skill_demand_index`)
@@ -79,7 +94,10 @@ Bảng cấp tin tuyển dụng đã loại bỏ toàn bộ văn bản mô tả 
 - `title`: Tiêu đề công việc đã chuẩn hóa khoảng trắng.
 - `company_canonical_name`: Tên doanh nghiệp đã chuẩn hóa tên pháp nhân.
 - `city`: Địa phương chuẩn hóa tiếng Việt có dấu.
-- `role_dashboard`: Phân loại vai trò chuyên môn.
+- `role_group`: 15 nhóm vị trí chuẩn hóa chuẩn BI (Backend, Frontend, Fullstack, Mobile, Data / AI, DevOps...).
+- `role_source`: Nguồn suy luận nhãn vị trí (`title`, `job_function`, `skills`, `unknown`).
+- `role_confidence`: Độ tin cậy gán nhãn (`high`, `medium`, `low`).
+- `role_dashboard`: Phân loại vai trò chi tiết (backward compatible).
 - `level_dashboard`: Cấp bậc chuẩn hóa (kết hợp tiêu đề và kinh nghiệm).
 - `salary_type_norm`: Loại lương (`range`, `exact`, `from`, `up_to`, `negotiable`, `unknown`).
 - `salary_min_m`, `salary_max_m`, `salary_mid_m`: Mức lương quy đổi triệu VND/tháng.
@@ -90,8 +108,9 @@ Bảng cấp tin tuyển dụng đã loại bỏ toàn bộ văn bản mô tả 
 
 ### 4.2. Bảng `data/dashboard/salary_benchmarks.csv`
 Bảng chuẩn mực lương theo phân khúc vai trò $\times$ cấp bậc:
-- `role_dashboard`, `level_dashboard`: Cặp phân khúc.
-- `n_range_jobs`: Cỡ mẫu tin khoảng lương đủ điều kiện tính toán.
+- `role_group`, `level_dashboard`: Cặp phân khúc vai trò chuẩn và cấp bậc.
+- `n_salary_jobs`: Tổng số tin tuyển dụng có thông tin lương hợp lệ.
+- `n_range_jobs`: Cỡ mẫu tin khoảng lương đủ điều kiện tính toán ($n_{\text{range}}$).
 - `median_range_mid_m`, `p25_range_mid_m`, `p75_range_mid_m`: Trung vị và phân vị khoảng lương (gán `NaN` khi $n_{\text{range}} < 5$).
 - `median_floor_from_m`: Trung vị mức sàn của các tin "Từ X" ($n \ge 5$).
 - `median_ceiling_upto_m`: Trung vị mức trần quảng cáo của các tin "Tới X" ($n \ge 5$).
@@ -106,7 +125,7 @@ Cài đặt thư viện:
 pip install -r requirements.txt
 ```
 
-Chạy bộ kiểm thử tự động 20 Test Suites:
+Chạy bộ kiểm thử tự động 21 Test Suites:
 ```bash
 python -m unittest test_recruitment_pipeline.py
 ```

@@ -1,177 +1,146 @@
-﻿event_date,role_dashboard,new_jobs,companies
-2026-10-10,backend,113,98
-2026-10-10,business_analyst,90,81
-2026-10-10,data_analyst_bi,46,41
-2026-10-10,data_engineer,25,22
-2026-10-10,data_scientist_ai,124,89
-2026-10-10,devops_cloud,79,63
-2026-10-10,embedded_hardware,24,16
-2026-10-10,erp_crm,13,12
-2026-10-10,frontend,18,18
-2026-10-10,fullstack,76,67
-2026-10-10,game_dev,6,6
-2026-10-10,general_software_eng,47,39
-2026-10-10,mobile,19,18
-2026-10-10,other,372,229
-2026-10-10,project_product_management,108,90
-2026-10-10,qa_tester,102,83
-2026-10-10,security,58,47
-2026-10-10,solution_architecture,26,21
-2026-10-10,system_network,40,38
-2026-10-10,uiux_design,9,8
-2026-10-11,business_analyst,1,1
-2026-10-11,data_analyst_bi,1,1
-2026-10-11,fullstack,1,1
-2026-10-11,other,3,3
-2026-10-12,backend,1,1
-2026-10-12,business_analyst,1,1
-2026-10-12,data_engineer,2,2
-2026-10-12,data_scientist_ai,2,2
-2026-10-12,devops_cloud,2,1
-2026-10-12,embedded_hardware,2,2
-2026-10-12,other,3,3
-2026-10-12,project_product_management,3,3
-2026-10-12,qa_tester,4,4
-2026-10-12,solution_architecture,1,1
-2026-10-12,system_network,1,1
-2026-10-13,backend,5,5
-2026-10-13,business_analyst,6,6
-2026-10-13,data_analyst_bi,3,3
-2026-10-13,data_engineer,1,1
-2026-10-13,data_scientist_ai,6,4
-2026-10-13,devops_cloud,2,2
-2026-10-13,embedded_hardware,2,2
-2026-10-13,erp_crm,1,1
-2026-10-13,frontend,1,1
-2026-10-13,fullstack,1,1
-2026-10-13,general_software_eng,2,2
-2026-10-13,other,21,16
-2026-10-13,project_product_management,5,5
-2026-10-13,qa_tester,5,5
-2026-10-13,solution_architecture,1,1
-2026-10-13,system_network,2,2
-2026-10-13,uiux_design,1,1
-2026-10-14,backend,4,4
-2026-10-14,business_analyst,5,5
-2026-10-14,data_engineer,1,1
-2026-10-14,data_scientist_ai,3,3
-2026-10-14,devops_cloud,3,3
-2026-10-14,embedded_hardware,1,1
-2026-10-14,general_software_eng,3,3
-2026-10-14,mobile,1,1
-2026-10-14,other,15,15
-2026-10-14,project_product_management,3,3
-2026-10-14,qa_tester,4,4
-2026-10-14,solution_architecture,2,2
-2026-10-15,backend,7,6
-2026-10-15,business_analyst,6,6
-2026-10-15,data_analyst_bi,2,2
-2026-10-15,data_scientist_ai,3,3
-2026-10-15,devops_cloud,2,2
-2026-10-15,erp_crm,1,1
-2026-10-15,frontend,2,2
-2026-10-15,fullstack,1,1
-2026-10-15,general_software_eng,1,1
-2026-10-15,other,11,9
-2026-10-15,project_product_management,3,3
-2026-10-15,qa_tester,1,1
-2026-10-15,security,1,1
-2026-10-15,solution_architecture,2,2
-2026-10-16,backend,3,3
-2026-10-16,business_analyst,3,3
-2026-10-16,data_analyst_bi,6,5
-2026-10-16,data_scientist_ai,1,1
-2026-10-16,devops_cloud,5,5
-2026-10-16,embedded_hardware,1,1
-2026-10-16,fullstack,4,4
-2026-10-16,game_dev,1,1
-2026-10-16,general_software_eng,2,2
-2026-10-16,mobile,1,1
-2026-10-16,other,16,14
-2026-10-16,project_product_management,3,3
-2026-10-16,qa_tester,5,5
-2026-10-16,security,5,4
-2026-10-16,solution_architecture,2,2
-2026-10-16,system_network,2,2
-2026-10-16,uiux_design,1,1
-2026-10-17,backend,1,1
-2026-10-17,data_scientist_ai,1,1
-2026-10-17,fullstack,1,1
-2026-10-17,game_dev,2,1
-2026-10-17,general_software_eng,1,1
-2026-10-17,project_product_management,1,1
-2026-10-17,security,1,1
-2026-10-18,qa_tester,1,1
-2026-10-19,backend,4,4
-2026-10-19,business_analyst,3,3
-2026-10-19,data_analyst_bi,3,3
-2026-10-19,data_engineer,2,2
-2026-10-19,data_scientist_ai,2,2
-2026-10-19,devops_cloud,2,2
-2026-10-19,frontend,1,1
-2026-10-19,general_software_eng,2,2
-2026-10-19,other,9,8
-2026-10-19,project_product_management,4,4
-2026-10-19,qa_tester,2,2
-2026-10-19,security,1,1
-2026-10-19,solution_architecture,4,4
-2026-10-19,system_network,3,3
-2026-10-19,uiux_design,1,1
-2026-10-20,backend,2,2
-2026-10-20,data_analyst_bi,1,1
-2026-10-20,data_scientist_ai,4,3
-2026-10-20,devops_cloud,2,2
-2026-10-20,fullstack,2,2
-2026-10-20,game_dev,2,2
-2026-10-20,other,14,13
-2026-10-20,project_product_management,2,2
-2026-10-20,qa_tester,1,1
-2026-10-20,security,1,1
-2026-10-20,system_network,1,1
-2026-10-21,backend,7,7
-2026-10-21,business_analyst,4,3
-2026-10-21,data_analyst_bi,2,2
-2026-10-21,data_scientist_ai,6,6
-2026-10-21,devops_cloud,5,5
-2026-10-21,erp_crm,1,1
-2026-10-21,fullstack,3,3
-2026-10-21,game_dev,1,1
-2026-10-21,general_software_eng,2,2
-2026-10-21,mobile,1,1
-2026-10-21,other,17,15
-2026-10-21,project_product_management,8,7
-2026-10-21,qa_tester,4,4
-2026-10-21,security,2,2
-2026-10-21,solution_architecture,2,2
-2026-10-21,system_network,1,1
-2026-10-22,backend,4,4
-2026-10-22,business_analyst,1,1
-2026-10-22,data_scientist_ai,1,1
-2026-10-22,devops_cloud,2,2
-2026-10-22,general_software_eng,3,3
-2026-10-22,other,3,3
-2026-10-22,project_product_management,1,1
-2026-10-22,qa_tester,3,3
-2026-10-22,security,1,1
-2026-10-23,backend,6,6
-2026-10-23,business_analyst,4,4
-2026-10-23,data_analyst_bi,2,2
-2026-10-23,data_engineer,2,2
-2026-10-23,data_scientist_ai,4,4
-2026-10-23,devops_cloud,1,1
-2026-10-23,frontend,1,1
-2026-10-23,fullstack,3,3
-2026-10-23,general_software_eng,6,6
-2026-10-23,other,25,19
-2026-10-23,project_product_management,4,4
-2026-10-23,qa_tester,6,6
-2026-10-23,security,2,2
-2026-10-23,system_network,3,3
-2026-10-23,uiux_design,1,1
-2026-10-24,backend,1,1
-2026-10-24,devops_cloud,2,2
-2026-10-24,game_dev,1,1
-2026-10-24,project_product_management,1,1
-2026-10-24,qa_tester,1,1
-2026-10-24,system_network,1,1
-2026-10-24,uiux_design,1,1
+﻿event_date,role_group,new_jobs,companies
+2026-10-10,BA / PO / PM,177,138
+2026-10-10,Backend,191,149
+2026-10-10,Data / AI,207,131
+2026-10-10,DevOps / Cloud / SysAdmin,118,92
+2026-10-10,Embedded / Hardware / Telecom,30,21
+2026-10-10,Frontend,18,17
+2026-10-10,Fullstack,77,68
+2026-10-10,Game Dev,7,7
+2026-10-10,IT Support / ERP,50,43
+2026-10-10,Management / Leadership,17,12
+2026-10-10,Mobile,24,21
+2026-10-10,Other,283,196
+2026-10-10,QA / QC / Tester,106,88
+2026-10-10,Security,81,59
+2026-10-10,UI / UX Design,9,8
+2026-10-11,BA / PO / PM,1,1
+2026-10-11,Data / AI,1,1
+2026-10-11,Fullstack,1,1
+2026-10-11,Other,3,3
+2026-10-12,BA / PO / PM,3,3
+2026-10-12,Backend,1,1
+2026-10-12,Data / AI,4,4
+2026-10-12,DevOps / Cloud / SysAdmin,4,3
+2026-10-12,Embedded / Hardware / Telecom,2,2
+2026-10-12,Management / Leadership,1,1
+2026-10-12,Other,3,3
+2026-10-12,QA / QC / Tester,4,4
+2026-10-13,BA / PO / PM,9,9
+2026-10-13,Backend,5,4
+2026-10-13,Data / AI,14,11
+2026-10-13,DevOps / Cloud / SysAdmin,4,4
+2026-10-13,Embedded / Hardware / Telecom,2,2
+2026-10-13,Frontend,1,1
+2026-10-13,Fullstack,2,2
+2026-10-13,IT Support / ERP,1,1
+2026-10-13,Mobile,1,1
+2026-10-13,Other,19,13
+2026-10-13,QA / QC / Tester,5,5
+2026-10-13,Security,1,1
+2026-10-13,UI / UX Design,1,1
+2026-10-14,BA / PO / PM,8,8
+2026-10-14,Backend,9,8
+2026-10-14,Data / AI,6,6
+2026-10-14,DevOps / Cloud / SysAdmin,4,4
+2026-10-14,Embedded / Hardware / Telecom,1,1
+2026-10-14,IT Support / ERP,1,1
+2026-10-14,Management / Leadership,1,1
+2026-10-14,Mobile,1,1
+2026-10-14,Other,9,9
+2026-10-14,QA / QC / Tester,4,4
+2026-10-14,Security,1,1
+2026-10-15,BA / PO / PM,8,8
+2026-10-15,Backend,8,7
+2026-10-15,Data / AI,8,7
+2026-10-15,DevOps / Cloud / SysAdmin,2,2
+2026-10-15,Frontend,2,2
+2026-10-15,Fullstack,1,1
+2026-10-15,IT Support / ERP,3,3
+2026-10-15,Other,9,7
+2026-10-15,QA / QC / Tester,1,1
+2026-10-15,Security,1,1
+2026-10-16,BA / PO / PM,5,5
+2026-10-16,Backend,7,7
+2026-10-16,Data / AI,6,6
+2026-10-16,DevOps / Cloud / SysAdmin,5,5
+2026-10-16,Embedded / Hardware / Telecom,1,1
+2026-10-16,Fullstack,4,4
+2026-10-16,Game Dev,1,1
+2026-10-16,IT Support / ERP,2,2
+2026-10-16,Management / Leadership,1,1
+2026-10-16,Mobile,1,1
+2026-10-16,Other,16,13
+2026-10-16,QA / QC / Tester,5,5
+2026-10-16,Security,6,5
+2026-10-16,UI / UX Design,1,1
+2026-10-17,BA / PO / PM,1,1
+2026-10-17,Backend,1,1
+2026-10-17,Fullstack,1,1
+2026-10-17,Game Dev,2,1
+2026-10-17,Other,1,1
+2026-10-17,QA / QC / Tester,1,1
+2026-10-17,Security,1,1
+2026-10-18,QA / QC / Tester,1,1
+2026-10-19,BA / PO / PM,6,6
+2026-10-19,Backend,7,7
+2026-10-19,Data / AI,9,9
+2026-10-19,DevOps / Cloud / SysAdmin,5,4
+2026-10-19,Frontend,2,2
+2026-10-19,IT Support / ERP,1,1
+2026-10-19,Other,7,6
+2026-10-19,QA / QC / Tester,3,3
+2026-10-19,Security,2,2
+2026-10-19,UI / UX Design,1,1
+2026-10-20,BA / PO / PM,2,2
+2026-10-20,Backend,3,3
+2026-10-20,Data / AI,7,6
+2026-10-20,DevOps / Cloud / SysAdmin,2,2
+2026-10-20,Fullstack,2,2
+2026-10-20,Game Dev,2,2
+2026-10-20,IT Support / ERP,1,1
+2026-10-20,Other,9,9
+2026-10-20,QA / QC / Tester,1,1
+2026-10-20,Security,3,3
+2026-10-21,BA / PO / PM,11,8
+2026-10-21,Backend,10,10
+2026-10-21,Data / AI,9,9
+2026-10-21,DevOps / Cloud / SysAdmin,4,3
+2026-10-21,Fullstack,3,3
+2026-10-21,Game Dev,1,1
+2026-10-21,IT Support / ERP,3,3
+2026-10-21,Management / Leadership,2,2
+2026-10-21,Mobile,1,1
+2026-10-21,Other,11,10
+2026-10-21,QA / QC / Tester,7,5
+2026-10-21,Security,4,3
+2026-10-22,BA / PO / PM,2,2
+2026-10-22,Backend,4,4
+2026-10-22,Data / AI,2,2
+2026-10-22,DevOps / Cloud / SysAdmin,2,2
+2026-10-22,Fullstack,1,1
+2026-10-22,IT Support / ERP,1,1
+2026-10-22,Other,3,3
+2026-10-22,QA / QC / Tester,3,3
+2026-10-22,Security,1,1
+2026-10-23,BA / PO / PM,8,8
+2026-10-23,Backend,9,9
+2026-10-23,Data / AI,12,12
+2026-10-23,DevOps / Cloud / SysAdmin,5,5
+2026-10-23,Frontend,1,1
+2026-10-23,Fullstack,3,3
+2026-10-23,IT Support / ERP,3,3
+2026-10-23,Management / Leadership,1,1
+2026-10-23,Mobile,1,1
+2026-10-23,Other,17,13
+2026-10-23,QA / QC / Tester,6,6
+2026-10-23,Security,3,2
+2026-10-23,UI / UX Design,1,1
+2026-10-24,BA / PO / PM,1,1
+2026-10-24,Backend,1,1
+2026-10-24,Data / AI,1,1
+2026-10-24,DevOps / Cloud / SysAdmin,1,1
+2026-10-24,Game Dev,1,1
+2026-10-24,QA / QC / Tester,1,1
+2026-10-24,Security,1,1
+2026-10-24,UI / UX Design,1,1

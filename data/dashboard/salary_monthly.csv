@@ -1,93 +1,76 @@
-﻿event_month,role_dashboard,level_dashboard,n_salary_jobs,median_salary_mid_m
-2026-10,backend,junior,4,30.83335
-2026-10,backend,lead,1,28.75
-2026-10,backend,middle,20,35.875
-2026-10,backend,senior,14,50.0
-2026-10,backend,unknown,3,38.75
-2026-10,business_analyst,intern,1,2.25
-2026-10,business_analyst,junior,5,25.0
-2026-10,business_analyst,lead,2,68.125
-2026-10,business_analyst,manager,2,43.75
-2026-10,business_analyst,middle,21,30.0
-2026-10,business_analyst,senior,7,46.25
-2026-10,business_analyst,unknown,1,40.0
-2026-10,data_analyst_bi,fresher,1,12.5
-2026-10,data_analyst_bi,junior,2,47.5
-2026-10,data_analyst_bi,middle,2,22.5
-2026-10,data_analyst_bi,senior,2,36.25
-2026-10,data_analyst_bi,unknown,1,37.5
-2026-10,data_engineer,junior,1,17.5
-2026-10,data_engineer,middle,4,35.1875
-2026-10,data_engineer,senior,3,43.75
-2026-10,data_engineer,unknown,1,26.25
-2026-10,data_scientist_ai,fresher,1,27.5
-2026-10,data_scientist_ai,intern,1,8.05
-2026-10,data_scientist_ai,junior,2,82.5
-2026-10,data_scientist_ai,lead,3,58.75
-2026-10,data_scientist_ai,manager,2,110.0
-2026-10,data_scientist_ai,middle,13,31.25
-2026-10,data_scientist_ai,senior,9,49.0
-2026-10,data_scientist_ai,unknown,3,35.0
-2026-10,devops_cloud,intern,1,21.25
-2026-10,devops_cloud,lead,1,56.25
-2026-10,devops_cloud,manager,2,63.75
-2026-10,devops_cloud,middle,6,37.5
-2026-10,devops_cloud,senior,14,37.5
-2026-10,devops_cloud,unknown,1,21.25
-2026-10,embedded_hardware,intern,1,7.6375
-2026-10,embedded_hardware,middle,7,33.75
-2026-10,embedded_hardware,unknown,1,28.75
-2026-10,erp_crm,middle,2,43.125
-2026-10,erp_crm,senior,1,43.75
-2026-10,frontend,lead,1,68.75
-2026-10,frontend,middle,3,24.0
-2026-10,frontend,senior,1,56.25
-2026-10,frontend,unknown,1,56.25
-2026-10,fullstack,lead,4,56.25
-2026-10,fullstack,middle,11,37.5
-2026-10,fullstack,senior,11,62.5
-2026-10,fullstack,unknown,2,40.0
-2026-10,game_dev,intern,1,5.75
-2026-10,game_dev,unknown,2,40.625
-2026-10,general_software_eng,intern,1,2.25
-2026-10,general_software_eng,junior,2,23.4375
-2026-10,general_software_eng,middle,7,33.75
-2026-10,general_software_eng,senior,8,40.0
-2026-10,mobile,middle,2,33.125
-2026-10,mobile,senior,2,63.75
-2026-10,mobile,unknown,1,16.25
-2026-10,other,director,2,71.25
-2026-10,other,fresher,2,12.125
-2026-10,other,junior,6,25.125
-2026-10,other,lead,4,40.0
-2026-10,other,manager,12,50.0
-2026-10,other,middle,24,26.25
-2026-10,other,senior,18,48.7625
-2026-10,other,unknown,18,29.58335
-2026-10,project_product_management,director,2,86.875
-2026-10,project_product_management,fresher,1,9.0
-2026-10,project_product_management,junior,4,50.0
-2026-10,project_product_management,lead,3,33.75
-2026-10,project_product_management,manager,3,42.5
-2026-10,project_product_management,middle,10,23.75
-2026-10,project_product_management,senior,15,45.0
-2026-10,project_product_management,unknown,1,37.5
-2026-10,qa_tester,junior,6,29.1667
-2026-10,qa_tester,lead,3,42.5
-2026-10,qa_tester,manager,1,52.5
-2026-10,qa_tester,middle,10,31.875
-2026-10,qa_tester,senior,9,36.25
-2026-10,qa_tester,unknown,7,31.25
-2026-10,security,manager,1,56.25
-2026-10,security,middle,2,28.25
-2026-10,security,senior,7,42.5
-2026-10,security,unknown,1,28.75
-2026-10,solution_architecture,middle,1,75.0
-2026-10,solution_architecture,senior,3,68.75
-2026-10,solution_architecture,unknown,1,37.5
-2026-10,system_network,junior,3,16.0
-2026-10,system_network,middle,5,50.0
-2026-10,system_network,senior,4,45.0
-2026-10,system_network,unknown,1,47.5
-2026-10,uiux_design,junior,1,13.75
-2026-10,uiux_design,middle,1,25.0
+﻿event_month,role_group,level_dashboard,n_salary_jobs,median_salary_mid_m
+2026-10,BA / PO / PM,fresher,1,9.0
+2026-10,BA / PO / PM,intern,1,2.25
+2026-10,BA / PO / PM,junior,10,35.0
+2026-10,BA / PO / PM,lead,3,37.5
+2026-10,BA / PO / PM,manager,2,43.75
+2026-10,BA / PO / PM,middle,31,27.5
+2026-10,BA / PO / PM,senior,20,46.25
+2026-10,BA / PO / PM,unknown,2,38.75
+2026-10,Backend,intern,2,5.15
+2026-10,Backend,junior,4,28.64585
+2026-10,Backend,lead,3,33.75
+2026-10,Backend,middle,27,33.75
+2026-10,Backend,senior,22,49.5
+2026-10,Backend,unknown,5,38.75
+2026-10,Data / AI,fresher,2,11.5
+2026-10,Data / AI,junior,4,30.0
+2026-10,Data / AI,lead,2,58.125
+2026-10,Data / AI,manager,9,43.75
+2026-10,Data / AI,middle,17,31.25
+2026-10,Data / AI,senior,14,43.75
+2026-10,Data / AI,unknown,3,35.0
+2026-10,DevOps / Cloud / SysAdmin,intern,1,21.25
+2026-10,DevOps / Cloud / SysAdmin,junior,2,20.0
+2026-10,DevOps / Cloud / SysAdmin,lead,1,56.25
+2026-10,DevOps / Cloud / SysAdmin,manager,3,68.75
+2026-10,DevOps / Cloud / SysAdmin,middle,11,37.5
+2026-10,DevOps / Cloud / SysAdmin,senior,17,37.5
+2026-10,DevOps / Cloud / SysAdmin,unknown,2,34.375
+2026-10,Embedded / Hardware / Telecom,fresher,1,13.75
+2026-10,Embedded / Hardware / Telecom,intern,1,7.6375
+2026-10,Embedded / Hardware / Telecom,middle,7,33.75
+2026-10,Embedded / Hardware / Telecom,unknown,3,28.75
+2026-10,Frontend,lead,1,68.75
+2026-10,Frontend,middle,4,23.25
+2026-10,Frontend,senior,1,56.25
+2026-10,Frontend,unknown,1,56.25
+2026-10,Fullstack,lead,4,56.25
+2026-10,Fullstack,middle,11,37.5
+2026-10,Fullstack,senior,11,62.5
+2026-10,Fullstack,unknown,2,40.0
+2026-10,Game Dev,intern,1,5.75
+2026-10,Game Dev,unknown,2,40.625
+2026-10,IT Support / ERP,director,1,55.0
+2026-10,IT Support / ERP,junior,2,66.875
+2026-10,IT Support / ERP,lead,1,40.0
+2026-10,IT Support / ERP,middle,3,37.5
+2026-10,IT Support / ERP,senior,2,62.5
+2026-10,IT Support / ERP,unknown,2,25.625
+2026-10,Management / Leadership,director,1,75.0
+2026-10,Management / Leadership,manager,2,68.75
+2026-10,Mobile,middle,2,33.125
+2026-10,Mobile,senior,2,63.75
+2026-10,Mobile,unknown,2,22.70835
+2026-10,Other,director,2,93.125
+2026-10,Other,fresher,1,27.5
+2026-10,Other,junior,5,26.25
+2026-10,Other,lead,4,40.0
+2026-10,Other,manager,5,68.75
+2026-10,Other,middle,25,28.75
+2026-10,Other,senior,21,43.75
+2026-10,Other,unknown,12,31.1
+2026-10,QA / QC / Tester,junior,7,29.1667
+2026-10,QA / QC / Tester,lead,2,40.625
+2026-10,QA / QC / Tester,manager,1,52.5
+2026-10,QA / QC / Tester,middle,10,31.875
+2026-10,QA / QC / Tester,senior,9,36.25
+2026-10,QA / QC / Tester,unknown,7,31.25
+2026-10,Security,junior,1,8.0
+2026-10,Security,lead,1,42.5
+2026-10,Security,manager,1,56.25
+2026-10,Security,middle,2,28.25
+2026-10,Security,senior,9,42.5
+2026-10,Security,unknown,3,28.75
+2026-10,UI / UX Design,junior,1,13.75
+2026-10,UI / UX Design,middle,1,25.0

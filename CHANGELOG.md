@@ -19,6 +19,12 @@ Tất cả các thay đổi đáng chú ý của dự án **Vietnam IT Job Marke
 - **Phân loại vai trò kỹ thuật (Role Rules)**:
   - Bổ sung hệ luật regex nhận diện 20 nhóm vai trò công nghệ chuyên sâu (AI/ML, Data Engineer, Cloud, DevOps, Embedded, Security, Fullstack...).
   - Tỷ lệ tin rơi vào nhóm `other` giảm từ 40% xuống còn **26.80%** (541/2.019 tin).
+- **Chuẩn hóa nhóm vị trí (Role Group Classification)**:
+  - Phân loại 15 nhóm vị trí chuẩn (`role_group`): Backend, Frontend, Fullstack, Mobile, Data / AI, DevOps / Cloud / SysAdmin, QA / QC / Tester, BA / PO / PM, Security, IT Support / ERP, Management / Leadership, UI / UX Design, Embedded / Hardware / Telecom, Game Dev, Other.
+  - Phân bổ thực tế trên 1.884 tin hợp lệ: ITviec = 927 tin (49.20%), VietnamWorks = 957 tin (50.80%).
+  - Kiểm soát ranh giới nghiêm ngặt cho Data / AI (286 tin - 15.18%) và Management / Leadership (23 tin - 1.22%).
+  - Bổ sung `role_source` (72.35% title, 5.94% job_function, 1.01% skills, 20.70% unknown) và `role_confidence` (69.32% high, 6.95% medium, 23.73% low).
+  - Kiểm toán mẫu ngẫu nhiên 100 tin (`seed=42`) đạt độ chính xác **96.0%**.
 - **Chuẩn mực mức lương (`salary_benchmarks.csv`)**:
   - Tách bạch 3 nhóm dữ liệu lương: Khoảng lương (`range`), mức sàn ("Từ X" - `from`), và mức trần quảng cáo ("Tới X" - `up_to`).
   - Đạt chính xác **27 / 96 ô** phân khúc vai trò - cấp bậc có cỡ mẫu tin cậy $n_{\text{range}} \ge 5$.

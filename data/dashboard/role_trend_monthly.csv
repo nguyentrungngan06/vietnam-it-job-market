@@ -1,21 +1,16 @@
-﻿event_month,role_dashboard,new_jobs,companies
-2026-10,backend,158,125
-2026-10,business_analyst,124,107
-2026-10,data_analyst_bi,66,55
-2026-10,data_engineer,33,29
-2026-10,data_scientist_ai,157,110
-2026-10,devops_cloud,107,85
-2026-10,embedded_hardware,30,20
-2026-10,erp_crm,16,15
-2026-10,frontend,23,23
-2026-10,fullstack,92,82
-2026-10,game_dev,13,10
-2026-10,general_software_eng,69,55
-2026-10,mobile,22,21
-2026-10,other,509,294
-2026-10,project_product_management,146,111
-2026-10,qa_tester,139,111
-2026-10,security,72,55
-2026-10,solution_architecture,40,31
-2026-10,system_network,54,49
-2026-10,uiux_design,14,12
+﻿event_month,role_group,new_jobs,companies
+2026-10,BA / PO / PM,242,175
+2026-10,Backend,256,185
+2026-10,Data / AI,286,171
+2026-10,DevOps / Cloud / SysAdmin,156,119
+2026-10,Embedded / Hardware / Telecom,36,25
+2026-10,Frontend,24,23
+2026-10,Fullstack,95,85
+2026-10,Game Dev,14,11
+2026-10,IT Support / ERP,66,55
+2026-10,Management / Leadership,23,18
+2026-10,Mobile,29,26
+2026-10,Other,390,250
+2026-10,QA / QC / Tester,148,117
+2026-10,Security,105,74
+2026-10,UI / UX Design,14,12
