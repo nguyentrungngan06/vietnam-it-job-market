@@ -2,8 +2,11 @@
 from __future__ import annotations
 
 import unittest
+import sys
 from pathlib import Path
 import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from recruitment_pipeline import (
     normalize, company_key, _compact, normalize_city, salary_values,

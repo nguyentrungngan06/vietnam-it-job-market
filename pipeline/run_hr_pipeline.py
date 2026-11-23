@@ -1,6 +1,9 @@
 """One-command pipeline: snapshots/raw CSV -> master & joined tables -> cleaned, scored, dashboard-ready tables."""
 import argparse
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from recruitment_pipeline import run as run_recruitment_pipeline
 from dashboard_data import run as build_dashboard
