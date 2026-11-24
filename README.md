@@ -3,16 +3,24 @@
 Hệ thống mã nguồn mở toàn diện phục vụ thu thập dữ liệu đa nguồn (**VietnamWorks, ITviec, GitHub**), làm sạch, chuẩn hóa kỹ năng 2 tầng, khử trùng lặp có luật bảo vệ chống nối chuỗi (Guard Rule Deduplication) và xây dựng mô hình dữ liệu Star Schema phục vụ phân tích thị trường việc làm công nghệ thông tin tại Việt Nam.
 
 > [!NOTE]
-> **Phạm vi dữ liệu:** Bộ dữ liệu quan sát được thu thập từ 2 nền tảng tuyển dụng (**ITviec** và **VietnamWorks**) trong khoảng thời gian từ **10/10/2026 đến 25/10/2026** (khoảng 2.000 tin tuyển dụng). Tập dữ liệu phản ánh lát cắt quan sát trong chu kỳ 15 ngày trên 2 nền tảng nêu trên và không mang tính đại diện tuyệt đối cho toàn bộ thị trường lao động IT tại Việt Nam.
+> **Phạm vi dữ liệu của dự án:**
+> - **Phân hệ Pipeline & Mart Star-Schema (`data/dashboard/`):** Vận hành trên snapshot Đợt 1 (10/10/2026 – 25/10/2026) gồm 2.019 tin thô $\rightarrow$ **1.884 tin hợp lệ duy nhất** sau khi khử trùng lặp nội bộ bằng Guard Rule.
+> - **Phân hệ Phân tích Kỹ năng Chuyên sâu (`01_eda_skill_analysis/`):** Tích hợp toàn diện **2 đợt cào** (từ 10/10 đến giữa tháng 11/2026) với 3.655 lượt quan sát $\rightarrow$ **2.620 tin tuyển dụng độc nhất** sau khi gộp và khử trùng lặp liên đợt bằng khóa thay thế (`site + company + title + city`). Bộ dữ liệu phản ánh lát cắt quan sát thực tế và các phân tích xu hướng mang tính chất mô tả quan sát.
 
 ---
 
 ## 📁 Cấu Trúc Toàn Diện Kho Lưu Trữ
 
-Dự án tích hợp luồng dữ liệu end-to-end từ tầng thu thập (`crawlers/`), tầng làm sạch & phân tích (`pipeline/`) đến tầng lưu trữ dữ liệu BI (`data/dashboard/`):
+Dự án tích hợp luồng dữ liệu end-to-end gồm 3 phân hệ chính: Thu thập dữ liệu đa nguồn (`crawlers/`), Làm sạch & Dựng Mart BI (`pipeline/`), và Nghiên cứu chuyên sâu kỹ năng lao động IT (`01_eda_skill_analysis/`):
 
 ```text
 vietnam-it-job-market/
+├── 01_eda_skill_analysis/       # [PHẦN 3] Nghiên cứu chuyên sâu kỹ năng IT Việt Nam (Bước 2 / EDA)
+│   ├── README.md                # 📖 Báo cáo tổng hợp toàn diện & diễn giải phương pháp luận
+│   ├── reports/                 # 4 báo cáo tiền kỳ, làm sạch & kiểm tra bổ sung (01 - 04)
+│   ├── code/                    # Mã nguồn trích xuất ma trận nhị phân 71 kỹ năng chuẩn hóa
+│   ├── data/                    # Bảng dữ liệu cơ sở (base/), kiểm toán lọc trùng (dedup_audit/) & taxonomy
+│   └── results/                 # Kết quả 4 phần: a_popularity, b_trends, c_cooccurrence, d_network
 ├── crawlers/                    # [PHẦN 1] Module thu thập dữ liệu đa nguồn
 │   ├── itviec/                  # Playwright Scraper cào danh sách card & chi tiết JD ITviec
 │   │   ├── config.py            # Cấu hình selector, cột chuẩn, 63 tỉnh/thành
@@ -215,6 +223,52 @@ $$\text{Index} = 100 \times \left( 0.45 \times P_{\text{job}} + 0.35 \times P_{\
 - $S_{\text{required}}$: Tỷ lệ yêu cầu bắt buộc của kỹ năng trong tin đăng (20%).
 
 *Phân tích độ nhạy (Sensitivity Analysis):* Kiểm định với các kịch bản trọng số thay thế (Cân bằng, Thiên lượng tin) đạt hệ số tương quan Spearman $r_s > 0.98$, khẳng định thứ hạng top kỹ năng ổn định trước các giả định trọng số.
+
+---
+
+---
+
+## 🧠 PHẦN 3: PHÂN TÍCH CHUYÊN SÂU KỸ NĂNG IT VIỆT NAM (`01_eda_skill_analysis`)
+
+Phân hệ này chứa toàn bộ quy trình nghiên cứu định lượng, kiểm định phương pháp luận và khai phá dữ liệu (EDA) trên tập mẫu chuẩn hóa **2.620 tin tuyển dụng duy nhất** (kết hợp 2 đợt cào, sau khi khử trùng lặp liên đợt).
+
+Chi tiết báo cáo toàn diện và hướng dẫn phương pháp luận được lưu tại [01_eda_skill_analysis/README.md](01_eda_skill_analysis/README.md).
+
+### 1. Quy Trình Làm Sạch & Gộp Dữ Liệu Liên Đợt (Deduplication Audit)
+- **Khóa thay thế (`site + company + title + city`):** Kiểm toán mẫu ngẫu nhiên độc lập 40 cặp tin chỉ khớp bằng khóa thay thế (`surrogate_key_audit_n40.csv`) ghi nhận **40/40 cặp khớp chính xác 100%**, xác nhận độ tin cậy thực nghiệm cao.
+- **Khôi phục ngày đăng ITviec:** Nhờ cơ chế liên kết tin trùng với Đợt 2, dự án đã khôi phục thành công ngày đăng thực tế cho **461 tin độc nhất** của ITviec ở Đợt 1, cho phép thiết lập chuỗi quan sát theo tuần trên cả hai nền tảng.
+- **Bổ sung chất lượng văn bản:** Toàn bộ tin VietnamWorks Đợt 2 được bổ sung từ snapshot `daily/`, đưa tỷ lệ tin đạt văn bản đầy đủ (`text_quality == 'full'`) lên **99.69%**.
+
+### 2. Tóm Tắt Kết Quả 4 Trọng Tâm Phân Tích Chuyên Sâu
+
+#### A. Phổ Biến Kỹ Năng & Khoảng Tin Cậy Bootstrap Phân Cụm
+Thay vì diễn giải thứ hạng đơn lẻ dễ bị nhiễu bởi các doanh nghiệp tuyển dụng hàng loạt, danh mục kỹ năng được chia theo 2 bậc nhu cầu chính:
+- **Bậc 1 (Tier 1 - Nhu cầu vượt trội, $\ge 10.5\%$):** 
+  1. `English` (16.37%, ITviec: 26.49% vs VNW: 6.49%)
+  2. `Python` (15.80%)
+  3. `Artificial Intelligence - AI` (14.24%)
+  4. `SQL` (14.08%)
+  5. `Software Architecture & Design` (10.57%)
+  *Top 5 giữ vững tuyệt đối thứ hạng qua cả 3 kịch bản kiểm tra độ nhạy.*
+- **Khoảng tin cậy Bootstrap cụm theo công ty (Cluster Bootstrap 95% CI):** Đã tính toán qua 500 vòng lặp tại `ci_wilson_vs_cluster_bootstrap_top15.csv`. Khoảng tin cậy mở rộng từ +1.5% đến +77.0% so với công thức Wilson độc lập, phản ánh đúng độ biến thiên thực tế khi các công ty outsourcing/FDI đăng tin theo chùm.
+
+#### B. Xu Hướng Theo Thời Gian & Kiểm Soát Confounding
+- **Ranh giới bước nhảy nguồn (Step-change):** Bảng chéo tuần xác nhận ranh giới phân tách sạch vào ngày 26/10 (các tuần trước 26/10 chiếm $\ge 99\%$ Đợt 1; từ 26/10 trở đi là 100% Đợt 2).
+- **Giải mã nghịch lý 70% độ dốc âm:** Kết quả kiểm tra chéo trên sàn ITviec (53.7% âm vs 46.3% dương) và phân tích số kỹ năng trung bình theo tuần chứng minh: Số kỹ năng trung bình đạt đỉnh ở giữa chuỗi (cuối tháng 10) và cơ cấu vai trò tuyển dụng cuối kỳ phân tán hơn. Kết quả **không ủng hộ giả thuyết nhiễu nguồn làm tăng đồng loạt mọi kỹ năng**.
+- **Diễn giải cẩn trọng:** Toàn bộ các kiểm định xu hướng đều có $q_{\text{FDR}} \ge 0.09$ (không có ý nghĩa thống kê do chuỗi ngắn 6-9 tuần, có khoảng trống và thiên lệch sống sót). Báo cáo ghi nhận đây là kết quả **chưa đủ bằng chứng kết luận (inconclusive)** và giữ các nhận định ở mức **mô tả quan sát**.
+
+#### C. Cặp Kỹ Năng Đồng Xuất Hiện & FP-Growth
+- **Loại trừ chồng chéo định nghĩa (Taxonomy Overlap):** Đo tỷ lệ chứa nhau hai chiều, phát hiện `JavaScript / TypeScript` $\leftrightarrow$ `Angular` đạt mức chứa nhau **97.2%** do cơ chế tick tag của sàn $\implies$ Gắn nhãn chồng chéo định nghĩa để không gây hiểu nhầm cho các thuật toán gợi ý.
+- **Phân tách cặp cùng hệ sinh thái vs cặp liên họ:** Phân biệt rõ các cặp cùng hệ sinh thái phân cấp (`Java` $\leftrightarrow$ `Spring`: 87.5% chứa nhau) với các cặp liên họ công nghệ độc lập (`Node.js` $\leftrightarrow$ `React`: NPMI = 0.606; `Python` $\leftrightarrow$ `AI`: Lift = 2.09; `SQL` $\leftrightarrow$ `Python`: Lift = 2.06).
+- Xác lập **55 cặp kỹ năng bền vững** qua toàn bộ các lát cắt kiểm định độc lập (`skill_pairs_robust.csv`).
+
+#### D. Mạng Lưới Kỹ Năng & Phân Cụm Louvain
+- **Cấu trúc mạng:** Mạng lưới gồm **71 nút kỹ năng** và 75 cạnh liên kết mạnh ($\text{NPMI} \ge 0.3, n_{ij} \ge 10$).
+- **10 Cụm công nghệ chính & 16 Kỹ năng độc lập:** Nhận diện 10 cụm công nghệ (Modern Web, DevOps/Cloud, Databases & Backend Languages, IT Infra, Enterprise Java...) cùng danh sách minh bạch 16 kỹ năng cô lập không đạt ngưỡng kết nối (BA, .NET, Cybersecurity, ERP...).
+- **Đánh giá Adjusted Rand Index (ARI):** 
+  - ARI = 0.8205 (ngưỡng 0.3 vs 0.4 - cấu trúc ổn định theo tham số).
+  - ARI = 0.6524 (chia đôi ngẫu nhiên theo công ty - cụm không bị chi phối bởi doanh nghiệp cục bộ).
+  - ARI = 0.2736 (giữa ITviec và VNW trên tập nút giao nhau - phản ánh tổng hòa sự khác biệt phân khúc sàn, cơ chế trích xuất và cỡ mẫu chia đôi).
 
 ---
 

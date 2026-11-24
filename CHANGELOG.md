@@ -2,6 +2,35 @@
 
 Tất cả các thay đổi đáng chú ý của dự án **Vietnam IT Job Market & HR Intelligence Pipeline** được ghi lại tại tài liệu này.
 
+## [1.1.0] - 2026-11-25
+
+### Tích Hợp Module Phân Tích Chuyên Sâu Kỹ Năng (`01_eda_skill_analysis/`)
+- **Mở rộng phạm vi dữ liệu quan sát**:
+  - Gộp thành công 2 đợt cào (10/10 – giữa tháng 11/2026) với 3.655 lượt quan sát $\rightarrow$ **2.620 tin tuyển dụng độc nhất**.
+  - Áp dụng khóa thay thế liên đợt (`site + company + title + city`), kiểm toán mẫu ngẫu nhiên 40 cặp đạt độ chính xác **100% (40/40)**.
+  - Khôi phục thành công ngày đăng cho **461 tin độc nhất** của ITviec Đợt 1 từ Đợt 2, thiết lập chuỗi quan sát tuần trên cả hai nền tảng.
+  - Bổ sung dữ liệu văn bản từ snapshot `daily/`, đưa tỷ lệ tin đầy đủ (`text_quality == 'full'`) của VietnamWorks Đợt 2 lên **99.69%**.
+
+### Kết Quả Nghiên Cứu Định Lượng & Khắc Phục Phương Pháp Luận
+- **Phần A (Popularity & Nhóm bậc)**:
+  - Phân nhóm Top kỹ năng theo 2 bậc: Tier 1 (Top 5: $\ge 10.5\%$, dẫn đầu bởi English, Python, AI, SQL, Architecture) và Tier 2 (10 kỹ năng: 8.5% – 10.1%).
+  - Bổ sung khoảng tin cậy Cluster Bootstrap 95% qua 500 vòng lặp theo công ty, mở rộng biên độ sai số từ +1.5% đến +77.0% so với giả định độc lập.
+- **Phần B (Xu hướng thời gian & Kiểm soát nguồn)**:
+  - Lập bảng chéo phát hiện ranh giới bước nhảy nguồn ngày 26/10.
+  - Giải mã nghịch lý 70% độ dốc âm bằng phân tích số kỹ năng TB và kiểm tra đối chứng tại ITviec (53.7% âm vs 46.3% dương), bác bỏ giả thuyết nguồn làm tăng đồng loạt.
+  - Diễn giải đúng bản chất công suất kiểm định thấp ($q_{\text{FDR}} \ge 0.09$) và phân loại chuỗi tuần là phân tích mô tả quan sát.
+- **Phần C (Đồng xuất hiện & FP-Growth)**:
+  - Đo lường tỷ lệ chứa nhau hai chiều, phát hiện và gắn cờ [CHỒNG CHÉO ĐỊNH NGHĨA] cho cặp `JS/TS` $\leftrightarrow$ `Angular` (97.2%).
+  - Tách bạch cặp cùng hệ sinh thái phân cấp (`Java` $\leftrightarrow$ `Spring`: 87.5%) và cặp liên họ công nghệ độc lập (`Node.js` $\leftrightarrow$ `React`, `Python` $\leftrightarrow$ `AI`, `SQL` $\leftrightarrow$ `Python`).
+  - Xuất bản danh sách 55 cặp kỹ năng bền vững qua kiểm chứng chéo.
+- **Phần D (Mạng lưới & Phân cụm Louvain)**:
+  - Xây dựng đồ thị mạng lưới 71 nút kỹ năng, 10 cộng đồng công nghệ và 16 nút kỹ năng độc lập.
+  - Tính toán Adjusted Rand Index (ARI) trên tập nút giao nhau: ARI = 0.82 (ổn định tham số), ARI = 0.65 (chia đôi theo công ty), ARI = 0.27 (khác biệt sàn tổng hòa từ 3 nguyên nhân).
+
+### Chuẩn Hóa Kiến Trúc Dự Án
+- Tái cấu trúc thư mục phân tích thành `01_eda_skill_analysis/` gồm 4 nhánh chuẩn: `reports/`, `code/`, `data/` (base, dedup_audit, reference), `results/` (a_popularity, b_trends, c_cooccurrence, d_network).
+- Bảo toàn 100% lịch sử Git thông qua `git mv`, chuyển đổi toàn bộ liên kết sang định dạng markdown tương đối của GitHub.
+
 ## [1.0.0] - 2026-11-23
 
 ### Kiến Trúc & Cấu Trúc Mã Nguồn
