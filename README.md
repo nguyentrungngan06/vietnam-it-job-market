@@ -1,11 +1,21 @@
 # Vietnam IT Job Market: Crawlers & HR Intelligence Pipeline
 
-Hệ thống mã nguồn mở toàn diện phục vụ thu thập dữ liệu đa nguồn (**VietnamWorks, ITviec, GitHub**), làm sạch, chuẩn hóa kỹ năng 2 tầng, khử trùng lặp có luật bảo vệ chống nối chuỗi (Guard Rule Deduplication) và xây dựng mô hình dữ liệu Star Schema phục vụ phân tích thị trường việc làm công nghệ thông tin tại Việt Nam.
+Hệ thống mã nguồn mở toàn diện phục vụ thu thập dữ liệu đa nguồn (**VietnamWorks, ITviec, GitHub**), làm sạch, chuẩn hóa kỹ năng 2 tầng, khử trùng lặp có luật bảo vệ chống nối chuỗi (Guard Rule Deduplication), xây dựng mô hình dữ liệu Star Schema và **nghiên cứu chuyên sâu kỹ năng thị trường lao động CNTT Việt Nam (EDA & Skill Intelligence)**.
 
 > [!NOTE]
 > **Phạm vi dữ liệu của dự án:**
 > - **Phân hệ Pipeline & Mart Star-Schema (`data/dashboard/`):** Vận hành trên snapshot Đợt 1 (10/10/2026 – 25/10/2026) gồm 2.019 tin thô $\rightarrow$ **1.884 tin hợp lệ duy nhất** sau khi khử trùng lặp nội bộ bằng Guard Rule.
 > - **Phân hệ Phân tích Kỹ năng Chuyên sâu (`01_eda_skill_analysis/`):** Tích hợp toàn diện **2 đợt cào** (từ 10/10 đến giữa tháng 11/2026) với 3.655 lượt quan sát $\rightarrow$ **2.620 tin tuyển dụng độc nhất** sau khi gộp và khử trùng lặp liên đợt bằng khóa thay thế (`site + company + title + city`). Bộ dữ liệu phản ánh lát cắt quan sát thực tế và các phân tích xu hướng mang tính chất mô tả quan sát.
+
+---
+
+## 📌 Mục Lục Điều Hướng
+
+- [📁 Cấu Trúc Toàn Diện Kho Lưu Trữ](#-cấu-trúc-toàn-diện-kho-lưu-trữ)
+- [⚡ PHẦN 1: Hướng Dẫn Vận Hành Bộ Thu Thập Dữ Liệu (Crawlers)](#-phần-1-hướng-dẫn-vận-hành-bộ-thu-thập-dữ-liệu-crawlers)
+- [🔬 PHẦN 2: Hướng Dẫn Data Pipeline & Mô Hình Star-Schema](#-phần-2-hướng-dẫn-data-pipeline--mô-hình-star-schema)
+- [🧠 PHẦN 3: Phân Tích Chuyên Sâu Kỹ Năng IT Việt Nam (01_eda_skill_analysis)](#-phần-3-phân-tích-chuyên-sâu-kỹ-năng-it-việt-nam-01_eda_skill_analysis)
+- [⚖️ Giấy Phép & Chính Sách Gỡ Dữ Liệu (Takedown Policy)](#️-giấy-phép--chính-sách-gỡ-dữ-liệu-takedown-policy)
 
 ---
 
@@ -15,12 +25,6 @@ Dự án tích hợp luồng dữ liệu end-to-end gồm 3 phân hệ chính: T
 
 ```text
 vietnam-it-job-market/
-├── 01_eda_skill_analysis/       # [PHẦN 3] Nghiên cứu chuyên sâu kỹ năng IT Việt Nam (Bước 2 / EDA)
-│   ├── README.md                # 📖 Báo cáo tổng hợp toàn diện & diễn giải phương pháp luận
-│   ├── reports/                 # 4 báo cáo tiền kỳ, làm sạch & kiểm tra bổ sung (01 - 04)
-│   ├── code/                    # Mã nguồn trích xuất ma trận nhị phân 71 kỹ năng chuẩn hóa
-│   ├── data/                    # Bảng dữ liệu cơ sở (base/), kiểm toán lọc trùng (dedup_audit/) & taxonomy
-│   └── results/                 # Kết quả 4 phần: a_popularity, b_trends, c_cooccurrence, d_network
 ├── crawlers/                    # [PHẦN 1] Module thu thập dữ liệu đa nguồn
 │   ├── itviec/                  # Playwright Scraper cào danh sách card & chi tiết JD ITviec
 │   │   ├── config.py            # Cấu hình selector, cột chuẩn, 63 tỉnh/thành
@@ -49,6 +53,12 @@ vietnam-it-job-market/
 │   ├── quality_report.json      # Báo cáo chất lượng dữ liệu & các giả định quy đổi
 │   ├── requirements.txt         # Khai báo thư viện phụ thuộc cho pipeline
 │   └── README.md                # 📖 Hướng dẫn kỹ thuật chi tiết phân hệ Pipeline
+├── 01_eda_skill_analysis/       # [PHẦN 3] Nghiên cứu chuyên sâu kỹ năng IT Việt Nam (Bước 2 / EDA)
+│   ├── README.md                # 📖 Báo cáo tổng hợp toàn diện & diễn giải phương pháp luận
+│   ├── reports/                 # 4 báo cáo tiền kỳ, làm sạch & kiểm tra bổ sung (01 - 04)
+│   ├── code/                    # Mã nguồn trích xuất ma trận nhị phân 71 kỹ năng chuẩn hóa
+│   ├── data/                    # Bảng cơ sở (base/), kiểm toán lọc trùng (dedup_audit/) & taxonomy
+│   └── results/                 # Kết quả 4 phần: a_popularity, b_trends, c_cooccurrence, d_network
 ├── manual_overrides/            # Từ điển chuẩn & các file đối soát chất lượng dữ liệu
 │   ├── skill_taxonomy.csv       # Danh mục 99 kỹ năng chuẩn (skill_family, skill_category)
 │   ├── skill_alias.csv          # 1.696 quy tắc ánh xạ alias kỹ năng và xử lý chuỗi ghép
