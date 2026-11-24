@@ -43,7 +43,7 @@ Khoảng cách từ ngày đăng đến lần quan sát cuối cùng (`last_seen
 - **Tổng số tin trùng lặp liên đợt (thỏa mãn trùng UID HOẶC trùng surrogate_key):**
   - Đợt 1 có mặt ở Đợt 2: **1.060 tin (56.26% của Đợt 1)**
   - Đợt 2 có mặt ở Đợt 1: **1.059 tin (58.93% của Đợt 2)**
-- **File lưu trữ chi tiết tin trùng:** Đã lưu [inter_batch_duplicates.csv](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/inter_batch_duplicates.csv) (1.035 cặp).
+- **File lưu trữ chi tiết tin trùng:** Đã lưu [`inter_batch_duplicates.csv`](../data/dedup_audit/inter_batch_duplicates.csv) (1.035 cặp).
 - **Quy tắc gộp:**
   - Bảng chính chỉ giữ lần quan sát sớm nhất (toàn bộ 1.884 tin hợp lệ Đợt 1).
   - Đợt 2 chỉ lấy các tin mới chưa từng thấy ở Đợt 1: 738 tin.
@@ -65,7 +65,7 @@ Khoảng cách từ ngày đăng đến lần quan sát cuối cùng (`last_seen
 - **Kiểm tra tính toàn vẹn (Validation):**
   - Khóa `job_uid` không trùng lặp: **True (PASS 100%)**
   - Điều kiện logic $sk\_x = 1 \iff w\_x > 0$: **True (PASS 100%)**
-- **File lưu bảng cơ sở gộp:** [analysis_base_combined.csv](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/analysis_base_combined.csv).
+- **File lưu bảng cơ sở gộp:** [`analysis_base_merged_raw.csv`](../data/base/analysis_base_merged_raw.csv).
 
 ---
 
@@ -153,7 +153,7 @@ Khoảng cách từ ngày đăng đến lần quan sát cuối cùng (`last_seen
    - Đã gộp các nhóm trùng nghĩa: `ai_data` (6) và `ai_machine_learning` (2) -> `ai_data_ml` (8 kỹ năng).
    - Đã gộp các nhóm quản trị/phương pháp luận: `methodology`, `business_process`, `productivity`, `management` -> `management_process`.
    - Nhóm `engineering_general` gồm 2 kỹ năng: `Software Engineering (general)` và `Version Control (Git)` (giữ nguyên để phân tích nhóm nền tảng kỹ thuật).
-   - Đã lưu bảng ánh xạ hoàn chỉnh tại: [skill_taxonomy_merged.csv](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/skill_taxonomy_merged.csv).
+   - Đã lưu bảng ánh xạ hoàn chỉnh tại: [`skill_taxonomy.csv`](../data/reference/skill_taxonomy.csv).
 
 3. **Kỹ năng nền (`is_general`):**
    - Đã gắn nhãn `is_general = True` cho 4 kỹ năng nền tảng / ngôn ngữ làm việc: `English`, `Japanese`, `Project Management`, `Agile & Scrum`.

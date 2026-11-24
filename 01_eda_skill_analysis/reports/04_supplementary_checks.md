@@ -4,7 +4,7 @@
 - **Tổng số cặp trùng giữa hai đợt:** 1.035 cặp.
   - Số cặp trùng khớp cả `job_uid`: 882 cặp (85.2%).
   - Số cặp **chỉ khớp bằng khóa thay thế** (`site + company + title + city` chuẩn hóa): **153 cặp** (14.8%).
-- **Kết quả soát mẫu ngẫu nhiên 20 cặp** (random seed = 42, lưu tại [`surrogate_key_audit_sample_20.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/surrogate_key_audit_sample_20.csv)):
+- **Kết quả soát mẫu ngẫu nhiên 20 cặp** (random seed = 42, lưu tại [`surrogate_key_audit_n20.csv`](../data/dedup_audit/surrogate_key_audit_n20.csv)):
   - **Số cặp đúng cùng một tin:** 20 / 20 cặp (100%).
   - **Số cặp sai:** 0 cặp (< ngưỡng 3 cặp).
   - **Kết luận:** Khóa thay thế đạt độ tin cậy tuyệt đối, phản ánh đúng các tin tuyển dụng được các công ty (Geleximco, SNOW, BIDV MetLife, Bosch, Masterise, VNPT, VinUni,...) gia hạn hoặc tạo mới job ID trên sàn ở đợt 2. Giữ nguyên quy tắc gộp, không cần thắt khóa thêm.
@@ -43,7 +43,7 @@
   - Phiên bản Đợt 1 (bị cắt): trung bình **3.41 kỹ năng/tin**.
   - Phiên bản Đợt 2 (đầy đủ): trung bình **3.84 kỹ năng/tin**.
   - **Mức độ hao hụt khi giữ bản đợt 1 sớm nhất:** Thiếu hụt trung bình **0.43 kỹ năng/tin** (khoảng 11.2%).
-  - Danh sách 100 cặp đã được xuất ra [`batch1_truncated_batch2_full_pairs.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/batch1_truncated_batch2_full_pairs.csv) để ghi sổ hạn chế và phục vụ chạy phân tích độ nhạy (sensitivity analysis).
+  - Danh sách 100 cặp đã được xuất ra [`truncated_vs_full_pairs.csv`](../results/a_popularity/truncated_vs_full_pairs.csv) để ghi sổ hạn chế và phục vụ chạy phân tích độ nhạy (sensitivity analysis).
 
 ---
 
@@ -72,8 +72,8 @@
 - **Cột phân tích độ nhạy:**
   - `in_full_sample`: **2.233 tin** (85.23% toàn bảng gộp).
 - **Bảng dữ liệu đã lưu:**
-  - [`analysis_base_step2.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/analysis_base_step2.csv)
-  - [`analysis_base_combined.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/analysis_base_combined.csv)
+  - [`analysis_base_final.csv`](../data/base/analysis_base_final.csv)
+  - [`analysis_base_merged_raw.csv`](../data/base/analysis_base_merged_raw.csv)
 
 ---
 

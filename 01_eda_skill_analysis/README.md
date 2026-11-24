@@ -4,14 +4,67 @@ Báo cáo này tổng hợp toàn bộ kết quả phân tích Bước 2 trên b
 
 ---
 
+---
+
+## Sơ Đồ Cấu Trúc Dự Án (`01_eda_skill_analysis/`)
+
+```text
+01_eda_skill_analysis/
+├── README.md                                # Báo cáo tổng hợp toàn diện Bước 2
+├── reports/                                 # Các báo cáo tiền kỳ & làm sạch dữ liệu
+│   ├── 01_data_preparation_batch1.md           # Chuẩn bị dữ liệu đợt 1
+│   ├── 02_data_preparation_batch2.md           # Chuẩn bị dữ liệu đợt 2
+│   ├── 03_batch_merging_validation.md          # Kiểm tra & gộp hai đợt cào
+│   └── 04_supplementary_checks.md              # Các kiểm tra bổ sung (0.1 - 0.10)
+├── code/
+│   └── build_analysis_base.py                  # Script chuẩn hóa & trích xuất ma trận kỹ năng
+├── data/
+│   ├── base/                                   # Dữ liệu bảng cơ sở (analysis base)
+│   │   ├── analysis_base_batch1.csv
+│   │   ├── analysis_base_batch2.csv
+│   │   ├── analysis_base_merged_raw.csv
+│   │   └── analysis_base_final.csv
+│   ├── dedup_audit/                            # Dữ liệu kiểm toán lọc trùng liên đợt
+│   │   ├── inter_batch_duplicates.csv
+│   │   ├── one_to_many_matches.csv
+│   │   ├── surrogate_key_audit_n20.csv
+│   │   └── surrogate_key_audit_n40.csv
+│   └── reference/
+│       └── skill_taxonomy.csv                  # Bảng phân loại kỹ năng chuẩn hóa
+└── results/                                    # Kết quả 4 phần phân tích chuyên sâu
+    ├── a_popularity/                           # Phần A: Tỷ lệ phổ biến & Bootstrap CIs
+    │   ├── skill_popularity.csv
+    │   ├── skill_popularity_core.csv
+    │   ├── ci_wilson_vs_cluster_bootstrap_top15.csv
+    │   ├── sensitivity_top15_ranking.csv
+    │   └── truncated_vs_full_pairs.csv
+    ├── b_trends/                               # Phần B: Xu hướng thời gian & kiểm soát confounding
+    │   ├── skill_trend_weekly.csv
+    │   ├── skill_trend_logit_results.csv
+    │   └── skill_trend_confounding_check.csv
+    ├── c_cooccurrence/                         # Phần C: Đồng xuất hiện, NPMI, FP-Growth
+    │   ├── skill_pairs_npmi.csv
+    │   ├── skill_pairs_robust.csv
+    │   ├── skill_taxonomy_overlap.csv
+    │   ├── fpgrowth_itemsets.csv
+    │   └── fpgrowth_rules.csv
+    └── d_network/                              # Phần D: Mạng lưới kỹ năng & phân cụm Louvain
+        ├── network_nodes.csv
+        ├── network_edges.csv
+        ├── network_community_robustness_ari.csv
+        └── network_graph.svg
+```
+
+---
+
 ## 1. Nghiệm Thu Các Điểm Kiểm Tra Bổ Sung (0.1 – 0.10)
 
 | Mục kiểm tra | Kết quả thực tế & Đo lường định lượng | Kết luận & Quy tắc áp dụng |
 | :--- | :--- | :--- |
 | **0.1 & 0.8. Soát mẫu khóa thay thế** | Soát đúng mẫu **40 cặp ngẫu nhiên** từ 153 cặp chỉ khớp bằng khóa thay thế (`site + company + title + city`): **40/40 cặp đúng cùng một tin tuyển dụng (100% khớp, 0 cặp sai)**. | Khóa thay thế đạt độ tin cậy thực nghiệm rất cao. Giữ nguyên quy tắc gộp, không cần thắt khóa thêm. |
-| **0.7. Khớp một - nhiều** | Có **5 tin Đợt 1** và **6 tin Đợt 2** tham gia vào các liên kết một-nhiều (18 cặp trong [`one_to_many_duplicate_matches.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/one_to_many_duplicate_matches.csv)).<br>• *Ví dụ 1:* Ban Viên Corp tuyển thêm 1 Senior .NET mới sau 1 tháng.<br>• *Ví dụ 2:* Public Bank tuyển thêm 1 IT Audit Junior (2 năm kn) bên cạnh vị trí Senior (6 năm kn).<br>• *Ví dụ 3:* ITviec lệch 461 vs 462 do đúng 1 tin Đợt 1 (`itviec:4996245219`) khớp với 2 tin Đợt 2. | Số lượng tin bị gộp nhầm tối đa chỉ khoảng **5–6 tin** (chiếm ~0.2% mẫu), hoàn toàn không làm sai lệch phân tích tổng thể. |
+| **0.7. Khớp một - nhiều** | Có **5 tin Đợt 1** và **6 tin Đợt 2** tham gia vào các liên kết một-nhiều (18 cặp trong [`one_to_many_matches.csv`](data/dedup_audit/one_to_many_matches.csv)).<br>• *Ví dụ 1:* Ban Viên Corp tuyển thêm 1 Senior .NET mới sau 1 tháng.<br>• *Ví dụ 2:* Public Bank tuyển thêm 1 IT Audit Junior (2 năm kn) bên cạnh vị trí Senior (6 năm kn).<br>• *Ví dụ 3:* ITviec lệch 461 vs 462 do đúng 1 tin Đợt 1 (`itviec:4996245219`) khớp với 2 tin Đợt 2. | Số lượng tin bị gộp nhầm tối đa chỉ khoảng **5–6 tin** (chiếm ~0.2% mẫu), hoàn toàn không làm sai lệch phân tích tổng thể. |
 | **0.2. Chất lượng văn bản theo sàn** | • **VietnamWorks Đợt 2:** đạt **99.69% full** (951/954 tin) nhờ bổ sung 16 snapshot đầy đủ từ `daily/`.<br>• **Số kỹ năng TB:** Tin `full` = 4.07 skills/tin; Tin `truncated` = 3.33 skills/tin (ít hơn 0.74 kỹ năng, -18.1%).<br>• *Hiệu ứng sàn:* VNW Đợt 1 full đạt 3.34 so với truncated 3.31 (chênh lệch rất nhỏ trong nội bộ sàn). | Xác nhận VNW đợt 2 không bị cắt cụt. Bảng phân bố đã sửa nhãn tổng tin chuẩn theo từng đợt. |
-| **0.3. Đợt 1 cắt, Đợt 2 full** | Có **100 tin** (100% VNW) ở Đợt 1 bị cắt nhưng Đợt 2 là full. Kỹ năng TB tăng từ 3.41 lên 3.84 (+0.43 skills/tin). Đã lưu tại [`batch1_truncated_batch2_full_pairs.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/batch1_truncated_batch2_full_pairs.csv). | Đưa vào phân tích độ nhạy (Bản 2 ở Phần A) để kiểm chứng tính vững chắc. |
+| **0.3. Đợt 1 cắt, Đợt 2 full** | Có **100 tin** (100% VNW) ở Đợt 1 bị cắt nhưng Đợt 2 là full. Kỹ năng TB tăng từ 3.41 lên 3.84 (+0.43 skills/tin). Đã lưu tại [`truncated_vs_full_pairs.csv`](results/a_popularity/truncated_vs_full_pairs.csv). | Đưa vào phân tích độ nhạy (Bản 2 ở Phần A) để kiểm chứng tính vững chắc. |
 | **0.4. Khôi phục ngày đăng ITviec** | • VNW: 176 tin (30.7%) được repost/làm mới ngày đăng ở Đợt 2 $\rightarrow$ Lấy ngày sớm nhất từ Đợt 1.<br>• ITviec: Khôi phục thành công ngày đăng cho **461 tin độc nhất** từ Đợt 2. | Tạo cột chuẩn `posted_date_final` và `date_source` (`from_batch2`: 461, `own`: 1.693, `none`: 466). |
 | **0.9. Kiểm tra bảng gộp sau nạp lại** | • Tin mới VNW Đợt 2 có số kỹ năng TB: **3.75 skills/tin**, tỷ lệ full: **99.46%**.<br>• Số kỹ năng $\ge 30$ tin: **71 kỹ năng** (giữ nguyên). | Bảng cơ sở gộp 2.620 tin kế thừa đầy đủ 71 cột nhị phân `sk_` và 71 cột trọng số `w_`. |
 | **0.10. Độ ổn định trích xuất** | Trên 922 cặp tin trùng mà cả 2 bản đều full:<br>• **ITviec (N=450):** Đợt 1 = 4.427 vs Đợt 2 = 4.509 (chênh lệch +0.082 skills, +1.86% $\rightarrow$ **Cực kỳ ổn định**).<br>• **VietnamWorks (N=472):** Đợt 1 = 3.364 vs Đợt 2 = 3.845 (+0.481 skills, +14.29%). | Do JD Đợt 2 của VNW từ `daily/` dài và chi tiết hơn, bóc được thêm kỹ năng phụ $\rightarrow$ Cần kiểm soát biến `crawl_batch` trong Phần B. |
@@ -52,9 +105,9 @@ Các kỹ năng trong nhóm này có tỷ lệ tuyển dụng chênh lệch nhau
 ## 3. Phần B: Kỹ Năng Thay Đổi Theo Thời Gian (Kiểm Soát Nguồn & Confounding)
 
 Đã xuất bản:
-- [`skill_trend_weekly.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/skill_trend_weekly.csv) (Chuỗi tuần).
-- [`skill_trend_summary.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/skill_trend_summary.csv) (Hồi quy Logistic kèm Cluster SE).
-- [`skill_trend_sensitivity_and_confounding.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/skill_trend_sensitivity_and_confounding.csv).
+- [`skill_trend_weekly.csv`](results/b_trends/skill_trend_weekly.csv) (Chuỗi tuần).
+- [`skill_trend_logit_results.csv`](results/b_trends/skill_trend_logit_results.csv) (Hồi quy Logistic kèm Cluster SE).
+- [`skill_trend_confounding_check.csv`](results/b_trends/skill_trend_confounding_check.csv).
 
 ### 3.1. Bảng Chéo Tuần × Đợt Cào (`crawl_batch`) Của VietnamWorks
 Bảng chéo dưới đây xác nhận hiện tượng **phân tách ranh giới sạch** giữa hai đợt cào:
@@ -91,9 +144,9 @@ Sau hiệu chỉnh Benjamini-Hochberg (FDR), toàn bộ các kỹ năng đều c
 ## 4. Phần C: Cặp Kỹ Năng Đi Cùng Nhau & Loại Bỏ Chồng Chéo Định Nghĩa
 
 Đã xuất bản:
-- [`skill_pairs_npmi.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/skill_pairs_npmi.csv) (1.501 dòng cặp kỹ năng).
-- [`skill_inclusion_and_taxonomy_overlap.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/skill_inclusion_and_taxonomy_overlap.csv) (Đo tỷ lệ chứa nhau giữa các kỹ năng gần nghĩa).
-- [`skill_pairs_robust_cross_validation.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/skill_pairs_robust_cross_validation.csv) (55 cặp giữ vững qua các bản kiểm tra).
+- [`skill_pairs_npmi.csv`](results/c_cooccurrence/skill_pairs_npmi.csv) (1.501 dòng cặp kỹ năng).
+- [`skill_taxonomy_overlap.csv`](results/c_cooccurrence/skill_taxonomy_overlap.csv) (Đo tỷ lệ chứa nhau giữa các kỹ năng gần nghĩa).
+- [`skill_pairs_robust.csv`](results/c_cooccurrence/skill_pairs_robust.csv) (55 cặp giữ vững qua các bản kiểm tra).
 
 ### 4.1. Đo Tỷ Lệ Chứa Nhau & Gắn Nhãn Chồng Chéo Định Nghĩa (Taxonomy Overlap)
 Đã tính toán tỷ lệ bao hàm hai chiều $P(A \mid B)$ và $P(B \mid A)$ giữa các kỹ năng gần nghĩa:
@@ -127,10 +180,10 @@ Sau hiệu chỉnh Benjamini-Hochberg (FDR), toàn bộ các kỹ năng đều c
 ## 5. Phần D: Mạng Lưới, Nút Cô Lập & Hiệu Chỉnh Diễn Giải ARI
 
 Đã xuất bản:
-- [`network_nodes.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/network_nodes.csv) (71 nút kỹ năng).
-- [`network_edges.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/network_edges.csv) (75 cạnh liên kết mạnh $\text{NPMI} \ge 0.3$, $n_{ij} \ge 10$).
-- [`network_community_robustness_ari.csv`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/network_community_robustness_ari.csv) (Đánh giá ARI).
-- [`network_graph.svg`](file:///c:/Users/ADMIN/Downloads/hr_market_dashboard_pipeline/phân%20tích/network_graph.svg) (Đồ thị vector).
+- [`network_nodes.csv`](results/d_network/network_nodes.csv) (71 nút kỹ năng).
+- [`network_edges.csv`](results/d_network/network_edges.csv) (75 cạnh liên kết mạnh $\text{NPMI} \ge 0.3$, $n_{ij} \ge 10$).
+- [`network_community_robustness_ari.csv`](results/d_network/network_community_robustness_ari.csv) (Đánh giá ARI).
+- [`network_graph.svg`](results/d_network/network_graph.svg) (Đồ thị vector).
 
 ### 5.1. Danh Sách 16 Kỹ Năng Cô Lập (Không Đủ Liên Kết NPMI $\ge 0.3$)
 Trong 67 kỹ năng chính, có **51 kỹ năng** nằm trong 10 cụm đa nút và **16 kỹ năng đứng độc lập** (không có cạnh nào đạt ngưỡng kết nối):
