@@ -1,0 +1,5 @@
+﻿comparison,adjusted_rand_index,evaluation
+NPMI 0.2 vs NPMI 0.3 (Độ nhạy ngưỡng cạnh),0.5888715367401048,Rất cao (cộng đồng bền vững)
+NPMI 0.3 vs NPMI 0.4 (Độ nhạy ngưỡng cạnh),0.8204817148015303,Rất cao (cộng đồng bền vững)
+Mạng ITviec vs Mạng VietnamWorks,0.2736018261862058,"Trung bình - Khá (phản ánh đặc thù sàn ITviec thiên dev, VNW thiên ERP/Enterprise)"
+Chia đôi mẫu ngẫu nhiên theo công ty (Split-half),0.6523803534368907,Khá - Ổn định (không bị chi phối bởi một vài công ty lớn)

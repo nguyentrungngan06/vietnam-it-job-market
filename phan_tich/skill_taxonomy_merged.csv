@@ -1,0 +1,100 @@
+﻿skill,skill_family,skill_category,skill_family_merged,is_general
+Python,programming_language,technical_hard_skill,programming_language,False
+Java,programming_language,technical_hard_skill,programming_language,False
+SQL,programming_language,technical_hard_skill,programming_language,False
+C/C++,programming_language,technical_hard_skill,programming_language,False
+Go,programming_language,technical_hard_skill,programming_language,False
+PHP,programming_language,technical_hard_skill,programming_language,False
+Ruby,programming_language,technical_hard_skill,programming_language,False
+.NET / C#,programming_language,technical_hard_skill,programming_language,False
+JavaScript,programming_language,technical_hard_skill,programming_language,False
+TypeScript,programming_language,technical_hard_skill,programming_language,False
+Scala,programming_language,technical_hard_skill,programming_language,False
+Rust,programming_language,technical_hard_skill,programming_language,False
+Kotlin,programming_language,technical_hard_skill,programming_language,False
+Swift,programming_language,technical_hard_skill,programming_language,False
+React,frontend_framework,technical_hard_skill,frontend_framework,False
+Angular,frontend_framework,technical_hard_skill,frontend_framework,False
+Vue.js,frontend_framework,technical_hard_skill,frontend_framework,False
+HTML / CSS,frontend_framework,technical_hard_skill,frontend_framework,False
+Frontend Development,frontend_framework,technical_hard_skill,frontend_framework,False
+Node.js,backend_framework,technical_hard_skill,backend_framework,False
+Spring / Java frameworks,backend_framework,technical_hard_skill,backend_framework,False
+Django / Flask / FastAPI,backend_framework,technical_hard_skill,backend_framework,False
+.NET Core,backend_framework,technical_hard_skill,backend_framework,False
+Backend Development,backend_framework,technical_hard_skill,backend_framework,False
+API Development,backend_framework,technical_hard_skill,backend_framework,False
+Mobile Development,mobile_development,technical_hard_skill,mobile_development,False
+Flutter,mobile_development,technical_hard_skill,mobile_development,False
+React Native,mobile_development,technical_hard_skill,mobile_development,False
+PostgreSQL,database,technical_hard_skill,database,False
+MySQL,database,technical_hard_skill,database,False
+Oracle Database,database,technical_hard_skill,database,False
+Microsoft SQL Server,database,technical_hard_skill,database,False
+MongoDB / NoSQL,database,technical_hard_skill,database,False
+Redis,database,technical_hard_skill,database,False
+Database Design,database,technical_hard_skill,database,False
+DevOps,devops_cloud,technical_hard_skill,devops_cloud,False
+CI/CD,devops_cloud,technical_hard_skill,devops_cloud,False
+Containers & Orchestration,devops_cloud,technical_hard_skill,devops_cloud,False
+Docker,devops_cloud,technical_hard_skill,devops_cloud,False
+Kubernetes,devops_cloud,technical_hard_skill,devops_cloud,False
+Cloud Computing,devops_cloud,technical_hard_skill,devops_cloud,False
+AWS,devops_cloud,technical_hard_skill,devops_cloud,False
+Microsoft Azure,devops_cloud,technical_hard_skill,devops_cloud,False
+Google Cloud Platform (GCP),devops_cloud,technical_hard_skill,devops_cloud,False
+Linux,devops_cloud,technical_hard_skill,devops_cloud,False
+Artificial Intelligence (AI),ai_machine_learning,technical_hard_skill,ai_data_ml,False
+Machine Learning (ML),ai_machine_learning,technical_hard_skill,ai_data_ml,False
+Data Analysis,ai_data,technical_hard_skill,ai_data_ml,False
+Data Engineering,ai_data,technical_hard_skill,ai_data_ml,False
+Data Warehouse / Big Data,ai_data,technical_hard_skill,ai_data_ml,False
+Power BI,ai_data,technical_hard_skill,ai_data_ml,False
+Data Governance & Management,ai_data,technical_hard_skill,ai_data_ml,False
+Software Testing,testing_qa,technical_hard_skill,testing_qa,False
+Test Automation,testing_qa,technical_hard_skill,testing_qa,False
+Quality Management (QA/QC),testing_qa,technical_hard_skill,testing_qa,False
+Cybersecurity,cybersecurity,technical_hard_skill,cybersecurity,False
+Software Architecture & Design,architecture,technical_hard_skill,architecture,False
+Embedded & Firmware,embedded,technical_hard_skill,embedded,False
+IT Infrastructure & System Administration,infra_support,technical_hard_skill,infra_support,False
+IT Support / Helpdesk,infra_support,technical_hard_skill,infra_support,False
+Networking,infra_support,technical_hard_skill,infra_support,False
+Automation & RPA,automation,technical_hard_skill,automation,False
+Business Analysis (BA),business_process,domain_knowledge,management_process,False
+Project Management,management,domain_knowledge,management_process,True
+Product Management,management,domain_knowledge,management_process,False
+Agile & Scrum,methodology,domain_knowledge,management_process,True
+Digital Transformation / IT Consulting,consulting,domain_knowledge,general_business,False
+ERP / CRM / Enterprise Apps,enterprise,domain_knowledge,infra_support,False
+Software Engineering (general),engineering_general,technical_hard_skill,engineering_general,False
+Leadership & People Management,soft_skills,soft_skill,soft_skills,False
+English,human_language,human_language,human_language,True
+Japanese,human_language,human_language,human_language,True
+Android,mobile_development,technical_hard_skill,mobile_development,False
+Blockchain / Fintech,emerging_tech,technical_hard_skill,emerging_tech,False
+Chinese,human_language,human_language,human_language,False
+Communication & Teamwork,soft_skills,soft_skill,soft_skills,False
+Data Visualization / BI,ai_data,technical_hard_skill,ai_data_ml,False
+Flutter / React Native,mobile_development,technical_hard_skill,mobile_development,False
+French,human_language,human_language,human_language,False
+Full Stack Development,frontend_framework,technical_hard_skill,frontend_framework,False
+Infrastructure as Code,devops_cloud,technical_hard_skill,devops_cloud,False
+JavaScript / TypeScript,programming_language,technical_hard_skill,programming_language,False
+Korean,human_language,human_language,human_language,False
+Microservices,architecture,technical_hard_skill,architecture,False
+Microsoft Office / Excel,productivity,domain_knowledge,management_process,False
+Monitoring & Observability,devops_cloud,technical_hard_skill,devops_cloud,False
+Other programming languages,programming_language,technical_hard_skill,programming_language,False
+Problem Solving & Analytical Thinking,soft_skills,soft_skill,soft_skills,False
+Python frameworks,backend_framework,technical_hard_skill,backend_framework,False
+R,programming_language,technical_hard_skill,programming_language,False
+Shell / Scripting,infra_support,technical_hard_skill,infra_support,False
+Swift / iOS,mobile_development,technical_hard_skill,mobile_development,False
+System Integration,architecture,technical_hard_skill,architecture,False
+Telecommunications,infra_support,domain_knowledge,infra_support,False
+Translation / Interpreting,human_language,domain_knowledge,human_language,False
+UI/UX Design,design,technical_hard_skill,design,False
+Version Control (Git),engineering_general,technical_hard_skill,engineering_general,False
+Virtualization,infra_support,technical_hard_skill,infra_support,False
+Windows / Windows Server,infra_support,technical_hard_skill,infra_support,False

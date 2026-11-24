@@ -1,0 +1,19 @@
+﻿type,job_uid_batch1,job_uid_batch2,site,company,title,city,salary_b1,salary_b2,exp_b1,exp_b2,posted_b1,posted_b2,first_seen_b2,last_seen_b2
+Batch 1 maps to multiple Batch 2,itviec:4996245219,itviec:4996245219,itviec,BAN VIEN CORPORATION,Senior .NET Developer,Hồ Chí Minh,,,4.0,4.0,,2026-10-01,2026-11-04,2026-11-05
+Batch 1 maps to multiple Batch 2,itviec:4996245219,itviec:4666365079,itviec,BAN VIEN CORPORATION,Senior .NET Developer,Hồ Chí Minh,,,4.0,4.0,,2026-11-10,2026-11-10,2026-11-18
+Batch 1 maps to multiple Batch 2,vietnamworks:2117929,vietnamworks:2117929,vietnamworks,Public Bank Vietnam Ltd,IT Audit Officer,Hà Nội,Thương lượng,Thương lượng,6.0,6.0,2026-10-09,2026-10-09,2026-10-10,2026-11-05
+Batch 1 maps to multiple Batch 2,vietnamworks:2117929,vietnamworks:2128594,vietnamworks,Public Bank Vietnam Ltd,IT Audit Officer,Hà Nội,Thương lượng,Thương lượng,6.0,2.0,2026-10-09,2026-11-06,2026-11-07,2026-11-20
+Batch 1 maps to multiple Batch 2,vietnamworks:2120034,vietnamworks:2120034,vietnamworks,Navigos Search's Client,RPA Developer,Hà Nội,Thương lượng,Thương lượng,3.0,3.0,2026-10-15,2026-10-15,2026-10-15,2026-11-14
+Batch 1 maps to multiple Batch 2,vietnamworks:2120034,vietnamworks:2131926,vietnamworks,Navigos Search's Client,RPA Developer,Hà Nội,Thương lượng,Thương lượng,3.0,3.0,2026-10-15,2026-11-16,2026-10-16,2026-11-20
+Batch 1 maps to multiple Batch 2,vietnamworks:2119658,vietnamworks:2127547,vietnamworks,Vietnamworks' Client,Scrum Master (Banking),Hà Nội,Thương lượng,Thương lượng,3.0,3.0,2026-10-15,2026-11-04,2026-11-04,2026-11-20
+Batch 1 maps to multiple Batch 2,vietnamworks:2119658,vietnamworks:2119658,vietnamworks,Vietnamworks' Client,Scrum Master (Banking),Hà Nội,Thương lượng,Thương lượng,3.0,3.0,2026-10-15,2026-10-15,2026-10-15,2026-11-14
+Batch 1 maps to multiple Batch 2,vietnamworks:2120556,vietnamworks:2120034,vietnamworks,Navigos Search's Client,RPA Developer,Hà Nội,Thương lượng,Thương lượng,3.0,3.0,2026-10-16,2026-10-15,2026-10-15,2026-11-14
+Batch 1 maps to multiple Batch 2,vietnamworks:2120556,vietnamworks:2131926,vietnamworks,Navigos Search's Client,RPA Developer,Hà Nội,Thương lượng,Thương lượng,3.0,3.0,2026-10-16,2026-11-16,2026-10-16,2026-11-20
+Batch 2 maps to multiple Batch 1,itviec:2940527972,itviec:2748286492,itviec,CÔNG TY TNHH NEXTEDGE,Cloud Operations Engineer,Hồ Chí Minh,"1,000 - 2,400 USD",,5.0,3.0,,2026-11-06,2026-11-04,2026-11-18
+Batch 2 maps to multiple Batch 1,itviec:2748286492,itviec:2748286492,itviec,CÔNG TY TNHH NEXTEDGE,Cloud Operations Engineer,Hồ Chí Minh,,,3.0,3.0,,2026-11-06,2026-11-04,2026-11-18
+Batch 2 maps to multiple Batch 1,itviec:4859689294,itviec:1841924172,itviec,EPAM Vietnam,"Mid/Sr Java Engineer (SpringBoot, Microservices)- BONUS",Hồ Chí Minh,"4,000 - 5,000 USD",,5.0,3.0,,2026-11-05,2026-11-04,2026-11-18
+Batch 2 maps to multiple Batch 1,itviec:1841924172,itviec:1841924172,itviec,EPAM Vietnam,"Mid/Sr Java Engineer (SpringBoot, Microservices)- BONUS",Hồ Chí Minh,,,3.0,3.0,,2026-11-05,2026-11-04,2026-11-18
+Batch 2 maps to multiple Batch 1,itviec:4369709035,itviec:2959984422,itviec,Bosch Global Software Technologies Company Limited,AI Engineer,Hồ Chí Minh,,,,3.0,,2026-10-13,2026-11-04,2026-11-15
+Batch 2 maps to multiple Batch 1,itviec:2959984422,itviec:2959984422,itviec,Bosch Global Software Technologies Company Limited,AI Engineer,Hồ Chí Minh,,,3.0,3.0,,2026-10-13,2026-11-04,2026-11-15
+Batch 2 maps to multiple Batch 1,vietnamworks:2110931,vietnamworks:2122821,vietnamworks,Công Ty Cổ Phần Netnam,Trợ Lý Quản Lý Dự Án,Hà Nội,$ 600-700 /tháng,$ 600-700 /tháng,1.0,1.12,2026-09-24,2026-10-23,2026-10-23,2026-11-20
+Batch 2 maps to multiple Batch 1,vietnamworks:2122821,vietnamworks:2122821,vietnamworks,Công Ty Cổ Phần Netnam,Trợ Lý Quản Lý Dự Án,Hà Nội,$ 600-700 /tháng,$ 600-700 /tháng,1.12,1.12,2026-10-23,2026-10-23,2026-10-23,2026-11-20

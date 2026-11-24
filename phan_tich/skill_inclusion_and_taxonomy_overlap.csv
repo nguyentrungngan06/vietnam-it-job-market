@@ -1,0 +1,20 @@
+﻿skill_1,skill_2,n_1,n_2,n_joint,P(1|2),P(2|1),max_inclusion,is_taxonomy_overlap,note
+JavaScript,TypeScript,114,90,28,0.3111111111111111,0.24561403508771928,0.3111111111111111,False,Kết hợp đa kỹ năng độc lập
+JavaScript / TypeScript,JavaScript,80,114,13,0.11403508771929824,0.1625,0.1625,False,Kết hợp đa kỹ năng độc lập
+JavaScript / TypeScript,TypeScript,80,90,27,0.3,0.3375,0.3375,False,Kết hợp đa kỹ năng độc lập
+JavaScript / TypeScript,Angular,80,36,35,0.9722222222222222,0.4375,0.9722222222222222,True,Chồng chéo định nghĩa / bao hàm phân cấp
+HTML / CSS,JavaScript,50,114,30,0.2631578947368421,0.6,0.6,False,Kết hợp đa kỹ năng độc lập
+Software Testing,Quality Management (QA/QC),185,130,64,0.49230769230769234,0.34594594594594597,0.49230769230769234,False,Kết hợp đa kỹ năng độc lập
+Software Testing,Test Automation,185,124,73,0.5887096774193549,0.3945945945945946,0.5887096774193549,False,Kết hợp đa kỹ năng độc lập
+Quality Management (QA/QC),Test Automation,130,124,54,0.43548387096774194,0.4153846153846154,0.43548387096774194,False,Kết hợp đa kỹ năng độc lập
+Data Analysis,Data Visualization / BI,231,52,28,0.5384615384615384,0.12121212121212122,0.5384615384615384,False,Kết hợp đa kỹ năng độc lập
+Data Visualization / BI,Power BI,52,68,18,0.2647058823529412,0.34615384615384615,0.34615384615384615,False,Kết hợp đa kỹ năng độc lập
+Data Analysis,Power BI,231,68,37,0.5441176470588235,0.16017316017316016,0.5441176470588235,False,Kết hợp đa kỹ năng độc lập
+Java,Spring / Java frameworks,242,112,98,0.875,0.4049586776859504,0.875,True,Chồng chéo định nghĩa / bao hàm phân cấp
+C/C++,Embedded & Firmware,96,104,45,0.4326923076923077,0.46875,0.46875,False,Kết hợp đa kỹ năng độc lập
+Node.js,React,65,94,33,0.35106382978723405,0.5076923076923077,0.5076923076923077,False,Kết hợp đa kỹ năng độc lập
+DevOps,Kubernetes,141,86,44,0.5116279069767442,0.3120567375886525,0.5116279069767442,False,Kết hợp đa kỹ năng độc lập
+Docker,Kubernetes,85,86,29,0.3372093023255814,0.3411764705882353,0.3411764705882353,False,Kết hợp đa kỹ năng độc lập
+Python,Artificial Intelligence (AI),414,373,123,0.3297587131367292,0.2971014492753623,0.3297587131367292,False,Kết hợp đa kỹ năng độc lập
+SQL,Python,369,414,120,0.2898550724637681,0.3252032520325203,0.3252032520325203,False,Kết hợp đa kỹ năng độc lập
+MySQL,PHP,64,38,13,0.34210526315789475,0.203125,0.34210526315789475,False,Kết hợp đa kỹ năng độc lập

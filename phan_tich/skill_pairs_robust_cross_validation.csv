@@ -1,0 +1,56 @@
+﻿skill_a,skill_b,npmi_combined,n_joint,is_intra_family,in_itviec,in_vnw,in_full,in_role_count
+Java,Spring / Java frameworks,0.68426244648389,98,False,True,True,True,1
+C/C++,Embedded & Firmware,0.6074534303302307,45,False,True,True,True,0
+Software Testing,Test Automation,0.5923109410363976,73,True,True,True,True,1
+Quality Management (QA/QC),Software Testing,0.5231406442708064,64,True,True,True,True,1
+Microservices,Software Architecture & Design,0.516768030366378,51,True,True,True,True,1
+Data Analysis,Power BI,0.4272105873534223,37,True,True,True,True,1
+Artificial Intelligence (AI),Machine Learning (ML),0.4025564102290013,72,True,True,True,True,1
+Data Analysis,Data Visualization / BI,0.3986742187089847,28,True,True,True,True,1
+Database Design,Oracle Database,0.3861556416293922,29,True,True,True,True,1
+IT Infrastructure & System Administration,IT Support / Helpdesk,0.3847499574406098,53,True,True,True,True,1
+Oracle Database,Spring / Java frameworks,0.3808304038924597,24,False,True,True,True,1
+Machine Learning (ML),Python,0.3410761003710092,66,False,True,True,True,1
+Power BI,SQL,0.3172627824528622,37,False,True,True,True,1
+Data Warehouse / Big Data,Database Design,0.2957300377646086,31,False,True,True,True,1
+Data Visualization / BI,SQL,0.2954780734073817,28,False,True,True,True,1
+Business Analysis (BA),Product Management,0.2943625931683097,45,True,True,True,True,1
+Data Warehouse / Big Data,SQL,0.2694298958500479,60,False,True,True,True,1
+Java,Software Architecture & Design,0.2522253370486541,65,False,True,True,True,1
+Cybersecurity,IT Infrastructure & System Administration,0.2464200019629447,53,False,True,True,True,2
+Artificial Intelligence (AI),Python,0.2405135114573537,123,False,True,True,True,5
+IT Infrastructure & System Administration,Linux,0.237457559933043,32,False,True,True,True,2
+Python,SQL,0.234075974886713,120,True,True,True,True,3
+.NET / C#,IT Infrastructure & System Administration,0.2260375830920949,50,False,True,True,True,2
+Database Design,SQL,0.2252077351906987,49,False,True,True,True,1
+Business Analysis (BA),UI/UX Design,0.2246797865472618,37,False,True,True,True,1
+Oracle Database,SQL,0.2170983311346926,34,False,True,True,True,1
+Business Analysis (BA),ERP / CRM / Enterprise Apps,0.2058678042620026,54,False,True,True,True,2
+Cloud Computing,Cybersecurity,0.2049220660623785,44,False,True,True,True,1
+Digital Transformation / IT Consulting,Leadership & People Management,0.1992296627860773,29,False,True,True,True,1
+API Development,Spring / Java frameworks,0.1976728078062919,23,True,True,True,True,1
+Data Analysis,Machine Learning (ML),0.1967304950317082,26,True,True,True,True,1
+Data Warehouse / Big Data,Python,0.193728467713701,52,False,True,True,True,1
+Data Analysis,SQL,0.1872297003228021,65,False,True,True,True,2
+.NET / C#,Cybersecurity,0.1849430630175883,49,False,True,True,True,2
+API Development,CI/CD,0.1787277556197421,27,False,True,True,True,1
+C/C++,Python,0.1694480166186474,32,True,True,True,True,1
+Cybersecurity,Linux,0.1516761745790549,26,False,True,True,True,0
+Power BI,Python,0.1499195168450748,22,False,True,True,True,1
+API Development,Java,0.1356669533010578,35,False,True,True,True,1
+Cybersecurity,Digital Transformation / IT Consulting,0.1135023756902244,37,False,True,True,True,2
+Digital Transformation / IT Consulting,ERP / CRM / Enterprise Apps,0.1121221907291304,36,False,True,True,True,1
+API Development,Software Architecture & Design,0.1116228263839121,36,False,True,True,True,2
+API Development,Python,0.1079004580887376,51,False,True,True,True,1
+Business Analysis (BA),Digital Transformation / IT Consulting,0.1047939846548084,38,False,True,True,True,2
+.NET / C#,Java,0.1045054808833308,36,True,True,True,True,1
+Business Analysis (BA),Data Analysis,0.1017121419659277,36,False,True,True,True,2
+API Development,Software Testing,0.0916937555283802,23,False,True,True,True,1
+Data Analysis,Python,0.0684663765148748,48,False,True,True,True,2
+API Development,ERP / CRM / Enterprise Apps,0.0633821046821421,26,False,True,True,True,1
+Business Analysis (BA),SQL,0.0526496962891926,46,False,True,True,True,1
+Linux,Python,0.0482874503550832,27,False,True,True,True,0
+ERP / CRM / Enterprise Apps,SQL,0.0454394611391429,41,False,True,True,True,2
+Artificial Intelligence (AI),Data Analysis,-0.0509383262730712,26,True,True,True,True,1
+Python,Software Architecture & Design,-0.0518136014673462,35,False,True,True,True,1
+.NET / C#,Python,-0.0898130780451723,26,True,True,True,True,1

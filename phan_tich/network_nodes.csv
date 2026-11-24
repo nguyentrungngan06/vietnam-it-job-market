@@ -1,0 +1,72 @@
+﻿skill_name,posting_count,posting_share,skill_family_merged,is_general,community_id,community_name,degree
+.NET / C#,249,0.0950381679389313,programming_language,False,13,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+API Development,211,0.0805343511450381,backend_framework,False,14,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+AWS,167,0.0637404580152671,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",5
+Agile & Scrum,236,0.0900763358778626,management_process,True,0,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Angular,36,0.0137404580152671,frontend_framework,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",2
+Artificial Intelligence (AI),373,0.1423664122137404,ai_data_ml,False,7,"Trí tuệ nhân tạo & Khoa học dữ liệu (Python, AI, Machine Learning)",1
+Automation & RPA,31,0.0118320610687022,automation,False,15,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Blockchain / Fintech,50,0.0190839694656488,emerging_tech,False,16,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Business Analysis (BA),264,0.1007633587786259,management_process,False,17,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+C/C++,96,0.0366412213740458,programming_language,False,9,"Hệ thống nhúng & IoT (C/C++, Embedded & Firmware)",1
+CI/CD,148,0.0564885496183206,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",4
+Cloud Computing,202,0.0770992366412213,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",3
+Communication & Teamwork,165,0.0629770992366412,soft_skills,False,18,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Cybersecurity,247,0.0942748091603053,cybersecurity,False,19,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Data Analysis,231,0.0881679389312977,ai_data_ml,False,6,"Phân tích dữ liệu & BI (SQL, Data Analysis, Power BI, Data Viz)",2
+Data Engineering,54,0.0206106870229007,ai_data_ml,False,10,"Kỹ thuật dữ liệu lớn & Kho dữ liệu (Data Engineering, Data Warehouse / Big Data)",1
+Data Governance & Management,83,0.0316793893129771,ai_data_ml,False,20,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Data Visualization / BI,52,0.0198473282442748,ai_data_ml,False,6,"Phân tích dữ liệu & BI (SQL, Data Analysis, Power BI, Data Viz)",2
+Data Warehouse / Big Data,154,0.0587786259541984,ai_data_ml,False,10,"Kỹ thuật dữ liệu lớn & Kho dữ liệu (Data Engineering, Data Warehouse / Big Data)",1
+Database Design,142,0.0541984732824427,database,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",2
+DevOps,141,0.0538167938931297,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",7
+Digital Transformation / IT Consulting,242,0.0923664122137404,general_business,False,21,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Docker,85,0.032442748091603,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",4
+ERP / CRM / Enterprise Apps,241,0.0919847328244274,infra_support,False,22,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Embedded & Firmware,104,0.0396946564885496,embedded,False,9,"Hệ thống nhúng & IoT (C/C++, Embedded & Firmware)",1
+English,429,0.1637404580152671,human_language,True,0,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Full Stack Development,53,0.0202290076335877,frontend_framework,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",5
+Go,68,0.0259541984732824,programming_language,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",2
+HTML / CSS,50,0.0190839694656488,frontend_framework,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",3
+IT Infrastructure & System Administration,215,0.08206106870229,infra_support,False,4,"Hạ tầng CNTT & Quản trị hệ thống (IT Infra, Helpdesk, Linux, Windows, Virtualization)",2
+IT Support / Helpdesk,144,0.0549618320610687,infra_support,False,4,"Hạ tầng CNTT & Quản trị hệ thống (IT Infra, Helpdesk, Linux, Windows, Virtualization)",2
+Infrastructure as Code,48,0.0183206106870229,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",6
+Japanese,40,0.015267175572519,human_language,True,0,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Java,242,0.0923664122137404,programming_language,False,5,"Enterprise Java & Kiến trúc phần mềm (Java, Spring, Microservices, Software Architecture)",2
+JavaScript,114,0.0435114503816793,programming_language,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",7
+JavaScript / TypeScript,80,0.0305343511450381,programming_language,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",5
+Kubernetes,86,0.032824427480916,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",5
+Leadership & People Management,128,0.048854961832061,soft_skills,False,23,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Linux,137,0.0522900763358778,devops_cloud,False,4,"Hạ tầng CNTT & Quản trị hệ thống (IT Infra, Helpdesk, Linux, Windows, Virtualization)",2
+Machine Learning (ML),119,0.0454198473282442,ai_data_ml,False,7,"Trí tuệ nhân tạo & Khoa học dữ liệu (Python, AI, Machine Learning)",2
+Microservices,63,0.0240458015267175,architecture,False,5,"Enterprise Java & Kiến trúc phần mềm (Java, Spring, Microservices, Software Architecture)",3
+Microsoft Azure,69,0.0263358778625954,devops_cloud,False,1,"Cloud Computing & DevOps (AWS, Docker, K8s, CI/CD, Azure, IaC)",2
+Microsoft Office / Excel,39,0.0148854961832061,management_process,False,11,Cluster 11: Problem Solving & Analytical Thinking / Microsoft Office / Excel,1
+Microsoft SQL Server,57,0.0217557251908396,database,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",2
+Mobile Development,60,0.0229007633587786,mobile_development,False,24,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+MongoDB / NoSQL,52,0.0198473282442748,database,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",3
+MySQL,64,0.0244274809160305,database,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",4
+Networking,64,0.0244274809160305,infra_support,False,12,Cluster 12: Networking / Telecommunications,1
+Node.js,65,0.0248091603053435,backend_framework,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",7
+Oracle Database,94,0.0358778625954198,database,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",6
+PHP,38,0.0145038167938931,programming_language,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",2
+PostgreSQL,90,0.0343511450381679,database,False,2,"Cơ sở dữ liệu & Ngôn ngữ Backend (Go, PHP, MySQL, Postgres, Oracle, MongoDB)",5
+Power BI,68,0.0259541984732824,ai_data_ml,False,6,"Phân tích dữ liệu & BI (SQL, Data Analysis, Power BI, Data Viz)",3
+Problem Solving & Analytical Thinking,115,0.0438931297709923,soft_skills,False,11,Cluster 11: Problem Solving & Analytical Thinking / Microsoft Office / Excel,1
+Product Management,135,0.0515267175572519,management_process,False,25,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Project Management,250,0.0954198473282442,management_process,True,0,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Python,414,0.1580152671755725,programming_language,False,7,"Trí tuệ nhân tạo & Khoa học dữ liệu (Python, AI, Machine Learning)",1
+Quality Management (QA/QC),130,0.049618320610687,testing_qa,False,8,"Kiểm thử & Đảm bảo chất lượng phần mềm (Software Testing, QA/QC, Test Automation)",2
+React,94,0.0358778625954198,frontend_framework,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",6
+SQL,369,0.1408396946564885,programming_language,False,6,"Phân tích dữ liệu & BI (SQL, Data Analysis, Power BI, Data Viz)",1
+Software Architecture & Design,277,0.1057251908396946,architecture,False,5,"Enterprise Java & Kiến trúc phần mềm (Java, Spring, Microservices, Software Architecture)",1
+Software Engineering (general),225,0.0858778625954198,engineering_general,False,26,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Software Testing,185,0.0706106870229007,testing_qa,False,8,"Kiểm thử & Đảm bảo chất lượng phần mềm (Software Testing, QA/QC, Test Automation)",2
+Spring / Java frameworks,112,0.0427480916030534,backend_framework,False,5,"Enterprise Java & Kiến trúc phần mềm (Java, Spring, Microservices, Software Architecture)",3
+Telecommunications,38,0.0145038167938931,infra_support,False,12,Cluster 12: Networking / Telecommunications,1
+Test Automation,124,0.0473282442748091,testing_qa,False,8,"Kiểm thử & Đảm bảo chất lượng phần mềm (Software Testing, QA/QC, Test Automation)",2
+TypeScript,90,0.0343511450381679,programming_language,False,3,"Modern Web & Frontend (JavaScript, TypeScript, React, Node.js, Angular, HTML/CSS, Fullstack)",6
+UI/UX Design,141,0.0538167938931297,design,False,27,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Version Control (Git),40,0.015267175572519,engineering_general,False,28,Kỹ năng độc lập (Không đủ liên kết NPMI >= 0.3),0
+Virtualization,34,0.0129770992366412,infra_support,False,4,"Hạ tầng CNTT & Quản trị hệ thống (IT Infra, Helpdesk, Linux, Windows, Virtualization)",3
+Windows / Windows Server,48,0.0183206106870229,infra_support,False,4,"Hạ tầng CNTT & Quản trị hệ thống (IT Infra, Helpdesk, Linux, Windows, Virtualization)",3

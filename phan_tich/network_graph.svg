@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <style>
+      .edge { stroke: #cbd5e1; stroke-opacity: 0.6; }
+      .node { stroke: #ffffff; stroke-width: 2px; }
+      .node-label { font-size: 11px; fill: #1e293b; font-weight: 500; pointer-events: none; }
+      .title { font-size: 20px; font-weight: bold; fill: #0f172a; }
+      .subtitle { font-size: 13px; fill: #64748b; }
+      .legend-title { font-size: 14px; font-weight: bold; fill: #334155; }
+      .legend-text { font-size: 12px; fill: #475569; }
+    </style>
+  </defs>
+  <!-- Header -->
+  <text x="40" y="45" class="title">Bản Đồ Mạng Lưới Kỹ Năng IT Việt Nam (IT Skill Network & Communities)</text>
+  <text x="40" y="68" class="subtitle">Liên kết cạnh: NPMI ≥ 0.3 (≥ 10 tin chung) | Kích thước nút: Tỷ lệ tuyển dụng | Màu sắc: Cộng đồng Louvain (Modularity: 0.779)</text>
+  <g id="edges">
+    <line x1="309.4" y1="259.9" x2="359.6" y2="264.7" class="edge" stroke-width="1.00" stroke-opacity="0.38" />
+    <line x1="309.4" y1="259.9" x2="329.8" y2="328.8" class="edge" stroke-width="1.23" stroke-opacity="0.45" />
+    <line x1="309.4" y1="259.9" x2="263.3" y2="323.9" class="edge" stroke-width="1.06" stroke-opacity="0.43" />
+    <line x1="309.4" y1="259.9" x2="264.1" y2="353.4" class="edge" stroke-width="1.00" stroke-opacity="0.36" />
+    <line x1="309.4" y1="259.9" x2="452.7" y2="241.8" class="edge" stroke-width="1.00" stroke-opacity="0.37" />
+    <line x1="589.5" y1="571.8" x2="767.0" y2="557.0" class="edge" stroke-width="1.00" stroke-opacity="0.33" />
+    <line x1="589.5" y1="571.8" x2="638.9" y2="524.4" class="edge" stroke-width="3.31" stroke-opacity="0.80" />
+    <line x1="673.4" y1="746.2" x2="660.5" y2="611.7" class="edge" stroke-width="1.00" stroke-opacity="0.40" />
+    <line x1="481.1" y1="714.5" x2="556.2" y2="714.2" class="edge" stroke-width="2.14" stroke-opacity="0.61" />
+    <line x1="309.7" y1="401.6" x2="329.8" y2="328.8" class="edge" stroke-width="1.19" stroke-opacity="0.45" />
+    <line x1="309.7" y1="401.6" x2="236.5" y2="383.9" class="edge" stroke-width="1.32" stroke-opacity="0.47" />
+    <line x1="309.7" y1="401.6" x2="263.3" y2="323.9" class="edge" stroke-width="1.00" stroke-opacity="0.33" />
+    <line x1="309.7" y1="401.6" x2="264.1" y2="353.4" class="edge" stroke-width="1.01" stroke-opacity="0.42" />
+    <line x1="359.6" y1="264.7" x2="329.8" y2="328.8" class="edge" stroke-width="1.00" stroke-opacity="0.41" />
+    <line x1="359.6" y1="264.7" x2="263.3" y2="323.9" class="edge" stroke-width="1.00" stroke-opacity="0.36" />
+    <line x1="163.7" y1="505.5" x2="170.7" y2="530.6" class="edge" stroke-width="1.00" stroke-opacity="0.40" />
+    <line x1="163.7" y1="505.5" x2="137.1" y2="411.2" class="edge" stroke-width="1.06" stroke-opacity="0.43" />
+    <line x1="927.3" y1="383.0" x2="1047.7" y2="472.1" class="edge" stroke-width="1.38" stroke-opacity="0.48" />
+    <line x1="170.7" y1="530.6" x2="137.1" y2="411.2" class="edge" stroke-width="1.62" stroke-opacity="0.52" />
+    <line x1="813.9" y1="291.5" x2="914.8" y2="316.0" class="edge" stroke-width="1.00" stroke-opacity="0.31" />
+    <line x1="813.9" y1="291.5" x2="949.4" y2="340.1" class="edge" stroke-width="1.00" stroke-opacity="0.39" />
+    <line x1="329.8" y1="328.8" x2="236.5" y2="383.9" class="edge" stroke-width="1.15" stroke-opacity="0.44" />
+    <line x1="329.8" y1="328.8" x2="263.3" y2="323.9" class="edge" stroke-width="1.58" stroke-opacity="0.51" />
+    <line x1="329.8" y1="328.8" x2="264.1" y2="353.4" class="edge" stroke-width="1.81" stroke-opacity="0.55" />
+    <line x1="329.8" y1="328.8" x2="452.7" y2="241.8" class="edge" stroke-width="1.00" stroke-opacity="0.33" />
+    <line x1="236.5" y1="383.9" x2="263.3" y2="323.9" class="edge" stroke-width="1.00" stroke-opacity="0.40" />
+    <line x1="236.5" y1="383.9" x2="264.1" y2="353.4" class="edge" stroke-width="1.62" stroke-opacity="0.52" />
+    <line x1="690.7" y1="491.2" x2="767.0" y2="557.0" class="edge" stroke-width="1.00" stroke-opacity="0.31" />
+    <line x1="690.7" y1="491.2" x2="638.9" y2="524.4" class="edge" stroke-width="1.00" stroke-opacity="0.35" />
+    <line x1="690.7" y1="491.2" x2="804.6" y2="487.1" class="edge" stroke-width="1.00" stroke-opacity="0.36" />
+    <line x1="690.7" y1="491.2" x2="723.8" y2="535.4" class="edge" stroke-width="1.30" stroke-opacity="0.47" />
+    <line x1="690.7" y1="491.2" x2="690.5" y2="542.6" class="edge" stroke-width="1.00" stroke-opacity="0.37" />
+    <line x1="1029.8" y1="436.0" x2="804.6" y2="487.1" class="edge" stroke-width="1.00" stroke-opacity="0.34" />
+    <line x1="1029.8" y1="436.0" x2="951.9" y2="394.7" class="edge" stroke-width="1.00" stroke-opacity="0.34" />
+    <line x1="754.6" y1="617.6" x2="767.0" y2="557.0" class="edge" stroke-width="2.02" stroke-opacity="0.59" />
+    <line x1="754.6" y1="617.6" x2="723.8" y2="535.4" class="edge" stroke-width="1.08" stroke-opacity="0.43" />
+    <line x1="754.6" y1="617.6" x2="690.5" y2="542.6" class="edge" stroke-width="1.00" stroke-opacity="0.34" />
+    <line x1="420.3" y1="408.4" x2="247.9" y2="310.1" class="edge" stroke-width="1.00" stroke-opacity="0.38" />
+    <line x1="420.3" y1="408.4" x2="468.6" y2="278.6" class="edge" stroke-width="1.09" stroke-opacity="0.43" />
+    <line x1="247.9" y1="310.1" x2="395.8" y2="213.2" class="edge" stroke-width="1.00" stroke-opacity="0.30" />
+    <line x1="263.3" y1="323.9" x2="264.1" y2="353.4" class="edge" stroke-width="1.53" stroke-opacity="0.51" />
+    <line x1="903.9" y1="487.5" x2="967.1" y2="585.9" class="edge" stroke-width="1.00" stroke-opacity="0.34" />
+    <line x1="903.9" y1="487.5" x2="1003.5" y2="472.4" class="edge" stroke-width="2.61" stroke-opacity="0.68" />
+    <line x1="767.0" y1="557.0" x2="804.6" y2="487.1" class="edge" stroke-width="1.00" stroke-opacity="0.34" />
+    <line x1="767.0" y1="557.0" x2="930.3" y2="496.9" class="edge" stroke-width="1.06" stroke-opacity="0.43" />
+    <line x1="767.0" y1="557.0" x2="723.8" y2="535.4" class="edge" stroke-width="1.04" stroke-opacity="0.42" />
+    <line x1="767.0" y1="557.0" x2="690.5" y2="542.6" class="edge" stroke-width="1.10" stroke-opacity="0.43" />
+    <line x1="638.9" y1="524.4" x2="804.6" y2="487.1" class="edge" stroke-width="1.00" stroke-opacity="0.41" />
+    <line x1="638.9" y1="524.4" x2="723.8" y2="535.4" class="edge" stroke-width="1.91" stroke-opacity="0.57" />
+    <line x1="638.9" y1="524.4" x2="690.5" y2="542.6" class="edge" stroke-width="1.50" stroke-opacity="0.50" />
+    <line x1="536.7" y1="205.9" x2="468.6" y2="278.6" class="edge" stroke-width="1.48" stroke-opacity="0.50" />
+    <line x1="536.7" y1="205.9" x2="395.8" y2="213.2" class="edge" stroke-width="1.05" stroke-opacity="0.43" />
+    <line x1="660.5" y1="611.7" x2="803.6" y2="544.6" class="edge" stroke-width="1.00" stroke-opacity="0.34" />
+    <line x1="967.1" y1="585.9" x2="968.8" y2="657.2" class="edge" stroke-width="1.60" stroke-opacity="0.52" />
+    <line x1="967.1" y1="585.9" x2="1003.5" y2="472.4" class="edge" stroke-width="1.00" stroke-opacity="0.40" />
+    <line x1="434.9" y1="198.3" x2="343.1" y2="299.8" class="edge" stroke-width="1.00" stroke-opacity="0.34" />
+    <line x1="914.8" y1="316.0" x2="949.4" y2="340.1" class="edge" stroke-width="1.12" stroke-opacity="0.44" />
+    <line x1="880.5" y1="359.1" x2="962.8" y2="414.2" class="edge" stroke-width="1.00" stroke-opacity="0.42" />
+    <line x1="880.5" y1="359.1" x2="949.4" y2="340.1" class="edge" stroke-width="1.33" stroke-opacity="0.47" />
+    <line x1="880.5" y1="359.1" x2="951.9" y2="394.7" class="edge" stroke-width="1.00" stroke-opacity="0.37" />
+    <line x1="962.8" y1="414.2" x2="949.4" y2="340.1" class="edge" stroke-width="1.00" stroke-opacity="0.35" />
+    <line x1="962.8" y1="414.2" x2="930.3" y2="496.9" class="edge" stroke-width="1.48" stroke-opacity="0.50" />
+    <line x1="962.8" y1="414.2" x2="951.9" y2="394.7" class="edge" stroke-width="1.00" stroke-opacity="0.37" />
+    <line x1="919.7" y1="583.6" x2="896.3" y2="700.8" class="edge" stroke-width="1.35" stroke-opacity="0.48" />
+    <line x1="804.6" y1="487.1" x2="951.9" y2="394.7" class="edge" stroke-width="1.00" stroke-opacity="0.31" />
+    <line x1="804.6" y1="487.1" x2="723.8" y2="535.4" class="edge" stroke-width="2.13" stroke-opacity="0.61" />
+    <line x1="804.6" y1="487.1" x2="690.5" y2="542.6" class="edge" stroke-width="1.54" stroke-opacity="0.51" />
+    <line x1="949.4" y1="340.1" x2="951.9" y2="394.7" class="edge" stroke-width="1.00" stroke-opacity="0.41" />
+    <line x1="949.4" y1="340.1" x2="1003.5" y2="472.4" class="edge" stroke-width="1.00" stroke-opacity="0.38" />
+    <line x1="137.1" y1="411.2" x2="276.2" y2="248.4" class="edge" stroke-width="1.00" stroke-opacity="0.32" />
+    <line x1="679.0" y1="282.9" x2="748.3" y2="169.9" class="edge" stroke-width="1.64" stroke-opacity="0.52" />
+    <line x1="679.0" y1="282.9" x2="702.2" y2="165.5" class="edge" stroke-width="1.86" stroke-opacity="0.56" />
+    <line x1="723.8" y1="535.4" x2="690.5" y2="542.6" class="edge" stroke-width="1.87" stroke-opacity="0.56" />
+    <line x1="748.3" y1="169.9" x2="702.2" y2="165.5" class="edge" stroke-width="2.05" stroke-opacity="0.59" />
+    <line x1="468.6" y1="278.6" x2="395.8" y2="213.2" class="edge" stroke-width="1.49" stroke-opacity="0.50" />
+  </g>
+  <g id="nodes">
+    <circle cx="494.2" cy="775.2" r="23.7" class="node" fill="#9A6324"><title>.NET / C#: 249 tin (Cộng đồng 13)</title></circle>
+    <text x="520.9" y="779.2" class="node-label">.NET / C#</text>
+    <circle cx="981.7" cy="576.7" r="21.8" class="node" fill="#fffac8"><title>API Development: 211 tin (Cộng đồng 14)</title></circle>
+    <text x="1006.5" y="580.7" class="node-label">API Development</text>
+    <circle cx="309.4" cy="259.9" r="19.4" class="node" fill="#e6194B"><title>AWS: 167 tin (Cộng đồng 1)</title></circle>
+    <text x="331.8" y="263.9" class="node-label">AWS</text>
+    <circle cx="589.5" cy="571.8" r="9.0" class="node" fill="#ffe119"><title>Angular: 36 tin (Cộng đồng 3)</title></circle>
+    <text x="601.5" y="575.8" class="node-label">Angular</text>
+    <circle cx="673.4" cy="746.2" r="29.0" class="node" fill="#42d4f4"><title>Artificial Intelligence (AI): 373 tin (Cộng đồng 7)</title></circle>
+    <text x="705.3" y="750.2" class="node-label">Artificial Intelligence (AI)</text>
+    <circle cx="251.2" cy="708.8" r="8.4" class="node" fill="#800000"><title>Automation & RPA: 31 tin (Cộng đồng 15)</title></circle>
+    <text x="262.6" y="712.8" class="node-label">Automation & RPA</text>
+    <circle cx="957.4" cy="253.3" r="10.6" class="node" fill="#e6194B"><title>Blockchain / Fintech: 50 tin (Cộng đồng 16)</title></circle>
+    <text x="971.0" y="257.3" class="node-label">Blockchain / Fintech</text>
+    <circle cx="251.8" cy="228.9" r="24.4" class="node" fill="#3cb44b"><title>Business Analysis (BA): 264 tin (Cộng đồng 17)</title></circle>
+    <text x="279.2" y="232.9" class="node-label">Business Analysis (BA)</text>
+    <circle cx="481.1" cy="714.5" r="14.7" class="node" fill="#bfef45"><title>C/C++: 96 tin (Cộng đồng 9)</title></circle>
+    <text x="498.8" y="718.5" class="node-label">C/C++</text>
+    <circle cx="309.7" cy="401.6" r="18.2" class="node" fill="#e6194B"><title>CI/CD: 148 tin (Cộng đồng 1)</title></circle>
+    <text x="331.0" y="405.6" class="node-label">CI/CD</text>
+    <circle cx="359.6" cy="264.7" r="21.3" class="node" fill="#e6194B"><title>Cloud Computing: 202 tin (Cộng đồng 1)</title></circle>
+    <text x="383.9" y="268.7" class="node-label">Cloud Computing</text>
+    <circle cx="238.5" cy="279.9" r="19.3" class="node" fill="#ffe119"><title>Communication & Teamwork: 165 tin (Cộng đồng 18)</title></circle>
+    <text x="260.8" y="283.9" class="node-label">Communication & Teamwork</text>
+    <circle cx="570.9" cy="761.8" r="23.6" class="node" fill="#4363d8"><title>Cybersecurity: 247 tin (Cộng đồng 19)</title></circle>
+    <text x="597.5" y="765.8" class="node-label">Cybersecurity</text>
+    <circle cx="163.7" cy="505.5" r="22.8" class="node" fill="#911eb4"><title>Data Analysis: 231 tin (Cộng đồng 6)</title></circle>
+    <text x="189.5" y="509.5" class="node-label">Data Analysis</text>
+    <circle cx="927.3" cy="383.0" r="11.0" class="node" fill="#fabed4"><title>Data Engineering: 54 tin (Cộng đồng 10)</title></circle>
+    <text x="941.3" y="387.0" class="node-label">Data Engineering</text>
+    <circle cx="857.3" cy="203.7" r="13.7" class="node" fill="#f58231"><title>Data Governance & Management: 83 tin (Cộng đồng 20)</title></circle>
+    <text x="874.0" y="207.7" class="node-label">Data Governance & Management</text>
+    <circle cx="170.7" cy="530.6" r="10.8" class="node" fill="#911eb4"><title>Data Visualization / BI: 52 tin (Cộng đồng 6)</title></circle>
+    <text x="184.5" y="534.6" class="node-label">Data Visualization / BI</text>
+    <circle cx="1047.7" cy="472.1" r="18.6" class="node" fill="#fabed4"><title>Data Warehouse / Big Data: 154 tin (Cộng đồng 10)</title></circle>
+    <text x="1069.3" y="476.1" class="node-label">Data Warehouse / Big Data</text>
+    <circle cx="813.9" cy="291.5" r="17.9" class="node" fill="#3cb44b"><title>Database Design: 142 tin (Cộng đồng 2)</title></circle>
+    <text x="834.7" y="295.5" class="node-label">Database Design</text>
+    <circle cx="329.8" cy="328.8" r="17.8" class="node" fill="#e6194B"><title>DevOps: 141 tin (Cộng đồng 1)</title></circle>
+    <text x="350.6" y="332.8" class="node-label">DevOps</text>
+    <circle cx="145.0" cy="444.6" r="23.3" class="node" fill="#911eb4"><title>Digital Transformation / IT Consulting: 242 tin (Cộng đồng 21)</title></circle>
+    <text x="171.3" y="448.6" class="node-label">Digital Transformation / IT Consulting</text>
+    <circle cx="236.5" cy="383.9" r="13.8" class="node" fill="#e6194B"><title>Docker: 85 tin (Cộng đồng 1)</title></circle>
+    <text x="253.3" y="387.9" class="node-label">Docker</text>
+    <circle cx="345.7" cy="703.3" r="23.3" class="node" fill="#42d4f4"><title>ERP / CRM / Enterprise Apps: 241 tin (Cộng đồng 22)</title></circle>
+    <text x="372.0" y="707.3" class="node-label">ERP / CRM / Enterprise Apps</text>
+    <circle cx="556.2" cy="714.2" r="15.3" class="node" fill="#bfef45"><title>Embedded & Firmware: 104 tin (Cộng đồng 9)</title></circle>
+    <text x="574.5" y="718.2" class="node-label">Embedded & Firmware</text>
+    <circle cx="690.7" cy="491.2" r="10.9" class="node" fill="#ffe119"><title>Full Stack Development: 53 tin (Cộng đồng 3)</title></circle>
+    <text x="704.6" y="495.2" class="node-label">Full Stack Development</text>
+    <circle cx="1029.8" cy="436.0" r="12.4" class="node" fill="#3cb44b"><title>Go: 68 tin (Cộng đồng 2)</title></circle>
+    <text x="1045.2" y="440.0" class="node-label">Go</text>
+    <circle cx="754.6" cy="617.6" r="10.6" class="node" fill="#ffe119"><title>HTML / CSS: 50 tin (Cộng đồng 3)</title></circle>
+    <text x="768.2" y="621.6" class="node-label">HTML / CSS</text>
+    <circle cx="420.3" cy="408.4" r="22.0" class="node" fill="#4363d8"><title>IT Infrastructure & System Administration: 215 tin (Cộng đồng 4)</title></circle>
+    <text x="445.2" y="412.4" class="node-label">IT Infrastructure & System Administration</text>
+    <circle cx="247.9" cy="310.1" r="18.0" class="node" fill="#4363d8"><title>IT Support / Helpdesk: 144 tin (Cộng đồng 4)</title></circle>
+    <text x="268.9" y="314.1" class="node-label">IT Support / Helpdesk</text>
+    <circle cx="263.3" cy="323.9" r="10.4" class="node" fill="#e6194B"><title>Infrastructure as Code: 48 tin (Cộng đồng 1)</title></circle>
+    <text x="276.7" y="327.9" class="node-label">Infrastructure as Code</text>
+    <circle cx="903.9" cy="487.5" r="23.3" class="node" fill="#f58231"><title>Java: 242 tin (Cộng đồng 5)</title></circle>
+    <text x="930.3" y="491.5" class="node-label">Java</text>
+    <circle cx="767.0" cy="557.0" r="16.0" class="node" fill="#ffe119"><title>JavaScript: 114 tin (Cộng đồng 3)</title></circle>
+    <text x="786.0" y="561.0" class="node-label">JavaScript</text>
+    <circle cx="638.9" cy="524.4" r="13.4" class="node" fill="#ffe119"><title>JavaScript / TypeScript: 80 tin (Cộng đồng 3)</title></circle>
+    <text x="655.3" y="528.4" class="node-label">JavaScript / TypeScript</text>
+    <circle cx="264.1" cy="353.4" r="13.9" class="node" fill="#e6194B"><title>Kubernetes: 86 tin (Cộng đồng 1)</title></circle>
+    <text x="281.0" y="357.4" class="node-label">Kubernetes</text>
+    <circle cx="383.8" cy="764.5" r="17.0" class="node" fill="#f032e6"><title>Leadership & People Management: 128 tin (Cộng đồng 23)</title></circle>
+    <text x="403.7" y="768.5" class="node-label">Leadership & People Management</text>
+    <circle cx="536.7" cy="205.9" r="17.6" class="node" fill="#4363d8"><title>Linux: 137 tin (Cộng đồng 4)</title></circle>
+    <text x="557.3" y="209.9" class="node-label">Linux</text>
+    <circle cx="660.5" cy="611.7" r="16.4" class="node" fill="#42d4f4"><title>Machine Learning (ML): 119 tin (Cộng đồng 7)</title></circle>
+    <text x="679.9" y="615.7" class="node-label">Machine Learning (ML)</text>
+    <circle cx="967.1" cy="585.9" r="11.9" class="node" fill="#f58231"><title>Microservices: 63 tin (Cộng đồng 5)</title></circle>
+    <text x="982.0" y="589.9" class="node-label">Microservices</text>
+    <circle cx="452.7" cy="241.8" r="12.5" class="node" fill="#e6194B"><title>Microsoft Azure: 69 tin (Cộng đồng 1)</title></circle>
+    <text x="468.2" y="245.8" class="node-label">Microsoft Azure</text>
+    <circle cx="434.9" cy="198.3" r="9.4" class="node" fill="#469990"><title>Microsoft Office / Excel: 39 tin (Cộng đồng 11)</title></circle>
+    <text x="447.2" y="202.3" class="node-label">Microsoft Office / Excel</text>
+    <circle cx="914.8" cy="316.0" r="11.3" class="node" fill="#3cb44b"><title>Microsoft SQL Server: 57 tin (Cộng đồng 2)</title></circle>
+    <text x="929.2" y="320.0" class="node-label">Microsoft SQL Server</text>
+    <circle cx="505.8" cy="127.7" r="11.6" class="node" fill="#bfef45"><title>Mobile Development: 60 tin (Cộng đồng 24)</title></circle>
+    <text x="520.4" y="131.7" class="node-label">Mobile Development</text>
+    <circle cx="880.5" cy="359.1" r="10.8" class="node" fill="#3cb44b"><title>MongoDB / NoSQL: 52 tin (Cộng đồng 2)</title></circle>
+    <text x="894.4" y="363.1" class="node-label">MongoDB / NoSQL</text>
+    <circle cx="962.8" cy="414.2" r="12.0" class="node" fill="#3cb44b"><title>MySQL: 64 tin (Cộng đồng 2)</title></circle>
+    <text x="977.8" y="418.2" class="node-label">MySQL</text>
+    <circle cx="919.7" cy="583.6" r="12.0" class="node" fill="#dcbeff"><title>Networking: 64 tin (Cộng đồng 12)</title></circle>
+    <text x="934.7" y="587.6" class="node-label">Networking</text>
+    <circle cx="804.6" cy="487.1" r="12.1" class="node" fill="#ffe119"><title>Node.js: 65 tin (Cộng đồng 3)</title></circle>
+    <text x="819.7" y="491.1" class="node-label">Node.js</text>
+    <circle cx="949.4" cy="340.1" r="14.5" class="node" fill="#3cb44b"><title>Oracle Database: 94 tin (Cộng đồng 2)</title></circle>
+    <text x="967.0" y="344.1" class="node-label">Oracle Database</text>
+    <circle cx="930.3" cy="496.9" r="9.2" class="node" fill="#3cb44b"><title>PHP: 38 tin (Cộng đồng 2)</title></circle>
+    <text x="942.6" y="500.9" class="node-label">PHP</text>
+    <circle cx="951.9" cy="394.7" r="14.2" class="node" fill="#3cb44b"><title>PostgreSQL: 90 tin (Cộng đồng 2)</title></circle>
+    <text x="969.1" y="398.7" class="node-label">PostgreSQL</text>
+    <circle cx="137.1" cy="411.2" r="12.4" class="node" fill="#911eb4"><title>Power BI: 68 tin (Cộng đồng 6)</title></circle>
+    <text x="152.5" y="415.2" class="node-label">Power BI</text>
+    <circle cx="343.1" cy="299.8" r="16.1" class="node" fill="#469990"><title>Problem Solving & Analytical Thinking: 115 tin (Cộng đồng 11)</title></circle>
+    <text x="362.2" y="303.8" class="node-label">Problem Solving & Analytical Thinking</text>
+    <circle cx="283.4" cy="553.8" r="17.4" class="node" fill="#fabed4"><title>Product Management: 135 tin (Cộng đồng 25)</title></circle>
+    <text x="303.8" y="557.8" class="node-label">Product Management</text>
+    <circle cx="803.6" cy="544.6" r="30.5" class="node" fill="#42d4f4"><title>Python: 414 tin (Cộng đồng 7)</title></circle>
+    <text x="837.1" y="548.6" class="node-label">Python</text>
+    <circle cx="679.0" cy="282.9" r="17.1" class="node" fill="#f032e6"><title>Quality Management (QA/QC): 130 tin (Cộng đồng 8)</title></circle>
+    <text x="699.1" y="286.9" class="node-label">Quality Management (QA/QC)</text>
+    <circle cx="723.8" cy="535.4" r="14.5" class="node" fill="#ffe119"><title>React: 94 tin (Cộng đồng 3)</title></circle>
+    <text x="741.3" y="539.4" class="node-label">React</text>
+    <circle cx="276.2" cy="248.4" r="28.8" class="node" fill="#911eb4"><title>SQL: 369 tin (Cộng đồng 6)</title></circle>
+    <text x="308.0" y="252.4" class="node-label">SQL</text>
+    <circle cx="968.8" cy="657.2" r="25.0" class="node" fill="#f58231"><title>Software Architecture & Design: 277 tin (Cộng đồng 5)</title></circle>
+    <text x="996.8" y="661.2" class="node-label">Software Architecture & Design</text>
+    <circle cx="737.1" cy="758.2" r="22.5" class="node" fill="#469990"><title>Software Engineering (general): 225 tin (Cộng đồng 26)</title></circle>
+    <text x="762.6" y="762.2" class="node-label">Software Engineering (general)</text>
+    <circle cx="748.3" cy="169.9" r="20.4" class="node" fill="#f032e6"><title>Software Testing: 185 tin (Cộng đồng 8)</title></circle>
+    <text x="771.7" y="173.9" class="node-label">Software Testing</text>
+    <circle cx="1003.5" cy="472.4" r="15.9" class="node" fill="#f58231"><title>Spring / Java frameworks: 112 tin (Cộng đồng 5)</title></circle>
+    <text x="1022.3" y="476.4" class="node-label">Spring / Java frameworks</text>
+    <circle cx="896.3" cy="700.8" r="9.2" class="node" fill="#dcbeff"><title>Telecommunications: 38 tin (Cộng đồng 12)</title></circle>
+    <text x="908.6" y="704.8" class="node-label">Telecommunications</text>
+    <circle cx="702.2" cy="165.5" r="16.7" class="node" fill="#f032e6"><title>Test Automation: 124 tin (Cộng đồng 8)</title></circle>
+    <text x="721.9" y="169.5" class="node-label">Test Automation</text>
+    <circle cx="690.5" cy="542.6" r="14.2" class="node" fill="#ffe119"><title>TypeScript: 90 tin (Cộng đồng 3)</title></circle>
+    <text x="707.8" y="546.6" class="node-label">TypeScript</text>
+    <circle cx="917.1" cy="689.0" r="17.8" class="node" fill="#dcbeff"><title>UI/UX Design: 141 tin (Cộng đồng 27)</title></circle>
+    <text x="937.9" y="693.0" class="node-label">UI/UX Design</text>
+    <circle cx="127.3" cy="484.8" r="9.5" class="node" fill="#9A6324"><title>Version Control (Git): 40 tin (Cộng đồng 28)</title></circle>
+    <text x="139.8" y="488.8" class="node-label">Version Control (Git)</text>
+    <circle cx="468.6" cy="278.6" r="8.7" class="node" fill="#4363d8"><title>Virtualization: 34 tin (Cộng đồng 4)</title></circle>
+    <text x="480.4" y="282.6" class="node-label">Virtualization</text>
+    <circle cx="395.8" cy="213.2" r="10.4" class="node" fill="#4363d8"><title>Windows / Windows Server: 48 tin (Cộng đồng 4)</title></circle>
+    <text x="409.2" y="217.2" class="node-label">Windows / Windows Server</text>
+  </g>
+  <g id="legend" transform="translate(40, 720)">
+    <rect width="450" height="150" fill="#f8fafc" rx="8" stroke="#e2e8f0" />
+    <text x="15" y="25" class="legend-title">Các Cộng Đồng Kỹ Năng Chính (Top Clusters):</text>
+    <circle cx="25" cy="50" r="6" fill="#e6194B" />
+    <text x="40" y="54" class="legend-text">Cluster 1: Cloud Computing / AWS / CI/CD (8 skills)</text>
+    <circle cx="25" cy="72" r="6" fill="#3cb44b" />
+    <text x="40" y="76" class="legend-text">Cluster 2: Database Design / Oracle Database / PostgreSQL (8 skills)</text>
+    <circle cx="25" cy="94" r="6" fill="#ffe119" />
+    <text x="40" y="98" class="legend-text">Cluster 3: JavaScript / React / TypeScript (8 skills)</text>
+    <circle cx="25" cy="116" r="6" fill="#4363d8" />
+    <text x="40" y="120" class="legend-text">Cluster 4: IT Infrastructure & System Administration / IT Support / Helpdesk / Linux (5 skills)</text>
+    <circle cx="25" cy="138" r="6" fill="#f58231" />
+    <text x="40" y="142" class="legend-text">Cluster 5: Software Architecture & Design / Java / Spring / Java frameworks (4 skills)</text>
+  </g>
+</svg>

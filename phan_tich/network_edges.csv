@@ -1,0 +1,76 @@
+﻿source,target,npmi,n_joint,source_community,target_community,is_within_community
+Angular,JavaScript / TypeScript,0.8019155835278344,35,3,3,True
+Java,Spring / Java frameworks,0.68426244648389,98,5,5,True
+C/C++,Embedded & Firmware,0.6074534303302307,45,9,9,True
+Node.js,React,0.6057383317568095,33,3,3,True
+Software Testing,Test Automation,0.5923109410363976,73,8,8,True
+HTML / CSS,JavaScript,0.5870386408685714,30,3,3,True
+JavaScript / TypeScript,React,0.568979031839948,34,3,3,True
+React,TypeScript,0.5624243336577535,36,3,3,True
+Quality Management (QA/QC),Test Automation,0.5595384064961961,54,8,8,True
+DevOps,Kubernetes,0.5510534226597708,44,1,1,True
+Quality Management (QA/QC),Software Testing,0.5231406442708064,64,8,8,True
+Data Visualization / BI,Power BI,0.5201324861006446,18,6,6,True
+Docker,Kubernetes,0.5198528555481565,29,1,1,True
+Microservices,Software Architecture & Design,0.516768030366378,51,5,5,True
+DevOps,Infrastructure as Code,0.5129525672123986,27,1,1,True
+Node.js,TypeScript,0.5060407743747478,24,3,3,True
+Infrastructure as Code,Kubernetes,0.5053942983004889,19,1,1,True
+JavaScript / TypeScript,TypeScript,0.4994281629304479,27,3,3,True
+Virtualization,Windows / Windows Server,0.4985239602812181,10,4,4,True
+MySQL,PHP,0.4974405467220531,13,2,2,True
+Linux,Virtualization,0.4964558887383899,20,4,4,True
+Data Engineering,Data Warehouse / Big Data,0.4796936180140015,28,10,10,True
+Networking,Telecommunications,0.4751867989902009,12,12,12,True
+MongoDB / NoSQL,Oracle Database,0.4710919506847847,19,2,2,True
+CI/CD,Docker,0.4698838449396583,36,1,1,True
+Full Stack Development,React,0.467225467126958,19,3,3,True
+AWS,DevOps,0.4549173626542087,53,1,1,True
+CI/CD,DevOps,0.4490700818741366,48,1,1,True
+DevOps,Docker,0.4415820251798607,32,1,1,True
+Microsoft SQL Server,Oracle Database,0.436689096867315,18,2,2,True
+JavaScript,TypeScript,0.4334093717246647,28,3,3,True
+IT Infrastructure & System Administration,Virtualization,0.4320130236175746,22,4,4,True
+HTML / CSS,React,0.4291985540305365,16,3,3,True
+Data Analysis,Power BI,0.4272105873534223,37,6,6,True
+JavaScript,PHP,0.4271250635049141,15,3,2,False
+AWS,Infrastructure as Code,0.4259859605576088,23,1,1,True
+Linux,Windows / Windows Server,0.4257222417841164,20,4,4,True
+JavaScript,React,0.4238284627446705,28,3,3,True
+CI/CD,Kubernetes,0.4177104562934081,31,1,1,True
+MongoDB / NoSQL,MySQL,0.416951332497868,12,2,2,True
+Oracle Database,PostgreSQL,0.4146016579665722,23,2,2,True
+Cloud Computing,DevOps,0.4129079181600661,54,1,1,True
+JavaScript / TypeScript,Node.js,0.4093693352004051,16,3,3,True
+Artificial Intelligence (AI),Machine Learning (ML),0.4025564102290013,72,7,7,True
+Docker,Infrastructure as Code,0.3999311326310142,13,1,1,True
+Data Analysis,Data Visualization / BI,0.3986742187089847,28,6,6,True
+Microservices,Spring / Java frameworks,0.3965774280092351,19,5,5,True
+Database Design,Oracle Database,0.3861556416293922,29,2,2,True
+IT Infrastructure & System Administration,IT Support / Helpdesk,0.3847499574406098,53,4,4,True
+Oracle Database,Spring / Java frameworks,0.3808304038924597,24,2,5,False
+AWS,Cloud Computing,0.3758159801161553,55,1,1,True
+MongoDB / NoSQL,PostgreSQL,0.3740733051748474,13,2,2,True
+AWS,Microsoft Azure,0.3735350427612297,25,1,1,True
+MySQL,PostgreSQL,0.371941100499901,15,2,2,True
+Full Stack Development,TypeScript,0.3704833568313476,13,3,3,True
+Full Stack Development,Node.js,0.3643516497463595,10,3,3,True
+Cloud Computing,Infrastructure as Code,0.3596843923374557,21,1,1,True
+AWS,Kubernetes,0.3593064059072442,28,1,1,True
+Full Stack Development,JavaScript / TypeScript,0.3501725382825585,11,3,3,True
+MySQL,Oracle Database,0.3455376906074588,14,2,2,True
+Go,Node.js,0.3425759429782407,11,2,3,False
+Go,PostgreSQL,0.3422617104226318,14,2,2,True
+Machine Learning (ML),Python,0.3410761003710092,66,7,7,True
+Microsoft Office / Excel,Problem Solving & Analytical Thinking,0.3399085379233793,11,11,11,True
+JavaScript,Node.js,0.3399012822714645,16,3,3,True
+HTML / CSS,TypeScript,0.3392984739135667,11,3,3,True
+Java,Microservices,0.3354454435198727,27,5,5,True
+Angular,JavaScript,0.3329171357207603,10,3,3,True
+DevOps,Microsoft Azure,0.3313722297811241,19,1,1,True
+CI/CD,Infrastructure as Code,0.3313202540864344,15,1,1,True
+Power BI,SQL,0.3172627824528622,37,6,6,True
+Node.js,PostgreSQL,0.3122228261697563,12,3,2,False
+Full Stack Development,JavaScript,0.3062270437457509,12,3,3,True
+Database Design,Microsoft SQL Server,0.3060504325845696,15,2,2,True
+IT Support / Helpdesk,Windows / Windows Server,0.3005787002224333,13,4,4,True
