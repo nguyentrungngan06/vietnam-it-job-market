@@ -101,6 +101,15 @@ def update_master_and_daily(
             if reader.fieldnames and "job_id" in reader.fieldnames:
                 master = {r["job_id"]: r for r in reader if r.get("job_id")}
 
+    # Đọc cache fulltext nếu có để tự động làm giàu tin bị cắt ngắn
+    fulltext_cache: dict[str, dict] = {}
+    fulltext_file = Path("data/fulltext/fulltext.csv")
+    if fulltext_file.exists():
+        with fulltext_file.open(encoding="utf-8-sig", newline="") as f:
+            for r in csv.DictReader(f):
+                if r.get("description") and not (r["description"].strip().endswith("...") or r["description"].strip().endswith("…")):
+                    fulltext_cache[str(r["job_id"])] = r
+
     current_map = {str(r["job_id"]): r for r in current_jobs if r.get("job_id")}
 
     daily_rows = []
@@ -112,6 +121,20 @@ def update_master_and_daily(
             row = {"first_seen": today_str, "times_seen": "0"}
             master[jid] = row
             new_count += 1
+
+        # Bảo toàn mô tả đầy đủ: không để bản cắt ngắn "..." từ Search API ghi đè bản full
+        for col in ("description", "requirement"):
+            orig_val = (row.get(col) or "").strip()
+            new_val = (cur_row.get(col) or "").strip()
+            if orig_val and not (orig_val.endswith("...") or orig_val.endswith("…")):
+                if new_val.endswith("...") or new_val.endswith("…") or len(new_val) < len(orig_val):
+                    cur_row[col] = orig_val
+            elif not orig_val or orig_val.endswith("...") or orig_val.endswith("…"):
+                cached_r = fulltext_cache.get(jid)
+                if cached_r:
+                    c_val = (cached_r.get(col) or "").strip()
+                    if c_val and not (c_val.endswith("...") or c_val.endswith("…")):
+                        cur_row[col] = c_val
 
         # Cập nhật thông tin chi tiết mới nhất
         row.update(cur_row)
